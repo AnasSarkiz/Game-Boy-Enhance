@@ -1,0 +1,27 @@
+{
+  "query": "TPS22917DBV",
+  "results": [
+    {
+      "source": "jlcpcb",
+      "lcsc": 2681320,
+      "mfr": "TPS22917DBVR",
+      "package": "SOT-23-6",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+125℃ 0V~5.5V 1 2A 80mΩ Active High Load Switch SOT-23-6 Power Distribution Switches ROHS",
+      "stock": 16057,
+      "price": 0.4463
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 2680344,
+      "mfr": "TPS22917DBVT",
+      "package": "SOT-23-6",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+125℃ 1 1V~5.5V 2A 80mΩ Active High Load Switch SOT-23-6 Power Distribution Switches ROHS",
+      "stock": 465,
+      "price": 0.3225
+    }
+  ]
+}

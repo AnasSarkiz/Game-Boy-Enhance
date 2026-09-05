@@ -1,0 +1,1100 @@
+$ tsci build index.circuit.tsx --routing-disabled --disable-parts-engine --pcb-png --pcb-svgs --schematic-svgs
+Building 1 file(s)...
+Building index.circuit.tsx...
+Generating circuit JSON...
+trace: `key` is not a prop. Trying to access it will result in `undefined` being returned. If you need to access the same value within the child component, you should pass it as a different prop. (https://react.dev/link/special-props)
+Circuit JSON written to dist/index/circuit.json
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "F" prefix is being used with a <chip />, try using it with a <fuse />
+The "L" prefix is being used with a <chip />, try using it with an <inductor />
+The "L" prefix is being used with a <chip />, try using it with an <inductor />
+The "Q" prefix is being used with a <chip />, try using it with a <transistor />
+The "Q" prefix is being used with a <chip />, try using it with a <transistor />
+The "Q" prefix is being used with a <chip />, try using it with a <transistor />
+The "Q" prefix is being used with a <chip />, try using it with a <transistor />
+The "Q" prefix is being used with a <chip />, try using it with a <transistor />
+The "R" prefix is being used with a <chip />, try using it with a <resistor />
+The "R" prefix is being used with a <chip />, try using it with a <resistor />
+The "R" prefix is being used with a <chip />, try using it with a <resistor />
+The "R" prefix is being used with a <chip />, try using it with a <resistor />
+The "R" prefix is being used with a <chip />, try using it with a <resistor />
+The "R" prefix is being used with a <chip />, try using it with a <resistor />
+The "R" prefix is being used with a <chip />, try using it with a <resistor />
+The "R" prefix is being used with a <chip />, try using it with a <resistor />
+The "R" prefix is being used with a <chip />, try using it with a <resistor />
+The "R" prefix is being used with a <chip />, try using it with a <resistor />
+The "R" prefix is being used with a <chip />, try using it with a <resistor />
+The "R" prefix is being used with a <chip />, try using it with a <resistor />
+The "R" prefix is being used with a <chip />, try using it with a <resistor />
+The "R" prefix is being used with a <chip />, try using it with a <resistor />
+The "R" prefix is being used with a <chip />, try using it with a <resistor />
+The "R" prefix is being used with a <chip />, try using it with a <resistor />
+The "R" prefix is being used with a <chip />, try using it with a <resistor />
+The "R" prefix is being used with a <chip />, try using it with a <resistor />
+The "R" prefix is being used with a <chip />, try using it with a <resistor />
+The "R" prefix is being used with a <chip />, try using it with a <resistor />
+The "R" prefix is being used with a <chip />, try using it with a <resistor />
+The "R" prefix is being used with a <chip />, try using it with a <resistor />
+The "R" prefix is being used with a <chip />, try using it with a <resistor />
+The "S" prefix is being used with a <chip />, try using it with a <switch /> or <pushbutton />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "J" prefix is being used with a <chip />, try using it with a <connector /> or <jumper />
+The "J" prefix is being used with a <chip />, try using it with a <connector /> or <jumper />
+The "J" prefix is being used with a <chip />, try using it with a <connector /> or <jumper />
+The "Q" prefix is being used with a <chip />, try using it with a <transistor />
+The "Q" prefix is being used with a <chip />, try using it with a <transistor />
+The "Q" prefix is being used with a <chip />, try using it with a <transistor />
+The "R" prefix is being used with a <chip />, try using it with a <resistor />
+The "R" prefix is being used with a <chip />, try using it with a <resistor />
+The "R" prefix is being used with a <chip />, try using it with a <resistor />
+The "R" prefix is being used with a <chip />, try using it with a <resistor />
+The "R" prefix is being used with a <chip />, try using it with a <resistor />
+The "R" prefix is being used with a <chip />, try using it with a <resistor />
+The "R" prefix is being used with a <chip />, try using it with a <resistor />
+The "R" prefix is being used with a <chip />, try using it with a <resistor />
+The "R" prefix is being used with a <chip />, try using it with a <resistor />
+The "R" prefix is being used with a <chip />, try using it with a <resistor />
+The "R" prefix is being used with a <chip />, try using it with a <resistor />
+The "R" prefix is being used with a <chip />, try using it with a <resistor />
+The "R" prefix is being used with a <chip />, try using it with a <resistor />
+The "R" prefix is being used with a <chip />, try using it with a <resistor />
+The "R" prefix is being used with a <chip />, try using it with a <resistor />
+The "S" prefix is being used with a <chip />, try using it with a <switch /> or <pushbutton />
+The "S" prefix is being used with a <chip />, try using it with a <switch /> or <pushbutton />
+The "S" prefix is being used with a <chip />, try using it with a <switch /> or <pushbutton />
+The "S" prefix is being used with a <chip />, try using it with a <switch /> or <pushbutton />
+The "S" prefix is being used with a <chip />, try using it with a <switch /> or <pushbutton />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+The "X" prefix is being used with a <chip />, try using it with a <crystal />
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "R" prefix is being used with a <chip />, try using it with a <resistor />
+The "R" prefix is being used with a <chip />, try using it with a <resistor />
+The "R" prefix is being used with a <chip />, try using it with a <resistor />
+The "R" prefix is being used with a <chip />, try using it with a <resistor />
+The "R" prefix is being used with a <chip />, try using it with a <resistor />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "C" prefix is being used with a <chip />, try using it with a <capacitor />
+The "Q" prefix is being used with a <chip />, try using it with a <transistor />
+The "R" prefix is being used with a <chip />, try using it with a <resistor />
+The "R" prefix is being used with a <chip />, try using it with a <resistor />
+The "R" prefix is being used with a <chip />, try using it with a <resistor />
+The "R" prefix is being used with a <chip />, try using it with a <resistor />
+The "R" prefix is being used with a <chip />, try using it with a <resistor />
+The "R" prefix is being used with a <chip />, try using it with a <resistor />
+The "R" prefix is being used with a <chip />, try using it with a <resistor />
+The "R" prefix is being used with a <chip />, try using it with a <resistor />
+The "R" prefix is being used with a <chip />, try using it with a <resistor />
+The "R" prefix is being used with a <chip />, try using it with a <resistor />
+The "R" prefix is being used with a <chip />, try using it with a <resistor />
+The "R" prefix is being used with a <chip />, try using it with a <resistor />
+The "R" prefix is being used with a <chip />, try using it with a <resistor />
+The "R" prefix is being used with a <chip />, try using it with a <resistor />
+The "R" prefix is being used with a <chip />, try using it with a <resistor />
+The "R" prefix is being used with a <chip />, try using it with a <resistor />
+The "R" prefix is being used with a <chip />, try using it with a <resistor />
+The "R" prefix is being used with a <chip />, try using it with a <resistor />
+The "R" prefix is being used with a <chip />, try using it with a <resistor />
+The "R" prefix is being used with a <chip />, try using it with a <resistor />
+The "S" prefix is being used with a <chip />, try using it with a <switch /> or <pushbutton />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+schematic_component schematic_component_89 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_97 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_105 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_113 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_121 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_129 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_137 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_145 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_153 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_161 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_168 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_169 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_net_label schematic_net_label_72 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_net_label schematic_net_label_80 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_net_label schematic_net_label_90 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_net_label schematic_net_label_97 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_net_label schematic_net_label_125 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_net_label schematic_net_label_128 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_180 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_188 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_196 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_218 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_222 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_232 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_242 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_268 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_318 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_354 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_373 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_378 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_449 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_470 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_472 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_474 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_476 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_478 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_480 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_482 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_484 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_486 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_488 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_490 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_492 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_494 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_496 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_498 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_500 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_502 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_504 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+component is facing x- but should face y+ so the connector is accessible from the board edge
+BT1 has no courtyard
+C1 has no courtyard
+C2 has no courtyard
+C10 has no courtyard
+C12 has no courtyard
+C21 has no courtyard
+C22 has no courtyard
+C23 has no courtyard
+C37 has no courtyard
+C42 has no courtyard
+C44 has no courtyard
+C57 has no courtyard
+C58 has no courtyard
+C59 has no courtyard
+C60 has no courtyard
+C61 has no courtyard
+C68 has no courtyard
+C72 has no courtyard
+C80 has no courtyard
+D1 has no courtyard
+D2 has no courtyard
+DL1 has no courtyard
+DL2 has no courtyard
+F1 has no courtyard
+L1 has no courtyard
+L2 has no courtyard
+NT1 has no courtyard
+PTC1 has no courtyard
+Q1 has no courtyard
+Q3 has no courtyard
+R3 has no courtyard
+R4 has no courtyard
+R8 has no courtyard
+R9 has no courtyard
+R10 has no courtyard
+R11 has no courtyard
+R12 has no courtyard
+R13 has no courtyard
+R15 has no courtyard
+R16 has no courtyard
+R17 has no courtyard
+R18 has no courtyard
+R24 has no courtyard
+R25 has no courtyard
+R58 has no courtyard
+R59 has no courtyard
+R60 has no courtyard
+R63 has no courtyard
+R64 has no courtyard
+R65 has no courtyard
+R66 has no courtyard
+R72 has no courtyard
+R73 has no courtyard
+SW1 has no courtyard
+TP13 has no courtyard
+TP14 has no courtyard
+TP15 has no courtyard
+TP16 has no courtyard
+TP17 has no courtyard
+TP18 has no courtyard
+TP19 has no courtyard
+TP20 has no courtyard
+TP21 has no courtyard
+TP22 has no courtyard
+TP23 has no courtyard
+TP24 has no courtyard
+TP26 has no courtyard
+TP30 has no courtyard
+TP32 has no courtyard
+U4 has no courtyard
+U8 has no courtyard
+C3 has no courtyard
+C4 has no courtyard
+C5 has no courtyard
+C6 has no courtyard
+C7 has no courtyard
+C8 has no courtyard
+C15 has no courtyard
+C16 has no courtyard
+C17 has no courtyard
+C18 has no courtyard
+C19 has no courtyard
+C20 has no courtyard
+C30 has no courtyard
+C34 has no courtyard
+C39 has no courtyard
+C43 has no courtyard
+C45 has no courtyard
+C46 has no courtyard
+C47 has no courtyard
+C48 has no courtyard
+C49 has no courtyard
+C50 has no courtyard
+C51 has no courtyard
+C52 has no courtyard
+C53 has no courtyard
+C62 has no courtyard
+C63 has no courtyard
+C64 has no courtyard
+C69 has no courtyard
+C73 has no courtyard
+C74 has no courtyard
+C75 has no courtyard
+C76 has no courtyard
+C77 has no courtyard
+C78 has no courtyard
+C79 has no courtyard
+EM1 has no courtyard
+EM2 has no courtyard
+EM3 has no courtyard
+EM7 has no courtyard
+JP1 has no courtyard
+JP2 has no courtyard
+JP3 has no courtyard
+P1 has no courtyard
+P4 has no courtyard
+Q8 has no courtyard
+R1 has no courtyard
+R2 has no courtyard
+R5 has no courtyard
+R6 has no courtyard
+R7 has no courtyard
+R29 has no courtyard
+R35 has no courtyard
+R38 has no courtyard
+R39 has no courtyard
+R40 has no courtyard
+R41 has no courtyard
+R43 has no courtyard
+R44 has no courtyard
+R68 has no courtyard
+RA1 has no courtyard
+SW2 has no courtyard
+SW3 has no courtyard
+SW4 has no courtyard
+SW5 has no courtyard
+SW6 has no courtyard
+TP0 has no courtyard
+TP1 has no courtyard
+TP2 has no courtyard
+TP3 has no courtyard
+TP4 has no courtyard
+TP5 has no courtyard
+TP6 has no courtyard
+TP7 has no courtyard
+TP8 has no courtyard
+TP9 has no courtyard
+TP12 has no courtyard
+TP25 has no courtyard
+TP27 has no courtyard
+TP28 has no courtyard
+TP29 has no courtyard
+TP80 has no courtyard
+TP81 has no courtyard
+U1 has no courtyard
+U2 has no courtyard
+X1 has no courtyard
+C11 has no courtyard
+C13 has no courtyard
+C14 has no courtyard
+C70 has no courtyard
+C71 has no courtyard
+P2 has no courtyard
+R26 has no courtyard
+R36 has no courtyard
+R67 has no courtyard
+R70 has no courtyard
+R71 has no courtyard
+TP10 has no courtyard
+TP11 has no courtyard
+TP31 has no courtyard
+VR1 has no courtyard
+Z57 has no courtyard
+Z58 has no courtyard
+C9 has no courtyard
+C24 has no courtyard
+C25 has no courtyard
+C26 has no courtyard
+C27 has no courtyard
+C28 has no courtyard
+C29 has no courtyard
+C31 has no courtyard
+C32 has no courtyard
+C33 has no courtyard
+C35 has no courtyard
+C36 has no courtyard
+C38 has no courtyard
+C54 has no courtyard
+C55 has no courtyard
+C56 has no courtyard
+CP1 has no courtyard
+CP2 has no courtyard
+CP3 has no courtyard
+P3 has no courtyard
+Q6 has no courtyard
+R14 has no courtyard
+R19 has no courtyard
+R20 has no courtyard
+R30 has no courtyard
+R31 has no courtyard
+R34 has no courtyard
+R37 has no courtyard
+R42 has no courtyard
+R45 has no courtyard
+R46 has no courtyard
+R47 has no courtyard
+R48 has no courtyard
+R49 has no courtyard
+R50 has no courtyard
+R51 has no courtyard
+R52 has no courtyard
+R53 has no courtyard
+R54 has no courtyard
+R56 has no courtyard
+R57 has no courtyard
+SP1 has no courtyard
+TP33 has no courtyard
+TP34 has no courtyard
+TP114 has no courtyard
+TP115 has no courtyard
+VR2 has no courtyard
+BT1 has no pin with requires_power=true
+C1 has no pin with requires_power=true
+C2 has no pin with requires_power=true
+C10 has no pin with requires_power=true
+C12 has no pin with requires_power=true
+C21 has no pin with requires_power=true
+C22 has no pin with requires_power=true
+C23 has no pin with requires_power=true
+C37 has no pin with requires_power=true
+C42 has no pin with requires_power=true
+C44 has no pin with requires_power=true
+C57 has no pin with requires_power=true
+C58 has no pin with requires_power=true
+C59 has no pin with requires_power=true
+C60 has no pin with requires_power=true
+C61 has no pin with requires_power=true
+C68 has no pin with requires_power=true
+C72 has no pin with requires_power=true
+C80 has no pin with requires_power=true
+D1 has no pin with requires_power=true
+D2 has no pin with requires_power=true
+DL1 has no pin with requires_power=true
+DL2 has no pin with requires_power=true
+F1 has no pin with requires_power=true
+L1 has no pin with requires_power=true
+L2 has no pin with requires_power=true
+NT1 has no pin with requires_power=true
+PTC1 has no pin with requires_power=true
+Q1 has no pin with requires_power=true
+Q3 has no pin with requires_power=true
+Q5 has no pin with requires_power=true
+Q9 has no pin with requires_power=true
+Q10 has no pin with requires_power=true
+R3 has no pin with requires_power=true
+R4 has no pin with requires_power=true
+R8 has no pin with requires_power=true
+R9 has no pin with requires_power=true
+R10 has no pin with requires_power=true
+R11 has no pin with requires_power=true
+R12 has no pin with requires_power=true
+R13 has no pin with requires_power=true
+R15 has no pin with requires_power=true
+R16 has no pin with requires_power=true
+R17 has no pin with requires_power=true
+R18 has no pin with requires_power=true
+R24 has no pin with requires_power=true
+R25 has no pin with requires_power=true
+R58 has no pin with requires_power=true
+R59 has no pin with requires_power=true
+R60 has no pin with requires_power=true
+R63 has no pin with requires_power=true
+R64 has no pin with requires_power=true
+R65 has no pin with requires_power=true
+R66 has no pin with requires_power=true
+R72 has no pin with requires_power=true
+R73 has no pin with requires_power=true
+SW1 has no pin with requires_power=true
+U4 has no pin with requires_power=true
+U8 has no pin with requires_power=true
+U11 has no pin with requires_power=true
+U14 has no pin with requires_power=true
+U18 has no pin with requires_power=true
+C3 has no pin with requires_power=true
+C4 has no pin with requires_power=true
+C5 has no pin with requires_power=true
+C6 has no pin with requires_power=true
+C7 has no pin with requires_power=true
+C8 has no pin with requires_power=true
+C15 has no pin with requires_power=true
+C16 has no pin with requires_power=true
+C17 has no pin with requires_power=true
+C18 has no pin with requires_power=true
+C19 has no pin with requires_power=true
+C20 has no pin with requires_power=true
+C30 has no pin with requires_power=true
+C34 has no pin with requires_power=true
+C39 has no pin with requires_power=true
+C43 has no pin with requires_power=true
+C45 has no pin with requires_power=true
+C46 has no pin with requires_power=true
+C47 has no pin with requires_power=true
+C48 has no pin with requires_power=true
+C49 has no pin with requires_power=true
+C50 has no pin with requires_power=true
+C51 has no pin with requires_power=true
+C52 has no pin with requires_power=true
+C53 has no pin with requires_power=true
+C62 has no pin with requires_power=true
+C63 has no pin with requires_power=true
+C64 has no pin with requires_power=true
+C69 has no pin with requires_power=true
+C73 has no pin with requires_power=true
+C74 has no pin with requires_power=true
+C75 has no pin with requires_power=true
+C76 has no pin with requires_power=true
+C77 has no pin with requires_power=true
+C78 has no pin with requires_power=true
+C79 has no pin with requires_power=true
+EM1 has no pin with requires_power=true
+EM2 has no pin with requires_power=true
+EM3 has no pin with requires_power=true
+EM7 has no pin with requires_power=true
+JP1 has no pin with requires_power=true
+JP2 has no pin with requires_power=true
+JP3 has no pin with requires_power=true
+P1 has no pin with requires_power=true
+P4 has no pin with requires_power=true
+Q2 has no pin with requires_power=true
+Q7 has no pin with requires_power=true
+Q8 has no pin with requires_power=true
+R1 has no pin with requires_power=true
+R2 has no pin with requires_power=true
+R5 has no pin with requires_power=true
+R6 has no pin with requires_power=true
+R7 has no pin with requires_power=true
+R29 has no pin with requires_power=true
+R35 has no pin with requires_power=true
+R38 has no pin with requires_power=true
+R39 has no pin with requires_power=true
+R40 has no pin with requires_power=true
+R41 has no pin with requires_power=true
+R43 has no pin with requires_power=true
+R44 has no pin with requires_power=true
+R68 has no pin with requires_power=true
+RA1 has no pin with requires_power=true
+SW2 has no pin with requires_power=true
+SW3 has no pin with requires_power=true
+SW4 has no pin with requires_power=true
+SW5 has no pin with requires_power=true
+SW6 has no pin with requires_power=true
+U1 has no pin with requires_power=true
+U2 has no pin with requires_power=true
+U12 has no pin with requires_power=true
+X1 has no pin with requires_power=true
+C11 has no pin with requires_power=true
+C13 has no pin with requires_power=true
+C14 has no pin with requires_power=true
+C70 has no pin with requires_power=true
+C71 has no pin with requires_power=true
+P2 has no pin with requires_power=true
+R26 has no pin with requires_power=true
+R36 has no pin with requires_power=true
+R67 has no pin with requires_power=true
+R70 has no pin with requires_power=true
+R71 has no pin with requires_power=true
+VR1 has no pin with requires_power=true
+Z57 has no pin with requires_power=true
+Z58 has no pin with requires_power=true
+C9 has no pin with requires_power=true
+C24 has no pin with requires_power=true
+C25 has no pin with requires_power=true
+C26 has no pin with requires_power=true
+C27 has no pin with requires_power=true
+C28 has no pin with requires_power=true
+C29 has no pin with requires_power=true
+C31 has no pin with requires_power=true
+C32 has no pin with requires_power=true
+C33 has no pin with requires_power=true
+C35 has no pin with requires_power=true
+C36 has no pin with requires_power=true
+C38 has no pin with requires_power=true
+C54 has no pin with requires_power=true
+C55 has no pin with requires_power=true
+C56 has no pin with requires_power=true
+CP1 has no pin with requires_power=true
+CP2 has no pin with requires_power=true
+CP3 has no pin with requires_power=true
+P3 has no pin with requires_power=true
+Q6 has no pin with requires_power=true
+R14 has no pin with requires_power=true
+R19 has no pin with requires_power=true
+R20 has no pin with requires_power=true
+R30 has no pin with requires_power=true
+R31 has no pin with requires_power=true
+R34 has no pin with requires_power=true
+R37 has no pin with requires_power=true
+R42 has no pin with requires_power=true
+R45 has no pin with requires_power=true
+R46 has no pin with requires_power=true
+R47 has no pin with requires_power=true
+R48 has no pin with requires_power=true
+R49 has no pin with requires_power=true
+R50 has no pin with requires_power=true
+R51 has no pin with requires_power=true
+R52 has no pin with requires_power=true
+R53 has no pin with requires_power=true
+R54 has no pin with requires_power=true
+R56 has no pin with requires_power=true
+R57 has no pin with requires_power=true
+SP1 has no pin with requires_power=true
+U7 has no pin with requires_power=true
+VR2 has no pin with requires_power=true
+BT1 has no pin with requires_ground=true
+C1 has no pin with requires_ground=true
+C2 has no pin with requires_ground=true
+C10 has no pin with requires_ground=true
+C12 has no pin with requires_ground=true
+C21 has no pin with requires_ground=true
+C22 has no pin with requires_ground=true
+C23 has no pin with requires_ground=true
+C37 has no pin with requires_ground=true
+C42 has no pin with requires_ground=true
+C44 has no pin with requires_ground=true
+C57 has no pin with requires_ground=true
+C58 has no pin with requires_ground=true
+C59 has no pin with requires_ground=true
+C60 has no pin with requires_ground=true
+C61 has no pin with requires_ground=true
+C68 has no pin with requires_ground=true
+C72 has no pin with requires_ground=true
+C80 has no pin with requires_ground=true
+D1 has no pin with requires_ground=true
+D2 has no pin with requires_ground=true
+DL1 has no pin with requires_ground=true
+DL2 has no pin with requires_ground=true
+F1 has no pin with requires_ground=true
+L1 has no pin with requires_ground=true
+L2 has no pin with requires_ground=true
+NT1 has no pin with requires_ground=true
+PTC1 has no pin with requires_ground=true
+Q1 has no pin with requires_ground=true
+Q3 has no pin with requires_ground=true
+Q5 has no pin with requires_ground=true
+Q9 has no pin with requires_ground=true
+Q10 has no pin with requires_ground=true
+R3 has no pin with requires_ground=true
+R4 has no pin with requires_ground=true
+R8 has no pin with requires_ground=true
+R9 has no pin with requires_ground=true
+R10 has no pin with requires_ground=true
+R11 has no pin with requires_ground=true
+R12 has no pin with requires_ground=true
+R13 has no pin with requires_ground=true
+R15 has no pin with requires_ground=true
+R16 has no pin with requires_ground=true
+R17 has no pin with requires_ground=true
+R18 has no pin with requires_ground=true
+R24 has no pin with requires_ground=true
+R25 has no pin with requires_ground=true
+R58 has no pin with requires_ground=true
+R59 has no pin with requires_ground=true
+R60 has no pin with requires_ground=true
+R63 has no pin with requires_ground=true
+R64 has no pin with requires_ground=true
+R65 has no pin with requires_ground=true
+R66 has no pin with requires_ground=true
+R72 has no pin with requires_ground=true
+R73 has no pin with requires_ground=true
+SW1 has no pin with requires_ground=true
+U4 has no pin with requires_ground=true
+U8 has no pin with requires_ground=true
+U11 has no pin with requires_ground=true
+U18 has no pin with requires_ground=true
+C3 has no pin with requires_ground=true
+C4 has no pin with requires_ground=true
+C5 has no pin with requires_ground=true
+C6 has no pin with requires_ground=true
+C7 has no pin with requires_ground=true
+C8 has no pin with requires_ground=true
+C15 has no pin with requires_ground=true
+C16 has no pin with requires_ground=true
+C17 has no pin with requires_ground=true
+C18 has no pin with requires_ground=true
+C19 has no pin with requires_ground=true
+C20 has no pin with requires_ground=true
+C30 has no pin with requires_ground=true
+C34 has no pin with requires_ground=true
+C39 has no pin with requires_ground=true
+C43 has no pin with requires_ground=true
+C45 has no pin with requires_ground=true
+C46 has no pin with requires_ground=true
+C47 has no pin with requires_ground=true
+C48 has no pin with requires_ground=true
+C49 has no pin with requires_ground=true
+C50 has no pin with requires_ground=true
+C51 has no pin with requires_ground=true
+C52 has no pin with requires_ground=true
+C53 has no pin with requires_ground=true
+C62 has no pin with requires_ground=true
+C63 has no pin with requires_ground=true
+C64 has no pin with requires_ground=true
+C69 has no pin with requires_ground=true
+C73 has no pin with requires_ground=true
+C74 has no pin with requires_ground=true
+C75 has no pin with requires_ground=true
+C76 has no pin with requires_ground=true
+C77 has no pin with requires_ground=true
+C78 has no pin with requires_ground=true
+C79 has no pin with requires_ground=true
+EM1 has no pin with requires_ground=true
+EM2 has no pin with requires_ground=true
+EM3 has no pin with requires_ground=true
+EM7 has no pin with requires_ground=true
+JP1 has no pin with requires_ground=true
+JP2 has no pin with requires_ground=true
+JP3 has no pin with requires_ground=true
+P1 has no pin with requires_ground=true
+P4 has no pin with requires_ground=true
+Q2 has no pin with requires_ground=true
+Q7 has no pin with requires_ground=true
+Q8 has no pin with requires_ground=true
+R1 has no pin with requires_ground=true
+R2 has no pin with requires_ground=true
+R5 has no pin with requires_ground=true
+R6 has no pin with requires_ground=true
+R7 has no pin with requires_ground=true
+R29 has no pin with requires_ground=true
+R35 has no pin with requires_ground=true
+R38 has no pin with requires_ground=true
+R39 has no pin with requires_ground=true
+R40 has no pin with requires_ground=true
+R41 has no pin with requires_ground=true
+R43 has no pin with requires_ground=true
+R44 has no pin with requires_ground=true
+R68 has no pin with requires_ground=true
+RA1 has no pin with requires_ground=true
+SW2 has no pin with requires_ground=true
+SW3 has no pin with requires_ground=true
+SW4 has no pin with requires_ground=true
+SW5 has no pin with requires_ground=true
+SW6 has no pin with requires_ground=true
+U1 has no pin with requires_ground=true
+U2 has no pin with requires_ground=true
+U12 has no pin with requires_ground=true
+X1 has no pin with requires_ground=true
+C11 has no pin with requires_ground=true
+C13 has no pin with requires_ground=true
+C14 has no pin with requires_ground=true
+C70 has no pin with requires_ground=true
+C71 has no pin with requires_ground=true
+P2 has no pin with requires_ground=true
+R26 has no pin with requires_ground=true
+R36 has no pin with requires_ground=true
+R67 has no pin with requires_ground=true
+R70 has no pin with requires_ground=true
+R71 has no pin with requires_ground=true
+VR1 has no pin with requires_ground=true
+Z57 has no pin with requires_ground=true
+Z58 has no pin with requires_ground=true
+C9 has no pin with requires_ground=true
+C24 has no pin with requires_ground=true
+C25 has no pin with requires_ground=true
+C26 has no pin with requires_ground=true
+C27 has no pin with requires_ground=true
+C28 has no pin with requires_ground=true
+C29 has no pin with requires_ground=true
+C31 has no pin with requires_ground=true
+C32 has no pin with requires_ground=true
+C33 has no pin with requires_ground=true
+C35 has no pin with requires_ground=true
+C36 has no pin with requires_ground=true
+C38 has no pin with requires_ground=true
+C54 has no pin with requires_ground=true
+C55 has no pin with requires_ground=true
+C56 has no pin with requires_ground=true
+CP1 has no pin with requires_ground=true
+CP2 has no pin with requires_ground=true
+CP3 has no pin with requires_ground=true
+P3 has no pin with requires_ground=true
+Q6 has no pin with requires_ground=true
+R14 has no pin with requires_ground=true
+R19 has no pin with requires_ground=true
+R20 has no pin with requires_ground=true
+R30 has no pin with requires_ground=true
+R31 has no pin with requires_ground=true
+R34 has no pin with requires_ground=true
+R37 has no pin with requires_ground=true
+R42 has no pin with requires_ground=true
+R45 has no pin with requires_ground=true
+R46 has no pin with requires_ground=true
+R47 has no pin with requires_ground=true
+R48 has no pin with requires_ground=true
+R49 has no pin with requires_ground=true
+R50 has no pin with requires_ground=true
+R51 has no pin with requires_ground=true
+R52 has no pin with requires_ground=true
+R53 has no pin with requires_ground=true
+R54 has no pin with requires_ground=true
+R56 has no pin with requires_ground=true
+R57 has no pin with requires_ground=true
+SP1 has no pin with requires_ground=true
+U7 has no pin with requires_ground=true
+VR2 has no pin with requires_ground=true
+No footprint specified for component: <chip#20(.power>.BT1) />
+No footprint specified for component: <chip#23(.power>.C1) />
+No footprint specified for component: <chip#26(.power>.C2) />
+No footprint specified for component: <chip#29(.power>.C10) />
+No footprint specified for component: <chip#32(.power>.C12) />
+No footprint specified for component: <chip#35(.power>.C21) />
+No footprint specified for component: <chip#38(.power>.C22) />
+No footprint specified for component: <chip#41(.power>.C23) />
+No footprint specified for component: <chip#44(.power>.C37) />
+No footprint specified for component: <chip#47(.power>.C42) />
+No footprint specified for component: <chip#50(.power>.C44) />
+No footprint specified for component: <chip#53(.power>.C57) />
+No footprint specified for component: <chip#56(.power>.C58) />
+No footprint specified for component: <chip#59(.power>.C59) />
+No footprint specified for component: <chip#62(.power>.C60) />
+No footprint specified for component: <chip#65(.power>.C61) />
+No footprint specified for component: <chip#68(.power>.C68) />
+No footprint specified for component: <chip#71(.power>.C72) />
+No footprint specified for component: <chip#74(.power>.C80) />
+No footprint specified for component: <chip#77(.power>.D1) />
+No footprint specified for component: <chip#80(.power>.D2) />
+No footprint specified for component: <chip#83(.power>.DL1) />
+No footprint specified for component: <chip#86(.power>.DL2) />
+No footprint specified for component: <chip#89(.power>.F1) />
+No footprint specified for component: <chip#92(.power>.L1) />
+No footprint specified for component: <chip#95(.power>.L2) />
+No footprint specified for component: <chip#98(.power>.NT1) />
+No footprint specified for component: <chip#101(.power>.PTC1) />
+No footprint specified for component: <chip#104(.power>.Q1) />
+No footprint specified for component: <chip#108(.power>.Q3) />
+No footprint specified for component: <chip#115(.power>.R3) />
+No footprint specified for component: <chip#118(.power>.R4) />
+No footprint specified for component: <chip#121(.power>.R8) />
+No footprint specified for component: <chip#124(.power>.R9) />
+No footprint specified for component: <chip#127(.power>.R10) />
+No footprint specified for component: <chip#130(.power>.R11) />
+No footprint specified for component: <chip#133(.power>.R12) />
+No footprint specified for component: <chip#136(.power>.R13) />
+No footprint specified for component: <chip#139(.power>.R15) />
+No footprint specified for component: <chip#142(.power>.R16) />
+No footprint specified for component: <chip#145(.power>.R17) />
+No footprint specified for component: <chip#148(.power>.R18) />
+No footprint specified for component: <chip#151(.power>.R24) />
+No footprint specified for component: <chip#154(.power>.R25) />
+No footprint specified for component: <chip#157(.power>.R58) />
+No footprint specified for component: <chip#160(.power>.R59) />
+No footprint specified for component: <chip#163(.power>.R60) />
+No footprint specified for component: <chip#166(.power>.R63) />
+No footprint specified for component: <chip#169(.power>.R64) />
+No footprint specified for component: <chip#172(.power>.R65) />
+No footprint specified for component: <chip#175(.power>.R66) />
+No footprint specified for component: <chip#178(.power>.R72) />
+No footprint specified for component: <chip#181(.power>.R73) />
+No footprint specified for component: <chip#184(.power>.SW1) />
+No footprint specified for component: <chip#190(.power>.TP13) />
+No footprint specified for component: <chip#192(.power>.TP14) />
+No footprint specified for component: <chip#194(.power>.TP15) />
+No footprint specified for component: <chip#196(.power>.TP16) />
+No footprint specified for component: <chip#198(.power>.TP17) />
+No footprint specified for component: <chip#200(.power>.TP18) />
+No footprint specified for component: <chip#202(.power>.TP19) />
+No footprint specified for component: <chip#204(.power>.TP20) />
+No footprint specified for component: <chip#206(.power>.TP21) />
+No footprint specified for component: <chip#208(.power>.TP22) />
+No footprint specified for component: <chip#210(.power>.TP23) />
+No footprint specified for component: <chip#212(.power>.TP24) />
+No footprint specified for component: <chip#214(.power>.TP26) />
+No footprint specified for component: <chip#216(.power>.TP30) />
+No footprint specified for component: <chip#218(.power>.TP32) />
+No footprint specified for component: <chip#226(.power>.U4) />
+No footprint specified for component: <chip#243(.power>.U8) />
+No footprint specified for component: <chip#295(.cpu>.C3) />
+No footprint specified for component: <chip#298(.cpu>.C4) />
+No footprint specified for component: <chip#301(.cpu>.C5) />
+No footprint specified for component: <chip#304(.cpu>.C6) />
+No footprint specified for component: <chip#307(.cpu>.C7) />
+No footprint specified for component: <chip#310(.cpu>.C8) />
+No footprint specified for component: <chip#313(.cpu>.C15) />
+No footprint specified for component: <chip#316(.cpu>.C16) />
+No footprint specified for component: <chip#319(.cpu>.C17) />
+No footprint specified for component: <chip#322(.cpu>.C18) />
+No footprint specified for component: <chip#325(.cpu>.C19) />
+No footprint specified for component: <chip#328(.cpu>.C20) />
+No footprint specified for component: <chip#331(.cpu>.C30) />
+No footprint specified for component: <chip#334(.cpu>.C34) />
+No footprint specified for component: <chip#337(.cpu>.C39) />
+No footprint specified for component: <chip#340(.cpu>.C43) />
+No footprint specified for component: <chip#343(.cpu>.C45) />
+No footprint specified for component: <chip#346(.cpu>.C46) />
+No footprint specified for component: <chip#349(.cpu>.C47) />
+No footprint specified for component: <chip#352(.cpu>.C48) />
+No footprint specified for component: <chip#355(.cpu>.C49) />
+No footprint specified for component: <chip#358(.cpu>.C50) />
+No footprint specified for component: <chip#361(.cpu>.C51) />
+No footprint specified for component: <chip#364(.cpu>.C52) />
+No footprint specified for component: <chip#367(.cpu>.C53) />
+No footprint specified for component: <chip#370(.cpu>.C62) />
+No footprint specified for component: <chip#373(.cpu>.C63) />
+No footprint specified for component: <chip#376(.cpu>.C64) />
+No footprint specified for component: <chip#379(.cpu>.C69) />
+No footprint specified for component: <chip#382(.cpu>.C73) />
+No footprint specified for component: <chip#385(.cpu>.C74) />
+No footprint specified for component: <chip#388(.cpu>.C75) />
+No footprint specified for component: <chip#391(.cpu>.C76) />
+No footprint specified for component: <chip#394(.cpu>.C77) />
+No footprint specified for component: <chip#397(.cpu>.C78) />
+No footprint specified for component: <chip#400(.cpu>.C79) />
+No footprint specified for component: <chip#403(.cpu>.EM1) />
+No footprint specified for component: <chip#410(.cpu>.EM2) />
+No footprint specified for component: <chip#417(.cpu>.EM3) />
+No footprint specified for component: <chip#420(.cpu>.EM7) />
+No footprint specified for component: <chip#423(.cpu>.JP1) />
+No footprint specified for component: <chip#426(.cpu>.JP2) />
+No footprint specified for component: <chip#429(.cpu>.JP3) />
+No footprint specified for component: <chip#432(.cpu>.P1) />
+No footprint specified for component: <chip#469(.cpu>.P4) />
+No footprint specified for component: <chip#480(.cpu>.Q8) />
+No footprint specified for component: <chip#484(.cpu>.R1) />
+No footprint specified for component: <chip#487(.cpu>.R2) />
+No footprint specified for component: <chip#490(.cpu>.R5) />
+No footprint specified for component: <chip#493(.cpu>.R6) />
+No footprint specified for component: <chip#496(.cpu>.R7) />
+No footprint specified for component: <chip#499(.cpu>.R29) />
+No footprint specified for component: <chip#502(.cpu>.R35) />
+No footprint specified for component: <chip#505(.cpu>.R38) />
+No footprint specified for component: <chip#508(.cpu>.R39) />
+No footprint specified for component: <chip#511(.cpu>.R40) />
+No footprint specified for component: <chip#514(.cpu>.R41) />
+No footprint specified for component: <chip#517(.cpu>.R43) />
+No footprint specified for component: <chip#520(.cpu>.R44) />
+No footprint specified for component: <chip#523(.cpu>.R68) />
+No footprint specified for component: <chip#526(.cpu>.RA1) />
+No footprint specified for component: <chip#535(.cpu>.SW2) />
+No footprint specified for component: <chip#538(.cpu>.SW3) />
+No footprint specified for component: <chip#541(.cpu>.SW4) />
+No footprint specified for component: <chip#546(.cpu>.SW5) />
+No footprint specified for component: <chip#551(.cpu>.SW6) />
+No footprint specified for component: <chip#560(.cpu>.TP0) />
+No footprint specified for component: <chip#562(.cpu>.TP1) />
+No footprint specified for component: <chip#564(.cpu>.TP2) />
+No footprint specified for component: <chip#566(.cpu>.TP3) />
+No footprint specified for component: <chip#568(.cpu>.TP4) />
+No footprint specified for component: <chip#570(.cpu>.TP5) />
+No footprint specified for component: <chip#572(.cpu>.TP6) />
+No footprint specified for component: <chip#574(.cpu>.TP7) />
+No footprint specified for component: <chip#576(.cpu>.TP8) />
+No footprint specified for component: <chip#578(.cpu>.TP9) />
+No footprint specified for component: <chip#580(.cpu>.TP12) />
+No footprint specified for component: <chip#582(.cpu>.TP25) />
+No footprint specified for component: <chip#584(.cpu>.TP27) />
+No footprint specified for component: <chip#586(.cpu>.TP28) />
+No footprint specified for component: <chip#588(.cpu>.TP29) />
+No footprint specified for component: <chip#590(.cpu>.TP80) />
+No footprint specified for component: <chip#592(.cpu>.TP81) />
+No footprint specified for component: <chip#594(.cpu>.U1) />
+No footprint specified for component: <chip#723(.cpu>.U2) />
+No footprint specified for component: <chip#801(.cpu>.X1) />
+No footprint specified for component: <chip#807(.display>.C11) />
+No footprint specified for component: <chip#810(.display>.C13) />
+No footprint specified for component: <chip#813(.display>.C14) />
+No footprint specified for component: <chip#816(.display>.C70) />
+No footprint specified for component: <chip#819(.display>.C71) />
+No footprint specified for component: <chip#822(.display>.P2) />
+No footprint specified for component: <chip#864(.display>.R26) />
+No footprint specified for component: <chip#867(.display>.R36) />
+No footprint specified for component: <chip#870(.display>.R67) />
+No footprint specified for component: <chip#873(.display>.R70) />
+No footprint specified for component: <chip#876(.display>.R71) />
+No footprint specified for component: <chip#879(.display>.TP10) />
+No footprint specified for component: <chip#881(.display>.TP11) />
+No footprint specified for component: <chip#883(.display>.TP31) />
+No footprint specified for component: <chip#885(.display>.VR1) />
+No footprint specified for component: <chip#889(.display>.Z57) />
+No footprint specified for component: <chip#892(.display>.Z58) />
+No footprint specified for component: <chip#898(.audio>.C9) />
+No footprint specified for component: <chip#901(.audio>.C24) />
+No footprint specified for component: <chip#904(.audio>.C25) />
+No footprint specified for component: <chip#907(.audio>.C26) />
+No footprint specified for component: <chip#910(.audio>.C27) />
+No footprint specified for component: <chip#913(.audio>.C28) />
+No footprint specified for component: <chip#916(.audio>.C29) />
+No footprint specified for component: <chip#919(.audio>.C31) />
+No footprint specified for component: <chip#922(.audio>.C32) />
+No footprint specified for component: <chip#925(.audio>.C33) />
+No footprint specified for component: <chip#928(.audio>.C35) />
+No footprint specified for component: <chip#931(.audio>.C36) />
+No footprint specified for component: <chip#934(.audio>.C38) />
+No footprint specified for component: <chip#937(.audio>.C54) />
+No footprint specified for component: <chip#940(.audio>.C55) />
+No footprint specified for component: <chip#943(.audio>.C56) />
+No footprint specified for component: <chip#946(.audio>.CP1) />
+No footprint specified for component: <chip#949(.audio>.CP2) />
+No footprint specified for component: <chip#952(.audio>.CP3) />
+No footprint specified for component: <chip#955(.audio>.P3) />
+No footprint specified for component: <chip#960(.audio>.Q6) />
+No footprint specified for component: <chip#964(.audio>.R14) />
+No footprint specified for component: <chip#967(.audio>.R19) />
+No footprint specified for component: <chip#970(.audio>.R20) />
+No footprint specified for component: <chip#973(.audio>.R30) />
+No footprint specified for component: <chip#976(.audio>.R31) />
+No footprint specified for component: <chip#979(.audio>.R34) />
+No footprint specified for component: <chip#982(.audio>.R37) />
+No footprint specified for component: <chip#985(.audio>.R42) />
+No footprint specified for component: <chip#988(.audio>.R45) />
+No footprint specified for component: <chip#991(.audio>.R46) />
+No footprint specified for component: <chip#994(.audio>.R47) />
+No footprint specified for component: <chip#997(.audio>.R48) />
+No footprint specified for component: <chip#1000(.audio>.R49) />
+No footprint specified for component: <chip#1003(.audio>.R50) />
+No footprint specified for component: <chip#1006(.audio>.R51) />
+No footprint specified for component: <chip#1009(.audio>.R52) />
+No footprint specified for component: <chip#1012(.audio>.R53) />
+No footprint specified for component: <chip#1015(.audio>.R54) />
+No footprint specified for component: <chip#1018(.audio>.R56) />
+No footprint specified for component: <chip#1021(.audio>.R57) />
+No footprint specified for component: <chip#1024(.audio>.SP1) />
+No footprint specified for component: <chip#1027(.audio>.TP33) />
+No footprint specified for component: <chip#1029(.audio>.TP34) />
+No footprint specified for component: <chip#1031(.audio>.TP114) />
+No footprint specified for component: <chip#1033(.audio>.TP115) />
+No footprint specified for component: <chip#1068(.audio>.VR2) />
+Component NT1 extends outside board boundaries by 0.45mm.
+Generating preview images...
+[index] Generating PCB SVG...
+[index] Written pcb.svg
+[index] Generating PCB PNG...
+[index] Written pcb.png
+[index] Generating schematic SVG...
+[index] Written schematic.svg
+
+Build complete
+  Circuits  1 passed
+  Options   pcb-png, pcb-svgs, schematic-svgs
+  Output    dist
+
+⚠ Build completed with errors
+Build exiting with code 0: build finished successfully

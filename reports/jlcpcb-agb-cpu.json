@@ -1,0 +1,16 @@
+{
+  "query": "AGB-CPU",
+  "results": [
+    {
+      "source": "jlcpcb",
+      "lcsc": 27959779,
+      "mfr": "UPD78F0524AGB-GAG-AX",
+      "package": "LQFP-52(10x10)",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+85℃ 1.8V~5.5V 20MHz 2KB 45 48KB 8 Bit Built-in FLASH Others LQFP-52(10x10) Microcontrollers (MCU/MPU/SOC) ROHS",
+      "stock": 10,
+      "price": 7.4621
+    }
+  ]
+}

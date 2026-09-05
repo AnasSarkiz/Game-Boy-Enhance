@@ -1,0 +1,20 @@
+trace: `key` is not a prop. Trying to access it will result in `undefined` being returned. If you need to access the same value within the child component, you should pass it as a different prop. (https://react.dev/link/special-props)
+7575 |       propsText
+7576 |     };
+7577 |   }
+7578 |   safeStringify(value) {
+7579 |     const seen = /* @__PURE__ */ new WeakSet();
+7580 |     const json = JSON.stringify(
+                             ^
+RangeError: Out of memory
+      at safeStringify (/Users/anassarkiz/tsci/Game-Boy-Enhance/node_modules/@tscircuit/core/dist/index.js:7580:23)
+      at formatErrorDetails (/Users/anassarkiz/tsci/Game-Boy-Enhance/node_modules/@tscircuit/core/dist/index.js:7572:28)
+      at doInitialSourceRender (/Users/anassarkiz/tsci/Game-Boy-Enhance/node_modules/@tscircuit/core/dist/index.js:7618:48)
+      at runRenderPhase (/Users/anassarkiz/tsci/Game-Boy-Enhance/node_modules/@tscircuit/core/dist/index.js:760:24)
+      at runRenderPhaseForChildren (/Users/anassarkiz/tsci/Game-Boy-Enhance/node_modules/@tscircuit/core/dist/index.js:770:13)
+      at runRenderPhaseForChildren (/Users/anassarkiz/tsci/Game-Boy-Enhance/node_modules/@tscircuit/core/dist/index.js:769:13)
+      at runRenderPhaseForChildren (/Users/anassarkiz/tsci/Game-Boy-Enhance/node_modules/@tscircuit/core/dist/index.js:51973:11)
+      at runRenderCycle (/Users/anassarkiz/tsci/Game-Boy-Enhance/node_modules/@tscircuit/core/dist/index.js:710:12)
+      at render (/Users/anassarkiz/tsci/Game-Boy-Enhance/node_modules/@tscircuit/core/dist/index.js:50676:16)
+
+Bun v1.3.9 (macOS arm64)

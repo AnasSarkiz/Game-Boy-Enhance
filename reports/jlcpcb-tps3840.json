@@ -1,0 +1,16 @@
+{
+  "query": "TPS3840DL20",
+  "results": [
+    {
+      "source": "jlcpcb",
+      "lcsc": 2066745,
+      "mfr": "TPS3840DL20DBVR",
+      "package": "SOT-23-5",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+125℃ 1 1.5V~10V 2V 300nA 619ms Active Low Manual reset input Open-drain Voltage monitor SOT-23-5 Supervisor and Reset ICs ROHS",
+      "stock": 121,
+      "price": 0.8151
+    }
+  ]
+}

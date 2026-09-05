@@ -1,0 +1,278 @@
+placement summary: 1 footprint intrusion
+
+worst issues:
+1. SW6 and TP5 footprint intrusion by 0.452mm. Suggested move: move TP5 0.452mm left.
+
+board top-layer utilization:
+- occupied: 12.509% (2332.077mm^2 of 18642.57mm^2)
+- empty spaces over 5% of board area:
+  - 21.785% (4061.288mm^2); bounds=(minX=-39.316mm, maxX=46.499mm, minY=-50.701mm, maxY=-3.375mm)
+  - 6.506% (1212.938mm^2); bounds=(minX=-91.924mm, maxX=9.399mm, minY=38.73mm, maxY=50.701mm)
+  - 5.17% (963.829mm^2); bounds=(minX=59.114mm, maxX=91.924mm, minY=-50.701mm, maxY=-21.325mm)
+
+board-edge status:
+- BT1: 14.476mm inside top edge
+- C1: 8.403mm inside left edge
+- C2: 24.843mm inside left edge
+- C10: 27.651mm inside bottom edge
+- C12: 32.361mm inside bottom edge
+- C21: 36.613mm inside left edge
+- C22: 41.223mm inside left edge
+- C23: 43.051mm inside bottom edge
+- C37: 33.643mm inside left edge
+- C42: 43.123mm inside left edge
+- C44: 20.461mm inside bottom edge
+- C57: 26.993mm inside left edge
+- C58: 38.086mm inside bottom edge
+- C59: 47.881mm inside top edge
+- C60: 24.843mm inside left edge
+- C61: 27.651mm inside bottom edge
+- C68: 24.815mm inside right edge
+- C72: 18.361mm inside bottom edge
+- C80: 34.301mm inside top edge
+- D1: 36.947mm inside top edge
+- D2: 8.628mm inside left edge
+- DL1: 14.406mm inside bottom edge
+- DL2: 14.406mm inside bottom edge
+- F1: 32.676mm inside top edge
+- L1: 36.808mm inside left edge
+- L2: 29.458mm inside left edge
+- NT1: 45.446mm inside top edge
+- PTC1: 36.711mm inside top edge
+- Q1: 25.793mm inside left edge
+- Q3: 18.518mm inside left edge
+- Q5: 14.976mm inside bottom edge
+- Q9: 25.21mm inside right edge
+- Q10: 15.588mm inside left edge
+- R3: 31.291mm inside bottom edge
+- R4: 30.135mm inside right edge
+- R8: 21.253mm inside left edge
+- R9: 8.653mm inside left edge
+- R10: 9.261mm inside bottom edge
+- R11: 13.503mm inside left edge
+- R12: 18.683mm inside left edge
+- R13: 31.753mm inside left edge
+- R15: 21.953mm inside left edge
+- R16: 18.543mm inside left edge
+- R17: 13.503mm inside left edge
+- R18: 26.201mm inside bottom edge
+- R24: 21.253mm inside left edge
+- R25: 9.261mm inside bottom edge
+- R58: 31.081mm inside bottom edge
+- R59: 34.581mm inside bottom edge
+- R60: 30.933mm inside left edge
+- R63: 34.231mm inside bottom edge
+- R64: 20.461mm inside bottom edge
+- R65: 18.361mm inside bottom edge
+- R66: 14.491mm inside bottom edge
+- R72: 42.623mm inside left edge
+- R73: 36.813mm inside left edge
+- SW1: 14.251mm inside top edge
+- TP13: 37.426mm inside bottom edge
+- TP14: 34.486mm inside bottom edge
+- TP15: 35.186mm inside bottom edge
+- TP16: 45.616mm inside top edge
+- TP17: 24.168mm inside left edge
+- TP18: 36.726mm inside bottom edge
+- TP19: 8.628mm inside left edge
+- TP20: 13.248mm inside left edge
+- TP21: 42.481mm inside bottom edge
+- TP22: 29.391mm inside top edge
+- TP23: 30.748mm inside left edge
+- TP24: 14.088mm inside left edge
+- TP26: 8.628mm inside left edge
+- TP30: 19.128mm inside left edge
+- TP32: 36.236mm inside top edge
+- U3: 12.088mm inside left edge
+- U4: 46.486mm inside bottom edge
+- U5: 31.033mm inside left edge
+- U8: 24.818mm inside left edge
+- U10: 26.176mm inside bottom edge
+- U11: 31.366mm inside bottom edge
+- U13: 37.683mm inside left edge
+- U14: 18.206mm inside bottom edge
+- U17: 26.036mm inside bottom edge
+- U18: 36.466mm inside top edge
+- C3: 15.981mm inside bottom edge
+- C4: 29.001mm inside bottom edge
+- C5: 41.091mm inside bottom edge
+- C6: 40.251mm inside bottom edge
+- C7: 43.891mm inside bottom edge
+- C8: 17.661mm inside bottom edge
+- C15: 33.901mm inside bottom edge
+- C16: 12.111mm inside bottom edge
+- C17: 7.631mm inside bottom edge
+- C18: 17.431mm inside bottom edge
+- C19: 17.431mm inside bottom edge
+- C20: 10.381mm inside bottom edge
+- C30: 35.581mm inside bottom edge
+- C34: 11.971mm inside bottom edge
+- C39: 29.891mm inside bottom edge
+- C43: 31.431mm inside bottom edge
+- C45: 27.791mm inside bottom edge
+- C46: 33.901mm inside bottom edge
+- C47: 25.271mm inside bottom edge
+- C48: 12.111mm inside bottom edge
+- C49: 43.331mm inside bottom edge
+- C50: 14.071mm inside bottom edge
+- C51: 42.491mm inside bottom edge
+- C52: 30.311mm inside bottom edge
+- C53: 32.831mm inside bottom edge
+- C62: 33.951mm inside bottom edge
+- C63: 19.355mm inside right edge
+- C64: 15.611mm inside bottom edge
+- C69: 19.671mm inside bottom edge
+- C73: 7.875mm inside right edge
+- C74: 25.033mm inside left edge
+- C75: 8.883mm inside left edge
+- C76: 29.141mm inside bottom edge
+- C77: 27.833mm inside left edge
+- C78: 17.683mm inside left edge
+- C79: 7.875mm inside right edge
+- EM1: 12.881mm inside bottom edge
+- EM2: 10.781mm inside bottom edge
+- EM3: 12.111mm inside bottom edge
+- EM7: 35.771mm inside bottom edge
+- JP1: 16.966mm inside bottom edge
+- JP2: 7.356mm inside bottom edge
+- JP3: 7.356mm inside bottom edge
+- P1: 47.326mm inside top edge
+- P4: 3.741mm inside bottom edge
+- Q2: 17.646mm inside bottom edge
+- Q7: 17.646mm inside bottom edge
+- Q8: 17.076mm inside bottom edge
+- R1: 20.321mm inside bottom edge
+- R2: 41.461mm inside bottom edge
+- R5: 41.091mm inside bottom edge
+- R6: 41.461mm inside bottom edge
+- R7: 28.021mm inside bottom edge
+- R29: 35.581mm inside bottom edge
+- R35: 16.681mm inside bottom edge
+- R38: 41.741mm inside bottom edge
+- R39: 41.741mm inside bottom edge
+- R40: 41.741mm inside bottom edge
+- R41: 24.661mm inside bottom edge
+- R43: 13.615mm inside right edge
+- R44: 15.611mm inside bottom edge
+- R68: 19.201mm inside bottom edge
+- RA1: 16.606mm inside bottom edge
+- SW2: 7.508mm inside left edge
+- SW3: 5.59mm inside right edge
+- SW4: 8.28mm inside right edge
+- SW5: 19.351mm inside top edge
+- SW6: 6.418mm inside left edge
+- TP0: 17.543mm inside right edge
+- TP1: 20.035mm inside right edge
+- TP2: 36.67mm inside left edge
+- TP3: 38.755mm inside left edge
+- TP4: 36.67mm inside left edge
+- TP5: 5.87mm inside left edge
+- TP6: 35.144mm inside bottom edge
+- TP7: 25.794mm inside left edge
+- TP8: 19.317mm inside right edge
+- TP9: 17.686mm inside bottom edge
+- TP12: 18.681mm inside bottom edge
+- TP25: 14.186mm inside bottom edge
+- TP27: 3.436mm inside bottom edge
+- TP28: 3.436mm inside bottom edge
+- TP29: 3.436mm inside bottom edge
+- TP80: 20.206mm inside bottom edge
+- TP81: 22.866mm inside bottom edge
+- U1: 18.513mm inside bottom edge
+- U2: 15.096mm inside bottom edge
+- U12: 16.526mm inside bottom edge
+- U15: 23.526mm inside bottom edge
+- U16: 24.576mm inside bottom edge
+- X1: 19.807mm inside bottom edge
+- C11: 19.951mm inside bottom edge
+- C13: 16.731mm inside bottom edge
+- C14: 16.171mm inside bottom edge
+- C70: 12.671mm inside bottom edge
+- C71: 12.671mm inside bottom edge
+- P2: 10.804mm inside bottom edge
+- R26: 37.451mm inside bottom edge
+- R36: 12.111mm inside bottom edge
+- R67: 22.561mm inside bottom edge
+- R70: 9.591mm inside bottom edge
+- R71: 9.591mm inside bottom edge
+- TP10: 3.436mm inside bottom edge
+- TP11: 40.731mm inside top edge
+- TP31: 3.436mm inside bottom edge
+- VR1: 34.696mm inside bottom edge
+- Z57: 14.351mm inside bottom edge
+- Z58: 14.351mm inside bottom edge
+- C9: 28.225mm inside right edge
+- C24: 11.005mm inside right edge
+- C25: 34.385mm inside right edge
+- C26: 16.045mm inside right edge
+- C27: 28.175mm inside right edge
+- C28: 24.955mm inside right edge
+- C29: 32.285mm inside right edge
+- C31: 21.875mm inside right edge
+- C32: 27.875mm inside right edge
+- C33: 12.895mm inside right edge
+- C35: 14.315mm inside right edge
+- C36: 28.175mm inside right edge
+- C38: 39.935mm inside right edge
+- C54: 34.755mm inside right edge
+- C55: 29.821mm inside top edge
+- C56: 30.275mm inside right edge
+- CP1: 30.486mm inside top edge
+- CP2: 32.81mm inside right edge
+- CP3: 25.166mm inside top edge
+- P3: 4.842mm inside top edge
+- Q6: 33.185mm inside right edge
+- R14: 28.421mm inside top edge
+- R19: 20.161mm inside top edge
+- R20: 22.491mm inside top edge
+- R30: 32.011mm inside top edge
+- R31: 28.421mm inside top edge
+- R34: 14.315mm inside right edge
+- R37: 44.325mm inside right edge
+- R42: 9.885mm inside right edge
+- R45: 9.905mm inside right edge
+- R46: 11.095mm inside right edge
+- R47: 12.895mm inside right edge
+- R48: 19.635mm inside right edge
+- R49: 32.515mm inside right edge
+- R50: 32.285mm inside right edge
+- R51: 30.745mm inside right edge
+- R52: 26.915mm inside right edge
+- R53: 14.315mm inside right edge
+- R54: 16.045mm inside right edge
+- R56: 32.011mm inside top edge
+- R57: 35.225mm inside right edge
+- SP1: 5.362mm inside right edge
+- TP33: 22.32mm inside right edge
+- TP34: 24.28mm inside right edge
+- TP114: 37.44mm inside right edge
+- TP115: 37.44mm inside right edge
+- U6: 32.831mm inside top edge
+- U7: 20.25mm inside right edge
+- U9: 31.51mm inside right edge
+- VR2: 10.43mm inside top edge
+
+flagged components:
+- SW6
+  source placement: placement_mode=none
+  resolved placement: center=(-73.556mm, 7.595mm) on top; bounds=(minX=-85.506mm, maxX=-61.606mm, minY=-4.355mm, maxY=19.545mm); size=(width=23.9mm, height=23.9mm); anchor_alignment="center"
+  board edge status: 6.418mm inside left edge
+  issues:
+  - SW6 and TP5 footprint intrusion by 0.452mm. Suggested move: move TP5 0.452mm left.
+- TP5
+  source placement: placement_mode=none
+  resolved placement: center=(-85.554mm, 16.023mm) on top; bounds=(minX=-86.054mm, maxX=-85.054mm, minY=15.523mm, maxY=16.523mm); size=(width=1mm, height=1mm); anchor_alignment="center"
+  board edge status: 5.87mm inside left edge
+  issues:
+  - SW6 and TP5 footprint intrusion by 0.452mm. Suggested move: move TP5 0.452mm left.
+
+placement drc:
+Errors: 6
+Warnings: 1
+- pcb_component_outside_board_error: Component SW2 extends outside board boundaries by 0.08mm.
+- pcb_component_outside_board_error: Component SW3 extends outside board boundaries by 1.2mm.
+- pcb_component_outside_board_error: Component VR2 extends outside board boundaries by 0.1mm.
+- pcb_placement_error: Component component overlaps with pcb_cutout [pcb_cutout_14]
+- pcb_placement_error: Component component overlaps with pcb_cutout [pcb_cutout_13]
+- pcb_placement_error: Component component overlaps with pcb_cutout [pcb_cutout_11]
+- pcb_connector_not_in_accessible_orientation_warning: component is facing x- but should face y+ so the connector is accessible from the board edge

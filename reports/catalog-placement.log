@@ -1,0 +1,433 @@
+$ tsci check placement index.circuit.tsx
+placement summary: 16 footprint intrusions
+
+worst issues:
+1. TP114 and TP115 footprint intrusion by 1.18mm. Suggested move: move TP115 1.18mm up.
+2. C34 and C50 footprint intrusion by 0.9mm. Suggested move: move C50 0.9mm up.
+3. C5 and C49 footprint intrusion by 0.76mm. Suggested move: move C49 0.76mm up.
+4. C6 and C51 footprint intrusion by 0.76mm. Suggested move: move C51 0.76mm up.
+5. C47 and TP81 footprint intrusion by 0.62mm. Suggested move: move TP81 0.62mm down.
+
+likely bad clusters:
+- C47 cluster: C47, TP81, C45, C52, C53, TP80, EM7
+- TP cluster: TP8, TP1, TP0
+
+board top-layer utilization:
+- occupied: 0.629% (117.23mm^2 of 18642.57mm^2)
+- empty spaces over 5% of board area:
+  - 63.784% (11891.052mm^2); bounds=(minX=-75.622mm, maxX=91.924mm, minY=-50.701mm, maxY=20.271mm)
+  - 18.425% (3434.942mm^2); bounds=(minX=-41.977mm, maxX=91.924mm, minY=25.048mm, maxY=50.701mm)
+  - 6.55% (1221.122mm^2); bounds=(minX=-91.924mm, maxX=-79.882mm, minY=-50.701mm, maxY=50.701mm)
+
+board-edge status:
+- BT1: 18.296mm inside top edge
+- C1: 8.128mm inside left edge
+- C2: 25.068mm inside left edge
+- C10: 26.626mm inside bottom edge
+- C12: 32.086mm inside bottom edge
+- C21: 36.338mm inside left edge
+- C22: 40.556mm inside top edge
+- C23: 42.026mm inside bottom edge
+- C37: 33.118mm inside left edge
+- C42: 42.848mm inside left edge
+- C44: 20.186mm inside bottom edge
+- C57: 26.468mm inside left edge
+- C58: 38.036mm inside bottom edge
+- C59: 46.856mm inside top edge
+- C60: 25.068mm inside left edge
+- C61: 26.626mm inside bottom edge
+- C68: 25.04mm inside right edge
+- C72: 18.086mm inside bottom edge
+- C80: 33.276mm inside top edge
+- D1: 37.047mm inside top edge
+- D2: 8.128mm inside left edge
+- DL1: 14.306mm inside bottom edge
+- DL2: 14.306mm inside bottom edge
+- F1: 31.876mm inside top edge
+- L1: 37.808mm inside left edge
+- L2: 30.458mm inside left edge
+- NT1: 44.196mm inside top edge
+- PTC1: 36.636mm inside top edge
+- Q1: 26.468mm inside left edge
+- Q3: 18.768mm inside left edge
+- Q5: 14.541mm inside bottom edge
+- Q9: 24.775mm inside right edge
+- Q10: 16.172mm inside left edge
+- R3: 30.266mm inside bottom edge
+- R4: 30.266mm inside bottom edge
+- R8: 20.728mm inside left edge
+- R9: 8.128mm inside left edge
+- R10: 8.986mm inside bottom edge
+- R11: 13.728mm inside left edge
+- R12: 18.908mm inside left edge
+- R13: 31.228mm inside left edge
+- R15: 21.428mm inside left edge
+- R16: 18.768mm inside left edge
+- R17: 13.728mm inside left edge
+- R18: 25.926mm inside bottom edge
+- R24: 20.728mm inside left edge
+- R25: 8.986mm inside bottom edge
+- R58: 30.056mm inside bottom edge
+- R59: 33.556mm inside bottom edge
+- R60: 31.158mm inside left edge
+- R63: 33.206mm inside bottom edge
+- R64: 20.186mm inside bottom edge
+- R65: 18.086mm inside bottom edge
+- R66: 13.466mm inside bottom edge
+- R72: 42.848mm inside left edge
+- R73: 37.038mm inside left edge
+- SW1: 14.236mm inside top edge
+- TP13: 36.426mm inside bottom edge
+- TP14: 33.486mm inside bottom edge
+- TP15: 34.186mm inside bottom edge
+- TP16: 44.616mm inside top edge
+- TP17: 23.668mm inside left edge
+- TP18: 35.726mm inside bottom edge
+- TP19: 8.128mm inside left edge
+- TP20: 12.748mm inside left edge
+- TP21: 41.606mm inside bottom edge
+- TP22: 28.516mm inside top edge
+- TP23: 30.248mm inside left edge
+- TP24: 13.588mm inside left edge
+- TP26: 8.128mm inside left edge
+- TP30: 18.628mm inside left edge
+- TP32: 35.236mm inside top edge
+- U3: 12.288mm inside left edge
+- U4: 46.786mm inside bottom edge
+- U5: 31.008mm inside left edge
+- U8: 25.068mm inside left edge
+- U10: 26.176mm inside bottom edge
+- U11: 31.266mm inside bottom edge
+- U13: 37.658mm inside left edge
+- U14: 18.811mm inside bottom edge
+- U17: 26.036mm inside bottom edge
+- U18: 36.466mm inside top edge
+- C3: 15.706mm inside bottom edge
+- C4: 28.726mm inside bottom edge
+- C5: 40.066mm inside bottom edge
+- C6: 39.226mm inside bottom edge
+- C7: 42.866mm inside bottom edge
+- C8: 17.386mm inside bottom edge
+- C15: 33.626mm inside bottom edge
+- C16: 11.086mm inside bottom edge
+- C17: 6.606mm inside bottom edge
+- C18: 16.406mm inside bottom edge
+- C19: 16.406mm inside bottom edge
+- C20: 10.106mm inside bottom edge
+- C30: 35.306mm inside bottom edge
+- C34: 10.946mm inside bottom edge
+- C39: 28.866mm inside bottom edge
+- C43: 30.406mm inside bottom edge
+- C45: 26.766mm inside bottom edge
+- C46: 33.626mm inside bottom edge
+- C47: 24.246mm inside bottom edge
+- C48: 11.086mm inside bottom edge
+- C49: 42.306mm inside bottom edge
+- C50: 13.046mm inside bottom edge
+- C51: 41.466mm inside bottom edge
+- C52: 29.286mm inside bottom edge
+- C53: 31.806mm inside bottom edge
+- C62: 32.926mm inside bottom edge
+- C63: 19.58mm inside right edge
+- C64: 14.586mm inside bottom edge
+- C69: 18.646mm inside bottom edge
+- C73: 8.1mm inside right edge
+- C74: 24.508mm inside left edge
+- C75: 9.108mm inside left edge
+- C76: 28.866mm inside bottom edge
+- C77: 27.308mm inside left edge
+- C78: 17.158mm inside left edge
+- C79: 8.1mm inside right edge
+- EM1: 12.206mm inside bottom edge
+- EM2: 10.106mm inside bottom edge
+- EM3: 11.086mm inside bottom edge
+- EM7: 34.746mm inside bottom edge
+- JP1: 16.266mm inside bottom edge
+- JP2: 6.606mm inside bottom edge
+- JP3: 6.606mm inside bottom edge
+- P1: 47.276mm inside top edge
+- P4: 5.766mm inside bottom edge
+- Q2: 18.23mm inside bottom edge
+- Q7: 18.23mm inside bottom edge
+- Q8: 16.826mm inside bottom edge
+- R1: 20.046mm inside bottom edge
+- R2: 41.186mm inside bottom edge
+- R5: 40.066mm inside bottom edge
+- R6: 41.186mm inside bottom edge
+- R7: 27.746mm inside bottom edge
+- R29: 35.306mm inside bottom edge
+- R35: 16.406mm inside bottom edge
+- R38: 41.466mm inside bottom edge
+- R39: 41.466mm inside bottom edge
+- R40: 41.466mm inside bottom edge
+- R41: 24.386mm inside bottom edge
+- R43: 13.84mm inside right edge
+- R44: 14.586mm inside bottom edge
+- R68: 18.926mm inside bottom edge
+- RA1: 16.406mm inside bottom edge
+- SW2: 14.008mm inside left edge
+- SW3: 7.68mm inside right edge
+- SW4: 16.78mm inside right edge
+- SW5: 29.076mm inside top edge
+- SW6: 17.368mm inside left edge
+- TP0: 17.043mm inside right edge
+- TP1: 19.535mm inside right edge
+- TP2: 36.17mm inside left edge
+- TP3: 38.255mm inside left edge
+- TP4: 36.17mm inside left edge
+- TP5: 5.37mm inside left edge
+- TP6: 34.144mm inside bottom edge
+- TP7: 25.294mm inside left edge
+- TP8: 18.817mm inside right edge
+- TP9: 16.686mm inside bottom edge
+- TP12: 17.806mm inside bottom edge
+- TP25: 13.186mm inside bottom edge
+- TP27: 2.686mm inside bottom edge
+- TP28: 2.686mm inside bottom edge
+- TP29: 2.686mm inside bottom edge
+- TP80: 19.206mm inside bottom edge
+- TP81: 21.866mm inside bottom edge
+- U1: 26.038mm inside bottom edge
+- U2: 19.486mm inside bottom edge
+- U12: 16.426mm inside bottom edge
+- U15: 23.426mm inside bottom edge
+- U16: 23.306mm inside bottom edge
+- X1: 20.907mm inside bottom edge
+- C11: 18.926mm inside bottom edge
+- C13: 15.706mm inside bottom edge
+- C14: 15.146mm inside bottom edge
+- C70: 11.646mm inside bottom edge
+- C71: 11.646mm inside bottom edge
+- P2: 11.366mm inside bottom edge
+- R26: 36.426mm inside bottom edge
+- R36: 11.086mm inside bottom edge
+- R67: 22.286mm inside bottom edge
+- R70: 8.566mm inside bottom edge
+- R71: 8.566mm inside bottom edge
+- TP10: 2.686mm inside bottom edge
+- TP11: 39.856mm inside top edge
+- TP31: 2.686mm inside bottom edge
+- VR1: 35.446mm inside bottom edge
+- Z57: 13.326mm inside bottom edge
+- Z58: 13.326mm inside bottom edge
+- C9: 27.7mm inside right edge
+- C24: 10.48mm inside right edge
+- C25: 33.86mm inside right edge
+- C26: 15.52mm inside right edge
+- C27: 28.4mm inside right edge
+- C28: 25.18mm inside right edge
+- C29: 31.76mm inside right edge
+- C31: 22.1mm inside right edge
+- C32: 27.35mm inside right edge
+- C33: 12.37mm inside right edge
+- C35: 14.54mm inside right edge
+- C36: 28.4mm inside right edge
+- C38: 40.16mm inside right edge
+- C54: 34.98mm inside right edge
+- C55: 28.796mm inside top edge
+- C56: 30.5mm inside right edge
+- CP1: 30.336mm inside top edge
+- CP2: 33.86mm inside right edge
+- CP3: 25.016mm inside top edge
+- P3: 6.326mm inside top edge
+- Q6: 33.86mm inside right edge
+- R14: 27.396mm inside top edge
+- R19: 19.136mm inside top edge
+- R20: 22.216mm inside top edge
+- R30: 31.736mm inside top edge
+- R31: 27.396mm inside top edge
+- R34: 14.54mm inside right edge
+- R37: 43.8mm inside right edge
+- R42: 9.36mm inside right edge
+- R45: 10.13mm inside right edge
+- R46: 11.32mm inside right edge
+- R47: 12.37mm inside right edge
+- R48: 19.86mm inside right edge
+- R49: 32.74mm inside right edge
+- R50: 31.76mm inside right edge
+- R51: 30.22mm inside right edge
+- R52: 27.14mm inside right edge
+- R53: 14.54mm inside right edge
+- R54: 15.52mm inside right edge
+- R56: 31.736mm inside top edge
+- R57: 34.7mm inside right edge
+- SP1: 5.181mm inside right edge
+- TP33: 21.82mm inside right edge
+- TP34: 23.78mm inside right edge
+- TP114: 36.94mm inside right edge
+- TP115: 36.94mm inside right edge
+- U6: 34.606mm inside top edge
+- U7: 18.75mm inside right edge
+- U9: 31.075mm inside right edge
+- VR2: 14.152mm inside top edge
+
+flagged components:
+- C1
+  source placement: placement_mode=none
+  resolved placement: center=(-82.796mm, -27.545mm) on top; bounds=(minX=-83.796mm, maxX=-81.796mm, minY=-29.045mm, maxY=-26.045mm); size=(width=2mm, height=3mm); anchor_alignment="center"
+  board edge status: 8.128mm inside left edge
+  issues:
+  - C1 and TP26 footprint intrusion by 0.06mm. Suggested move: move TP26 0.06mm down.
+- TP14
+  source placement: placement_mode=none
+  resolved placement: center=(-37.436mm, 15.715mm) on top; bounds=(minX=-38.436mm, maxX=-36.436mm, minY=14.215mm, maxY=17.215mm); size=(width=2mm, height=3mm); anchor_alignment="center"
+  board edge status: 33.486mm inside bottom edge
+  issues:
+  - TP14 and R26 footprint intrusion by 0.06mm. Suggested move: move R26 0.06mm up.
+- TP26
+  source placement: placement_mode=none
+  resolved placement: center=(-82.796mm, -24.605mm) on top; bounds=(minX=-83.796mm, maxX=-81.796mm, minY=-26.105mm, maxY=-23.105mm); size=(width=2mm, height=3mm); anchor_alignment="center"
+  board edge status: 8.128mm inside left edge
+  issues:
+  - C1 and TP26 footprint intrusion by 0.06mm. Suggested move: move TP26 0.06mm down.
+- C5
+  source placement: placement_mode=none
+  resolved placement: center=(-18.816mm, 9.135mm) on top; bounds=(minX=-19.816mm, maxX=-17.816mm, minY=7.635mm, maxY=10.635mm); size=(width=2mm, height=3mm); anchor_alignment="center"
+  board edge status: 40.066mm inside bottom edge
+  issues:
+  - C5 and C49 footprint intrusion by 0.76mm. Suggested move: move C49 0.76mm up.
+- C6
+  source placement: placement_mode=none
+  resolved placement: center=(15.064mm, 9.975mm) on top; bounds=(minX=14.064mm, maxX=16.064mm, minY=8.475mm, maxY=11.475mm); size=(width=2mm, height=3mm); anchor_alignment="center"
+  board edge status: 39.226mm inside bottom edge
+  issues:
+  - C6 and C51 footprint intrusion by 0.76mm. Suggested move: move C51 0.76mm up.
+- C34
+  source placement: placement_mode=none
+  resolved placement: center=(-20.216mm, 38.255mm) on top; bounds=(minX=-21.216mm, maxX=-19.216mm, minY=36.755mm, maxY=39.755mm); size=(width=2mm, height=3mm); anchor_alignment="center"
+  board edge status: 10.946mm inside bottom edge
+  issues:
+  - C34 and C50 footprint intrusion by 0.9mm. Suggested move: move C50 0.9mm up.
+- C43
+  source placement: placement_mode=none
+  resolved placement: center=(-44.716mm, 18.795mm) on top; bounds=(minX=-45.716mm, maxX=-43.716mm, minY=17.295mm, maxY=20.295mm); size=(width=2mm, height=3mm); anchor_alignment="center"
+  board edge status: 30.406mm inside bottom edge
+  issues:
+  - C43 and C62 footprint intrusion by 0.48mm. Suggested move: move C62 0.48mm up.
+- C45
+  source placement: placement_mode=none
+  resolved placement: center=(-23.576mm, 22.435mm) on top; bounds=(minX=-24.576mm, maxX=-22.576mm, minY=20.935mm, maxY=23.935mm); size=(width=2mm, height=3mm); anchor_alignment="center"
+  board edge status: 26.766mm inside bottom edge
+  issues:
+  - C45 and C47 footprint intrusion by 0.48mm. Suggested move: move C47 0.48mm down.
+  - C45 and C52 footprint intrusion by 0.48mm. Suggested move: move C52 0.48mm up.
+- C47
+  source placement: placement_mode=none
+  resolved placement: center=(-23.576mm, 24.955mm) on top; bounds=(minX=-24.576mm, maxX=-22.576mm, minY=23.455mm, maxY=26.455mm); size=(width=2mm, height=3mm); anchor_alignment="center"
+  board edge status: 24.246mm inside bottom edge
+  issues:
+  - C47 and TP81 footprint intrusion by 0.62mm. Suggested move: move TP81 0.62mm down.
+  - C45 and C47 footprint intrusion by 0.48mm. Suggested move: move C47 0.48mm down.
+- C49
+  source placement: placement_mode=none
+  resolved placement: center=(-18.816mm, 6.895mm) on top; bounds=(minX=-19.816mm, maxX=-17.816mm, minY=5.395mm, maxY=8.395mm); size=(width=2mm, height=3mm); anchor_alignment="center"
+  board edge status: 42.306mm inside bottom edge
+  issues:
+  - C5 and C49 footprint intrusion by 0.76mm. Suggested move: move C49 0.76mm up.
+- C50
+  source placement: placement_mode=none
+  resolved placement: center=(-20.216mm, 36.155mm) on top; bounds=(minX=-21.216mm, maxX=-19.216mm, minY=34.655mm, maxY=37.655mm); size=(width=2mm, height=3mm); anchor_alignment="center"
+  board edge status: 13.046mm inside bottom edge
+  issues:
+  - C34 and C50 footprint intrusion by 0.9mm. Suggested move: move C50 0.9mm up.
+- C51
+  source placement: placement_mode=none
+  resolved placement: center=(15.064mm, 7.735mm) on top; bounds=(minX=14.064mm, maxX=16.064mm, minY=6.235mm, maxY=9.235mm); size=(width=2mm, height=3mm); anchor_alignment="center"
+  board edge status: 41.466mm inside bottom edge
+  issues:
+  - C6 and C51 footprint intrusion by 0.76mm. Suggested move: move C51 0.76mm up.
+- C52
+  source placement: placement_mode=none
+  resolved placement: center=(-23.576mm, 19.915mm) on top; bounds=(minX=-24.576mm, maxX=-22.576mm, minY=18.415mm, maxY=21.415mm); size=(width=2mm, height=3mm); anchor_alignment="center"
+  board edge status: 29.286mm inside bottom edge
+  issues:
+  - C52 and C53 footprint intrusion by 0.48mm. Suggested move: move C53 0.48mm up.
+  - C45 and C52 footprint intrusion by 0.48mm. Suggested move: move C52 0.48mm up.
+- C53
+  source placement: placement_mode=none
+  resolved placement: center=(-23.576mm, 17.395mm) on top; bounds=(minX=-24.576mm, maxX=-22.576mm, minY=15.895mm, maxY=18.895mm); size=(width=2mm, height=3mm); anchor_alignment="center"
+  board edge status: 31.806mm inside bottom edge
+  issues:
+  - C52 and C53 footprint intrusion by 0.48mm. Suggested move: move C53 0.48mm up.
+  - C53 and EM7 footprint intrusion by 0.06mm. Suggested move: move EM7 0.06mm up.
+- C62
+  source placement: placement_mode=none
+  resolved placement: center=(-44.716mm, 16.275mm) on top; bounds=(minX=-45.716mm, maxX=-43.716mm, minY=14.775mm, maxY=17.775mm); size=(width=2mm, height=3mm); anchor_alignment="center"
+  board edge status: 32.926mm inside bottom edge
+  issues:
+  - C43 and C62 footprint intrusion by 0.48mm. Suggested move: move C62 0.48mm up.
+- EM7
+  source placement: placement_mode=none
+  resolved placement: center=(-23.576mm, 14.455mm) on top; bounds=(minX=-24.576mm, maxX=-22.576mm, minY=12.955mm, maxY=15.955mm); size=(width=2mm, height=3mm); anchor_alignment="center"
+  board edge status: 34.746mm inside bottom edge
+  issues:
+  - C53 and EM7 footprint intrusion by 0.06mm. Suggested move: move EM7 0.06mm up.
+- TP0
+  source placement: placement_mode=none
+  resolved placement: center=(73.881mm, 21.151mm) on top; bounds=(minX=72.881mm, maxX=74.881mm, minY=19.651mm, maxY=22.651mm); size=(width=2mm, height=3mm); anchor_alignment="center"
+  board edge status: 17.043mm inside right edge
+  issues:
+  - TP0 and TP8 footprint intrusion by 0.225mm. Suggested move: move TP8 0.225mm left.
+- TP1
+  source placement: placement_mode=none
+  resolved placement: center=(71.389mm, 21.144mm) on top; bounds=(minX=70.389mm, maxX=72.389mm, minY=19.644mm, maxY=22.644mm); size=(width=2mm, height=3mm); anchor_alignment="center"
+  board edge status: 19.535mm inside right edge
+  issues:
+  - TP1 and TP8 footprint intrusion by 0.279mm. Suggested move: move TP8 0.279mm down.
+- TP8
+  source placement: placement_mode=none
+  resolved placement: center=(72.107mm, 23.864mm) on top; bounds=(minX=71.107mm, maxX=73.107mm, minY=22.364mm, maxY=25.364mm); size=(width=2mm, height=3mm); anchor_alignment="center"
+  board edge status: 18.817mm inside right edge
+  issues:
+  - TP1 and TP8 footprint intrusion by 0.279mm. Suggested move: move TP8 0.279mm down.
+  - TP0 and TP8 footprint intrusion by 0.225mm. Suggested move: move TP8 0.225mm left.
+- TP80
+  source placement: placement_mode=none
+  resolved placement: center=(-24.416mm, 29.995mm) on top; bounds=(minX=-25.416mm, maxX=-23.416mm, minY=28.495mm, maxY=31.495mm); size=(width=2mm, height=3mm); anchor_alignment="center"
+  board edge status: 19.206mm inside bottom edge
+  issues:
+  - TP80 and TP81 footprint intrusion by 0.34mm. Suggested move: move TP81 0.34mm up.
+- TP81
+  source placement: placement_mode=none
+  resolved placement: center=(-24.416mm, 27.335mm) on top; bounds=(minX=-25.416mm, maxX=-23.416mm, minY=25.835mm, maxY=28.835mm); size=(width=2mm, height=3mm); anchor_alignment="center"
+  board edge status: 21.866mm inside bottom edge
+  issues:
+  - C47 and TP81 footprint intrusion by 0.62mm. Suggested move: move TP81 0.62mm down.
+  - TP80 and TP81 footprint intrusion by 0.34mm. Suggested move: move TP81 0.34mm up.
+- R26
+  source placement: placement_mode=none
+  resolved placement: center=(-38.556mm, 12.775mm) on top; bounds=(minX=-39.556mm, maxX=-37.556mm, minY=11.275mm, maxY=14.275mm); size=(width=2mm, height=3mm); anchor_alignment="center"
+  board edge status: 36.426mm inside bottom edge
+  issues:
+  - TP14 and R26 footprint intrusion by 0.06mm. Suggested move: move R26 0.06mm up.
+- TP33
+  source placement: placement_mode=none
+  resolved placement: center=(69.104mm, -20.265mm) on top; bounds=(minX=68.104mm, maxX=70.104mm, minY=-21.765mm, maxY=-18.765mm); size=(width=2mm, height=3mm); anchor_alignment="center"
+  board edge status: 21.82mm inside right edge
+  issues:
+  - TP33 and TP34 footprint intrusion by 0.04mm. Suggested move: move TP34 0.04mm left.
+- TP34
+  source placement: placement_mode=none
+  resolved placement: center=(67.144mm, -20.825mm) on top; bounds=(minX=66.144mm, maxX=68.144mm, minY=-22.325mm, maxY=-19.325mm); size=(width=2mm, height=3mm); anchor_alignment="center"
+  board edge status: 23.78mm inside right edge
+  issues:
+  - TP33 and TP34 footprint intrusion by 0.04mm. Suggested move: move TP34 0.04mm left.
+- TP114
+  source placement: placement_mode=none
+  resolved placement: center=(53.984mm, 12.215mm) on top; bounds=(minX=52.984mm, maxX=54.984mm, minY=10.715mm, maxY=13.715mm); size=(width=2mm, height=3mm); anchor_alignment="center"
+  board edge status: 36.94mm inside right edge
+  issues:
+  - TP114 and TP115 footprint intrusion by 1.18mm. Suggested move: move TP115 1.18mm up.
+- TP115
+  source placement: placement_mode=none
+  resolved placement: center=(53.984mm, 10.395mm) on top; bounds=(minX=52.984mm, maxX=54.984mm, minY=8.895mm, maxY=11.895mm); size=(width=2mm, height=3mm); anchor_alignment="center"
+  board edge status: 36.94mm inside right edge
+  issues:
+  - TP114 and TP115 footprint intrusion by 1.18mm. Suggested move: move TP115 1.18mm up.
+
+placement drc:
+Errors: 1
+Warnings: 1
+- pcb_component_outside_board_error: Component NT1 extends outside board boundaries by 0.45mm.
+- pcb_connector_not_in_accessible_orientation_warning: component is facing x- but should face y+ so the connector is accessible from the board edge
+error: script "check:placement" exited with code 1

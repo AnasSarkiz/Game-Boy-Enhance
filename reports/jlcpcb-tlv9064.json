@@ -1,0 +1,104 @@
+{
+  "query": "TLV9064",
+  "results": [
+    {
+      "source": "jlcpcb",
+      "lcsc": 779410,
+      "mfr": "TLV9064IPWR",
+      "package": "TSSOP-14",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+125℃ 0.05pA 1.6mV 1.8V~5.5V 10MHz 16nV/√Hz@1kHz 4 5.5V 50mA 530nV/℃ 538uA 6.5V/us 81pA 87dB Rail-to-Rail Input, Rail-to-Rail Output TSSOP-14 Operational Amplifier ROHS",
+      "stock": 9749,
+      "price": 0.382
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 388176,
+      "mfr": "TLV9064IDR",
+      "package": "SOIC-14",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+125℃ 0.05pA 0.5pA 1.8V~5.5V 103dB 10MHz 16nV/√Hz@1kHz 300uV 4 5.5V 50mA 530nV/℃ 538uA 6.5V/us Rail-to-Rail Input, Rail-to-Rail Output SOIC-14 Operational Amplifier ROHS",
+      "stock": 9176,
+      "price": 0.3843
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 54539964,
+      "mfr": "TLV9064IDR-MS",
+      "package": "SOP-14",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "SOP-14 Operational Amplifier ROHS",
+      "stock": 2465,
+      "price": 0.3328
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 44606413,
+      "mfr": "TLV9064MT/TR",
+      "package": "TSSOP-14",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "TSSOP-14 Operational Amplifier ROHS",
+      "stock": 1880,
+      "price": 0.1961
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 882406,
+      "mfr": "TLV9064IRTER",
+      "package": "WQFN-16(3x3)",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+125℃ 0.05pA 0.5pA 1.6mV 1.8V~5.5V 10MHz 16nV/√Hz@1kHz 4 5.5V 50mA 530nV/℃ 538uA 6.5V/us 87dB Rail-to-Rail Input, Rail-to-Rail Output WQFN-16(3x3) Operational Amplifier ROHS",
+      "stock": 154,
+      "price": 0.9762
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 2058075,
+      "mfr": "TLV9064SIRTER",
+      "package": "WQFN-16-EP(3x3)",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+125℃ 0.5pA 0.5pA 1.8V~5.5V 103dB 10MHz 10nV/√Hz@1kHz 300uV 4 5.5V 50mA 530nV/℃ 538uA 6.5V/us Rail-to-Rail Input, Rail-to-Rail Output WQFN-16-EP(3x3) Operational Amplifier ROHS",
+      "stock": 134,
+      "price": 1.2104
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 2868958,
+      "mfr": "TLV9064QDRQ1",
+      "package": "SOIC-14",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+125℃ 1.8V~5.5V 103dB 10MHz 10nV/√Hz@10kHz 300uV 4 50mA 530nV/℃ 538uA 5pA 5pA 6.5V/us ESD protection、EMI filtering/RF suppression Rail-to-Rail Input, Rail-to-Rail Output SOIC-14 Operational Amplifier ROHS",
+      "stock": 88,
+      "price": 1.3845
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 2878947,
+      "mfr": "TLV9064IRUCR",
+      "package": "QFN-14(2x2)",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+125℃ 0.05pA 0.5pA 1.6mV 1.8V~5.5V 10MHz 16nV/√Hz@1kHz 4 50mA 530nV/℃ 538uA 6.5V/us 87dB Enable/shutdown function、ESD protection、EMI filtering/RF suppression Rail-to-Rail Input, Rail-to-Rail Output QFN-14(2x2) Operational Amplifier ROHS",
+      "stock": 75,
+      "price": 2.8015
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 2866123,
+      "mfr": "TLV9064QPWRQ1",
+      "package": "TSSOP-14",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+125℃ 1.8V~5.5V 103dB 10MHz 10nV/√Hz@10kHz 300uV 4 50mA 530nV/℃ 538uA 5pA 5pA 6.5V/us Enable/shutdown function、ESD protection、EMI filtering/RF suppression Rail-to-Rail Input, Rail-to-Rail Output TSSOP-14 Operational Amplifier ROHS",
+      "stock": 20,
+      "price": 2.4306
+    }
+  ]
+}

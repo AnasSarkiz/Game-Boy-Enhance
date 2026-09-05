@@ -1,0 +1,27 @@
+{
+  "query": "SN74LVC1G332DBVR",
+  "results": [
+    {
+      "source": "jlcpcb",
+      "lcsc": 43368,
+      "mfr": "SN74LVC1G332DBVR",
+      "package": "SOT-23-6",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+85℃ 1 1.2V、1.9V、2.4V、3.8V 1.65V~5.5V 1.7V~2V 10uA 3 300mV、400mV、450mV、550mV 32mA 32mA 4.5ns@5V,50pF 700mV~800mV 74LVC Series Local shutdown mode OR Gate SOT-23-6 Logic Gates ROHS",
+      "stock": 5053,
+      "price": 0.2519
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 51939612,
+      "mfr": "SN74LVC1G332DBVR-TP",
+      "package": "SOT-23-6",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+125℃ 1.2V、1.9V、2.3V、2.4V、3.8V 1.65V~5.5V 1.7V、2V 100mV、300mV、400mV、450mV、550mV 10uA 17.2ns@1.8V,30pF 3 32mA 32mA 700mV、800mV 74LVC OR Gate SOT-23-6 Logic Gates ROHS",
+      "stock": 1279,
+      "price": 0.0459
+    }
+  ]
+}

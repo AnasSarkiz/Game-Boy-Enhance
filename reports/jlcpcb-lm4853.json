@@ -1,0 +1,27 @@
+{
+  "query": "LM4853",
+  "results": [
+    {
+      "source": "jlcpcb",
+      "lcsc": 2872995,
+      "mfr": "LM4853MM/NOPB",
+      "package": "VSSOP-10-0.5mm",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+85℃ 1% 1-Channel、2-Channel 1.5W×1@4Ω、300mW×2@8Ω 2.4V~5.5V 2.4mA Automatic mute/no-noise switch、Enable/shutdown function、ESD protection VSSOP-10-0.5mm Audio Amplifiers ROHS",
+      "stock": 118,
+      "price": 1.6627
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 4991160,
+      "mfr": "LM4853MMX/NOPB",
+      "package": "VSSOP-10",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+85℃ 1% 1-Channel 2.4V~5.5V 2.4mA 300mWx2@8Ω、1.9Wx1@3Ω VSSOP-10 Audio Amplifiers ROHS",
+      "stock": 32,
+      "price": 1.6714
+    }
+  ]
+}

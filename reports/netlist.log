@@ -1,0 +1,3007 @@
+Errors: 0
+Warnings: 0
+
+Readable Netlist:
+COMPONENTS:
+ - BT1: Battery
+ - C1: 22uF capacitor
+ - C2: 10uF capacitor
+ - C10: 0.1uF capacitor
+ - C12: 10uF capacitor
+ - C21: 22uF capacitor
+ - C22: 1uF capacitor
+ - C23: 10uF capacitor
+ - C37: 10uF capacitor
+ - C42: 22uF capacitor
+ - C44: 1uF capacitor
+ - C57: 10uF capacitor
+ - C58: 22uF capacitor
+ - C59: 10uF capacitor
+ - C60: 10uF capacitor
+ - C61: 3300pF capacitor
+ - C68: 10uF capacitor
+ - C72: 0.1uF capacitor
+ - C80: 3300pF capacitor
+ - D1: 1SS355VMTE-17
+ - D2: 1SS355VMTE-17
+ - DL1: 150060VS75000
+ - DL2: 150060RS75000
+ - F1: F0805B2R00FSTR
+ - L1: 0.47uH
+ - L2: 0.47uH
+ - NT1: NetTie_2
+ - PTC1: 0805L075SLYR
+ - Q1: 2N3904
+ - Q3: 2N3906
+ - Q5: NDC7002N
+ - Q9: NDC7002N
+ - Q10: NDC7002N
+ - R3: 5.1kΩ resistor
+ - R4: 33kΩ resistor
+ - R8: 100kΩ resistor
+ - R9: 100kΩ resistor
+ - R10: 20kΩ resistor
+ - R11: 1kΩ resistor
+ - R12: 100kΩ resistor
+ - R13: 100kΩ resistor
+ - R15: 10kΩ resistor
+ - R16: 10kΩ resistor
+ - R17: 100kΩ resistor
+ - R18: 10kΩ resistor
+ - R24: 100kΩ resistor
+ - R25: 3.3kΩ resistor
+ - R58: 5.1kΩ resistor
+ - R59: 820kΩ resistor
+ - R60: 91kΩ resistor
+ - R63: 100kΩ resistor
+ - R64: 200kΩ resistor
+ - R65: 100kΩ resistor
+ - R66: 100kΩ resistor
+ - R72: 510kΩ resistor
+ - R73: 91kΩ resistor
+ - SW1: CSS-1310B
+ - TP13: VOUT5
+ - TP14: VDD5
+ - TP15: ~{RESET}
+ - TP16: VOUT3
+ - TP17: ~{MR}
+ - TP18: VDD2
+ - TP19: VBATT
+ - TP20: SW
+ - TP21: VDD3
+ - TP22: VAUD
+ - TP23: PG3
+ - TP24: EN
+ - TP26: VFILT
+ - TP30: PG2V5
+ - TP32: VCC
+ - U3: TPS3840DL20
+ - U4: NCV8164ASN250T1G
+ - U5: TPS63802
+ - U8: NCV8164ASN250T1G
+ - U10: TPS3840DL20
+ - U11: TPS22917DBV
+ - U13: TPS63802
+ - U14: MIC1557YM5-TR
+ - U17: TPS3840DL20
+ - U18: TPS22917DBV
+ - C3: 27pF capacitor
+ - C4: 33pF capacitor
+ - C5: 0.1uF capacitor
+ - C6: 0.1uF capacitor
+ - C7: 0.1uF capacitor
+ - C8: 0.1uF capacitor
+ - C15: 0.1uF capacitor
+ - C16: 0.1uF capacitor
+ - C17: 0.1uF capacitor
+ - C18: 100pF capacitor
+ - C19: 100pF capacitor
+ - C20: 100pF capacitor
+ - C30: 1uF capacitor
+ - C34: 0.1uF capacitor
+ - C39: 0.1uF capacitor
+ - C43: 0.1uF capacitor
+ - C45: 1uF capacitor
+ - C46: 1uF capacitor
+ - C47: 1uF capacitor
+ - C48: 1uF capacitor
+ - C49: 1uF capacitor
+ - C50: 1uF capacitor
+ - C51: 1uF capacitor
+ - C52: 0.1uF capacitor
+ - C53: 0.1uF capacitor
+ - C62: 0.01uF capacitor
+ - C63: 0.01uF capacitor
+ - C64: 0.01uF capacitor
+ - C69: 1uF capacitor
+ - C73: 0.01uF capacitor
+ - C74: 0.01uF capacitor
+ - C75: 0.01uF capacitor
+ - C76: 0.01uF capacitor
+ - C77: 0.01uF capacitor
+ - C78: 0.01uF capacitor
+ - C79: 0.01uF capacitor
+ - EM1: ACM2520-801-3P-T002
+ - EM2: ACM2520-801-3P-T002
+ - EM3: MH1608-601Y
+ - EM7: MH1608-601Y
+ - JP1: Jumper_2_Open
+ - JP2: Jumper_2_Open
+ - JP3: Jumper_2_Open
+ - P1: CART SLOT
+ - P4: AGB-LINK
+ - Q2: NDC7002N
+ - Q7: NDC7002N
+ - Q8: 2N7002
+ - R1: 1.5MΩ resistor
+ - R2: 10kΩ resistor
+ - R5: 100kΩ resistor
+ - R6: 100kΩ resistor
+ - R7: 100kΩ resistor
+ - R29: 18kΩ resistor
+ - R35: 100kΩ resistor
+ - R38: 47Ω resistor
+ - R39: 47Ω resistor
+ - R40: 15Ω resistor
+ - R41: 2.2kΩ resistor
+ - R43: 15Ω resistor
+ - R44: 15Ω resistor
+ - R68: 100kΩ resistor
+ - RA1: 330
+ - SW2: 1825027-5
+ - SW3: 1825027-5
+ - SW4: SKRRABE010
+ - SW5: SKRRABE010
+ - SW6: SKRRABE010
+ - TP0: TP0
+ - TP1: TP1
+ - TP2: TP2
+ - TP3: TP3
+ - TP4: TP4
+ - TP5: TP5
+ - TP6: TP6
+ - TP7: TP7
+ - TP8: TP8
+ - TP9: TP9
+ - TP12: TestPoint
+ - TP25: SCK
+ - TP27: R
+ - TP28: L
+ - TP29: SEL
+ - TP80: CK1
+ - TP81: CK2
+ - U1: AGB-CPU
+ - U2: AGB-SRAM
+ - U12: TPS22917DBV
+ - U15: SN74LVC1G332
+ - U16: SN74HC02PWR
+ - X1: 4.194304MHz
+ - C11: 1uF capacitor
+ - C13: 0.1uF capacitor
+ - C14: 0.1uF capacitor
+ - C70: 47pF capacitor
+ - C71: 47pF capacitor
+ - P2: FFC CONNECTOR
+ - R26: 33kΩ resistor
+ - R36: 270Ω resistor
+ - R67: 100kΩ resistor
+ - R70: 100kΩ resistor
+ - R71: 100kΩ resistor
+ - TP10: TOUCH1
+ - TP11: TOUCH2
+ - TP31: TOUCH2B
+ - VR1: 50k
+ - Z57: 100p or 0 ohm
+ - Z58: 100p or 0 ohm
+ - C9: 1uF capacitor
+ - C24: 1000pF capacitor
+ - C25: 1uF capacitor
+ - C26: 680pF capacitor
+ - C27: 330pF capacitor
+ - C28: 3300pF capacitor
+ - C29: 1uF capacitor
+ - C31: 680pF capacitor
+ - C32: 1000pF capacitor
+ - C33: 330pF capacitor
+ - C35: 3300pF capacitor
+ - C36: 1uF capacitor
+ - C38: 1uF capacitor
+ - C54: 1uF capacitor
+ - C55: 1uF capacitor
+ - C56: 1uF capacitor
+ - CP1: 100uF capacitor
+ - CP2: 100uF capacitor
+ - CP3: 100uF capacitor
+ - P3: SJ-3524-SMT
+ - Q6: 2N7002
+ - R14: 100kΩ resistor
+ - R19: 1kΩ resistor
+ - R20: 1kΩ resistor
+ - R30: 100kΩ resistor
+ - R31: 100kΩ resistor
+ - R34: 5.1kΩ resistor
+ - R37: 100kΩ resistor
+ - R42: 7.5kΩ resistor
+ - R45: 100kΩ resistor
+ - R46: 100kΩ resistor
+ - R47: 20kΩ resistor
+ - R48: 18kΩ resistor
+ - R49: 100kΩ resistor
+ - R50: 100kΩ resistor
+ - R51: 7.5kΩ resistor
+ - R52: 20kΩ resistor
+ - R53: 5.1kΩ resistor
+ - R54: 18kΩ resistor
+ - R56: 20kΩ resistor
+ - R57: 20kΩ resistor
+ - SP1: Speaker
+ - TP33: LIN
+ - TP34: RIN
+ - TP114: R-OUT
+ - TP115: L-OUT
+ - U6: LM4853
+ - U7: TLV9064IPWR
+ - U9: SN74LVC2G34DBVR
+ - VR2: RK10J12R0A0B
+
+NET: CPU_A_0
+  - U1 AD0_A0_33
+  - P1 AD0_A0_6
+
+NET: CPU_A_1
+  - U1 AD1_A1_32
+  - P1 AD1_A1_7
+
+NET: CPU_A_2
+  - U1 AD2_A2_31
+  - P1 AD2_A2_8
+
+NET: CPU_A_3
+  - U1 AD3_A3_30
+  - P1 AD3_A3_9
+
+NET: CPU_A_4
+  - U1 AD4_A4_29
+  - P1 AD4_A4_10
+
+NET: CPU_A_5
+  - U1 AD5_A5_28
+  - P1 AD5_A5_11
+
+NET: CPU_A_6
+  - U1 AD6_A6_27
+  - P1 AD6_A6_12
+
+NET: CPU_A_7
+  - U1 AD7_A7_26
+  - P1 AD7_A7_13
+
+NET: CPU_A_8
+  - U1 AD8_A8_25
+  - P1 AD8_A8_14
+
+NET: CPU_A_9
+  - U1 AD9_A9_24
+  - P1 AD9_A9_15
+
+NET: CPU_A_10
+  - U1 AD10_A10_23
+  - P1 AD10_A10_16
+
+NET: CPU_A_11
+  - U1 AD11_A11_22
+  - P1 AD11_A11_17
+
+NET: CPU_A_12
+  - U1 AD12_A12_21
+  - P1 AD12_A12_18
+
+NET: CPU_A_13
+  - U1 AD13_A13_20
+  - P1 AD13_A13_19
+
+NET: CPU_A_14
+  - U1 AD14_A14_19
+  - P1 AD14_A14_20
+
+NET: CPU_A_15
+  - U1 AD15_A15_18
+  - P1 AD15_A15_21
+
+NET: CPU_Audio_L_OUT
+  - U9 1A_1
+  - U1 SO2_7
+  - TP115 1_1
+
+NET: CPU_Audio_LIN
+  - VR2 LIN_3
+  - TP33 1_1
+  - C56 pin1 (+)
+
+NET: CPU_Audio_R_OUT
+  - U9 2A_3
+  - U1 SO1_6
+  - TP114 1_1
+
+NET: CPU_Audio_RIN
+  - VR2 RIN_4
+  - TP34 1_1
+  - C55 pin1 (+)
+
+NET: CPU_CK1
+  - X1 1_1
+  - U1 CLK1_113
+  - TP80 1_1
+  - R1 pin1
+  - C3 pin2 (-)
+
+NET: CPU_CK2
+  - U1 CLK2_114
+  - TP81 1_1
+  - R41 pin1
+  - R1 pin2
+
+NET: CPU_CLS
+  - U1 CLS_105
+  - P2 CLS_25
+
+NET: CPU_DCK_R
+  - U1 DCK_84
+  - R36 pin2
+
+NET: CPU_D_0
+  - U1 A16_D0_17
+  - P1 A16_D0_22
+
+NET: CPU_D_1
+  - U1 A17_D1_16
+  - P1 A17_D1_23
+
+NET: CPU_D_2
+  - U1 A18_D2_15
+  - P1 A18_D2_24
+
+NET: CPU_D_3
+  - U1 A19_D3_14
+  - P1 A19_D3_25
+
+NET: CPU_D_4
+  - U1 A20_D4_13
+  - P1 A20_D4_26
+
+NET: CPU_D_5
+  - U1 A21_D5_12
+  - P1 A21_D5_27
+
+NET: CPU_D_6
+  - U1 A22_D6_11
+  - P1 A22_D6_28
+
+NET: CPU_D_7
+  - U1 A23_D7_10
+  - P1 A23_D7_29
+
+NET: CPU_Display_DCK
+  - R36 pin1
+  - P2 DCLK_3
+
+NET: CPU_Display_VCOM
+  - VR1 2_2
+  - P2 VCOM_29
+
+NET: CPU_Display_VR1_2
+  - VR1 1_1
+  - R26 pin1
+
+NET: CPU_Display_ZA
+  - Z58 PIN_1
+  - Q7 pin6
+
+NET: CPU_Display_ZB
+  - Z57 PIN_1
+  - Q2 D_4
+
+NET: CPU_IN35
+  - U1 IN35_2
+  - R5 pin1
+  - P1 PIN_C2
+
+NET: CPU_IRQ
+  - U1 IRQ_8
+  - R6 pin2
+  - P1 IRQ_DREQ_31
+
+NET: CPU_LDB1
+  - U1 LDB1_101
+  - P2 B1_23
+
+NET: CPU_LDB2
+  - U1 LDB2_100
+  - P2 B2_22
+
+NET: CPU_LDB3
+  - U1 LDB3_99
+  - P2 B3_21
+
+NET: CPU_LDB4
+  - U1 LDB4_98
+  - P2 B4_20
+
+NET: CPU_LDB5
+  - U1 LDB5_97
+  - P2 B5_19
+
+NET: CPU_LDG1
+  - U1 LDG1_96
+  - P2 G1_17
+
+NET: CPU_LDG2
+  - U1 LDG2_95
+  - P2 G2_16
+
+NET: CPU_LDG3
+  - U1 LDG3_94
+  - P2 G3_15
+
+NET: CPU_LDG4
+  - U1 LDG4_93
+  - P2 G4_14
+
+NET: CPU_LDG5
+  - U1 LDG5_92
+  - P2 G5_13
+
+NET: CPU_LDR1
+  - U1 LDR1_91
+  - P2 R1_12
+
+NET: CPU_LDR2
+  - U1 LDR2_90
+  - P2 R2_11
+
+NET: CPU_LDR3
+  - U1 LDR3_89
+  - P2 R3_10
+
+NET: CPU_LDR4
+  - U1 LDR4_88
+  - P2 R4_9
+
+NET: CPU_LDR5
+  - U1 LDR5_87
+  - P2 R5_8
+
+NET: CPU_LGND
+  - P4 SHIELD_8
+  - P4 SHIELD_7
+  - P4 GND_6
+  - EM2 4_4
+  - EM1 6_6
+
+NET: CPU_LP
+  - U1 LP_85
+  - P2 LP_4
+
+NET: CPU_LRST
+  - U16 PIN_8
+  - U16 PIN_6
+  - U16 PIN_3
+  - U16 PIN_11
+  - U15 PIN_4
+
+NET: CPU_MA_0
+  - U2 LAND_25_49
+  - U2 MA0_25
+  - U1 MA0_45
+
+NET: CPU_MA_1
+  - U2 LAND_24_47
+  - U2 MA1_24
+  - U1 MA1_46
+
+NET: CPU_MA_2
+  - U2 LAND_23_45
+  - U2 MA2_23
+  - U1 MA2_47
+
+NET: CPU_MA_3
+  - U2 LAND_22_43
+  - U2 MA3_22
+  - U1 MA3_48
+
+NET: CPU_MA_4
+  - U2 LAND_21_41
+  - U2 MA4_21
+  - U1 MA4_49
+
+NET: CPU_MA_5
+  - U2 LAND_20_39
+  - U2 MA5_20
+  - U1 MA5_50
+
+NET: CPU_MA_6
+  - U2 LAND_19_37
+  - U2 MA6_19
+  - U1 MA6_51
+
+NET: CPU_MA_7
+  - U2 LAND_18_35
+  - U2 MA7_18
+  - U1 MA7_52
+
+NET: CPU_MA_8
+  - U2 LAND_8_15
+  - U2 MA8_8
+  - U1 MA8_56
+
+NET: CPU_MA_9
+  - U2 LAND_7_13
+  - U2 MA9_7
+  - U1 MA9_57
+
+NET: CPU_MA_10
+  - U2 LAND_6_11
+  - U2 MA10_6
+  - U1 MA10_58
+
+NET: CPU_MA_11
+  - U2 LAND_5_9
+  - U2 MA11_5
+  - U1 MA11_59
+
+NET: CPU_MA_12
+  - U2 LAND_4_7
+  - U2 MA12_4
+  - U1 MA12_60
+
+NET: CPU_MA_13
+  - U2 LAND_3_5
+  - U2 MA13_3
+  - U1 MA13_61
+
+NET: CPU_MA_14
+  - U2 LAND_2_3
+  - U2 MA14_2
+  - U1 MA14_62
+
+NET: CPU_MA_15
+  - U2 LAND_1_1
+  - U2 MA15_1
+  - U1 MA15_63
+
+NET: CPU_MA_16
+  - U2 LAND_48_95
+  - U2 MA16_48
+  - U1 MA16_74
+
+NET: CPU_MD_0
+  - U2 LAND_29_57
+  - U2 MD0_29
+  - U1 MD0_82
+
+NET: CPU_MD_1
+  - U2 LAND_31_61
+  - U2 MD1_31
+  - U1 MD1_80
+
+NET: CPU_MD_2
+  - U2 LAND_33_65
+  - U2 MD2_33
+  - U1 MD2_78
+
+NET: CPU_MD_3
+  - U2 LAND_35_69
+  - U2 MD3_35
+  - U1 MD3_76
+
+NET: CPU_MD_4
+  - U2 LAND_38_75
+  - U2 MD4_38
+  - U1 MD4_66
+
+NET: CPU_MD_5
+  - U2 LAND_40_79
+  - U2 MD5_40
+  - U1 MD5_68
+
+NET: CPU_MD_6
+  - U2 LAND_42_83
+  - U2 MD6_42
+  - U1 MD6_70
+
+NET: CPU_MD_7
+  - U2 LAND_44_87
+  - U2 MD7_44
+  - U1 MD7_72
+
+NET: CPU_MD_8
+  - U2 LAND_30_59
+  - U2 MD8_30
+  - U1 MD8_81
+
+NET: CPU_MD_9
+  - U2 LAND_32_63
+  - U2 MD9_32
+  - U1 MD9_79
+
+NET: CPU_MD_10
+  - U2 LAND_34_67
+  - U2 MD10_34
+  - U1 MD10_77
+
+NET: CPU_MD_11
+  - U2 LAND_36_71
+  - U2 MD11_36
+  - U1 MD11_75
+
+NET: CPU_MD_12
+  - U2 LAND_39_77
+  - U2 MD12_39
+  - U1 MD12_67
+
+NET: CPU_MD_13
+  - U2 LAND_41_81
+  - U2 MD13_41
+  - U1 MD13_69
+
+NET: CPU_MD_14
+  - U2 LAND_43_85
+  - U2 MD14_43
+  - U1 MD14_71
+
+NET: CPU_MD_15
+  - U2 LAND_45_89
+  - U2 MD15_45
+  - U1 MD15_73
+
+NET: CPU_MOD
+  - U1 MOD_107
+  - P2 MOD_28
+
+NET: CPU_PHI
+  - U1 PHI_37
+  - P1 PHI_2
+
+NET: CPU_PS
+  - U1 PS_86
+  - P2 PS_5
+
+NET: CPU_RES
+  - R40 pin1
+  - R2 pin2
+  - P1 CS2_N_RES_N_30
+
+NET: CPU_RES_0
+  - U1 CS2_N_9
+  - R40 pin2
+
+NET: CPU_SCK
+  - P4 SCK_5
+  - EM2 5_5
+
+NET: CPU_SD
+  - P4 SD_4
+  - EM2 6_6
+
+NET: CPU_SI
+  - P4 SI_3
+  - EM1 5_5
+
+NET: CPU_SO
+  - P4 SO_2
+  - EM1 4_4
+
+NET: CPU_SPL
+  - U1 SPL_104
+  - P2 SPL_24
+
+NET: CPU_SPS
+  - U1 SPS_106
+  - P2 SPS_26
+
+NET: CPU_TP0
+  - U16 PIN_9
+  - U1 P0_4
+  - TP0 1_1
+  - SW4 LAND_2_7
+  - SW4 LAND_2_6
+  - SW4 LAND_2_5
+  - SW4 A_2
+  - C79 pin2 (-)
+
+NET: CPU_TP1
+  - U16 PIN_5
+  - U1 P1_5
+  - TP1 1_1
+  - SW4 LAND_1_3
+  - SW4 LAND_1_2
+  - SW4 LAND_1_1
+  - SW4 B_1
+  - C73 pin2 (-)
+
+NET: CPU_TP2
+  - U16 PIN_12
+  - U1 P2_126
+  - TP29 1_1
+  - TP2 1_1
+  - SW5 LAND_2_5
+  - SW5 LAND_2_4
+  - SW5 SEL_2
+  - C78 pin2 (-)
+
+NET: CPU_TP3
+  - U15 PIN_1
+  - U1 P3_127
+  - TP3 1_1
+  - SW5 LAND_1_2
+  - SW5 LAND_1_1
+  - SW5 START_1
+  - C77 pin2 (-)
+
+NET: CPU_TP4
+  - U1 P4_123
+  - TP4 1_1
+  - SW6 LAND_2_6
+  - SW6 LAND_2_5
+  - SW6 RIGHT_2
+  - C74 pin2 (-)
+
+NET: CPU_TP5
+  - U1 P5_121
+  - TP5 1_1
+  - SW6 LAND_4_12
+  - SW6 LAND_4_11
+  - SW6 LEFT_4
+  - C75 pin2 (-)
+
+NET: CPU_TP6
+  - U16 PIN_2
+  - U1 P6_120
+  - TP6 1_1
+  - SW6 LAND_1_3
+  - SW6 LAND_1_2
+  - SW6 UP_1
+  - C62 pin2 (-)
+
+NET: CPU_TP7
+  - U1 P7_122
+  - TP7 1_1
+  - SW6 LAND_3_9
+  - SW6 LAND_3_8
+  - SW6 DOWN_3
+  - C76 pin2 (-)
+
+NET: CPU_TP8
+  - U15 PIN_3
+  - U1 P8_3
+  - TP8 1_1
+  - TP27 1_1
+  - R43 pin2
+  - C63 pin2 (-)
+
+NET: CPU_TP9
+  - U15 PIN_6
+  - U1 P9_119
+  - TP9 1_1
+  - TP28 1_1
+  - R44 pin2
+  - C64 pin2 (-)
+
+NET: CPU_VCNT5
+  - U1 R10_118
+  - Q8 G_1
+
+NET: CPU_VSHD
+  - U12 VOUT_6
+  - U12 QOD_5
+  - R67 pin2
+  - P2 VSHD_7
+  - P2 TST3_27
+  - P2 TST1_2
+  - C14 pin1 (+)
+
+NET: CPU_CS_N
+  - R39 pin1
+  - P1 CS1_N_CS_N_5
+
+NET: CPU_CS_N_0
+  - U1 CS1_N_34
+  - R39 pin2
+
+NET: CPU_LB_N
+  - U2 LAND_15_29
+  - U2 LB_N_15
+  - U1 LB_53
+
+NET: CPU_OE_N_RAM
+  - U2 LAND_28_55
+  - U2 OE_N_28
+  - U1 MRD_83
+
+NET: CPU_RD_N
+  - U1 RD_N_35
+  - P1 RD_N_4
+
+NET: CPU_UB_N
+  - U2 LAND_14_27
+  - U2 UB_N_14
+  - U1 UB_54
+
+NET: CPU_WE_N_RAM
+  - U2 LAND_11_21
+  - U2 WE_N_11
+  - U1 MWR_55
+
+NET: CPU_WR_N
+  - R38 pin1
+  - P1 WR_N_3
+
+NET: CPU_WR_N_0
+  - U1 WR_N_36
+  - R38 pin2
+
+NET: D1A
+  - Q9 pin6
+  - Q9 G_3
+  - DL1 K_1
+  - C68 pin1 (+)
+
+NET: DL1A
+  - R25 pin2
+  - DL1 A_2
+
+NET: DL2A
+  - R10 pin2
+  - Q5 pin6
+  - DL2 A_2
+
+NET: EN
+  - U3 RESET_N_1
+  - U13 EN_1
+  - TP24 1_1
+  - R24 pin1
+  - R11 pin2
+  - Q10 pin5
+  - Q10 G_3
+
+NET: PG_2V5
+  - U8 PGOOD_4
+  - U5 EN_1
+  - U4 SHDN_N_3
+  - U18 ON_3
+  - TP30 1_1
+  - R8 pin2
+
+NET: PG_3V3
+  - U8 SHDN_N_3
+  - U13 PG_5
+  - TP23 1_1
+  - R13 pin1
+
+NET: VFILT
+  - U3 VDD_2
+  - TP26 1_1
+  - R9 pin2
+  - D2 K_1
+  - C1 pin1 (+)
+
+NET: MR_N
+  - U3 MR_N_4
+  - TP17 1_1
+  - Q10 pin6
+
+NET: RESET_N
+  - U5 PG_5
+  - TP15 1_1
+  - R29 pin1
+  - JP1 B_2
+  - EM7 PIN_1
+  - C30 pin2 (-)
+
+NET: VCNT5_N
+  - U12 ON_3
+  - U11 ON_3
+  - R7 pin2
+  - Q8 D_3
+
+NET: AGND
+  - VR2 COM_5
+  - U9 GND_2
+  - U7 V_11
+  - U6 GND_4
+  - R49 pin2
+  - R45 pin2
+  - R20 pin2
+  - R19 pin2
+  - Q6 S_2
+  - P3 LAND_1_3
+  - P3 PIN_1
+  - NT1 2_2
+  - C9 pin2 (-)
+  - C59 pin2 (-)
+  - C54 pin2 (-)
+  - C38 pin2 (-)
+  - C36 pin2 (-)
+  - C33 pin2 (-)
+  - C31 pin2 (-)
+  - C27 pin2 (-)
+  - C26 pin2 (-)
+
+NET: GND
+  - VR1 3_3
+  - U8 GND_2
+  - U5 GND_8
+  - U5 AGND_3
+  - U5 MODE_2
+  - U4 GND_2
+  - U3 GND_3
+  - U2 LAND_46_91
+  - U2 GND_46
+  - U2 LAND_27_53
+  - U2 GND_27
+  - U2 LAND_26_51
+  - U2 CE1_N_26
+  - U2 LAND_13_25
+  - U2 NC_GND_13
+  - U18 GND_2
+  - U17 GND_3
+  - U16 GND_7
+  - U15 GND_2
+  - U14 GND_2
+  - U13 GND_8
+  - U13 AGND_3
+  - U13 MODE_2
+  - U12 GND_2
+  - U11 GND_2
+  - U10 GND_3
+  - U1 GND_64
+  - U1 GND_39
+  - U1 GND_128
+  - U1 GND_116
+  - U1 TEST3_112
+  - U1 TEST2_111
+  - U1 TEST1_110
+  - U1 TEST0_109
+  - U1 GND_102
+  - SW6 LAND_8_24
+  - SW6 LAND_8_23
+  - SW6 GND_8
+  - SW6 LAND_7_21
+  - SW6 LAND_7_20
+  - SW6 GND_7
+  - SW6 LAND_6_18
+  - SW6 LAND_6_17
+  - SW6 GND_6
+  - SW6 LAND_5_15
+  - SW6 LAND_5_14
+  - SW6 GND_5
+  - SW5 LAND_4_13
+  - SW5 LAND_4_12
+  - SW5 LAND_4_11
+  - SW5 GND_4
+  - SW5 LAND_3_9
+  - SW5 LAND_3_8
+  - SW5 LAND_3_7
+  - SW5 GND_3
+  - SW4 LAND_4_15
+  - SW4 LAND_4_14
+  - SW4 LAND_4_13
+  - SW4 GND_4
+  - SW4 LAND_3_11
+  - SW4 LAND_3_10
+  - SW4 LAND_3_9
+  - SW4 GND_3
+  - SW3 LAND_2_3
+  - SW3 LAND_2_2
+  - SW3 2_2
+  - SW2 LAND_2_3
+  - SW2 LAND_2_2
+  - SW2 2_2
+  - R73 pin2
+  - R63 pin2
+  - R60 pin2
+  - R5 pin2
+  - R4 pin2
+  - R24 pin2
+  - R17 pin2
+  - Q9 pin5
+  - Q9 S_2
+  - Q8 S_2
+  - Q7 pin5
+  - Q7 S_2
+  - Q5 pin5
+  - Q5 S_2
+  - Q2 pin5
+  - Q2 S_2
+  - Q10 S_2
+  - Q1 E_2
+  - P2 DGND_6
+  - P2 AGND_35
+  - P2 G0_18
+  - P2 LAND_0_1
+  - P2 AGND_0
+  - P1 GND_32
+  - NT1 1_1
+  - JP2 A_1
+  - EM2 3_3
+  - EM1 1_1
+  - D1 A_2
+  - C80 pin2 (-)
+  - C8 pin2 (-)
+  - C79 pin1 (+)
+  - C78 pin1 (+)
+  - C77 pin1 (+)
+  - C76 pin1 (+)
+  - C75 pin1 (+)
+  - C74 pin1 (+)
+  - C73 pin1 (+)
+  - C72 pin2 (-)
+  - C71 pin2 (-)
+  - C70 pin2 (-)
+  - C7 pin2 (-)
+  - C69 pin2 (-)
+  - C68 pin2 (-)
+  - C64 pin1 (+)
+  - C63 pin1 (+)
+  - C62 pin1 (+)
+  - C61 pin2 (-)
+  - C60 pin2 (-)
+  - C6 pin2 (-)
+  - C58 pin2 (-)
+  - C57 pin2 (-)
+  - C53 pin2 (-)
+  - C52 pin2 (-)
+  - C51 pin2 (-)
+  - C50 pin2 (-)
+  - C5 pin2 (-)
+  - C49 pin2 (-)
+  - C48 pin2 (-)
+  - C47 pin2 (-)
+  - C46 pin2 (-)
+  - C45 pin2 (-)
+  - C44 pin2 (-)
+  - C43 pin2 (-)
+  - C42 pin2 (-)
+  - C4 pin2 (-)
+  - C39 pin2 (-)
+  - C37 pin2 (-)
+  - C34 pin2 (-)
+  - C30 pin1 (+)
+  - C3 pin1 (+)
+  - C23 pin2 (-)
+  - C22 pin2 (-)
+  - C21 pin2 (-)
+  - C20 pin2 (-)
+  - C2 pin2 (-)
+  - C19 pin2 (-)
+  - C18 pin2 (-)
+  - C17 pin2 (-)
+  - C16 pin2 (-)
+  - C15 pin2 (-)
+  - C14 pin2 (-)
+  - C13 pin2 (-)
+  - C12 pin2 (-)
+  - C11 pin2 (-)
+  - C10 pin2 (-)
+  - C1 pin2 (-)
+  - BT1 LAND_2_3
+  - BT1 _2
+
+NET: Net_BT1_PLUS
+  - F1 PIN_1
+  - D1 K_1
+  - BT1 LAND_1_1
+  - BT1 _PLUS_1
+
+NET: Net_C4_Pad1
+  - X1 2_2
+  - R41 pin2
+  - C4 pin1 (+)
+
+NET: Net_C24_Pad1
+  - R47 pin1
+  - R42 pin1
+  - C24 pin1 (+)
+
+NET: Net_C25_Pad2
+  - R46 pin2
+  - R45 pin1
+  - R42 pin2
+  - C25 pin2 (-)
+
+NET: Net_C28_Pad1
+  - R48 pin1
+  - R34 pin1
+  - C28 pin1 (+)
+
+NET: Net_C29_Pad2
+  - R51 pin2
+  - R50 pin2
+  - R49 pin1
+  - C29 pin2 (-)
+
+NET: Net_C32_Pad1
+  - R52 pin1
+  - R51 pin1
+  - C32 pin1 (+)
+
+NET: Net_C35_Pad1
+  - R54 pin1
+  - R53 pin1
+  - C35 pin1 (+)
+
+NET: Net_C55_Pad2
+  - R31 pin2
+  - C55 pin2 (-)
+
+NET: Net_C56_Pad2
+  - R30 pin2
+  - C56 pin2 (-)
+
+NET: Net_C70_Pad1
+  - Z57 PIN_2
+  - TP10 1_1
+  - R70 pin2
+  - C70 pin1 (+)
+
+NET: Net_C71_Pad1
+  - Z58 PIN_2
+  - TP31 1_1
+  - TP11 1_1
+  - R71 pin2
+  - C71 pin1 (+)
+
+NET: Net_CP1_Pad2
+  - SP1 2_2
+  - CP1 pin2 (-)
+
+NET: Net_CP2_Pad2
+  - R20 pin1
+  - P3 LAND_2_5
+  - P3 PIN_2
+  - CP2 pin2 (-)
+
+NET: Net_CP3_Pad2
+  - R19 pin1
+  - P3 LAND_3_7
+  - P3 PIN_3
+  - CP3 pin2 (-)
+
+NET: Net_DL2_K
+  - Q9 D_4
+  - DL2 K_1
+
+NET: Net_JP1_A
+  - Q2 pin6
+  - JP1 A_1
+
+NET: Net_JP2_B
+  - U2 LAND_17_33
+  - U2 NC_MA17_17
+  - JP2 B_2
+
+NET: Net_JP3_B
+  - U2 LAND_47_93
+  - U2 NC_BYTE_N_47
+  - JP3 B_2
+
+NET: Net_P4_VDD35
+  - P4 VDD35_1
+  - EM3 PIN_2
+
+NET: Net_Q1_B
+  - R16 pin2
+  - Q1 B_1
+
+NET: Net_Q1_C
+  - R15 pin2
+  - R12 pin2
+  - Q10 D_4
+  - Q1 C_3
+
+NET: Net_Q2A_G
+  - U16 PIN_1
+  - Q2 pin1
+
+NET: Net_Q2B_G
+  - U16 PIN_4
+  - Q2 G_3
+
+NET: Net_Q3_B
+  - R15 pin1
+  - Q3 B_1
+
+NET: Net_Q5A_G
+  - U14 OUT_5
+  - R64 pin1
+  - Q5 pin1
+
+NET: Net_Q5B_D
+  - U14 CS_3
+  - R65 pin2
+  - Q5 D_4
+
+NET: Net_Q5B_G
+  - U17 RESET_N_1
+  - R66 pin2
+  - Q5 G_3
+
+NET: Net_Q6_D
+  - U6 SHUTDOWN_2
+  - R37 pin2
+  - Q6 D_3
+
+NET: Net_Q7A_G
+  - U16 PIN_10
+  - Q7 pin1
+
+NET: Net_Q7B_D
+  - TP12 1_1
+  - R68 pin2
+  - Q7 D_4
+
+NET: Net_Q7B_G
+  - U16 PIN_13
+  - Q7 G_3
+
+NET: Net_Q9A_G
+  - U10 RESET_N_1
+  - R18 pin2
+  - Q9 pin1
+
+NET: Net_Q10A_G
+  - R17 pin1
+  - R16 pin1
+  - Q3 C_3
+  - Q10 pin1
+
+NET: Net_R43_Pad1
+  - SW3 1_1
+  - R43 pin1
+
+NET: Net_R44_Pad1
+  - SW2 1_1
+  - R44 pin1
+
+NET: Net_RA1A_R1_1
+  - U1 SC_40
+  - RA1 R1_1_1
+  - R35 pin1
+
+NET: Net_RA1A_R1_2
+  - TP25 1_1
+  - RA1 R1_2_8
+  - EM2 2_2
+
+NET: Net_RA1B_R2_1
+  - U1 SD_41
+  - RA1 R2_1_2
+
+NET: Net_RA1B_R2_2
+  - RA1 R2_2_7
+  - EM2 1_1
+  - C20 pin1 (+)
+
+NET: Net_RA1C_R3_1
+  - U1 SI_42
+  - RA1 R3_1_3
+
+NET: Net_RA1C_R3_2
+  - RA1 R3_2_6
+  - EM1 2_2
+  - C18 pin1 (+)
+
+NET: Net_RA1D_R4_1
+  - U1 SO_43
+  - RA1 R4_1_4
+
+NET: Net_RA1D_R4_2
+  - RA1 R4_2_5
+  - EM1 3_3
+  - C19 pin1 (+)
+
+NET: Net_U1H_RESET_N
+  - U1 RESET_N_125
+  - EM7 PIN_2
+
+NET: Net_U5_FB
+  - U5 FB_4
+  - R60 pin1
+  - R59 pin2
+
+NET: Net_U5_L1
+  - U5 L1_9
+  - L2 2_2
+
+NET: Net_U5_L2
+  - U5 L2_7
+  - L2 1_1
+
+NET: Net_U6_BTL_PLUS
+  - U6 BTL_PLUS_8
+  - CP1 pin1 (+)
+
+NET: Net_U6_BYPASS
+  - U6 BYPASS_7
+  - C38 pin1 (+)
+
+NET: Net_U6_HP_IN
+  - U6 HP_IN_3
+  - R14 pin2
+  - P3 LAND_4_9
+  - P3 PIN_4
+
+NET: Net_U6_LIN
+  - U6 LIN_1
+  - R57 pin2
+  - R30 pin1
+
+NET: Net_U6_LOUT_BTL_MINUS
+  - U6 LOUT_BTL_10
+  - SP1 1_1
+  - R57 pin1
+  - CP2 pin1 (+)
+
+NET: Net_U6_RIN
+  - U6 RIN_5
+  - R56 pin1
+  - R31 pin1
+
+NET: Net_U6_ROUT
+  - U6 ROUT_6
+  - R56 pin2
+  - CP3 pin1 (+)
+
+NET: Net_U7A_PLUS
+  - U7 _PLUS_3
+  - R54 pin2
+  - C33 pin1 (+)
+
+NET: Net_U7A_MINUS
+  - VR2 ROUT_1
+  - U7 _2
+  - U7 PIN_1
+  - C35 pin2 (-)
+
+NET: Net_U7B_PLUS
+  - U7 _PLUS_5
+  - R48 pin2
+  - C27 pin1 (+)
+
+NET: Net_U7B_MINUS
+  - VR2 LOUT_2
+  - U7 PIN_7
+  - U7 _6
+  - C28 pin2 (-)
+
+NET: Net_U7C_PLUS
+  - U7 _PLUS_10
+  - R52 pin2
+  - C31 pin1 (+)
+
+NET: Net_U7C_MINUS
+  - U7 _9
+  - U7 PIN_8
+  - R53 pin2
+  - C32 pin2 (-)
+
+NET: Net_U7D_PLUS
+  - U7 _PLUS_12
+  - R47 pin2
+  - C26 pin1 (+)
+
+NET: Net_U7D_MINUS
+  - U7 PIN_14
+  - U7 _13
+  - R34 pin2
+  - C24 pin2 (-)
+
+NET: Net_U9_1Y
+  - U9 1Y_6
+  - C25 pin1 (+)
+
+NET: Net_U9_2Y
+  - U9 2Y_4
+  - C29 pin1 (+)
+
+NET: Net_U10_VDD
+  - U10 VDD_2
+  - R4 pin1
+  - R3 pin2
+  - C10 pin1 (+)
+
+NET: Net_U11_CT
+  - U11 CT_4
+  - C61 pin1 (+)
+
+NET: Net_U13_FB
+  - U13 FB_4
+  - R73 pin1
+  - R72 pin2
+
+NET: Net_U13_L1
+  - U13 L1_9
+  - L1 2_2
+
+NET: Net_U13_L2
+  - U13 L2_7
+  - L1 1_1
+
+NET: Net_U14_T_T
+  - U14 T_T_1
+  - R64 pin2
+  - C44 pin1 (+)
+
+NET: Net_U17_VDD
+  - U17 VDD_2
+  - R63 pin1
+  - R58 pin2
+  - C12 pin1 (+)
+
+NET: Net_U18_CT
+  - U18 CT_4
+  - C80 pin1 (+)
+
+NET: SW
+  - TP20 1_1
+  - SW1 SH_5
+  - SW1 C_3
+  - SW1 C_2
+  - R58 pin1
+  - R3 pin1
+  - R12 pin1
+  - R11 pin1
+  - Q3 E_2
+
+NET: VAUD
+  - U9 V_CC_5
+  - U7 V_PLUS_4
+  - U6 VDD_9
+  - U4 VO_5
+  - TP22 1_1
+  - R50 pin1
+  - R46 pin1
+  - R37 pin1
+  - R14 pin1
+  - C9 pin1 (+)
+  - C59 pin1 (+)
+  - C54 pin1 (+)
+  - C36 pin1 (+)
+
+NET: VBATT
+  - TP19 1_1
+  - SW1 1_1
+  - R9 pin1
+  - PTC1 PIN_1
+  - F1 PIN_2
+  - D2 A_2
+
+NET: VCC
+  - U5 VIN_10
+  - U13 VIN_10
+  - TP32 1_1
+  - PTC1 PIN_2
+  - C57 pin1 (+)
+  - C37 pin1 (+)
+
+NET: VDD2
+  - U8 VO_5
+  - U2 LAND_37_73
+  - U2 VCC_37
+  - U2 LAND_16_31
+  - U2 NC_VCC_16
+  - U2 LAND_12_23
+  - U2 CE2_12
+  - U1 VDD2_65
+  - U1 VDD2_44
+  - U1 VDD2_117
+  - U1 VDD2_115
+  - TP18 1_1
+  - R8 pin1
+  - JP3 A_1
+  - C8 pin1 (+)
+  - C60 pin1 (+)
+  - C53 pin1 (+)
+  - C52 pin1 (+)
+  - C48 pin1 (+)
+  - C47 pin1 (+)
+  - C46 pin1 (+)
+  - C45 pin1 (+)
+  - C16 pin1 (+)
+  - C15 pin1 (+)
+
+NET: VDD3
+  - U18 VOUT_6
+  - U18 QOD_5
+  - U16 VCC_14
+  - U15 VCC_5
+  - U12 VIN_1
+  - U1 FIQ_N_124
+  - U1 VDD3_103
+  - U1 VDD3_1
+  - TP21 1_1
+  - R71 pin1
+  - R70 pin1
+  - R7 pin1
+  - R68 pin1
+  - R67 pin1
+  - R6 pin1
+  - R29 pin2
+  - P1 PIN_S1
+  - C69 pin1 (+)
+  - C50 pin1 (+)
+  - C5 pin1 (+)
+  - C49 pin1 (+)
+  - C43 pin1 (+)
+  - C39 pin1 (+)
+  - C34 pin1 (+)
+
+NET: VDD5
+  - U11 VOUT_6
+  - U11 QOD_5
+  - TP14 1_1
+  - R26 pin2
+  - Q6 G_1
+  - P2 VSHA_34
+  - P1 PIN_S2
+  - C13 pin1 (+)
+  - C11 pin1 (+)
+
+NET: VDD35
+  - U1 VDD35_38
+  - R35 pin2
+  - R2 pin1
+  - P1 PIN_C1
+  - P1 VDD_1
+  - EM3 PIN_1
+  - C7 pin1 (+)
+  - C6 pin1 (+)
+  - C51 pin1 (+)
+  - C17 pin1 (+)
+
+NET: VOUT3
+  - U8 VI_1
+  - U4 VI_1
+  - U18 VIN_1
+  - U13 VOUT_6
+  - TP16 1_1
+  - R72 pin1
+  - R13 pin2
+  - C42 pin1 (+)
+  - C23 pin1 (+)
+  - C22 pin1 (+)
+  - C2 pin1 (+)
+
+NET: VOUT5
+  - U5 VOUT_6
+  - U14 VS_4
+  - U11 VIN_1
+  - TP13 1_1
+  - R66 pin1
+  - R65 pin1
+  - R59 pin1
+  - R25 pin1
+  - R18 pin1
+  - R10 pin1
+  - C72 pin1 (+)
+  - C58 pin1 (+)
+  - C21 pin1 (+)
+
+
+COMPONENT_PINS:
+BT1 (Battery)
+- pin1(_PLUS_1): NETS(Net_BT1_PLUS)
+- pin2(_2): NETS(GND)
+- pin3(LAND_1_1): NETS(Net_BT1_PLUS)
+- pin4(LAND_2_3): NETS(GND)
+
+C1 (22uF undefined)
+- pin1(pos): NETS(VFILT)
+- pin2(neg): NETS(GND)
+
+C2 (10uF undefined)
+- pin1(pos): NETS(VOUT3)
+- pin2(neg): NETS(GND)
+
+C10 (0.1uF undefined)
+- pin1(pos): NETS(Net_U10_VDD)
+- pin2(neg): NETS(GND)
+
+C12 (10uF undefined)
+- pin1(pos): NETS(Net_U17_VDD)
+- pin2(neg): NETS(GND)
+
+C21 (22uF undefined)
+- pin1(pos): NETS(VOUT5)
+- pin2(neg): NETS(GND)
+
+C22 (1uF undefined)
+- pin1(pos): NETS(VOUT3)
+- pin2(neg): NETS(GND)
+
+C23 (10uF undefined)
+- pin1(pos): NETS(VOUT3)
+- pin2(neg): NETS(GND)
+
+C37 (10uF undefined)
+- pin1(pos): NETS(VCC)
+- pin2(neg): NETS(GND)
+
+C42 (22uF undefined)
+- pin1(pos): NETS(VOUT3)
+- pin2(neg): NETS(GND)
+
+C44 (1uF undefined)
+- pin1(pos): NETS(Net_U14_T_T)
+- pin2(neg): NETS(GND)
+
+C57 (10uF undefined)
+- pin1(pos): NETS(VCC)
+- pin2(neg): NETS(GND)
+
+C58 (22uF undefined)
+- pin1(pos): NETS(VOUT5)
+- pin2(neg): NETS(GND)
+
+C59 (10uF undefined)
+- pin1(pos): NETS(VAUD)
+- pin2(neg): NETS(AGND)
+
+C60 (10uF undefined)
+- pin1(pos): NETS(VDD2)
+- pin2(neg): NETS(GND)
+
+C61 (3300pF undefined)
+- pin1(pos): NETS(Net_U11_CT)
+- pin2(neg): NETS(GND)
+
+C68 (10uF undefined)
+- pin1(pos): NETS(D1A)
+- pin2(neg): NETS(GND)
+
+C72 (0.1uF undefined)
+- pin1(pos): NETS(VOUT5)
+- pin2(neg): NETS(GND)
+
+C80 (3300pF undefined)
+- pin1(pos): NETS(Net_U18_CT)
+- pin2(neg): NETS(GND)
+
+D1 (1SS355VMTE-17)
+- pin1(K_1): NETS(Net_BT1_PLUS)
+- pin2(A_2): NETS(GND)
+
+D2 (1SS355VMTE-17)
+- pin1(K_1): NETS(VFILT)
+- pin2(A_2): NETS(VBATT)
+
+DL1 (150060VS75000)
+- pin1(K_1): NETS(D1A)
+- pin2(A_2): NETS(DL1A)
+
+DL2 (150060RS75000)
+- pin1(K_1): NETS(Net_DL2_K)
+- pin2(A_2): NETS(DL2A)
+
+F1 (F0805B2R00FSTR)
+- pin1(PIN_1): NETS(Net_BT1_PLUS)
+- pin2(PIN_2): NETS(VBATT)
+
+L1 (0.47uH)
+- pin1(1_1): NETS(Net_U13_L2)
+- pin2(2_2): NETS(Net_U13_L1)
+
+L2 (0.47uH)
+- pin1(1_1): NETS(Net_U5_L2)
+- pin2(2_2): NETS(Net_U5_L1)
+
+NT1 (NetTie_2)
+- pin1(1_1): NETS(GND)
+- pin2(2_2): NETS(AGND)
+
+PTC1 (0805L075SLYR)
+- pin1(PIN_1): NETS(VBATT)
+- pin2(PIN_2): NETS(VCC)
+
+Q1 (2N3904)
+- pin1(B_1): NETS(Net_Q1_B)
+- pin2(E_2): NETS(GND)
+- pin3(C_3): NETS(Net_Q1_C)
+
+Q3 (2N3906)
+- pin1(B_1): NETS(Net_Q3_B)
+- pin2(E_2): NETS(SW)
+- pin3(C_3): NETS(Net_Q10A_G)
+
+Q5 (NDC7002N)
+- pin1(G_1): NETS(Net_Q5A_G)
+- pin2(S_2): NETS(GND)
+- pin3(G_3): NETS(Net_Q5B_G)
+- pin4(D_4): NETS(Net_Q5B_D)
+- pin5(S_5): NETS(GND)
+- pin6(D_6): NETS(DL2A)
+
+Q9 (NDC7002N)
+- pin1(G_1): NETS(Net_Q9A_G)
+- pin2(S_2): NETS(GND)
+- pin3(G_3): NETS(D1A)
+- pin4(D_4): NETS(Net_DL2_K)
+- pin5(S_5): NETS(GND)
+- pin6(D_6): NETS(D1A)
+
+Q10 (NDC7002N)
+- pin1(G_1): NETS(Net_Q10A_G)
+- pin2(S_2): NETS(GND)
+- pin3(G_3): NETS(EN)
+- pin4(D_4): NETS(Net_Q1_C)
+- pin5(S_5): NETS(EN)
+- pin6(D_6): NETS(MR_N)
+
+R3 (5.1kΩ undefined)
+- pin1(anode, pos, left): NETS(SW)
+- pin2(cathode, neg, right): NETS(Net_U10_VDD)
+
+R4 (33kΩ undefined)
+- pin1(anode, pos, left): NETS(Net_U10_VDD)
+- pin2(cathode, neg, right): NETS(GND)
+
+R8 (100kΩ undefined)
+- pin1(anode, pos, left): NETS(VDD2)
+- pin2(cathode, neg, right): NETS(PG_2V5)
+
+R9 (100kΩ undefined)
+- pin1(anode, pos, left): NETS(VBATT)
+- pin2(cathode, neg, right): NETS(VFILT)
+
+R10 (20kΩ undefined)
+- pin1(anode, pos, left): NETS(VOUT5)
+- pin2(cathode, neg, right): NETS(DL2A)
+
+R11 (1kΩ undefined)
+- pin1(anode, pos, left): NETS(SW)
+- pin2(cathode, neg, right): NETS(EN)
+
+R12 (100kΩ undefined)
+- pin1(anode, pos, left): NETS(SW)
+- pin2(cathode, neg, right): NETS(Net_Q1_C)
+
+R13 (100kΩ undefined)
+- pin1(anode, pos, left): NETS(PG_3V3)
+- pin2(cathode, neg, right): NETS(VOUT3)
+
+R15 (10kΩ undefined)
+- pin1(anode, pos, left): NETS(Net_Q3_B)
+- pin2(cathode, neg, right): NETS(Net_Q1_C)
+
+R16 (10kΩ undefined)
+- pin1(anode, pos, left): NETS(Net_Q10A_G)
+- pin2(cathode, neg, right): NETS(Net_Q1_B)
+
+R17 (100kΩ undefined)
+- pin1(anode, pos, left): NETS(Net_Q10A_G)
+- pin2(cathode, neg, right): NETS(GND)
+
+R18 (10kΩ undefined)
+- pin1(anode, pos, left): NETS(VOUT5)
+- pin2(cathode, neg, right): NETS(Net_Q9A_G)
+
+R24 (100kΩ undefined)
+- pin1(anode, pos, left): NETS(EN)
+- pin2(cathode, neg, right): NETS(GND)
+
+R25 (3.3kΩ undefined)
+- pin1(anode, pos, left): NETS(VOUT5)
+- pin2(cathode, neg, right): NETS(DL1A)
+
+R58 (5.1kΩ undefined)
+- pin1(anode, pos, left): NETS(SW)
+- pin2(cathode, neg, right): NETS(Net_U17_VDD)
+
+R59 (820kΩ undefined)
+- pin1(anode, pos, left): NETS(VOUT5)
+- pin2(cathode, neg, right): NETS(Net_U5_FB)
+
+R60 (91kΩ undefined)
+- pin1(anode, pos, left): NETS(Net_U5_FB)
+- pin2(cathode, neg, right): NETS(GND)
+
+R63 (100kΩ undefined)
+- pin1(anode, pos, left): NETS(Net_U17_VDD)
+- pin2(cathode, neg, right): NETS(GND)
+
+R64 (200kΩ undefined)
+- pin1(anode, pos, left): NETS(Net_Q5A_G)
+- pin2(cathode, neg, right): NETS(Net_U14_T_T)
+
+R65 (100kΩ undefined)
+- pin1(anode, pos, left): NETS(VOUT5)
+- pin2(cathode, neg, right): NETS(Net_Q5B_D)
+
+R66 (100kΩ undefined)
+- pin1(anode, pos, left): NETS(VOUT5)
+- pin2(cathode, neg, right): NETS(Net_Q5B_G)
+
+R72 (510kΩ undefined)
+- pin1(anode, pos, left): NETS(VOUT3)
+- pin2(cathode, neg, right): NETS(Net_U13_FB)
+
+R73 (91kΩ undefined)
+- pin1(anode, pos, left): NETS(Net_U13_FB)
+- pin2(cathode, neg, right): NETS(GND)
+
+SW1 (CSS-1310B)
+- pin1(1_1): NETS(VBATT)
+- pin2(C_2): NETS(SW)
+- pin3(C_3): NETS(SW)
+- pin4(2_4): NOT_CONNECTED
+- pin5(SH_5): NETS(SW)
+
+TP13 (VOUT5)
+- pin1(1_1): NETS(VOUT5)
+
+TP14 (VDD5)
+- pin1(1_1): NETS(VDD5)
+
+TP15 (~{RESET})
+- pin1(1_1): NETS(RESET_N)
+
+TP16 (VOUT3)
+- pin1(1_1): NETS(VOUT3)
+
+TP17 (~{MR})
+- pin1(1_1): NETS(MR_N)
+
+TP18 (VDD2)
+- pin1(1_1): NETS(VDD2)
+
+TP19 (VBATT)
+- pin1(1_1): NETS(VBATT)
+
+TP20 (SW)
+- pin1(1_1): NETS(SW)
+
+TP21 (VDD3)
+- pin1(1_1): NETS(VDD3)
+
+TP22 (VAUD)
+- pin1(1_1): NETS(VAUD)
+
+TP23 (PG3)
+- pin1(1_1): NETS(PG_3V3)
+
+TP24 (EN)
+- pin1(1_1): NETS(EN)
+
+TP26 (VFILT)
+- pin1(1_1): NETS(VFILT)
+
+TP30 (PG2V5)
+- pin1(1_1): NETS(PG_2V5)
+
+TP32 (VCC)
+- pin1(1_1): NETS(VCC)
+
+U3 (TPS3840DL20)
+- pin1(RESET_N_1): NETS(EN)
+- pin2(VDD_2): NETS(VFILT)
+- pin3(GND_3): NETS(GND)
+- pin4(MR_N_4): NETS(MR_N)
+- pin5(CT_5): NOT_CONNECTED
+
+U4 (NCV8164ASN250T1G)
+- pin1(VI_1): NETS(VOUT3)
+- pin2(GND_2): NETS(GND)
+- pin3(SHDN_N_3): NETS(PG_2V5)
+- pin4(PGOOD_4): NOT_CONNECTED
+- pin5(VO_5): NETS(VAUD)
+
+U5 (TPS63802)
+- pin1(EN_1): NETS(PG_2V5)
+- pin2(MODE_2): NETS(GND)
+- pin3(AGND_3): NETS(GND)
+- pin4(FB_4): NETS(Net_U5_FB)
+- pin5(PG_5): NETS(RESET_N)
+- pin6(VOUT_6): NETS(VOUT5)
+- pin7(L2_7): NETS(Net_U5_L2)
+- pin8(GND_8): NETS(GND)
+- pin9(L1_9): NETS(Net_U5_L1)
+- pin10(VIN_10): NETS(VCC)
+
+U8 (NCV8164ASN250T1G)
+- pin1(VI_1): NETS(VOUT3)
+- pin2(GND_2): NETS(GND)
+- pin3(SHDN_N_3): NETS(PG_3V3)
+- pin4(PGOOD_4): NETS(PG_2V5)
+- pin5(VO_5): NETS(VDD2)
+
+U10 (TPS3840DL20)
+- pin1(RESET_N_1): NETS(Net_Q9A_G)
+- pin2(VDD_2): NETS(Net_U10_VDD)
+- pin3(GND_3): NETS(GND)
+- pin4(MR_N_4): NOT_CONNECTED
+- pin5(CT_5): NOT_CONNECTED
+
+U11 (TPS22917DBV)
+- pin1(VIN_1): NETS(VOUT5)
+- pin2(GND_2): NETS(GND)
+- pin3(ON_3): NETS(VCNT5_N)
+- pin4(CT_4): NETS(Net_U11_CT)
+- pin5(QOD_5): NETS(VDD5)
+- pin6(VOUT_6): NETS(VDD5)
+
+U13 (TPS63802)
+- pin1(EN_1): NETS(EN)
+- pin2(MODE_2): NETS(GND)
+- pin3(AGND_3): NETS(GND)
+- pin4(FB_4): NETS(Net_U13_FB)
+- pin5(PG_5): NETS(PG_3V3)
+- pin6(VOUT_6): NETS(VOUT3)
+- pin7(L2_7): NETS(Net_U13_L2)
+- pin8(GND_8): NETS(GND)
+- pin9(L1_9): NETS(Net_U13_L1)
+- pin10(VIN_10): NETS(VCC)
+
+U14 (MIC1557YM5-TR)
+- pin1(T_T_1): NETS(Net_U14_T_T)
+- pin2(GND_2): NETS(GND)
+- pin3(CS_3): NETS(Net_Q5B_D)
+- pin4(VS_4): NETS(VOUT5)
+- pin5(OUT_5): NETS(Net_Q5A_G)
+
+U17 (TPS3840DL20)
+- pin1(RESET_N_1): NETS(Net_Q5B_G)
+- pin2(VDD_2): NETS(Net_U17_VDD)
+- pin3(GND_3): NETS(GND)
+- pin4(MR_N_4): NOT_CONNECTED
+- pin5(CT_5): NOT_CONNECTED
+
+U18 (TPS22917DBV)
+- pin1(VIN_1): NETS(VOUT3)
+- pin2(GND_2): NETS(GND)
+- pin3(ON_3): NETS(PG_2V5)
+- pin4(CT_4): NETS(Net_U18_CT)
+- pin5(QOD_5): NETS(VDD3)
+- pin6(VOUT_6): NETS(VDD3)
+
+C3 (27pF undefined)
+- pin1(pos): NETS(GND)
+- pin2(neg): NETS(CPU_CK1)
+
+C4 (33pF undefined)
+- pin1(pos): NETS(Net_C4_Pad1)
+- pin2(neg): NETS(GND)
+
+C5 (0.1uF undefined)
+- pin1(pos): NETS(VDD3)
+- pin2(neg): NETS(GND)
+
+C6 (0.1uF undefined)
+- pin1(pos): NETS(VDD35)
+- pin2(neg): NETS(GND)
+
+C7 (0.1uF undefined)
+- pin1(pos): NETS(VDD35)
+- pin2(neg): NETS(GND)
+
+C8 (0.1uF undefined)
+- pin1(pos): NETS(VDD2)
+- pin2(neg): NETS(GND)
+
+C15 (0.1uF undefined)
+- pin1(pos): NETS(VDD2)
+- pin2(neg): NETS(GND)
+
+C16 (0.1uF undefined)
+- pin1(pos): NETS(VDD2)
+- pin2(neg): NETS(GND)
+
+C17 (0.1uF undefined)
+- pin1(pos): NETS(VDD35)
+- pin2(neg): NETS(GND)
+
+C18 (100pF undefined)
+- pin1(pos): NETS(Net_RA1C_R3_2)
+- pin2(neg): NETS(GND)
+
+C19 (100pF undefined)
+- pin1(pos): NETS(Net_RA1D_R4_2)
+- pin2(neg): NETS(GND)
+
+C20 (100pF undefined)
+- pin1(pos): NETS(Net_RA1B_R2_2)
+- pin2(neg): NETS(GND)
+
+C30 (1uF undefined)
+- pin1(pos): NETS(GND)
+- pin2(neg): NETS(RESET_N)
+
+C34 (0.1uF undefined)
+- pin1(pos): NETS(VDD3)
+- pin2(neg): NETS(GND)
+
+C39 (0.1uF undefined)
+- pin1(pos): NETS(VDD3)
+- pin2(neg): NETS(GND)
+
+C43 (0.1uF undefined)
+- pin1(pos): NETS(VDD3)
+- pin2(neg): NETS(GND)
+
+C45 (1uF undefined)
+- pin1(pos): NETS(VDD2)
+- pin2(neg): NETS(GND)
+
+C46 (1uF undefined)
+- pin1(pos): NETS(VDD2)
+- pin2(neg): NETS(GND)
+
+C47 (1uF undefined)
+- pin1(pos): NETS(VDD2)
+- pin2(neg): NETS(GND)
+
+C48 (1uF undefined)
+- pin1(pos): NETS(VDD2)
+- pin2(neg): NETS(GND)
+
+C49 (1uF undefined)
+- pin1(pos): NETS(VDD3)
+- pin2(neg): NETS(GND)
+
+C50 (1uF undefined)
+- pin1(pos): NETS(VDD3)
+- pin2(neg): NETS(GND)
+
+C51 (1uF undefined)
+- pin1(pos): NETS(VDD35)
+- pin2(neg): NETS(GND)
+
+C52 (0.1uF undefined)
+- pin1(pos): NETS(VDD2)
+- pin2(neg): NETS(GND)
+
+C53 (0.1uF undefined)
+- pin1(pos): NETS(VDD2)
+- pin2(neg): NETS(GND)
+
+C62 (0.01uF undefined)
+- pin1(pos): NETS(GND)
+- pin2(neg): NETS(CPU_TP6)
+
+C63 (0.01uF undefined)
+- pin1(pos): NETS(GND)
+- pin2(neg): NETS(CPU_TP8)
+
+C64 (0.01uF undefined)
+- pin1(pos): NETS(GND)
+- pin2(neg): NETS(CPU_TP9)
+
+C69 (1uF undefined)
+- pin1(pos): NETS(VDD3)
+- pin2(neg): NETS(GND)
+
+C73 (0.01uF undefined)
+- pin1(pos): NETS(GND)
+- pin2(neg): NETS(CPU_TP1)
+
+C74 (0.01uF undefined)
+- pin1(pos): NETS(GND)
+- pin2(neg): NETS(CPU_TP4)
+
+C75 (0.01uF undefined)
+- pin1(pos): NETS(GND)
+- pin2(neg): NETS(CPU_TP5)
+
+C76 (0.01uF undefined)
+- pin1(pos): NETS(GND)
+- pin2(neg): NETS(CPU_TP7)
+
+C77 (0.01uF undefined)
+- pin1(pos): NETS(GND)
+- pin2(neg): NETS(CPU_TP3)
+
+C78 (0.01uF undefined)
+- pin1(pos): NETS(GND)
+- pin2(neg): NETS(CPU_TP2)
+
+C79 (0.01uF undefined)
+- pin1(pos): NETS(GND)
+- pin2(neg): NETS(CPU_TP0)
+
+EM1 (ACM2520-801-3P-T002)
+- pin1(1_1): NETS(GND)
+- pin2(2_2): NETS(Net_RA1C_R3_2)
+- pin3(3_3): NETS(Net_RA1D_R4_2)
+- pin4(4_4): NETS(CPU_SO)
+- pin5(5_5): NETS(CPU_SI)
+- pin6(6_6): NETS(CPU_LGND)
+
+EM2 (ACM2520-801-3P-T002)
+- pin1(1_1): NETS(Net_RA1B_R2_2)
+- pin2(2_2): NETS(Net_RA1A_R1_2)
+- pin3(3_3): NETS(GND)
+- pin4(4_4): NETS(CPU_LGND)
+- pin5(5_5): NETS(CPU_SCK)
+- pin6(6_6): NETS(CPU_SD)
+
+EM3 (MH1608-601Y)
+- pin1(PIN_1): NETS(VDD35)
+- pin2(PIN_2): NETS(Net_P4_VDD35)
+
+EM7 (MH1608-601Y)
+- pin1(PIN_1): NETS(RESET_N)
+- pin2(PIN_2): NETS(Net_U1H_RESET_N)
+
+JP1 (Jumper_2_Open)
+- pin1(A_1): NETS(Net_JP1_A)
+- pin2(B_2): NETS(RESET_N)
+
+JP2 (Jumper_2_Open)
+- pin1(A_1): NETS(GND)
+- pin2(B_2): NETS(Net_JP2_B)
+
+JP3 (Jumper_2_Open)
+- pin1(A_1): NETS(VDD2)
+- pin2(B_2): NETS(Net_JP3_B)
+
+P1 (CART SLOT)
+- pin1(VDD_1): NETS(VDD35)
+- pin2(PHI_2): NETS(CPU_PHI)
+- pin3(WR_N_3): NETS(CPU_WR_N)
+- pin4(RD_N_4): NETS(CPU_RD_N)
+- pin5(CS1_N_CS_N_5): NETS(CPU_CS_N)
+- pin6(AD0_A0_6): NETS(CPU_A_0)
+- pin7(AD1_A1_7): NETS(CPU_A_1)
+- pin8(AD2_A2_8): NETS(CPU_A_2)
+- pin9(AD3_A3_9): NETS(CPU_A_3)
+- pin10(AD4_A4_10): NETS(CPU_A_4)
+- pin11(AD5_A5_11): NETS(CPU_A_5)
+- pin12(AD6_A6_12): NETS(CPU_A_6)
+- pin13(AD7_A7_13): NETS(CPU_A_7)
+- pin14(AD8_A8_14): NETS(CPU_A_8)
+- pin15(AD9_A9_15): NETS(CPU_A_9)
+- pin16(AD10_A10_16): NETS(CPU_A_10)
+- pin17(AD11_A11_17): NETS(CPU_A_11)
+- pin18(AD12_A12_18): NETS(CPU_A_12)
+- pin19(AD13_A13_19): NETS(CPU_A_13)
+- pin20(AD14_A14_20): NETS(CPU_A_14)
+- pin21(AD15_A15_21): NETS(CPU_A_15)
+- pin22(A16_D0_22): NETS(CPU_D_0)
+- pin23(A17_D1_23): NETS(CPU_D_1)
+- pin24(A18_D2_24): NETS(CPU_D_2)
+- pin25(A19_D3_25): NETS(CPU_D_3)
+- pin26(A20_D4_26): NETS(CPU_D_4)
+- pin27(A21_D5_27): NETS(CPU_D_5)
+- pin28(A22_D6_28): NETS(CPU_D_6)
+- pin29(A23_D7_29): NETS(CPU_D_7)
+- pin30(CS2_N_RES_N_30): NETS(CPU_RES)
+- pin31(IRQ_DREQ_31): NETS(CPU_IRQ)
+- pin32(GND_32): NETS(GND)
+- pin33(PIN_C1): NETS(VDD35)
+- pin34(PIN_C2): NETS(CPU_IN35)
+- pin35(PIN_S1): NETS(VDD3)
+- pin36(PIN_S2): NETS(VDD5)
+
+P4 (AGB-LINK)
+- pin1(VDD35_1): NETS(Net_P4_VDD35)
+- pin2(SO_2): NETS(CPU_SO)
+- pin3(SI_3): NETS(CPU_SI)
+- pin4(SD_4): NETS(CPU_SD)
+- pin5(SCK_5): NETS(CPU_SCK)
+- pin6(GND_6): NETS(CPU_LGND)
+- pin7(SHIELD_7): NETS(CPU_LGND)
+- pin8(SHIELD_8): NETS(CPU_LGND)
+
+Q2 (NDC7002N)
+- pin1(G_1): NETS(Net_Q2A_G)
+- pin2(S_2): NETS(GND)
+- pin3(G_3): NETS(Net_Q2B_G)
+- pin4(D_4): NETS(CPU_Display_ZB)
+- pin5(S_5): NETS(GND)
+- pin6(D_6): NETS(Net_JP1_A)
+
+Q7 (NDC7002N)
+- pin1(G_1): NETS(Net_Q7A_G)
+- pin2(S_2): NETS(GND)
+- pin3(G_3): NETS(Net_Q7B_G)
+- pin4(D_4): NETS(Net_Q7B_D)
+- pin5(S_5): NETS(GND)
+- pin6(D_6): NETS(CPU_Display_ZA)
+
+Q8 (2N7002)
+- pin1(G_1): NETS(CPU_VCNT5)
+- pin2(S_2): NETS(GND)
+- pin3(D_3): NETS(VCNT5_N)
+
+R1 (1.5MΩ undefined)
+- pin1(anode, pos, left): NETS(CPU_CK1)
+- pin2(cathode, neg, right): NETS(CPU_CK2)
+
+R2 (10kΩ undefined)
+- pin1(anode, pos, left): NETS(VDD35)
+- pin2(cathode, neg, right): NETS(CPU_RES)
+
+R5 (100kΩ undefined)
+- pin1(anode, pos, left): NETS(CPU_IN35)
+- pin2(cathode, neg, right): NETS(GND)
+
+R6 (100kΩ undefined)
+- pin1(anode, pos, left): NETS(VDD3)
+- pin2(cathode, neg, right): NETS(CPU_IRQ)
+
+R7 (100kΩ undefined)
+- pin1(anode, pos, left): NETS(VDD3)
+- pin2(cathode, neg, right): NETS(VCNT5_N)
+
+R29 (18kΩ undefined)
+- pin1(anode, pos, left): NETS(RESET_N)
+- pin2(cathode, neg, right): NETS(VDD3)
+
+R35 (100kΩ undefined)
+- pin1(anode, pos, left): NETS(Net_RA1A_R1_1)
+- pin2(cathode, neg, right): NETS(VDD35)
+
+R38 (47Ω undefined)
+- pin1(anode, pos, left): NETS(CPU_WR_N)
+- pin2(cathode, neg, right): NETS(CPU_WR_N_0)
+
+R39 (47Ω undefined)
+- pin1(anode, pos, left): NETS(CPU_CS_N)
+- pin2(cathode, neg, right): NETS(CPU_CS_N_0)
+
+R40 (15Ω undefined)
+- pin1(anode, pos, left): NETS(CPU_RES)
+- pin2(cathode, neg, right): NETS(CPU_RES_0)
+
+R41 (2.2kΩ undefined)
+- pin1(anode, pos, left): NETS(CPU_CK2)
+- pin2(cathode, neg, right): NETS(Net_C4_Pad1)
+
+R43 (15Ω undefined)
+- pin1(anode, pos, left): NETS(Net_R43_Pad1)
+- pin2(cathode, neg, right): NETS(CPU_TP8)
+
+R44 (15Ω undefined)
+- pin1(anode, pos, left): NETS(Net_R44_Pad1)
+- pin2(cathode, neg, right): NETS(CPU_TP9)
+
+R68 (100kΩ undefined)
+- pin1(anode, pos, left): NETS(VDD3)
+- pin2(cathode, neg, right): NETS(Net_Q7B_D)
+
+RA1 (330)
+- pin1(R1_1_1): NETS(Net_RA1A_R1_1)
+- pin2(R2_1_2): NETS(Net_RA1B_R2_1)
+- pin3(R3_1_3): NETS(Net_RA1C_R3_1)
+- pin4(R4_1_4): NETS(Net_RA1D_R4_1)
+- pin5(R4_2_5): NETS(Net_RA1D_R4_2)
+- pin6(R3_2_6): NETS(Net_RA1C_R3_2)
+- pin7(R2_2_7): NETS(Net_RA1B_R2_2)
+- pin8(R1_2_8): NETS(Net_RA1A_R1_2)
+
+SW2 (1825027-5)
+- pin1(1_1): NETS(Net_R44_Pad1)
+- pin2(2_2): NETS(GND)
+- pin3(LAND_2_2): NETS(GND)
+- pin4(LAND_2_3): NETS(GND)
+
+SW3 (1825027-5)
+- pin1(1_1): NETS(Net_R43_Pad1)
+- pin2(2_2): NETS(GND)
+- pin3(LAND_2_2): NETS(GND)
+- pin4(LAND_2_3): NETS(GND)
+
+SW4 (SKRRABE010)
+- pin1(B_1): NETS(CPU_TP1)
+- pin2(A_2): NETS(CPU_TP0)
+- pin3(GND_3): NETS(GND)
+- pin4(GND_4): NETS(GND)
+- pin5(LAND_1_1): NETS(CPU_TP1)
+- pin6(LAND_1_2): NETS(CPU_TP1)
+- pin7(LAND_1_3): NETS(CPU_TP1)
+- pin8(LAND_2_5): NETS(CPU_TP0)
+- pin9(LAND_2_6): NETS(CPU_TP0)
+- pin10(LAND_2_7): NETS(CPU_TP0)
+- pin11(LAND_3_9): NETS(GND)
+- pin12(LAND_3_10): NETS(GND)
+- pin13(LAND_3_11): NETS(GND)
+- pin14(LAND_4_13): NETS(GND)
+- pin15(LAND_4_14): NETS(GND)
+- pin16(LAND_4_15): NETS(GND)
+
+SW5 (SKRRABE010)
+- pin1(START_1): NETS(CPU_TP3)
+- pin2(SEL_2): NETS(CPU_TP2)
+- pin3(GND_3): NETS(GND)
+- pin4(GND_4): NETS(GND)
+- pin5(LAND_1_1): NETS(CPU_TP3)
+- pin6(LAND_1_2): NETS(CPU_TP3)
+- pin7(LAND_2_4): NETS(CPU_TP2)
+- pin8(LAND_2_5): NETS(CPU_TP2)
+- pin9(LAND_3_7): NETS(GND)
+- pin10(LAND_3_8): NETS(GND)
+- pin11(LAND_3_9): NETS(GND)
+- pin12(LAND_4_11): NETS(GND)
+- pin13(LAND_4_12): NETS(GND)
+- pin14(LAND_4_13): NETS(GND)
+
+SW6 (SKRRABE010)
+- pin1(UP_1): NETS(CPU_TP6)
+- pin2(RIGHT_2): NETS(CPU_TP4)
+- pin3(DOWN_3): NETS(CPU_TP7)
+- pin4(LEFT_4): NETS(CPU_TP5)
+- pin5(GND_5): NETS(GND)
+- pin6(GND_6): NETS(GND)
+- pin7(GND_7): NETS(GND)
+- pin8(GND_8): NETS(GND)
+- pin9(LAND_1_2): NETS(CPU_TP6)
+- pin10(LAND_1_3): NETS(CPU_TP6)
+- pin11(LAND_2_5): NETS(CPU_TP4)
+- pin12(LAND_2_6): NETS(CPU_TP4)
+- pin13(LAND_3_8): NETS(CPU_TP7)
+- pin14(LAND_3_9): NETS(CPU_TP7)
+- pin15(LAND_4_11): NETS(CPU_TP5)
+- pin16(LAND_4_12): NETS(CPU_TP5)
+- pin17(LAND_5_14): NETS(GND)
+- pin18(LAND_5_15): NETS(GND)
+- pin19(LAND_6_17): NETS(GND)
+- pin20(LAND_6_18): NETS(GND)
+- pin21(LAND_7_20): NETS(GND)
+- pin22(LAND_7_21): NETS(GND)
+- pin23(LAND_8_23): NETS(GND)
+- pin24(LAND_8_24): NETS(GND)
+
+TP0 (TP0)
+- pin1(1_1): NETS(CPU_TP0)
+
+TP1 (TP1)
+- pin1(1_1): NETS(CPU_TP1)
+
+TP2 (TP2)
+- pin1(1_1): NETS(CPU_TP2)
+
+TP3 (TP3)
+- pin1(1_1): NETS(CPU_TP3)
+
+TP4 (TP4)
+- pin1(1_1): NETS(CPU_TP4)
+
+TP5 (TP5)
+- pin1(1_1): NETS(CPU_TP5)
+
+TP6 (TP6)
+- pin1(1_1): NETS(CPU_TP6)
+
+TP7 (TP7)
+- pin1(1_1): NETS(CPU_TP7)
+
+TP8 (TP8)
+- pin1(1_1): NETS(CPU_TP8)
+
+TP9 (TP9)
+- pin1(1_1): NETS(CPU_TP9)
+
+TP12 (TestPoint)
+- pin1(1_1): NETS(Net_Q7B_D)
+
+TP25 (SCK)
+- pin1(1_1): NETS(Net_RA1A_R1_2)
+
+TP27 (R)
+- pin1(1_1): NETS(CPU_TP8)
+
+TP28 (L)
+- pin1(1_1): NETS(CPU_TP9)
+
+TP29 (SEL)
+- pin1(1_1): NETS(CPU_TP2)
+
+TP80 (CK1)
+- pin1(1_1): NETS(CPU_CK1)
+
+TP81 (CK2)
+- pin1(1_1): NETS(CPU_CK2)
+
+U1 (AGB-CPU)
+- pin1(VDD3_1): NETS(VDD3)
+- pin2(IN35_2): NETS(CPU_IN35)
+- pin3(P8_3): NETS(CPU_TP8)
+- pin4(P0_4): NETS(CPU_TP0)
+- pin5(P1_5): NETS(CPU_TP1)
+- pin6(SO1_6): NETS(CPU_Audio_R_OUT)
+- pin7(SO2_7): NETS(CPU_Audio_L_OUT)
+- pin8(IRQ_8): NETS(CPU_IRQ)
+- pin9(CS2_N_9): NETS(CPU_RES_0)
+- pin10(A23_D7_10): NETS(CPU_D_7)
+- pin11(A22_D6_11): NETS(CPU_D_6)
+- pin12(A21_D5_12): NETS(CPU_D_5)
+- pin13(A20_D4_13): NETS(CPU_D_4)
+- pin14(A19_D3_14): NETS(CPU_D_3)
+- pin15(A18_D2_15): NETS(CPU_D_2)
+- pin16(A17_D1_16): NETS(CPU_D_1)
+- pin17(A16_D0_17): NETS(CPU_D_0)
+- pin18(AD15_A15_18): NETS(CPU_A_15)
+- pin19(AD14_A14_19): NETS(CPU_A_14)
+- pin20(AD13_A13_20): NETS(CPU_A_13)
+- pin21(AD12_A12_21): NETS(CPU_A_12)
+- pin22(AD11_A11_22): NETS(CPU_A_11)
+- pin23(AD10_A10_23): NETS(CPU_A_10)
+- pin24(AD9_A9_24): NETS(CPU_A_9)
+- pin25(AD8_A8_25): NETS(CPU_A_8)
+- pin26(AD7_A7_26): NETS(CPU_A_7)
+- pin27(AD6_A6_27): NETS(CPU_A_6)
+- pin28(AD5_A5_28): NETS(CPU_A_5)
+- pin29(AD4_A4_29): NETS(CPU_A_4)
+- pin30(AD3_A3_30): NETS(CPU_A_3)
+- pin31(AD2_A2_31): NETS(CPU_A_2)
+- pin32(AD1_A1_32): NETS(CPU_A_1)
+- pin33(AD0_A0_33): NETS(CPU_A_0)
+- pin34(CS1_N_34): NETS(CPU_CS_N_0)
+- pin35(RD_N_35): NETS(CPU_RD_N)
+- pin36(WR_N_36): NETS(CPU_WR_N_0)
+- pin37(PHI_37): NETS(CPU_PHI)
+- pin38(VDD35_38): NETS(VDD35)
+- pin39(GND_39): NETS(GND)
+- pin40(SC_40): NETS(Net_RA1A_R1_1)
+- pin41(SD_41): NETS(Net_RA1B_R2_1)
+- pin42(SI_42): NETS(Net_RA1C_R3_1)
+- pin43(SO_43): NETS(Net_RA1D_R4_1)
+- pin44(VDD2_44): NETS(VDD2)
+- pin45(MA0_45): NETS(CPU_MA_0)
+- pin46(MA1_46): NETS(CPU_MA_1)
+- pin47(MA2_47): NETS(CPU_MA_2)
+- pin48(MA3_48): NETS(CPU_MA_3)
+- pin49(MA4_49): NETS(CPU_MA_4)
+- pin50(MA5_50): NETS(CPU_MA_5)
+- pin51(MA6_51): NETS(CPU_MA_6)
+- pin52(MA7_52): NETS(CPU_MA_7)
+- pin53(LB_53): NETS(CPU_LB_N)
+- pin54(UB_54): NETS(CPU_UB_N)
+- pin55(MWR_55): NETS(CPU_WE_N_RAM)
+- pin56(MA8_56): NETS(CPU_MA_8)
+- pin57(MA9_57): NETS(CPU_MA_9)
+- pin58(MA10_58): NETS(CPU_MA_10)
+- pin59(MA11_59): NETS(CPU_MA_11)
+- pin60(MA12_60): NETS(CPU_MA_12)
+- pin61(MA13_61): NETS(CPU_MA_13)
+- pin62(MA14_62): NETS(CPU_MA_14)
+- pin63(MA15_63): NETS(CPU_MA_15)
+- pin64(GND_64): NETS(GND)
+- pin65(VDD2_65): NETS(VDD2)
+- pin66(MD4_66): NETS(CPU_MD_4)
+- pin67(MD12_67): NETS(CPU_MD_12)
+- pin68(MD5_68): NETS(CPU_MD_5)
+- pin69(MD13_69): NETS(CPU_MD_13)
+- pin70(MD6_70): NETS(CPU_MD_6)
+- pin71(MD14_71): NETS(CPU_MD_14)
+- pin72(MD7_72): NETS(CPU_MD_7)
+- pin73(MD15_73): NETS(CPU_MD_15)
+- pin74(MA16_74): NETS(CPU_MA_16)
+- pin75(MD11_75): NETS(CPU_MD_11)
+- pin76(MD3_76): NETS(CPU_MD_3)
+- pin77(MD10_77): NETS(CPU_MD_10)
+- pin78(MD2_78): NETS(CPU_MD_2)
+- pin79(MD9_79): NETS(CPU_MD_9)
+- pin80(MD1_80): NETS(CPU_MD_1)
+- pin81(MD8_81): NETS(CPU_MD_8)
+- pin82(MD0_82): NETS(CPU_MD_0)
+- pin83(MRD_83): NETS(CPU_OE_N_RAM)
+- pin84(DCK_84): NETS(CPU_DCK_R)
+- pin85(LP_85): NETS(CPU_LP)
+- pin86(PS_86): NETS(CPU_PS)
+- pin87(LDR5_87): NETS(CPU_LDR5)
+- pin88(LDR4_88): NETS(CPU_LDR4)
+- pin89(LDR3_89): NETS(CPU_LDR3)
+- pin90(LDR2_90): NETS(CPU_LDR2)
+- pin91(LDR1_91): NETS(CPU_LDR1)
+- pin92(LDG5_92): NETS(CPU_LDG5)
+- pin93(LDG4_93): NETS(CPU_LDG4)
+- pin94(LDG3_94): NETS(CPU_LDG3)
+- pin95(LDG2_95): NETS(CPU_LDG2)
+- pin96(LDG1_96): NETS(CPU_LDG1)
+- pin97(LDB5_97): NETS(CPU_LDB5)
+- pin98(LDB4_98): NETS(CPU_LDB4)
+- pin99(LDB3_99): NETS(CPU_LDB3)
+- pin100(LDB2_100): NETS(CPU_LDB2)
+- pin101(LDB1_101): NETS(CPU_LDB1)
+- pin102(GND_102): NETS(GND)
+- pin103(VDD3_103): NETS(VDD3)
+- pin104(SPL_104): NETS(CPU_SPL)
+- pin105(CLS_105): NETS(CPU_CLS)
+- pin106(SPS_106): NETS(CPU_SPS)
+- pin107(MOD_107): NETS(CPU_MOD)
+- pin108(REVC_108): NOT_CONNECTED
+- pin109(TEST0_109): NETS(GND)
+- pin110(TEST1_110): NETS(GND)
+- pin111(TEST2_111): NETS(GND)
+- pin112(TEST3_112): NETS(GND)
+- pin113(CLK1_113): NETS(CPU_CK1)
+- pin114(CLK2_114): NETS(CPU_CK2)
+- pin115(VDD2_115): NETS(VDD2)
+- pin116(GND_116): NETS(GND)
+- pin117(VDD2_117): NETS(VDD2)
+- pin118(R10_118): NETS(CPU_VCNT5)
+- pin119(P9_119): NETS(CPU_TP9)
+- pin120(P6_120): NETS(CPU_TP6)
+- pin121(P5_121): NETS(CPU_TP5)
+- pin122(P7_122): NETS(CPU_TP7)
+- pin123(P4_123): NETS(CPU_TP4)
+- pin124(FIQ_N_124): NETS(VDD3)
+- pin125(RESET_N_125): NETS(Net_U1H_RESET_N)
+- pin126(P2_126): NETS(CPU_TP2)
+- pin127(P3_127): NETS(CPU_TP3)
+- pin128(GND_128): NETS(GND)
+
+U2 (AGB-SRAM)
+- pin1(MA15_1): NETS(CPU_MA_15)
+- pin2(MA14_2): NETS(CPU_MA_14)
+- pin3(MA13_3): NETS(CPU_MA_13)
+- pin4(MA12_4): NETS(CPU_MA_12)
+- pin5(MA11_5): NETS(CPU_MA_11)
+- pin6(MA10_6): NETS(CPU_MA_10)
+- pin7(MA9_7): NETS(CPU_MA_9)
+- pin8(MA8_8): NETS(CPU_MA_8)
+- pin9(NC_9): NOT_CONNECTED
+- pin10(NC_10): NOT_CONNECTED
+- pin11(WE_N_11): NETS(CPU_WE_N_RAM)
+- pin12(CE2_12): NETS(VDD2)
+- pin13(NC_GND_13): NETS(GND)
+- pin14(UB_N_14): NETS(CPU_UB_N)
+- pin15(LB_N_15): NETS(CPU_LB_N)
+- pin16(NC_VCC_16): NETS(VDD2)
+- pin17(NC_MA17_17): NETS(Net_JP2_B)
+- pin18(MA7_18): NETS(CPU_MA_7)
+- pin19(MA6_19): NETS(CPU_MA_6)
+- pin20(MA5_20): NETS(CPU_MA_5)
+- pin21(MA4_21): NETS(CPU_MA_4)
+- pin22(MA3_22): NETS(CPU_MA_3)
+- pin23(MA2_23): NETS(CPU_MA_2)
+- pin24(MA1_24): NETS(CPU_MA_1)
+- pin25(MA0_25): NETS(CPU_MA_0)
+- pin26(CE1_N_26): NETS(GND)
+- pin27(GND_27): NETS(GND)
+- pin28(OE_N_28): NETS(CPU_OE_N_RAM)
+- pin29(MD0_29): NETS(CPU_MD_0)
+- pin30(MD8_30): NETS(CPU_MD_8)
+- pin31(MD1_31): NETS(CPU_MD_1)
+- pin32(MD9_32): NETS(CPU_MD_9)
+- pin33(MD2_33): NETS(CPU_MD_2)
+- pin34(MD10_34): NETS(CPU_MD_10)
+- pin35(MD3_35): NETS(CPU_MD_3)
+- pin36(MD11_36): NETS(CPU_MD_11)
+- pin37(VCC_37): NETS(VDD2)
+- pin38(MD4_38): NETS(CPU_MD_4)
+- pin39(MD12_39): NETS(CPU_MD_12)
+- pin40(MD5_40): NETS(CPU_MD_5)
+- pin41(MD13_41): NETS(CPU_MD_13)
+- pin42(MD6_42): NETS(CPU_MD_6)
+- pin43(MD14_43): NETS(CPU_MD_14)
+- pin44(MD7_44): NETS(CPU_MD_7)
+- pin45(MD15_45): NETS(CPU_MD_15)
+- pin46(GND_46): NETS(GND)
+- pin47(NC_BYTE_N_47): NETS(Net_JP3_B)
+- pin48(MA16_48): NETS(CPU_MA_16)
+- pin49(LAND_1_1): NETS(CPU_MA_15)
+- pin50(LAND_2_3): NETS(CPU_MA_14)
+- pin51(LAND_3_5): NETS(CPU_MA_13)
+- pin52(LAND_4_7): NETS(CPU_MA_12)
+- pin53(LAND_5_9): NETS(CPU_MA_11)
+- pin54(LAND_6_11): NETS(CPU_MA_10)
+- pin55(LAND_7_13): NETS(CPU_MA_9)
+- pin56(LAND_8_15): NETS(CPU_MA_8)
+- pin57(LAND_9_17): NOT_CONNECTED
+- pin58(LAND_10_19): NOT_CONNECTED
+- pin59(LAND_11_21): NETS(CPU_WE_N_RAM)
+- pin60(LAND_12_23): NETS(VDD2)
+- pin61(LAND_13_25): NETS(GND)
+- pin62(LAND_14_27): NETS(CPU_UB_N)
+- pin63(LAND_15_29): NETS(CPU_LB_N)
+- pin64(LAND_16_31): NETS(VDD2)
+- pin65(LAND_17_33): NETS(Net_JP2_B)
+- pin66(LAND_18_35): NETS(CPU_MA_7)
+- pin67(LAND_19_37): NETS(CPU_MA_6)
+- pin68(LAND_20_39): NETS(CPU_MA_5)
+- pin69(LAND_21_41): NETS(CPU_MA_4)
+- pin70(LAND_22_43): NETS(CPU_MA_3)
+- pin71(LAND_23_45): NETS(CPU_MA_2)
+- pin72(LAND_24_47): NETS(CPU_MA_1)
+- pin73(LAND_25_49): NETS(CPU_MA_0)
+- pin74(LAND_26_51): NETS(GND)
+- pin75(LAND_27_53): NETS(GND)
+- pin76(LAND_28_55): NETS(CPU_OE_N_RAM)
+- pin77(LAND_29_57): NETS(CPU_MD_0)
+- pin78(LAND_30_59): NETS(CPU_MD_8)
+- pin79(LAND_31_61): NETS(CPU_MD_1)
+- pin80(LAND_32_63): NETS(CPU_MD_9)
+- pin81(LAND_33_65): NETS(CPU_MD_2)
+- pin82(LAND_34_67): NETS(CPU_MD_10)
+- pin83(LAND_35_69): NETS(CPU_MD_3)
+- pin84(LAND_36_71): NETS(CPU_MD_11)
+- pin85(LAND_37_73): NETS(VDD2)
+- pin86(LAND_38_75): NETS(CPU_MD_4)
+- pin87(LAND_39_77): NETS(CPU_MD_12)
+- pin88(LAND_40_79): NETS(CPU_MD_5)
+- pin89(LAND_41_81): NETS(CPU_MD_13)
+- pin90(LAND_42_83): NETS(CPU_MD_6)
+- pin91(LAND_43_85): NETS(CPU_MD_14)
+- pin92(LAND_44_87): NETS(CPU_MD_7)
+- pin93(LAND_45_89): NETS(CPU_MD_15)
+- pin94(LAND_46_91): NETS(GND)
+- pin95(LAND_47_93): NETS(Net_JP3_B)
+- pin96(LAND_48_95): NETS(CPU_MA_16)
+
+U12 (TPS22917DBV)
+- pin1(VIN_1): NETS(VDD3)
+- pin2(GND_2): NETS(GND)
+- pin3(ON_3): NETS(VCNT5_N)
+- pin4(CT_4): NOT_CONNECTED
+- pin5(QOD_5): NETS(CPU_VSHD)
+- pin6(VOUT_6): NETS(CPU_VSHD)
+
+U15 (SN74LVC1G332)
+- pin1(PIN_1): NETS(CPU_TP3)
+- pin2(GND_2): NETS(GND)
+- pin3(PIN_3): NETS(CPU_TP8)
+- pin4(PIN_4): NETS(CPU_LRST)
+- pin5(VCC_5): NETS(VDD3)
+- pin6(PIN_6): NETS(CPU_TP9)
+
+U16 (SN74HC02PWR)
+- pin1(PIN_1): NETS(Net_Q2A_G)
+- pin2(PIN_2): NETS(CPU_TP6)
+- pin3(PIN_3): NETS(CPU_LRST)
+- pin4(PIN_4): NETS(Net_Q2B_G)
+- pin5(PIN_5): NETS(CPU_TP1)
+- pin6(PIN_6): NETS(CPU_LRST)
+- pin7(GND_7): NETS(GND)
+- pin8(PIN_8): NETS(CPU_LRST)
+- pin9(PIN_9): NETS(CPU_TP0)
+- pin10(PIN_10): NETS(Net_Q7A_G)
+- pin11(PIN_11): NETS(CPU_LRST)
+- pin12(PIN_12): NETS(CPU_TP2)
+- pin13(PIN_13): NETS(Net_Q7B_G)
+- pin14(VCC_14): NETS(VDD3)
+
+X1 (4.194304MHz)
+- pin1(1_1): NETS(CPU_CK1)
+- pin2(2_2): NETS(Net_C4_Pad1)
+
+C11 (1uF undefined)
+- pin1(pos): NETS(VDD5)
+- pin2(neg): NETS(GND)
+
+C13 (0.1uF undefined)
+- pin1(pos): NETS(VDD5)
+- pin2(neg): NETS(GND)
+
+C14 (0.1uF undefined)
+- pin1(pos): NETS(CPU_VSHD)
+- pin2(neg): NETS(GND)
+
+C70 (47pF undefined)
+- pin1(pos): NETS(Net_C70_Pad1)
+- pin2(neg): NETS(GND)
+
+C71 (47pF undefined)
+- pin1(pos): NETS(Net_C71_Pad1)
+- pin2(neg): NETS(GND)
+
+P2 (FFC CONNECTOR)
+- pin0(AGND_0): NETS(GND)
+- pin1(TST2_1): NOT_CONNECTED
+- pin2(TST1_2): NETS(CPU_VSHD)
+- pin3(DCLK_3): NETS(CPU_Display_DCK)
+- pin4(LP_4): NETS(CPU_LP)
+- pin5(PS_5): NETS(CPU_PS)
+- pin6(DGND_6): NETS(GND)
+- pin7(VSHD_7): NETS(CPU_VSHD)
+- pin8(R5_8): NETS(CPU_LDR5)
+- pin9(R4_9): NETS(CPU_LDR4)
+- pin10(R3_10): NETS(CPU_LDR3)
+- pin11(R2_11): NETS(CPU_LDR2)
+- pin12(R1_12): NETS(CPU_LDR1)
+- pin13(G5_13): NETS(CPU_LDG5)
+- pin14(G4_14): NETS(CPU_LDG4)
+- pin15(G3_15): NETS(CPU_LDG3)
+- pin16(G2_16): NETS(CPU_LDG2)
+- pin17(G1_17): NETS(CPU_LDG1)
+- pin18(G0_18): NETS(GND)
+- pin19(B5_19): NETS(CPU_LDB5)
+- pin20(B4_20): NETS(CPU_LDB4)
+- pin21(B3_21): NETS(CPU_LDB3)
+- pin22(B2_22): NETS(CPU_LDB2)
+- pin23(B1_23): NETS(CPU_LDB1)
+- pin24(SPL_24): NETS(CPU_SPL)
+- pin25(CLS_25): NETS(CPU_CLS)
+- pin26(SPS_26): NETS(CPU_SPS)
+- pin27(TST3_27): NETS(CPU_VSHD)
+- pin28(MOD_28): NETS(CPU_MOD)
+- pin29(VCOM_29): NETS(CPU_Display_VCOM)
+- pin30(VEE_30): NOT_CONNECTED
+- pin31(VSS_31): NOT_CONNECTED
+- pin32(VCC_32): NOT_CONNECTED
+- pin33(VDD_33): NOT_CONNECTED
+- pin34(VSHA_34): NETS(VDD5)
+- pin35(AGND_35): NETS(GND)
+- pin36(V4_36): NOT_CONNECTED
+- pin37(V3_37): NOT_CONNECTED
+- pin38(V2_38): NOT_CONNECTED
+- pin39(V1_39): NOT_CONNECTED
+- pin40(V0_40): NOT_CONNECTED
+- pin41(LAND_0_1): NETS(GND)
+
+R26 (33kΩ undefined)
+- pin1(anode, pos, left): NETS(CPU_Display_VR1_2)
+- pin2(cathode, neg, right): NETS(VDD5)
+
+R36 (270Ω undefined)
+- pin1(anode, pos, left): NETS(CPU_Display_DCK)
+- pin2(cathode, neg, right): NETS(CPU_DCK_R)
+
+R67 (100kΩ undefined)
+- pin1(anode, pos, left): NETS(VDD3)
+- pin2(cathode, neg, right): NETS(CPU_VSHD)
+
+R70 (100kΩ undefined)
+- pin1(anode, pos, left): NETS(VDD3)
+- pin2(cathode, neg, right): NETS(Net_C70_Pad1)
+
+R71 (100kΩ undefined)
+- pin1(anode, pos, left): NETS(VDD3)
+- pin2(cathode, neg, right): NETS(Net_C71_Pad1)
+
+TP10 (TOUCH1)
+- pin1(1_1): NETS(Net_C70_Pad1)
+
+TP11 (TOUCH2)
+- pin1(1_1): NETS(Net_C71_Pad1)
+
+TP31 (TOUCH2B)
+- pin1(1_1): NETS(Net_C71_Pad1)
+
+VR1 (50k)
+- pin1(1_1): NETS(CPU_Display_VR1_2)
+- pin2(2_2): NETS(CPU_Display_VCOM)
+- pin3(3_3): NETS(GND)
+
+Z57 (100p or 0 ohm)
+- pin1(PIN_1): NETS(CPU_Display_ZB)
+- pin2(PIN_2): NETS(Net_C70_Pad1)
+
+Z58 (100p or 0 ohm)
+- pin1(PIN_1): NETS(CPU_Display_ZA)
+- pin2(PIN_2): NETS(Net_C71_Pad1)
+
+C9 (1uF undefined)
+- pin1(pos): NETS(VAUD)
+- pin2(neg): NETS(AGND)
+
+C24 (1000pF undefined)
+- pin1(pos): NETS(Net_C24_Pad1)
+- pin2(neg): NETS(Net_U7D_MINUS)
+
+C25 (1uF undefined)
+- pin1(pos): NETS(Net_U9_1Y)
+- pin2(neg): NETS(Net_C25_Pad2)
+
+C26 (680pF undefined)
+- pin1(pos): NETS(Net_U7D_PLUS)
+- pin2(neg): NETS(AGND)
+
+C27 (330pF undefined)
+- pin1(pos): NETS(Net_U7B_PLUS)
+- pin2(neg): NETS(AGND)
+
+C28 (3300pF undefined)
+- pin1(pos): NETS(Net_C28_Pad1)
+- pin2(neg): NETS(Net_U7B_MINUS)
+
+C29 (1uF undefined)
+- pin1(pos): NETS(Net_U9_2Y)
+- pin2(neg): NETS(Net_C29_Pad2)
+
+C31 (680pF undefined)
+- pin1(pos): NETS(Net_U7C_PLUS)
+- pin2(neg): NETS(AGND)
+
+C32 (1000pF undefined)
+- pin1(pos): NETS(Net_C32_Pad1)
+- pin2(neg): NETS(Net_U7C_MINUS)
+
+C33 (330pF undefined)
+- pin1(pos): NETS(Net_U7A_PLUS)
+- pin2(neg): NETS(AGND)
+
+C35 (3300pF undefined)
+- pin1(pos): NETS(Net_C35_Pad1)
+- pin2(neg): NETS(Net_U7A_MINUS)
+
+C36 (1uF undefined)
+- pin1(pos): NETS(VAUD)
+- pin2(neg): NETS(AGND)
+
+C38 (1uF undefined)
+- pin1(pos): NETS(Net_U6_BYPASS)
+- pin2(neg): NETS(AGND)
+
+C54 (1uF undefined)
+- pin1(pos): NETS(VAUD)
+- pin2(neg): NETS(AGND)
+
+C55 (1uF undefined)
+- pin1(pos): NETS(CPU_Audio_RIN)
+- pin2(neg): NETS(Net_C55_Pad2)
+
+C56 (1uF undefined)
+- pin1(pos): NETS(CPU_Audio_LIN)
+- pin2(neg): NETS(Net_C56_Pad2)
+
+CP1 (100uF undefined)
+- pin1(pos): NETS(Net_U6_BTL_PLUS)
+- pin2(neg): NETS(Net_CP1_Pad2)
+
+CP2 (100uF undefined)
+- pin1(pos): NETS(Net_U6_LOUT_BTL_MINUS)
+- pin2(neg): NETS(Net_CP2_Pad2)
+
+CP3 (100uF undefined)
+- pin1(pos): NETS(Net_U6_ROUT)
+- pin2(neg): NETS(Net_CP3_Pad2)
+
+P3 (SJ-3524-SMT)
+- pin1(PIN_1): NETS(AGND)
+- pin2(PIN_2): NETS(Net_CP2_Pad2)
+- pin3(PIN_3): NETS(Net_CP3_Pad2)
+- pin4(PIN_4): NETS(Net_U6_HP_IN)
+- pin5(LAND_1_3): NETS(AGND)
+- pin6(LAND_2_5): NETS(Net_CP2_Pad2)
+- pin7(LAND_3_7): NETS(Net_CP3_Pad2)
+- pin8(LAND_4_9): NETS(Net_U6_HP_IN)
+
+Q6 (2N7002)
+- pin1(G_1): NETS(VDD5)
+- pin2(S_2): NETS(AGND)
+- pin3(D_3): NETS(Net_Q6_D)
+
+R14 (100kΩ undefined)
+- pin1(anode, pos, left): NETS(VAUD)
+- pin2(cathode, neg, right): NETS(Net_U6_HP_IN)
+
+R19 (1kΩ undefined)
+- pin1(anode, pos, left): NETS(Net_CP3_Pad2)
+- pin2(cathode, neg, right): NETS(AGND)
+
+R20 (1kΩ undefined)
+- pin1(anode, pos, left): NETS(Net_CP2_Pad2)
+- pin2(cathode, neg, right): NETS(AGND)
+
+R30 (100kΩ undefined)
+- pin1(anode, pos, left): NETS(Net_U6_LIN)
+- pin2(cathode, neg, right): NETS(Net_C56_Pad2)
+
+R31 (100kΩ undefined)
+- pin1(anode, pos, left): NETS(Net_U6_RIN)
+- pin2(cathode, neg, right): NETS(Net_C55_Pad2)
+
+R34 (5.1kΩ undefined)
+- pin1(anode, pos, left): NETS(Net_C28_Pad1)
+- pin2(cathode, neg, right): NETS(Net_U7D_MINUS)
+
+R37 (100kΩ undefined)
+- pin1(anode, pos, left): NETS(VAUD)
+- pin2(cathode, neg, right): NETS(Net_Q6_D)
+
+R42 (7.5kΩ undefined)
+- pin1(anode, pos, left): NETS(Net_C24_Pad1)
+- pin2(cathode, neg, right): NETS(Net_C25_Pad2)
+
+R45 (100kΩ undefined)
+- pin1(anode, pos, left): NETS(Net_C25_Pad2)
+- pin2(cathode, neg, right): NETS(AGND)
+
+R46 (100kΩ undefined)
+- pin1(anode, pos, left): NETS(VAUD)
+- pin2(cathode, neg, right): NETS(Net_C25_Pad2)
+
+R47 (20kΩ undefined)
+- pin1(anode, pos, left): NETS(Net_C24_Pad1)
+- pin2(cathode, neg, right): NETS(Net_U7D_PLUS)
+
+R48 (18kΩ undefined)
+- pin1(anode, pos, left): NETS(Net_C28_Pad1)
+- pin2(cathode, neg, right): NETS(Net_U7B_PLUS)
+
+R49 (100kΩ undefined)
+- pin1(anode, pos, left): NETS(Net_C29_Pad2)
+- pin2(cathode, neg, right): NETS(AGND)
+
+R50 (100kΩ undefined)
+- pin1(anode, pos, left): NETS(VAUD)
+- pin2(cathode, neg, right): NETS(Net_C29_Pad2)
+
+R51 (7.5kΩ undefined)
+- pin1(anode, pos, left): NETS(Net_C32_Pad1)
+- pin2(cathode, neg, right): NETS(Net_C29_Pad2)
+
+R52 (20kΩ undefined)
+- pin1(anode, pos, left): NETS(Net_C32_Pad1)
+- pin2(cathode, neg, right): NETS(Net_U7C_PLUS)
+
+R53 (5.1kΩ undefined)
+- pin1(anode, pos, left): NETS(Net_C35_Pad1)
+- pin2(cathode, neg, right): NETS(Net_U7C_MINUS)
+
+R54 (18kΩ undefined)
+- pin1(anode, pos, left): NETS(Net_C35_Pad1)
+- pin2(cathode, neg, right): NETS(Net_U7A_PLUS)
+
+R56 (20kΩ undefined)
+- pin1(anode, pos, left): NETS(Net_U6_RIN)
+- pin2(cathode, neg, right): NETS(Net_U6_ROUT)
+
+R57 (20kΩ undefined)
+- pin1(anode, pos, left): NETS(Net_U6_LOUT_BTL_MINUS)
+- pin2(cathode, neg, right): NETS(Net_U6_LIN)
+
+SP1 (Speaker)
+- pin1(1_1): NETS(Net_U6_LOUT_BTL_MINUS)
+- pin2(2_2): NETS(Net_CP1_Pad2)
+
+TP33 (LIN)
+- pin1(1_1): NETS(CPU_Audio_LIN)
+
+TP34 (RIN)
+- pin1(1_1): NETS(CPU_Audio_RIN)
+
+TP114 (R-OUT)
+- pin1(1_1): NETS(CPU_Audio_R_OUT)
+
+TP115 (L-OUT)
+- pin1(1_1): NETS(CPU_Audio_L_OUT)
+
+U6 (LM4853)
+- pin1(LIN_1): NETS(Net_U6_LIN)
+- pin2(SHUTDOWN_2): NETS(Net_Q6_D)
+- pin3(HP_IN_3): NETS(Net_U6_HP_IN)
+- pin4(GND_4): NETS(AGND)
+- pin5(RIN_5): NETS(Net_U6_RIN)
+- pin6(ROUT_6): NETS(Net_U6_ROUT)
+- pin7(BYPASS_7): NETS(Net_U6_BYPASS)
+- pin8(BTL_PLUS_8): NETS(Net_U6_BTL_PLUS)
+- pin9(VDD_9): NETS(VAUD)
+- pin10(LOUT_BTL_10): NETS(Net_U6_LOUT_BTL_MINUS)
+
+U7 (TLV9064IPWR)
+- pin1(PIN_1): NETS(Net_U7A_MINUS)
+- pin2(_2): NETS(Net_U7A_MINUS)
+- pin3(_PLUS_3): NETS(Net_U7A_PLUS)
+- pin4(V_PLUS_4): NETS(VAUD)
+- pin5(_PLUS_5): NETS(Net_U7B_PLUS)
+- pin6(_6): NETS(Net_U7B_MINUS)
+- pin7(PIN_7): NETS(Net_U7B_MINUS)
+- pin8(PIN_8): NETS(Net_U7C_MINUS)
+- pin9(_9): NETS(Net_U7C_MINUS)
+- pin10(_PLUS_10): NETS(Net_U7C_PLUS)
+- pin11(V_11): NETS(AGND)
+- pin12(_PLUS_12): NETS(Net_U7D_PLUS)
+- pin13(_13): NETS(Net_U7D_MINUS)
+- pin14(PIN_14): NETS(Net_U7D_MINUS)
+
+U9 (SN74LVC2G34DBVR)
+- pin1(1A_1): NETS(CPU_Audio_L_OUT)
+- pin2(GND_2): NETS(AGND)
+- pin3(2A_3): NETS(CPU_Audio_R_OUT)
+- pin4(2Y_4): NETS(Net_U9_2Y)
+- pin5(V_CC_5): NETS(VAUD)
+- pin6(1Y_6): NETS(Net_U9_1Y)
+
+VR2 (RK10J12R0A0B)
+- pin1(ROUT_1): NETS(Net_U7A_MINUS)
+- pin2(LOUT_2): NETS(Net_U7B_MINUS)
+- pin3(LIN_3): NETS(CPU_Audio_LIN)
+- pin4(RIN_4): NETS(CPU_Audio_RIN)
+- pin5(COM_5): NETS(AGND)
+- pin6(LAND_6_5): NOT_CONNECTED
+- pin7(LAND_6_6): NOT_CONNECTED
+- pin8(LAND_6_7): NOT_CONNECTED
+- pin9(LAND_6_8): NOT_CONNECTED
+

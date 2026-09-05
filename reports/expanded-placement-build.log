@@ -1,0 +1,45 @@
+Building 1 file(s)...
+Building index.circuit.tsx...
+Generating circuit JSON...
+5113 |         detail = `It has [${labelList}]`;
+5114 |       }
+5115 |       const errorMessage = `Could not find port for selector "${selector}". Component "${targetComponent.props.name ?? parentSelector}" found, but does not have pin "${portLabel}". ${detail}`;
+5116 |       const subcircuit = trace.getSubcircuit();
+5117 |       const sourceGroup = subcircuit.getGroup();
+5118 |       throw new TraceConnectionError({
+                   ^
+TraceConnectionError: Could not find port for selector ".Q7 > .pin6". Component ".Q7 > " found, but does not have pin "pin6". It has no ports
+ errorData: {
+  error_type: "source_trace_not_connected_error",
+  message: "Could not find port for selector \".Q7 > .pin6\". Component \".Q7 > \" found, but does not have pin \"pin6\". It has no ports",
+  subcircuit_id: undefined,
+  source_group_id: undefined,
+  source_trace_id: undefined,
+  selectors_not_found: [ ".Q7 > .pin6" ],
+},
+
+      at Trace__findConnectedPorts (/Users/anassarkiz/tsci/Game-Boy-Enhance/node_modules/@tscircuit/core/dist/index.js:5118:13)
+      at doInitialCreateAutoplacedBreakoutPoints (/Users/anassarkiz/tsci/Game-Boy-Enhance/node_modules/@tscircuit/core/dist/index.js:57162:28)
+      at runRenderPhase (/Users/anassarkiz/tsci/Game-Boy-Enhance/node_modules/@tscircuit/core/dist/index.js:760:24)
+      at runRenderPhaseForChildren (/Users/anassarkiz/tsci/Game-Boy-Enhance/node_modules/@tscircuit/core/dist/index.js:770:13)
+      at runRenderPhaseForChildren (/Users/anassarkiz/tsci/Game-Boy-Enhance/node_modules/@tscircuit/core/dist/index.js:769:13)
+      at runRenderPhaseForChildren (/Users/anassarkiz/tsci/Game-Boy-Enhance/node_modules/@tscircuit/core/dist/index.js:769:13)
+      at runRenderPhaseForChildren (/Users/anassarkiz/tsci/Game-Boy-Enhance/node_modules/@tscircuit/core/dist/index.js:51973:11)
+      at runRenderCycle (/Users/anassarkiz/tsci/Game-Boy-Enhance/node_modules/@tscircuit/core/dist/index.js:710:12)
+      at render (/Users/anassarkiz/tsci/Game-Boy-Enhance/node_modules/@tscircuit/core/dist/index.js:50676:16)
+      at generateCircuitJson (/Users/anassarkiz/.bun/install/global/node_modules/tscircuit/node_modules/@tscircuit/cli/dist/cli/main.js:148473:10)
+      at async <anonymous> (/Users/anassarkiz/.bun/install/global/node_modules/tscircuit/node_modules/@tscircuit/cli/dist/cli/main.js:148593:28)
+      at async <anonymous> (/Users/anassarkiz/.bun/install/global/node_modules/tscircuit/node_modules/@tscircuit/cli/dist/cli/main.js:153481:38)
+      at async <anonymous> (/Users/anassarkiz/.bun/install/global/node_modules/tscircuit/node_modules/@tscircuit/cli/dist/cli/main.js:153603:15)
+
+Fatal error [circuit_generation_failed]: Could not find port for selector ".Q7 > .pin6". Component ".Q7 > " found, but does not have pin "pin6". It has no ports
+Generating preview images...
+No successful build output available for preview image generation.
+
+Build complete
+  Circuits  0 passed 1 failed
+  Options   pcb-png, pcb-svgs, schematic-svgs
+  Output    dist
+
+⚠ Build completed with errors
+Build exiting with code 1: fatal circuit build errors occurred

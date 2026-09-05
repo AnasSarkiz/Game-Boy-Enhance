@@ -1,0 +1,27 @@
+{
+  "query": "MIC1557",
+  "results": [
+    {
+      "source": "jlcpcb",
+      "lcsc": 144169,
+      "mfr": "MIC1557YM5-TR",
+      "package": "SOT-23-5",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+85℃ 2.7V~18V 350uA 5MHz SOT-23-5 555 Timers / Counters ROHS",
+      "stock": 238,
+      "price": 1.199
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 625641,
+      "mfr": "MIC1557YD5-TR",
+      "package": "TSOT-23-5",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+85℃ 1 2.7V~18V 255uA Adjustable duty cycle oscillation、Reset function、Shutdown control、Schmitt trigger input TSOT-23-5 555 Timers / Counters ROHS",
+      "stock": 7,
+      "price": 1.3015
+    }
+  ]
+}

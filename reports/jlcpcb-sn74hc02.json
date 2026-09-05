@@ -1,0 +1,16 @@
+{
+  "query": "SN74HC02PWR",
+  "results": [
+    {
+      "source": "jlcpcb",
+      "lcsc": 484750,
+      "mfr": "SN74HC02PWR",
+      "package": "TSSOP-14",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+85℃ 1.5V~4.2V 1.9V~1.998V、4.4V~4.499V、5.9V~5.999V 15ns@6V,50pF 1mV~100mV、1mV~100mV、2mV~100mV 2 2V~6V 2uA 4 5.2mA 5.2mA 500mV~1.8V 74HC Series NOR Gate TSSOP-14 Logic Gates ROHS",
+      "stock": 4029,
+      "price": 0.4025
+    }
+  ]
+}

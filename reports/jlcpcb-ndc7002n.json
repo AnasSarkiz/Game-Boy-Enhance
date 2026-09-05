@@ -1,0 +1,38 @@
+{
+  "query": "NDC7002N",
+  "results": [
+    {
+      "source": "jlcpcb",
+      "lcsc": 404322,
+      "mfr": "NDC7002N(UMW)",
+      "package": "SOT-23-6",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-55℃~+150℃ 1.9V 13pF 1nC@10V 1Ω@10V 2 N-Channel 20pF 50V 510mA 5pF 960mW N-Channel SOT-23-6 MOSFETs ROHS",
+      "stock": 65657,
+      "price": 0.1048
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 5125996,
+      "mfr": "NDC7002N",
+      "package": "SOT-23-6",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-55℃~+150℃ 2 N-Channel 2.4Ω@10V 2.5V 304pC@4.5V 500mA 50V 50pF 5pF 700mW SOT-23-6 MOSFETs ROHS",
+      "stock": 3582,
+      "price": 0.148
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 114648,
+      "mfr": "NDC7002N",
+      "package": "SuperSOT-6",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-55℃~+150℃ 13pF 1nC@10V 1Ω@10V 2 N-Channel 2.5V 20pF 50V 510mA 5pF N-Channel SuperSOT-6 MOSFETs ROHS",
+      "stock": 2578,
+      "price": 0.2278
+    }
+  ]
+}

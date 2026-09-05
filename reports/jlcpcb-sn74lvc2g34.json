@@ -1,0 +1,38 @@
+{
+  "query": "SN74LVC2G34DBVR",
+  "results": [
+    {
+      "source": "jlcpcb",
+      "lcsc": 7394039,
+      "mfr": "SN74LVC2G34DBVR(UMW)",
+      "package": "SOT23-6",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+85℃ 1 1.65V~5.5V 10uA 2 24mA 24mA 6.6ns@5V,50pF 74LVC Push-pull StandardCMOS Unidirectional SOT23-6 Buffers, Drivers, Receivers, Transceivers ROHS",
+      "stock": 94847,
+      "price": 0.0298
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 347589,
+      "mfr": "SN74LVC2G34DBVR",
+      "package": "SOT-23-6",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+125℃ 1 1.65V~5.5V 10uA 2 32mA 32mA 4.1ns@3.3V,50pF 74LVC Unidirectional SOT-23-6 Buffers, Drivers, Receivers, Transceivers ROHS",
+      "stock": 33347,
+      "price": 0.181
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 49374610,
+      "mfr": "SN74LVC2G34DBVR-TP",
+      "package": "SOT-23-6",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+125℃ 1 1.65V~5.5V 10uA 2 32mA 32mA 4.1ns@3.3V 74LVC Unidirectional SOT-23-6 Buffers, Drivers, Receivers, Transceivers ROHS",
+      "stock": 2254,
+      "price": 0.044
+    }
+  ]
+}

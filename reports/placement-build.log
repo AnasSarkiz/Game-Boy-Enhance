@@ -1,0 +1,1626 @@
+Building 1 file(s)...
+Building index.circuit.tsx...
+Generating circuit JSON...
+Circuit JSON written to dist/index/circuit.json
+The "F" prefix is being used with a <chip />, try using it with a <fuse />
+The "L" prefix is being used with a <chip />, try using it with an <inductor />
+The "L" prefix is being used with a <chip />, try using it with an <inductor />
+The "Q" prefix is being used with a <chip />, try using it with a <transistor />
+The "Q" prefix is being used with a <chip />, try using it with a <transistor />
+The "Q" prefix is being used with a <chip />, try using it with a <transistor />
+The "Q" prefix is being used with a <chip />, try using it with a <transistor />
+The "Q" prefix is being used with a <chip />, try using it with a <transistor />
+The "S" prefix is being used with a <chip />, try using it with a <switch /> or <pushbutton />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+The "J" prefix is being used with a <chip />, try using it with a <connector /> or <jumper />
+The "J" prefix is being used with a <chip />, try using it with a <connector /> or <jumper />
+The "J" prefix is being used with a <chip />, try using it with a <connector /> or <jumper />
+The "Q" prefix is being used with a <chip />, try using it with a <transistor />
+The "Q" prefix is being used with a <chip />, try using it with a <transistor />
+The "Q" prefix is being used with a <chip />, try using it with a <transistor />
+The "R" prefix is being used with a <chip />, try using it with a <resistor />
+The "S" prefix is being used with a <chip />, try using it with a <switch /> or <pushbutton />
+The "S" prefix is being used with a <chip />, try using it with a <switch /> or <pushbutton />
+The "S" prefix is being used with a <chip />, try using it with a <switch /> or <pushbutton />
+The "S" prefix is being used with a <chip />, try using it with a <switch /> or <pushbutton />
+The "S" prefix is being used with a <chip />, try using it with a <switch /> or <pushbutton />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+The "X" prefix is being used with a <chip />, try using it with a <crystal />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+Component CP1 has ftype="simple_capacitor" but reference designator should start with C
+Component CP2 has ftype="simple_capacitor" but reference designator should start with C
+Component CP3 has ftype="simple_capacitor" but reference designator should start with C
+The "Q" prefix is being used with a <chip />, try using it with a <transistor />
+The "S" prefix is being used with a <chip />, try using it with a <switch /> or <pushbutton />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+The "TP" prefix is being used with a <chip />, try using it with a <testpoint />
+schematic_component schematic_component_0 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_component schematic_component_1 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_component schematic_component_2 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_component schematic_component_3 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_component schematic_component_4 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_component schematic_component_5 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_component schematic_component_6 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_component schematic_component_7 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_component schematic_component_8 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_component schematic_component_9 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_component schematic_component_10 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_component schematic_component_11 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_component schematic_component_12 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_component schematic_component_13 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_component schematic_component_14 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_component schematic_component_15 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_component schematic_component_16 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_component schematic_component_17 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_component schematic_component_18 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_component schematic_component_19 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_component schematic_component_20 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_component schematic_component_21 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_component schematic_component_22 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_component schematic_component_23 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_component schematic_component_24 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_component schematic_component_25 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_component schematic_component_26 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_component schematic_component_29 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_component schematic_component_30 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_component schematic_component_31 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_component schematic_component_32 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_component schematic_component_33 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_component schematic_component_34 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_component schematic_component_37 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_component schematic_component_38 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_component schematic_component_39 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_component schematic_component_40 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_component schematic_component_41 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_component schematic_component_42 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_component schematic_component_45 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_component schematic_component_46 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_component schematic_component_47 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_component schematic_component_48 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_component schematic_component_49 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_component schematic_component_50 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_component schematic_component_53 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_component schematic_component_54 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_component schematic_component_55 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_component schematic_component_56 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_component schematic_component_57 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_component schematic_component_58 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_component schematic_component_61 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_component schematic_component_62 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_component schematic_component_63 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_component schematic_component_64 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_component schematic_component_65 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_component schematic_component_66 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_component schematic_component_67 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_component schematic_component_68 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_component schematic_component_69 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_component schematic_component_70 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_component schematic_component_71 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_component schematic_component_72 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_component schematic_component_73 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_component schematic_component_74 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_component schematic_component_75 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_component schematic_component_76 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_component schematic_component_77 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_component schematic_component_78 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_component schematic_component_79 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_component schematic_component_80 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_component schematic_component_81 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_net_label schematic_net_label_0 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_net_label schematic_net_label_1 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_net_label schematic_net_label_2 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_net_label schematic_net_label_3 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_net_label schematic_net_label_4 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_net_label schematic_net_label_5 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_net_label schematic_net_label_6 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_net_label schematic_net_label_7 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_net_label schematic_net_label_8 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_net_label schematic_net_label_9 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_net_label schematic_net_label_10 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_net_label schematic_net_label_12 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_net_label schematic_net_label_13 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_net_label schematic_net_label_14 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_net_label schematic_net_label_16 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_net_label schematic_net_label_17 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_net_label schematic_net_label_18 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_net_label schematic_net_label_19 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_net_label schematic_net_label_20 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_net_label schematic_net_label_21 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_net_label schematic_net_label_22 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_net_label schematic_net_label_23 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_net_label schematic_net_label_24 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_net_label schematic_net_label_25 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_net_label schematic_net_label_26 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_net_label schematic_net_label_27 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_net_label schematic_net_label_28 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_net_label schematic_net_label_29 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_net_label schematic_net_label_30 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_net_label schematic_net_label_32 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_net_label schematic_net_label_33 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_net_label schematic_net_label_34 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_net_label schematic_net_label_35 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_net_label schematic_net_label_36 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_net_label schematic_net_label_37 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_net_label schematic_net_label_38 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_net_label schematic_net_label_40 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_net_label schematic_net_label_41 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_net_label schematic_net_label_42 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_net_label schematic_net_label_43 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_net_label schematic_net_label_44 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_net_label schematic_net_label_45 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_net_label schematic_net_label_46 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_net_label schematic_net_label_47 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_net_label schematic_net_label_49 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_net_label schematic_net_label_50 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_net_label schematic_net_label_51 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_net_label schematic_net_label_52 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_net_label schematic_net_label_54 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_net_label schematic_net_label_56 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_net_label schematic_net_label_57 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_net_label schematic_net_label_58 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_net_label schematic_net_label_59 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_net_label schematic_net_label_60 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_0 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_1 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_2 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_3 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_4 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_5 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_6 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_7 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_8 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_9 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_10 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_11 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_12 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_13 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_14 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_15 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_16 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_17 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_18 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_20 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_21 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_22 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_23 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_24 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_25 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_26 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_27 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_28 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_29 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_30 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_31 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_32 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_33 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_34 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_35 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_36 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_37 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_38 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_39 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_40 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_41 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_42 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_43 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_44 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_45 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_46 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_48 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_49 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_50 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_51 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_52 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_53 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_54 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_55 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_56 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_57 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_59 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_60 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_61 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_62 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_63 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_65 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_66 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_67 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_68 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_69 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_71 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_72 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_74 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_75 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_76 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_77 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_78 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_79 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_80 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_81 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_82 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_83 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_84 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_85 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_86 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_87 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_88 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_89 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_90 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_91 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_92 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_94 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_95 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_96 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_97 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_98 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_99 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_101 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_102 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_103 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_105 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_106 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_107 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_109 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_110 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_111 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_112 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_114 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_116 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_117 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_118 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_120 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_121 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_123 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_124 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_125 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_126 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_127 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_128 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_129 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_131 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_133 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_134 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_135 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_136 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_137 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_138 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_139 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_140 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_141 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_142 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_143 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_144 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_145 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_146 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_147 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_148 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_149 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_150 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_151 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_152 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_153 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_154 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_155 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_156 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_157 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_158 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_159 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_161 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_163 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_165 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_trace schematic_trace_166 extends outside the drawing area of schematic sheet "AA POWER / SEQUENCING / BATTERY STATUS"
+schematic_component schematic_component_82 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_83 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_84 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_85 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_86 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_87 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_88 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_89 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_90 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_91 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_92 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_93 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_94 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_95 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_96 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_97 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_98 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_99 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_100 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_101 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_102 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_103 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_104 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_105 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_106 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_107 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_108 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_109 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_110 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_111 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_112 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_113 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_114 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_118 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_119 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_120 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_121 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_122 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_125 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_126 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_127 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_128 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_129 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_130 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_134 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_135 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_136 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_137 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_138 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_142 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_143 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_144 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_145 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_146 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_147 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_148 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_149 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_150 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_151 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_152 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_153 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_154 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_155 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_156 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_157 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_158 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_159 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_160 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_161 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_162 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_163 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_164 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_165 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_166 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_167 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_168 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_169 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_170 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_171 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_172 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_net_label schematic_net_label_61 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_net_label schematic_net_label_62 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_net_label schematic_net_label_63 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_net_label schematic_net_label_64 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_net_label schematic_net_label_65 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_net_label schematic_net_label_66 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_net_label schematic_net_label_67 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_net_label schematic_net_label_68 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_net_label schematic_net_label_69 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_net_label schematic_net_label_70 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_net_label schematic_net_label_71 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_net_label schematic_net_label_72 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_net_label schematic_net_label_73 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_net_label schematic_net_label_74 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_net_label schematic_net_label_75 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_net_label schematic_net_label_76 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_net_label schematic_net_label_77 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_net_label schematic_net_label_81 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_net_label schematic_net_label_82 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_net_label schematic_net_label_83 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_net_label schematic_net_label_84 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_net_label schematic_net_label_85 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_net_label schematic_net_label_86 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_net_label schematic_net_label_87 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_net_label schematic_net_label_88 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_net_label schematic_net_label_89 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_net_label schematic_net_label_90 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_net_label schematic_net_label_91 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_net_label schematic_net_label_92 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_net_label schematic_net_label_93 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_net_label schematic_net_label_94 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_net_label schematic_net_label_95 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_net_label schematic_net_label_96 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_net_label schematic_net_label_97 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_net_label schematic_net_label_98 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_net_label schematic_net_label_99 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_net_label schematic_net_label_100 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_net_label schematic_net_label_101 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_net_label schematic_net_label_102 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_net_label schematic_net_label_103 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_net_label schematic_net_label_104 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_net_label schematic_net_label_105 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_net_label schematic_net_label_106 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_net_label schematic_net_label_107 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_net_label schematic_net_label_108 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_net_label schematic_net_label_109 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_net_label schematic_net_label_110 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_net_label schematic_net_label_111 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_net_label schematic_net_label_112 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_net_label schematic_net_label_113 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_net_label schematic_net_label_114 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_net_label schematic_net_label_115 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_net_label schematic_net_label_116 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_net_label schematic_net_label_117 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_net_label schematic_net_label_119 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_net_label schematic_net_label_120 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_net_label schematic_net_label_121 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_net_label schematic_net_label_122 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_net_label schematic_net_label_123 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_net_label schematic_net_label_126 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_net_label schematic_net_label_127 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_net_label schematic_net_label_128 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_net_label schematic_net_label_129 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_net_label schematic_net_label_130 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_net_label schematic_net_label_131 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_net_label schematic_net_label_132 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_172 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_173 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_174 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_175 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_176 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_177 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_178 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_179 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_180 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_181 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_182 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_183 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_184 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_185 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_186 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_187 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_188 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_189 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_190 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_191 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_192 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_193 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_195 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_196 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_197 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_198 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_199 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_200 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_201 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_202 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_203 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_204 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_205 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_206 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_207 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_208 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_210 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_211 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_212 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_213 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_214 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_215 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_216 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_217 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_219 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_220 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_221 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_222 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_223 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_224 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_225 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_226 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_227 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_228 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_229 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_230 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_231 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_232 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_234 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_235 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_236 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_237 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_238 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_239 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_240 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_241 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_242 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_243 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_244 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_245 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_246 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_247 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_248 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_249 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_250 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_251 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_252 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_253 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_254 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_255 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_256 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_257 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_258 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_260 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_261 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_262 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_263 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_264 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_265 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_266 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_267 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_268 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_269 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_270 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_271 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_272 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_273 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_275 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_276 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_277 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_278 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_279 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_280 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_282 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_283 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_284 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_285 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_286 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_287 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_288 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_289 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_290 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_291 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_292 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_293 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_294 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_296 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_297 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_298 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_299 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_300 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_301 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_302 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_303 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_304 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_305 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_306 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_308 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_309 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_310 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_311 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_313 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_314 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_315 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_317 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_318 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_319 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_320 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_323 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_324 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_325 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_328 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_329 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_330 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_331 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_332 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_333 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_334 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_335 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_336 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_337 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_338 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_339 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_341 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_342 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_344 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_345 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_346 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_347 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_348 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_349 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_351 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_352 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_353 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_354 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_355 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_356 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_357 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_358 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_359 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_360 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_361 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_362 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_363 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_364 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_365 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_366 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_367 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_368 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_370 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_372 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_373 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_374 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_375 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_376 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_377 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_378 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_379 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_380 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_381 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_382 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_383 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_384 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_385 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_386 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_387 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_388 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_389 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_390 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_391 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_392 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_393 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_394 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_395 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_396 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_397 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_398 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_399 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_400 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_401 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_402 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_403 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_404 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_405 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_406 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_407 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_408 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_409 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_410 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_411 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_412 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_413 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_414 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_415 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_416 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_417 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_418 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_419 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_420 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_421 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_422 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_423 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_424 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_425 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_426 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_427 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_428 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_429 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_430 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_431 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_432 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_433 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_434 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_435 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_436 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_437 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_438 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_439 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_440 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_441 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_442 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_444 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_446 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_447 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_448 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_449 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_450 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_451 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_452 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_453 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_454 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_455 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_456 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_457 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_458 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_459 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_460 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_461 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_462 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_463 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_464 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_465 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_466 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_467 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_468 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_469 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_470 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_471 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_472 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_473 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_474 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_475 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_476 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_477 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_478 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_479 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_480 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_481 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_482 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_483 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_484 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_485 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_486 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_487 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_488 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_489 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_490 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_491 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_492 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_493 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_494 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_495 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_496 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_497 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_498 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_499 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_500 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_501 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_502 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_503 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_504 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_505 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_506 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_507 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_508 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_509 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_510 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_511 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_512 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_513 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_514 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_515 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_516 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_517 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_518 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_519 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_520 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_521 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_522 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_523 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_524 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_525 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_526 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_527 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_528 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_529 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_530 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_531 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_532 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_533 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_534 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_535 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_536 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_537 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_538 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_539 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_540 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_541 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_542 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_543 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_544 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_545 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_546 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_547 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_548 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_549 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_550 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_551 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_trace schematic_trace_552 extends outside the drawing area of schematic sheet "CPU / SRAM / CARTRIDGE / BUTTONS / HOTKEYS"
+schematic_component schematic_component_173 extends outside the drawing area of schematic sheet "DISPLAY / 40-PIN FFC / SCREEN OPTIONS"
+schematic_component schematic_component_174 extends outside the drawing area of schematic sheet "DISPLAY / 40-PIN FFC / SCREEN OPTIONS"
+schematic_component schematic_component_178 extends outside the drawing area of schematic sheet "DISPLAY / 40-PIN FFC / SCREEN OPTIONS"
+schematic_component schematic_component_179 extends outside the drawing area of schematic sheet "DISPLAY / 40-PIN FFC / SCREEN OPTIONS"
+schematic_component schematic_component_180 extends outside the drawing area of schematic sheet "DISPLAY / 40-PIN FFC / SCREEN OPTIONS"
+schematic_component schematic_component_181 extends outside the drawing area of schematic sheet "DISPLAY / 40-PIN FFC / SCREEN OPTIONS"
+schematic_component schematic_component_182 extends outside the drawing area of schematic sheet "DISPLAY / 40-PIN FFC / SCREEN OPTIONS"
+schematic_component schematic_component_185 extends outside the drawing area of schematic sheet "DISPLAY / 40-PIN FFC / SCREEN OPTIONS"
+schematic_component schematic_component_186 extends outside the drawing area of schematic sheet "DISPLAY / 40-PIN FFC / SCREEN OPTIONS"
+schematic_component schematic_component_187 extends outside the drawing area of schematic sheet "DISPLAY / 40-PIN FFC / SCREEN OPTIONS"
+schematic_component schematic_component_188 extends outside the drawing area of schematic sheet "DISPLAY / 40-PIN FFC / SCREEN OPTIONS"
+schematic_component schematic_component_189 extends outside the drawing area of schematic sheet "DISPLAY / 40-PIN FFC / SCREEN OPTIONS"
+schematic_net_label schematic_net_label_133 extends outside the drawing area of schematic sheet "DISPLAY / 40-PIN FFC / SCREEN OPTIONS"
+schematic_net_label schematic_net_label_134 extends outside the drawing area of schematic sheet "DISPLAY / 40-PIN FFC / SCREEN OPTIONS"
+schematic_net_label schematic_net_label_135 extends outside the drawing area of schematic sheet "DISPLAY / 40-PIN FFC / SCREEN OPTIONS"
+schematic_net_label schematic_net_label_136 extends outside the drawing area of schematic sheet "DISPLAY / 40-PIN FFC / SCREEN OPTIONS"
+schematic_net_label schematic_net_label_138 extends outside the drawing area of schematic sheet "DISPLAY / 40-PIN FFC / SCREEN OPTIONS"
+schematic_net_label schematic_net_label_139 extends outside the drawing area of schematic sheet "DISPLAY / 40-PIN FFC / SCREEN OPTIONS"
+schematic_net_label schematic_net_label_140 extends outside the drawing area of schematic sheet "DISPLAY / 40-PIN FFC / SCREEN OPTIONS"
+schematic_net_label schematic_net_label_141 extends outside the drawing area of schematic sheet "DISPLAY / 40-PIN FFC / SCREEN OPTIONS"
+schematic_net_label schematic_net_label_142 extends outside the drawing area of schematic sheet "DISPLAY / 40-PIN FFC / SCREEN OPTIONS"
+schematic_trace schematic_trace_553 extends outside the drawing area of schematic sheet "DISPLAY / 40-PIN FFC / SCREEN OPTIONS"
+schematic_trace schematic_trace_554 extends outside the drawing area of schematic sheet "DISPLAY / 40-PIN FFC / SCREEN OPTIONS"
+schematic_trace schematic_trace_557 extends outside the drawing area of schematic sheet "DISPLAY / 40-PIN FFC / SCREEN OPTIONS"
+schematic_trace schematic_trace_558 extends outside the drawing area of schematic sheet "DISPLAY / 40-PIN FFC / SCREEN OPTIONS"
+schematic_trace schematic_trace_559 extends outside the drawing area of schematic sheet "DISPLAY / 40-PIN FFC / SCREEN OPTIONS"
+schematic_trace schematic_trace_560 extends outside the drawing area of schematic sheet "DISPLAY / 40-PIN FFC / SCREEN OPTIONS"
+schematic_trace schematic_trace_561 extends outside the drawing area of schematic sheet "DISPLAY / 40-PIN FFC / SCREEN OPTIONS"
+schematic_trace schematic_trace_562 extends outside the drawing area of schematic sheet "DISPLAY / 40-PIN FFC / SCREEN OPTIONS"
+schematic_trace schematic_trace_563 extends outside the drawing area of schematic sheet "DISPLAY / 40-PIN FFC / SCREEN OPTIONS"
+schematic_trace schematic_trace_564 extends outside the drawing area of schematic sheet "DISPLAY / 40-PIN FFC / SCREEN OPTIONS"
+schematic_trace schematic_trace_565 extends outside the drawing area of schematic sheet "DISPLAY / 40-PIN FFC / SCREEN OPTIONS"
+schematic_trace schematic_trace_568 extends outside the drawing area of schematic sheet "DISPLAY / 40-PIN FFC / SCREEN OPTIONS"
+schematic_trace schematic_trace_569 extends outside the drawing area of schematic sheet "DISPLAY / 40-PIN FFC / SCREEN OPTIONS"
+schematic_trace schematic_trace_570 extends outside the drawing area of schematic sheet "DISPLAY / 40-PIN FFC / SCREEN OPTIONS"
+schematic_trace schematic_trace_571 extends outside the drawing area of schematic sheet "DISPLAY / 40-PIN FFC / SCREEN OPTIONS"
+schematic_trace schematic_trace_573 extends outside the drawing area of schematic sheet "DISPLAY / 40-PIN FFC / SCREEN OPTIONS"
+schematic_trace schematic_trace_574 extends outside the drawing area of schematic sheet "DISPLAY / 40-PIN FFC / SCREEN OPTIONS"
+schematic_trace schematic_trace_575 extends outside the drawing area of schematic sheet "DISPLAY / 40-PIN FFC / SCREEN OPTIONS"
+schematic_trace schematic_trace_576 extends outside the drawing area of schematic sheet "DISPLAY / 40-PIN FFC / SCREEN OPTIONS"
+schematic_trace schematic_trace_577 extends outside the drawing area of schematic sheet "DISPLAY / 40-PIN FFC / SCREEN OPTIONS"
+schematic_trace schematic_trace_578 extends outside the drawing area of schematic sheet "DISPLAY / 40-PIN FFC / SCREEN OPTIONS"
+schematic_trace schematic_trace_579 extends outside the drawing area of schematic sheet "DISPLAY / 40-PIN FFC / SCREEN OPTIONS"
+schematic_trace schematic_trace_580 extends outside the drawing area of schematic sheet "DISPLAY / 40-PIN FFC / SCREEN OPTIONS"
+schematic_trace schematic_trace_581 extends outside the drawing area of schematic sheet "DISPLAY / 40-PIN FFC / SCREEN OPTIONS"
+schematic_trace schematic_trace_582 extends outside the drawing area of schematic sheet "DISPLAY / 40-PIN FFC / SCREEN OPTIONS"
+schematic_trace schematic_trace_583 extends outside the drawing area of schematic sheet "DISPLAY / 40-PIN FFC / SCREEN OPTIONS"
+schematic_trace schematic_trace_584 extends outside the drawing area of schematic sheet "DISPLAY / 40-PIN FFC / SCREEN OPTIONS"
+schematic_trace schematic_trace_585 extends outside the drawing area of schematic sheet "DISPLAY / 40-PIN FFC / SCREEN OPTIONS"
+schematic_trace schematic_trace_586 extends outside the drawing area of schematic sheet "DISPLAY / 40-PIN FFC / SCREEN OPTIONS"
+schematic_trace schematic_trace_587 extends outside the drawing area of schematic sheet "DISPLAY / 40-PIN FFC / SCREEN OPTIONS"
+schematic_trace schematic_trace_588 extends outside the drawing area of schematic sheet "DISPLAY / 40-PIN FFC / SCREEN OPTIONS"
+schematic_trace schematic_trace_589 extends outside the drawing area of schematic sheet "DISPLAY / 40-PIN FFC / SCREEN OPTIONS"
+schematic_trace schematic_trace_590 extends outside the drawing area of schematic sheet "DISPLAY / 40-PIN FFC / SCREEN OPTIONS"
+schematic_trace schematic_trace_591 extends outside the drawing area of schematic sheet "DISPLAY / 40-PIN FFC / SCREEN OPTIONS"
+schematic_trace schematic_trace_592 extends outside the drawing area of schematic sheet "DISPLAY / 40-PIN FFC / SCREEN OPTIONS"
+schematic_trace schematic_trace_593 extends outside the drawing area of schematic sheet "DISPLAY / 40-PIN FFC / SCREEN OPTIONS"
+schematic_trace schematic_trace_594 extends outside the drawing area of schematic sheet "DISPLAY / 40-PIN FFC / SCREEN OPTIONS"
+schematic_trace schematic_trace_595 extends outside the drawing area of schematic sheet "DISPLAY / 40-PIN FFC / SCREEN OPTIONS"
+schematic_trace schematic_trace_596 extends outside the drawing area of schematic sheet "DISPLAY / 40-PIN FFC / SCREEN OPTIONS"
+schematic_trace schematic_trace_597 extends outside the drawing area of schematic sheet "DISPLAY / 40-PIN FFC / SCREEN OPTIONS"
+schematic_trace schematic_trace_598 extends outside the drawing area of schematic sheet "DISPLAY / 40-PIN FFC / SCREEN OPTIONS"
+schematic_trace schematic_trace_599 extends outside the drawing area of schematic sheet "DISPLAY / 40-PIN FFC / SCREEN OPTIONS"
+schematic_trace schematic_trace_600 extends outside the drawing area of schematic sheet "DISPLAY / 40-PIN FFC / SCREEN OPTIONS"
+schematic_trace schematic_trace_601 extends outside the drawing area of schematic sheet "DISPLAY / 40-PIN FFC / SCREEN OPTIONS"
+schematic_trace schematic_trace_602 extends outside the drawing area of schematic sheet "DISPLAY / 40-PIN FFC / SCREEN OPTIONS"
+schematic_component schematic_component_190 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_component schematic_component_191 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_component schematic_component_192 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_component schematic_component_193 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_component schematic_component_194 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_component schematic_component_195 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_component schematic_component_196 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_component schematic_component_197 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_component schematic_component_198 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_component schematic_component_199 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_component schematic_component_200 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_component schematic_component_203 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_component schematic_component_204 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_component schematic_component_205 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_component schematic_component_206 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_component schematic_component_207 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_component schematic_component_208 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_component schematic_component_211 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_component schematic_component_212 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_component schematic_component_213 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_component schematic_component_214 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_component schematic_component_215 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_component schematic_component_216 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_component schematic_component_219 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_component schematic_component_220 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_component schematic_component_221 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_component schematic_component_222 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_component schematic_component_223 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_component schematic_component_224 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_component schematic_component_227 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_component schematic_component_228 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_component schematic_component_229 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_component schematic_component_230 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_component schematic_component_231 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_component schematic_component_232 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_component schematic_component_235 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_component schematic_component_236 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_component schematic_component_237 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_component schematic_component_238 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_component schematic_component_239 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_net_label schematic_net_label_144 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_net_label schematic_net_label_146 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_net_label schematic_net_label_147 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_net_label schematic_net_label_148 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_net_label schematic_net_label_149 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_net_label schematic_net_label_150 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_net_label schematic_net_label_153 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_net_label schematic_net_label_154 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_net_label schematic_net_label_155 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_net_label schematic_net_label_158 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_net_label schematic_net_label_159 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_net_label schematic_net_label_160 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_net_label schematic_net_label_161 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_net_label schematic_net_label_162 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_net_label schematic_net_label_164 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_603 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_604 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_605 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_606 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_607 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_609 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_610 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_611 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_613 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_614 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_615 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_616 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_617 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_618 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_619 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_620 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_621 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_622 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_627 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_628 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_629 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_631 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_633 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_634 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_635 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_636 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_637 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_638 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_639 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_640 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_641 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_642 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_643 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_644 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_645 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_646 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_647 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_648 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_649 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_650 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_651 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_652 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_653 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_655 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_657 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_658 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_659 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_660 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_661 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_662 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_663 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_664 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_665 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_666 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_667 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_668 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_669 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_670 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_671 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_673 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_674 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_675 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_676 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_677 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_678 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_679 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_681 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_682 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_683 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_684 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_686 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_687 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_690 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_691 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_692 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_693 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_694 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_695 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_696 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_697 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_698 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_700 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_701 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_702 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_703 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_704 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_705 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_706 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_707 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_708 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_710 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+schematic_trace schematic_trace_712 extends outside the drawing area of schematic sheet "STEREO FILTERS / HEADPHONE / SPEAKER"
+component is facing x- but should face y+ so the connector is accessible from the board edge
+BT1 has no courtyard
+C1 has no courtyard
+C2 has no courtyard
+C10 has no courtyard
+C12 has no courtyard
+C21 has no courtyard
+C22 has no courtyard
+C23 has no courtyard
+C37 has no courtyard
+C42 has no courtyard
+C44 has no courtyard
+C57 has no courtyard
+C58 has no courtyard
+C59 has no courtyard
+C60 has no courtyard
+C61 has no courtyard
+C68 has no courtyard
+C72 has no courtyard
+C80 has no courtyard
+D1 has no courtyard
+D2 has no courtyard
+DL1 has no courtyard
+DL2 has no courtyard
+F1 has no courtyard
+L1 has no courtyard
+L2 has no courtyard
+NT1 has no courtyard
+PTC1 has no courtyard
+Q1 has no courtyard
+Q3 has no courtyard
+Q5 has no courtyard
+Q9 has no courtyard
+Q10 has no courtyard
+R3 has no courtyard
+R4 has no courtyard
+R8 has no courtyard
+R9 has no courtyard
+R10 has no courtyard
+R11 has no courtyard
+R12 has no courtyard
+R13 has no courtyard
+R15 has no courtyard
+R16 has no courtyard
+R17 has no courtyard
+R18 has no courtyard
+R24 has no courtyard
+R25 has no courtyard
+R58 has no courtyard
+R59 has no courtyard
+R60 has no courtyard
+R63 has no courtyard
+R64 has no courtyard
+R65 has no courtyard
+R66 has no courtyard
+R72 has no courtyard
+R73 has no courtyard
+SW1 has no courtyard
+TP13 has no courtyard
+TP14 has no courtyard
+TP15 has no courtyard
+TP16 has no courtyard
+TP17 has no courtyard
+TP18 has no courtyard
+TP19 has no courtyard
+TP20 has no courtyard
+TP21 has no courtyard
+TP22 has no courtyard
+TP23 has no courtyard
+TP24 has no courtyard
+TP26 has no courtyard
+TP30 has no courtyard
+TP32 has no courtyard
+U3 has no courtyard
+U4 has no courtyard
+U5 has no courtyard
+U8 has no courtyard
+U10 has no courtyard
+U11 has no courtyard
+U13 has no courtyard
+U14 has no courtyard
+U17 has no courtyard
+U18 has no courtyard
+C3 has no courtyard
+C4 has no courtyard
+C5 has no courtyard
+C6 has no courtyard
+C7 has no courtyard
+C8 has no courtyard
+C15 has no courtyard
+C16 has no courtyard
+C17 has no courtyard
+C18 has no courtyard
+C19 has no courtyard
+C20 has no courtyard
+C30 has no courtyard
+C34 has no courtyard
+C39 has no courtyard
+C43 has no courtyard
+C45 has no courtyard
+C46 has no courtyard
+C47 has no courtyard
+C48 has no courtyard
+C49 has no courtyard
+C50 has no courtyard
+C51 has no courtyard
+C52 has no courtyard
+C53 has no courtyard
+C62 has no courtyard
+C63 has no courtyard
+C64 has no courtyard
+C69 has no courtyard
+C73 has no courtyard
+C74 has no courtyard
+C75 has no courtyard
+C76 has no courtyard
+C77 has no courtyard
+C78 has no courtyard
+C79 has no courtyard
+EM1 has no courtyard
+EM2 has no courtyard
+EM3 has no courtyard
+EM7 has no courtyard
+JP1 has no courtyard
+JP2 has no courtyard
+JP3 has no courtyard
+P1 has no courtyard
+P4 has no courtyard
+Q2 has no courtyard
+Q7 has no courtyard
+Q8 has no courtyard
+R1 has no courtyard
+R2 has no courtyard
+R5 has no courtyard
+R6 has no courtyard
+R7 has no courtyard
+R29 has no courtyard
+R35 has no courtyard
+R38 has no courtyard
+R39 has no courtyard
+R40 has no courtyard
+R41 has no courtyard
+R43 has no courtyard
+R44 has no courtyard
+R68 has no courtyard
+RA1 has no courtyard
+SW2 has no courtyard
+SW3 has no courtyard
+SW4 has no courtyard
+SW5 has no courtyard
+SW6 has no courtyard
+TP0 has no courtyard
+TP1 has no courtyard
+TP2 has no courtyard
+TP3 has no courtyard
+TP4 has no courtyard
+TP5 has no courtyard
+TP6 has no courtyard
+TP7 has no courtyard
+TP8 has no courtyard
+TP9 has no courtyard
+TP12 has no courtyard
+TP25 has no courtyard
+TP27 has no courtyard
+TP28 has no courtyard
+TP29 has no courtyard
+TP80 has no courtyard
+TP81 has no courtyard
+U1 has no courtyard
+U2 has no courtyard
+U12 has no courtyard
+U15 has no courtyard
+U16 has no courtyard
+X1 has no courtyard
+C11 has no courtyard
+C13 has no courtyard
+C14 has no courtyard
+C70 has no courtyard
+C71 has no courtyard
+P2 has no courtyard
+R26 has no courtyard
+R36 has no courtyard
+R67 has no courtyard
+R70 has no courtyard
+R71 has no courtyard
+TP10 has no courtyard
+TP11 has no courtyard
+TP31 has no courtyard
+VR1 has no courtyard
+Z57 has no courtyard
+Z58 has no courtyard
+C9 has no courtyard
+C24 has no courtyard
+C25 has no courtyard
+C26 has no courtyard
+C27 has no courtyard
+C28 has no courtyard
+C29 has no courtyard
+C31 has no courtyard
+C32 has no courtyard
+C33 has no courtyard
+C35 has no courtyard
+C36 has no courtyard
+C38 has no courtyard
+C54 has no courtyard
+C55 has no courtyard
+C56 has no courtyard
+CP1 has no courtyard
+CP2 has no courtyard
+CP3 has no courtyard
+P3 has no courtyard
+Q6 has no courtyard
+R14 has no courtyard
+R19 has no courtyard
+R20 has no courtyard
+R30 has no courtyard
+R31 has no courtyard
+R34 has no courtyard
+R37 has no courtyard
+R42 has no courtyard
+R45 has no courtyard
+R46 has no courtyard
+R47 has no courtyard
+R48 has no courtyard
+R49 has no courtyard
+R50 has no courtyard
+R51 has no courtyard
+R52 has no courtyard
+R53 has no courtyard
+R54 has no courtyard
+R56 has no courtyard
+R57 has no courtyard
+SP1 has no courtyard
+TP33 has no courtyard
+TP34 has no courtyard
+TP114 has no courtyard
+TP115 has no courtyard
+U6 has no courtyard
+U7 has no courtyard
+U9 has no courtyard
+VR2 has no courtyard
+Failed to fetch supplier part numbers for <resistor#1021(.audio>.R57) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <resistor#1018(.audio>.R56) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <resistor#1015(.audio>.R54) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <resistor#1012(.audio>.R53) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <resistor#1009(.audio>.R52) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <resistor#1006(.audio>.R51) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <resistor#1003(.audio>.R50) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <resistor#1000(.audio>.R49) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <resistor#997(.audio>.R48) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <resistor#994(.audio>.R47) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <resistor#991(.audio>.R46) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <resistor#988(.audio>.R45) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <resistor#985(.audio>.R42) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <resistor#982(.audio>.R37) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <resistor#979(.audio>.R34) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <resistor#976(.audio>.R31) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <resistor#973(.audio>.R30) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <resistor#970(.audio>.R20) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <resistor#967(.audio>.R19) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <resistor#964(.audio>.R14) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#952(.audio>.CP3) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#949(.audio>.CP2) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#946(.audio>.CP1) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#943(.audio>.C56) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#940(.audio>.C55) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#937(.audio>.C54) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#934(.audio>.C38) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#931(.audio>.C36) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#928(.audio>.C35) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#925(.audio>.C33) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#922(.audio>.C32) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#919(.audio>.C31) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#916(.audio>.C29) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#913(.audio>.C28) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#910(.audio>.C27) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#907(.audio>.C26) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#904(.audio>.C25) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#901(.audio>.C24) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#898(.audio>.C9) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <resistor#876(.display>.R71) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <resistor#873(.display>.R70) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <resistor#870(.display>.R67) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <resistor#867(.display>.R36) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <resistor#864(.display>.R26) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#819(.display>.C71) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#816(.display>.C70) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#813(.display>.C14) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#810(.display>.C13) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#807(.display>.C11) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <resistor#523(.cpu>.R68) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <resistor#520(.cpu>.R44) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <resistor#517(.cpu>.R43) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <resistor#514(.cpu>.R41) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <resistor#511(.cpu>.R40) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <resistor#508(.cpu>.R39) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <resistor#505(.cpu>.R38) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <resistor#502(.cpu>.R35) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <resistor#499(.cpu>.R29) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <resistor#496(.cpu>.R7) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <resistor#493(.cpu>.R6) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <resistor#490(.cpu>.R5) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <resistor#487(.cpu>.R2) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <resistor#484(.cpu>.R1) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#400(.cpu>.C79) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#397(.cpu>.C78) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#394(.cpu>.C77) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#391(.cpu>.C76) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#388(.cpu>.C75) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#385(.cpu>.C74) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#382(.cpu>.C73) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#379(.cpu>.C69) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#376(.cpu>.C64) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#373(.cpu>.C63) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#370(.cpu>.C62) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#367(.cpu>.C53) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#364(.cpu>.C52) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#361(.cpu>.C51) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#358(.cpu>.C50) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#355(.cpu>.C49) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#352(.cpu>.C48) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#349(.cpu>.C47) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#346(.cpu>.C46) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#343(.cpu>.C45) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#340(.cpu>.C43) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#337(.cpu>.C39) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#334(.cpu>.C34) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#331(.cpu>.C30) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#328(.cpu>.C20) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#325(.cpu>.C19) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#322(.cpu>.C18) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#319(.cpu>.C17) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#316(.cpu>.C16) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#313(.cpu>.C15) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#310(.cpu>.C8) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#307(.cpu>.C7) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#304(.cpu>.C6) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#301(.cpu>.C5) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#298(.cpu>.C4) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#295(.cpu>.C3) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <resistor#181(.power>.R73) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <resistor#178(.power>.R72) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <resistor#175(.power>.R66) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <resistor#172(.power>.R65) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <resistor#169(.power>.R64) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <resistor#166(.power>.R63) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <resistor#163(.power>.R60) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <resistor#160(.power>.R59) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <resistor#157(.power>.R58) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <resistor#154(.power>.R25) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <resistor#151(.power>.R24) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <resistor#148(.power>.R18) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <resistor#145(.power>.R17) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <resistor#142(.power>.R16) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <resistor#139(.power>.R15) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <resistor#136(.power>.R13) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <resistor#133(.power>.R12) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <resistor#130(.power>.R11) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <resistor#127(.power>.R10) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <resistor#124(.power>.R9) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <resistor#121(.power>.R8) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <resistor#118(.power>.R4) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <resistor#115(.power>.R3) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#74(.power>.C80) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#71(.power>.C72) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#68(.power>.C68) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#65(.power>.C61) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#62(.power>.C60) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#59(.power>.C59) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#56(.power>.C58) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#53(.power>.C57) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#50(.power>.C44) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#47(.power>.C42) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#44(.power>.C37) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#41(.power>.C23) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#38(.power>.C22) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#35(.power>.C21) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#32(.power>.C12) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#29(.power>.C10) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#26(.power>.C2) />: Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier part numbers for <capacitor#23(.power>.C1) />: Unable to connect. Is the computer able to access the url?
+BT1 has no pin with requires_power=true
+D1 has no pin with requires_power=true
+D2 has no pin with requires_power=true
+DL1 has no pin with requires_power=true
+DL2 has no pin with requires_power=true
+F1 has no pin with requires_power=true
+L1 has no pin with requires_power=true
+L2 has no pin with requires_power=true
+NT1 has no pin with requires_power=true
+PTC1 has no pin with requires_power=true
+Q1 has no pin with requires_power=true
+Q3 has no pin with requires_power=true
+Q5 has no pin with requires_power=true
+Q9 has no pin with requires_power=true
+Q10 has no pin with requires_power=true
+SW1 has no pin with requires_power=true
+U3 has no pin with requires_power=true
+U4 has no pin with requires_power=true
+U5 has no pin with requires_power=true
+U8 has no pin with requires_power=true
+U10 has no pin with requires_power=true
+U11 has no pin with requires_power=true
+U13 has no pin with requires_power=true
+U14 has no pin with requires_power=true
+U17 has no pin with requires_power=true
+U18 has no pin with requires_power=true
+EM1 has no pin with requires_power=true
+EM2 has no pin with requires_power=true
+EM3 has no pin with requires_power=true
+EM7 has no pin with requires_power=true
+JP1 has no pin with requires_power=true
+JP2 has no pin with requires_power=true
+JP3 has no pin with requires_power=true
+P1 has no pin with requires_power=true
+P4 has no pin with requires_power=true
+Q2 has no pin with requires_power=true
+Q7 has no pin with requires_power=true
+Q8 has no pin with requires_power=true
+RA1 has no pin with requires_power=true
+SW2 has no pin with requires_power=true
+SW3 has no pin with requires_power=true
+SW4 has no pin with requires_power=true
+SW5 has no pin with requires_power=true
+SW6 has no pin with requires_power=true
+U1 has no pin with requires_power=true
+U2 has no pin with requires_power=true
+U12 has no pin with requires_power=true
+U15 has no pin with requires_power=true
+U16 has no pin with requires_power=true
+X1 has no pin with requires_power=true
+P2 has no pin with requires_power=true
+VR1 has no pin with requires_power=true
+Z57 has no pin with requires_power=true
+Z58 has no pin with requires_power=true
+P3 has no pin with requires_power=true
+Q6 has no pin with requires_power=true
+SP1 has no pin with requires_power=true
+U6 has no pin with requires_power=true
+U7 has no pin with requires_power=true
+U9 has no pin with requires_power=true
+VR2 has no pin with requires_power=true
+BT1 has no pin with requires_ground=true
+D1 has no pin with requires_ground=true
+D2 has no pin with requires_ground=true
+DL1 has no pin with requires_ground=true
+DL2 has no pin with requires_ground=true
+F1 has no pin with requires_ground=true
+L1 has no pin with requires_ground=true
+L2 has no pin with requires_ground=true
+NT1 has no pin with requires_ground=true
+PTC1 has no pin with requires_ground=true
+Q1 has no pin with requires_ground=true
+Q3 has no pin with requires_ground=true
+Q5 has no pin with requires_ground=true
+Q9 has no pin with requires_ground=true
+Q10 has no pin with requires_ground=true
+SW1 has no pin with requires_ground=true
+U3 has no pin with requires_ground=true
+U4 has no pin with requires_ground=true
+U5 has no pin with requires_ground=true
+U8 has no pin with requires_ground=true
+U10 has no pin with requires_ground=true
+U11 has no pin with requires_ground=true
+U13 has no pin with requires_ground=true
+U14 has no pin with requires_ground=true
+U17 has no pin with requires_ground=true
+U18 has no pin with requires_ground=true
+EM1 has no pin with requires_ground=true
+EM2 has no pin with requires_ground=true
+EM3 has no pin with requires_ground=true
+EM7 has no pin with requires_ground=true
+JP1 has no pin with requires_ground=true
+JP2 has no pin with requires_ground=true
+JP3 has no pin with requires_ground=true
+P1 has no pin with requires_ground=true
+P4 has no pin with requires_ground=true
+Q2 has no pin with requires_ground=true
+Q7 has no pin with requires_ground=true
+Q8 has no pin with requires_ground=true
+RA1 has no pin with requires_ground=true
+SW2 has no pin with requires_ground=true
+SW3 has no pin with requires_ground=true
+SW4 has no pin with requires_ground=true
+SW5 has no pin with requires_ground=true
+SW6 has no pin with requires_ground=true
+U1 has no pin with requires_ground=true
+U2 has no pin with requires_ground=true
+U12 has no pin with requires_ground=true
+U15 has no pin with requires_ground=true
+U16 has no pin with requires_ground=true
+X1 has no pin with requires_ground=true
+P2 has no pin with requires_ground=true
+VR1 has no pin with requires_ground=true
+Z57 has no pin with requires_ground=true
+Z58 has no pin with requires_ground=true
+P3 has no pin with requires_ground=true
+Q6 has no pin with requires_ground=true
+SP1 has no pin with requires_ground=true
+U6 has no pin with requires_ground=true
+U7 has no pin with requires_ground=true
+U9 has no pin with requires_ground=true
+VR2 has no pin with requires_ground=true
+Failed to fetch supplier footprint for <chip#113(.power>.Q9) /> (jlcpcb:C114648): Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier footprint for <chip#112(.power>.Q5) /> (jlcpcb:C114648): Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier footprint for <chip#114(.power>.Q10) /> (jlcpcb:C114648): Was there a typo in the url or port?
+Failed to fetch supplier footprint for <chip#232(.power>.U5) /> (jlcpcb:C2845237): Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier footprint for <chip#220(.power>.U3) /> (jlcpcb:C2066745): Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier footprint for <chip#249(.power>.U10) /> (jlcpcb:C2066745): Was there a typo in the url or port?
+Failed to fetch supplier footprint for <chip#255(.power>.U11) /> (jlcpcb:C2681320): Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier footprint for <chip#262(.power>.U13) /> (jlcpcb:C2845237): Was there a typo in the url or port?
+Failed to fetch supplier footprint for <chip#279(.power>.U17) /> (jlcpcb:C2066745): Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier footprint for <chip#273(.power>.U14) /> (jlcpcb:C144169): Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier footprint for <chip#285(.power>.U18) /> (jlcpcb:C2681320): Was there a typo in the url or port?
+Failed to fetch supplier footprint for <chip#478(.cpu>.Q2) /> (jlcpcb:C114648): Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier footprint for <chip#479(.cpu>.Q7) /> (jlcpcb:C114648): Was there a typo in the url or port?
+Failed to fetch supplier footprint for <chip#772(.cpu>.U12) /> (jlcpcb:C2681320): Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier footprint for <chip#779(.cpu>.U15) /> (jlcpcb:C43368): Was there a typo in the url or port?
+Failed to fetch supplier footprint for <chip#786(.cpu>.U16) /> (jlcpcb:C484750): Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier footprint for <chip#1035(.audio>.U6) /> (jlcpcb:C2872995): Was there a typo in the url or port?
+Failed to fetch supplier footprint for <chip#1046(.audio>.U7) /> (jlcpcb:C779410): Unable to connect. Is the computer able to access the url?
+Failed to fetch supplier footprint for <chip#1061(.audio>.U9) /> (jlcpcb:C347589): Was there a typo in the url or port?
+Could not find port for selector ".U1 > .pin129". Component "VDD3_1" found, but does not have pin "pin129". It has no ports
+Could not find port for selector ".U1 > .pin130". Component "VDD3_1" found, but does not have pin "pin130". It has no ports
+SW1.C_3 is ambiguous: SW1.C_3 references multiple non-overlapping pads: <smtpad#2350(.pin3) />, <smtpad#2351(.pin3) /> (consider using alternate aliases: pin3, 3)
+SW4.B_1 is ambiguous: SW4.B_1 references multiple non-overlapping pads: <smtpad#2752(.pin1) />, <smtpad#2753(.pin1) /> (consider using alternate aliases: pin1, 1)
+SW4.A_2 is ambiguous: SW4.A_2 references multiple non-overlapping pads: <smtpad#2756(.pin2) />, <smtpad#2757(.pin2) /> (consider using alternate aliases: pin2, 2)
+SW4.pin3_internal_2 is ambiguous: SW4.pin3_internal_2 references multiple non-overlapping pads: <smtpad#2762(.pin3) />, <smtpad#2763(.pin3) /> (consider using alternate aliases: pin3, 3)
+SW4.pin4_internal_2 is ambiguous: SW4.pin4_internal_2 references multiple non-overlapping pads: <smtpad#2766(.pin4) />, <smtpad#2767(.pin4) /> (consider using alternate aliases: pin4, 4)
+SW5.pin3_internal_1 is ambiguous: SW5.pin3_internal_1 references multiple non-overlapping pads: <smtpad#2776(.pin3) />, <smtpad#2777(.pin3) /> (consider using alternate aliases: pin3, 3)
+SW5.pin4_internal_1 is ambiguous: SW5.pin4_internal_1 references multiple non-overlapping pads: <smtpad#2780(.pin4) />, <smtpad#2781(.pin4) /> (consider using alternate aliases: pin4, 4)
+P2.AGND_0 is ambiguous: P2.AGND_0 references multiple non-overlapping pads: <smtpad#3117(.pin0) />, <smtpad#3118(.pin0) /> (consider using alternate aliases: pin0, 0)
+VR2.pin6 is ambiguous: VR2.pin6 references multiple non-overlapping pads: <smtpad#3372(.pin6) />, <smtpad#3375(.pin6) /> (consider using alternate aliases: 6)
+Component SW1 extends outside board boundaries by 0.29mm.
+Component SW2 extends outside board boundaries by 1.94mm.
+Component SW3 extends outside board boundaries by 1.85mm.
+Component SW6 extends outside board boundaries by 1.61mm.
+Component P3 extends outside board boundaries by 0.26mm.
+Component VR2 extends outside board boundaries by 1.26mm.
+Component component overlaps with pcb_cutout [pcb_cutout_14]
+Component component overlaps with pcb_cutout [pcb_cutout_13]
+Component component overlaps with pcb_cutout [pcb_cutout_11]
+Component component overlaps with pcb_cutout [pcb_cutout_12]
+Component component overlaps with pcb_cutout [pcb_cutout_6]
+Component component overlaps with pcb_cutout [pcb_cutout_7]
+Pads pcb_port[.NT1 > .2_2] and pcb_port[.NT1 > .1_1] are too close (clearance: 0mm, minimum: 0.1mm)
+Pads smtpad[pcb_smtpad_367] and pcb_port[.SW6 > .pin6_internal_2] are too close (clearance: 0mm, minimum: 0.1mm)
+Pads smtpad[pcb_smtpad_851] and pcb_plated_hole[#pcb_plated_hole_83] are too close (clearance: 0mm, minimum: 0.1mm)
+Pads smtpad[pcb_smtpad_852] and pcb_plated_hole[#pcb_plated_hole_84] are too close (clearance: 0mm, minimum: 0.1mm)
+Generating preview images...
+[index] Generating PCB SVG...
+[index] Written pcb.svg
+[index] Generating PCB PNG...
+[index] Written pcb.png
+[index] Generating schematic SVG...
+[index] Written schematic.svg
+
+Build complete
+  Circuits  1 passed
+  Options   pcb-png, pcb-svgs, schematic-svgs
+  Output    dist
+
+⚠ Build completed with errors
+Build exiting with code 0: build finished successfully

@@ -1,0 +1,38 @@
+{
+  "query": "TLV9364",
+  "results": [
+    {
+      "source": "jlcpcb",
+      "lcsc": 4368844,
+      "mfr": "TLV9364IDR",
+      "package": "SOIC-14",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-20V~-2.25V、2.25V~20V -40℃~+125℃ 1.25uV/℃ 10.6MHz 10pA 10pA 110dB 2.6mA 25V/us 4 400uV 40V 60mA 6nV/√Hz@1kHz Rail-to-Rail Output SOIC-14 Operational Amplifier ROHS",
+      "stock": 712,
+      "price": 2.222
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 32880962,
+      "mfr": "TLV9364QPWRQ1",
+      "package": "TSSOP-14",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "TSSOP-14 Operational Amplifier ROHS",
+      "stock": 25,
+      "price": 2.3092
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 22428115,
+      "mfr": "TLV9364QDRQ1",
+      "package": "SOIC-14",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "SOIC-14 Operational Amplifier ROHS",
+      "stock": 10,
+      "price": 3.0973
+    }
+  ]
+}
