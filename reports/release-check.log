@@ -1,0 +1,6 @@
+$ bun scripts/check-release.mjs
+pcb_missing_footprint_error: No footprint specified for component: <chip#280(.processor>.P1) />
+pcb_missing_footprint_error: No footprint specified for component: <chip#317(.processor>.U1) />
+pcb_missing_footprint_error: No footprint specified for component: <chip#615(.controls>.P4) />
+No routed copper exists. Full routing and copper DRC are required.
+error: script "check:release" exited with code 1

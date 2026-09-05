@@ -1,0 +1,115 @@
+{
+  "query": "4.194304MHz",
+  "results": [
+    {
+      "source": "jlcpcb",
+      "lcsc": 718663,
+      "mfr": "49SSMD-4.194304-20-10-10/B",
+      "package": "HC-49S-SMD",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+85℃ 20pF 4.194304MHz Crystal Oscillator ±10ppm HC-49S-SMD Crystals ROHS",
+      "stock": 1912,
+      "price": 0.1193
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 700804,
+      "mfr": "9AC04194122080D2JB",
+      "package": "HC-49S",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-20℃~+70℃ 12pF 4.194304MHz 80Ω Through Hole Crystal Oscillator ±20ppm HC-49S Crystals ROHS",
+      "stock": 1450,
+      "price": 0.0921
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 2149317,
+      "mfr": "S1T41943ZWJAC",
+      "package": "HC-49S-SMD",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+85℃ 120Ω 20pF 4.194304MHz Crystal Oscillator ±20ppm ±30ppm HC-49S-SMD Crystals ROHS",
+      "stock": 885,
+      "price": 0.1196
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 19631557,
+      "mfr": "CXB006XSD006",
+      "package": "HC-49S-SMD",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-20℃~+70℃ 20pF 4.194304MHz ±20ppm ±30ppm HC-49S-SMD Crystals ROHS",
+      "stock": 740,
+      "price": 0.0963
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 22438633,
+      "mfr": "SWXSFBCVH0-4.194304",
+      "package": "HC-49S",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "",
+      "stock": 510,
+      "price": 0.0963
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 2149366,
+      "mfr": "S1C41943ZWJAC",
+      "package": "HC-49S",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+85℃ 120Ω 20pF 4.194304MHz Through Hole Crystal Oscillator ±20ppm ±30ppm HC-49S Crystals ROHS",
+      "stock": 203,
+      "price": 0.097
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 5265680,
+      "mfr": "HY41943M49SOB2T02",
+      "package": "HC-49S",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "",
+      "stock": 200,
+      "price": 0.0735
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 18213280,
+      "mfr": "KUS4194A2030",
+      "package": "HC-49S",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "",
+      "stock": 190,
+      "price": 0.111
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 368781,
+      "mfr": "KUS041943042020",
+      "package": "HC-49S",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-20℃~+70℃ 20pF 250Ω 4.194304MHz Through Hole Crystal Oscillator ±20ppm ±20ppm HC-49S Crystals ROHS",
+      "stock": 164,
+      "price": 0.1152
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 700803,
+      "mfr": "9AC04194152080D2JB",
+      "package": "HC-49S",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-20℃~+70℃ 15pF 4.194304MHz 80Ω Through Hole Crystal Oscillator ±20ppm HC-49S Crystals ROHS",
+      "stock": 140,
+      "price": 0.0921
+    }
+  ]
+}

@@ -7,7 +7,6 @@ export type ReferenceFootprint = (typeof reference.footprints)[number]
 export type ReferencePad = ReferenceFootprint["pads"][number]
 export type Point = { x: number; y: number }
 export type ReferenceDesignator = ReferenceComponent["reference"]
-type KiCadPinNumber = string
 
 const xs = reference.outline.map((point) => point.x)
 const ys = reference.outline.map((point) => point.y)
@@ -17,7 +16,7 @@ export const boardCenter = {
 }
 export const referenceToBoard = translate(-boardCenter.x, -boardCenter.y)
 // User-authorized enlargement. Components keep their actual package dimensions.
-export const placementScale = 1.4
+export const placementScale = 1.8
 export const referenceToPlacement = compose(scale(placementScale), referenceToBoard)
 export const boardPoint = (point: Point) => applyToPoint(referenceToPlacement, point)
 export const boardOutline = reference.outline.map(boardPoint)
@@ -69,16 +68,4 @@ export function portName(referenceDesignator: string, pinNumber: string) {
 export const schematicOnlyPins = [{ reference: "U1", number: "129" }, { reference: "U1", number: "130" }]
 export function isSchematicOnlyPin(referenceDesignator: string, pinNumber: string) {
   return schematicOnlyPins.some((pin) => pin.reference === referenceDesignator && pin.number === pinNumber)
-}
-
-export function physicalPadPorts(footprint: ReferenceFootprint) {
-  const counts = new Map<KiCadPinNumber, number>()
-  // Extra lands use numbers above the existing package's pin range.
-  let nextPinNumber = Math.max(...footprint.pads.filter((pad) => pad.number).map((pad) => Number(portName(footprint.reference, pad.number).slice(3)))) + 1
-  return footprint.pads.map((pad) => {
-    if (!pad.number) return undefined
-    const occurrence = counts.get(pad.number) ?? 0
-    counts.set(pad.number, occurrence + 1)
-    return occurrence === 0 ? portName(footprint.reference, pad.number) : `pin${nextPinNumber++}`
-  })
 }

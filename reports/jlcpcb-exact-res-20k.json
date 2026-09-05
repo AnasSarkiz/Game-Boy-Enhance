@@ -1,0 +1,16 @@
+{
+  "query": "0603WAF2002T5E",
+  "results": [
+    {
+      "source": "jlcpcb",
+      "lcsc": 4184,
+      "mfr": "0603WAF2002T5E",
+      "package": "0603",
+      "is_basic": true,
+      "is_preferred": false,
+      "description": "-55℃~+155℃ 100mW 20kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS",
+      "stock": 2258874,
+      "price": 0.0018
+    }
+  ]
+}

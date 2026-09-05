@@ -27,3 +27,11 @@ yarn-error.log*
 
 # tscircuit cache
 .tscircuit/
+
+# KiCad local editor state
+*.kicad_prl
+*.lck
+
+# Local manufacturer documents; primary-source links are in the audit
+docs/datasheets/*.pdf
+docs/datasheets/*.txt

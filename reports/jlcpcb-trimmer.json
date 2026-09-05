@@ -1,0 +1,115 @@
+{
+  "query": "50k 3mm",
+  "results": [
+    {
+      "source": "jlcpcb",
+      "lcsc": 49247665,
+      "mfr": "HNTC0603-103F3450FA",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+125℃ 0.3mm 0.8mm 0.8mm 1.6mm 100mW 10kΩ 1mW/℃ 310uA 3450K 5s ±1% ±1% 0603 NTC Thermistors ROHS",
+      "stock": 401183,
+      "price": 0.0451
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 91635,
+      "mfr": "NCP03WF104F05RL",
+      "package": "0201",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+125℃ 0.3mm 0.6mm 100kΩ 100mW 100uA 1mW/℃ 4250K 4311K 4334K ±1% ±1% 0201 NTC Thermistors ROHS",
+      "stock": 324056,
+      "price": 0.0145
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 49247679,
+      "mfr": "HNTC0603-104F4250FB",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+125℃ 0.3mm 0.8mm 0.8mm 1.6mm 100kΩ 100mW 10uA 1mW/℃ 4250K 5s ±1% ±1% 0603 NTC Thermistors ROHS",
+      "stock": 290951,
+      "price": 0.0454
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 49247666,
+      "mfr": "HNTC0603-103F3950FB",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+125℃ 0.3mm 0.8mm 0.8mm 1.6mm 100mW 10kΩ 1mW/℃ 310uA 3950K 5s ±1% ±1% 0603 NTC Thermistors ROHS",
+      "stock": 210115,
+      "price": 0.0449
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 49247668,
+      "mfr": "HNTC0603-104F3950FB",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+125℃ 0.3mm 0.8mm 0.8mm 1.6mm 100kΩ 100mW 100uA 1mW/℃ 3950K 5s ±1% ±1% 0603 NTC Thermistors ROHS",
+      "stock": 137213,
+      "price": 0.0428
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 49247667,
+      "mfr": "HNTC0603-503F3950FB",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+125℃ 0.3mm 0.8mm 0.8mm 1.6mm 100mW 130uA 1mW/℃ 3950K 50kΩ 5s ±1% ±1% 0603 NTC Thermistors ROHS",
+      "stock": 34056,
+      "price": 0.0425
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 49247680,
+      "mfr": "HNTC0603-104J4250HB",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+125℃ 0.3mm 0.8mm 0.8mm 1.6mm 100kΩ 100mW 10uA 1mW/℃ 4250K 5s ±3% ±5% 0603 NTC Thermistors ROHS",
+      "stock": 28636,
+      "price": 0.0323
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 3153602,
+      "mfr": "NTCG064BF104FTBX",
+      "package": "0201",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+125℃ 100kΩ 100mW 4050K 4114K 4134K 4137K ±1% ±1% 0201 NTC Thermistors ROHS",
+      "stock": 15000,
+      "price": 0.0299
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 92038,
+      "mfr": "NTCG064EF104FTBX",
+      "package": "0201",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+125℃ 0.3mm 0.3mm 0.6mm 100kΩ 100mW 100uA 1mW/℃ 4250K 4293K 4308K 4327K ±1% ±1% 0201 NTC Thermistors ROHS",
+      "stock": 14850,
+      "price": 0.0132
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 52155367,
+      "mfr": "ANTC0603-104F4250FB",
+      "package": "0201",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "0201 NTC Thermistors ROHS",
+      "stock": 14758,
+      "price": 0.0105
+    }
+  ]
+}

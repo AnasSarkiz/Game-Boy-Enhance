@@ -1,0 +1,16 @@
+{
+  "query": "Keystone 5015",
+  "results": [
+    {
+      "source": "jlcpcb",
+      "lcsc": 2906768,
+      "mfr": "5015",
+      "package": "-",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "3.43mmx1.78mm Ferrite Ring (SMD) Non-Plastic - Test Points / Test Rings ROHS",
+      "stock": 42279,
+      "price": 0.2748
+    }
+  ]
+}

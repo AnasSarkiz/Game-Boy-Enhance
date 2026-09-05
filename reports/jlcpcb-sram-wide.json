@@ -1,0 +1,27 @@
+{
+  "query": "CY62146EV30LL",
+  "results": [
+    {
+      "source": "jlcpcb",
+      "lcsc": 2950604,
+      "mfr": "CY62146EV30LL-45BVXI",
+      "package": "VFBGA-48",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+85℃ 2.2V~3.6V 20mA 45ns 7uA Parallel Port (Parallel) VFBGA-48 SRAM ROHS",
+      "stock": 10,
+      "price": 6.9034
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 466866,
+      "mfr": "CY62146EV30LL-45ZSXI",
+      "package": "TSOPII-44-10.2mm",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+85℃ 2.2V~3.6V 45ns 4Mbit 7uA Parallel Port (Parallel) TSOPII-44-10.2mm SRAM ROHS",
+      "stock": 4,
+      "price": 5.4566
+    }
+  ]
+}

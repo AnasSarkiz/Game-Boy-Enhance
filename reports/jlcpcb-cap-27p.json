@@ -1,0 +1,115 @@
+{
+  "query": "0603 27pF 50V C0G",
+  "results": [
+    {
+      "source": "jlcpcb",
+      "lcsc": 5137568,
+      "mfr": "FCC0603N270J500CT",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "27pF 50V C0G ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+      "stock": 95485,
+      "price": 0.0029
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 376778,
+      "mfr": "TCC0603COG270J500CT",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "27pF 50V C0G ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+      "stock": 30858,
+      "price": 0.0051
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 42371680,
+      "mfr": "CGA0603C0G270J500JT",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "27pF 50V C0G ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+      "stock": 25561,
+      "price": 0.0034
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 1656,
+      "mfr": "CL10C270JB8NNNC",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "27pF 50V C0G ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+      "stock": 15798,
+      "price": 0.0072
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 92670,
+      "mfr": "0603CG270J500NT",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "27pF 50V C0G ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+      "stock": 13078,
+      "price": 0.0058
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 346211,
+      "mfr": "CL10C270JB81PNC",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "27pF 50V C0G ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+      "stock": 7737,
+      "price": 0.0139
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 3851893,
+      "mfr": "GQM1875C2E270GB12D",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "250V 27pF C0G ±2% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+      "stock": 7397,
+      "price": 0.1023
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 49326314,
+      "mfr": "0603C0G270J500NT",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "",
+      "stock": 6949,
+      "price": 0.0033
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 18220912,
+      "mfr": "CSA0603C0G270J500JT",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "",
+      "stock": 2705,
+      "price": 0.0027
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 597154,
+      "mfr": "06035A270JAT2A",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "27pF 50V C0G ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+      "stock": 2385,
+      "price": 0.0111
+    }
+  ]
+}

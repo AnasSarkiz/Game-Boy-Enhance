@@ -1,0 +1,115 @@
+{
+  "query": "0603 100k ohm 1%",
+  "results": [
+    {
+      "source": "jlcpcb",
+      "lcsc": 269699,
+      "mfr": "RMC0603100K1%N",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-55℃~+155℃ 100kΩ 100mW 50V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS",
+      "stock": 16644,
+      "price": 0.003
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 3202453,
+      "mfr": "TR0603B100KP0525Z",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-55℃~+155℃ 100kΩ Thin Film Resistor ±0.1% ±25ppm/℃ 0603 Chip Resistor - Surface Mount ROHS",
+      "stock": 9468,
+      "price": 0.0285
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 510291,
+      "mfr": "SFR03EZPF1003",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-55℃~+155℃ 100kΩ 100mW 50V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS",
+      "stock": 8376,
+      "price": 0.0094
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 2912578,
+      "mfr": "HoAR0603-1/10W-100KR-0.1%-TCR25",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-55℃~+155℃ 100kΩ 100mW 75V Ceramic Resistor ±0.1% ±25ppm/℃ 0603 Chip Resistor - Surface Mount ROHS",
+      "stock": 8065,
+      "price": 0.0739
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 881354,
+      "mfr": "CR0603J100KP05Z",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-55℃~+155℃ 100kΩ 100mW 75V Thick Film Resistor ±100ppm/℃ ±5% 0603 Chip Resistor - Surface Mount ROHS",
+      "stock": 6694,
+      "price": 0.0015
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 176167,
+      "mfr": "QR0603J100KP05Z",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-55℃~+155℃ 100kΩ 100mW 75V Thick Film Resistor ±100ppm/℃ ±5% 0603 Chip Resistor - Surface Mount ROHS",
+      "stock": 4168,
+      "price": 0.0038
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 253331,
+      "mfr": "ESR03EZPJ104",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-55℃~+155℃ 100kΩ 150V 250mW Thick Film Resistor ±200ppm/℃ ±5% 0603 Chip Resistor - Surface Mount ROHS",
+      "stock": 4120,
+      "price": 0.0121
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 149862,
+      "mfr": "CRA034RF100KP05Z",
+      "package": "0603x4",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "100kΩ 100mW 4 8 ±1% ±200ppm/℃ 0603x4 Resistor Networks, Arrays ROHS",
+      "stock": 3534,
+      "price": 0.0223
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 2074317,
+      "mfr": "ESR03EZPF1003",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-55℃~+155℃ 100kΩ 150V 250mW Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS",
+      "stock": 2766,
+      "price": 0.0127
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 2912579,
+      "mfr": "HoAR0603-1/10W-100KR-1%-TCR25",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-55℃~+155℃ 100kΩ 100mW 75V Ceramic Resistor ±1% ±25ppm/℃ 0603 Chip Resistor - Surface Mount ROHS",
+      "stock": 2586,
+      "price": 0.042
+    }
+  ]
+}

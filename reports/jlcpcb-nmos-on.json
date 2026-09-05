@@ -1,0 +1,104 @@
+{
+  "query": "2N7002LT1G",
+  "results": [
+    {
+      "source": "jlcpcb",
+      "lcsc": 16338,
+      "mfr": "2N7002LT1G",
+      "package": "SOT-23",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-55℃~+150℃ 1 N-channel 115mA 2.5V 225mW 25pF 50pF 5pF 60V 7.5Ω@10V N-Channel SOT-23 MOSFETs ROHS",
+      "stock": 622784,
+      "price": 0.0306
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 12779,
+      "mfr": "L2N7002LT1G",
+      "package": "SOT-23",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "1 N-channel 1.4Ω@10V 10pF 115mA 17pF 2.5pF 225mW 2V 60V N-Channel SOT-23 MOSFETs ROHS",
+      "stock": 352048,
+      "price": 0.013
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 28646313,
+      "mfr": "2N7002LT1G",
+      "package": "SOT-23",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "",
+      "stock": 15734,
+      "price": 0.0207
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 54864343,
+      "mfr": "2N7002LT1G-GK",
+      "package": "SOT-23",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "SOT-23 MOSFETs ROHS",
+      "stock": 5900,
+      "price": 0.0064
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 5331137,
+      "mfr": "2N7002LT1G-MS",
+      "package": "SOT-23",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "",
+      "stock": 2801,
+      "price": 0.0162
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 5224213,
+      "mfr": "2N7002LT1G-ES",
+      "package": "SOT-23",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-55℃~+150℃ 1 N-channel 1.6V 1.85Ω@10V、2.05Ω@4.5V 1.8nC@4.5V 11pF 28pF 300mA 350mW 4pF 60V N-Channel SOT-23 MOSFETs ROHS",
+      "stock": 2692,
+      "price": 0.011
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 42401375,
+      "mfr": "H2N7002LT1G",
+      "package": "SOT-23",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "",
+      "stock": 1840,
+      "price": 0.0227
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 5353602,
+      "mfr": "LM-2N7002LT1G",
+      "package": "SOT-23",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "",
+      "stock": 501,
+      "price": 0.0275
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 5353604,
+      "mfr": "LM-L2N7002LT1G",
+      "package": "SOT-23",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-55℃~+150℃ 1 N-channel 1.5V 16pF 2.4nC@10V 340mA 350mW 3Ω@4.5V 5.5pF 60V SOT-23 MOSFETs ROHS",
+      "stock": 51,
+      "price": 0.0477
+    }
+  ]
+}

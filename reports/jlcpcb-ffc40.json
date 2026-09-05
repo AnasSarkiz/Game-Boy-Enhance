@@ -1,0 +1,16 @@
+{
+  "query": "62684-402100ALF",
+  "results": [
+    {
+      "source": "jlcpcb",
+      "lcsc": 2931360,
+      "mfr": "62684-402100ALF",
+      "package": "SMD,P=0.5mm,卧贴",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-55℃~+85℃ 0.5mm 2mm 40P Gold Phosphor bronze Slide Lock Surface Mount, Right Angle Top Contact SMD,P=0.5mm,卧贴 FFC, FPC (Flat Flexible) Connector Assemblies ROHS",
+      "stock": 15047,
+      "price": 0.5991
+    }
+  ]
+}

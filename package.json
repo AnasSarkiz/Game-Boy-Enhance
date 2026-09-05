@@ -1,6 +1,6 @@
 {
   "name": "@tsci/AnasSarkiz.Game-Boy-Enhance",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "AGBM-02 architecture adaptation; routing-disabled placement work in progress",
   "main": "index.circuit.tsx",
   "keywords": [
@@ -17,7 +17,9 @@
     "snapshot": "tsci snapshot",
     "snapshot:update": "tsci snapshot --update",
     "start": "tsci dev",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "audit:reference": "bun scripts/audit-reference.mjs",
+    "check:release": "bun scripts/check-release.mjs"
   },
   "devDependencies": {
     "tscircuit": "0.0.2463",

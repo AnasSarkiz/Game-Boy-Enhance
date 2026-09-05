@@ -1,0 +1,16 @@
+{
+  "query": "0603WAF1504T5E",
+  "results": [
+    {
+      "source": "jlcpcb",
+      "lcsc": 4172,
+      "mfr": "0603WAF1504T5E",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": true,
+      "description": "-55℃~+155℃ 1.5MΩ 100mW 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS",
+      "stock": 14861,
+      "price": 0.0018
+    }
+  ]
+}

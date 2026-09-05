@@ -1,0 +1,16 @@
+{
+  "query": "150060VS75000",
+  "results": [
+    {
+      "source": "jlcpcb",
+      "lcsc": 6848499,
+      "mfr": "150060VS75000",
+      "package": "SMD,1.6x0.8mm",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+85℃ 140° 2.4V 20mA 40mcd 570nm 572nm 72mW Discrete Diode Green SMD,1.6x0.8mm LED Indication - Discrete ROHS",
+      "stock": 8196,
+      "price": 0.2481
+    }
+  ]
+}

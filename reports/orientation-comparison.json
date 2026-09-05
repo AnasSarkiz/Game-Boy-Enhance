@@ -1,0 +1,2537 @@
+[
+  {
+    "reference": "C15",
+    "pinPairs": 2,
+    "currentRotationDegrees": 270,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497600000000304
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497600000000304
+    }
+  },
+  {
+    "reference": "R36",
+    "pinPairs": 2,
+    "currentRotationDegrees": 180,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163600000000292
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163600000000292
+    }
+  },
+  {
+    "reference": "R53",
+    "pinPairs": 2,
+    "currentRotationDegrees": 180,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999803
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999803
+    }
+  },
+  {
+    "reference": "R5",
+    "pinPairs": 2,
+    "currentRotationDegrees": 180,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999803
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999803
+    }
+  },
+  {
+    "reference": "R39",
+    "pinPairs": 2,
+    "currentRotationDegrees": 90,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999981
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999981
+    }
+  },
+  {
+    "reference": "R19",
+    "pinPairs": 2,
+    "currentRotationDegrees": 180,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163600000697067
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163600000697067
+    }
+  },
+  {
+    "reference": "C49",
+    "pinPairs": 2,
+    "currentRotationDegrees": 180,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    }
+  },
+  {
+    "reference": "C23",
+    "pinPairs": 2,
+    "currentRotationDegrees": 180,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    }
+  },
+  {
+    "reference": "C30",
+    "pinPairs": 2,
+    "currentRotationDegrees": 90,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    }
+  },
+  {
+    "reference": "Z57",
+    "pinPairs": 2,
+    "currentRotationDegrees": 180,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497600000000126
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497600000000126
+    }
+  },
+  {
+    "reference": "JP2",
+    "pinPairs": 2,
+    "currentRotationDegrees": 180,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.10336399999999202
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.10336399999999202
+    }
+  },
+  {
+    "reference": "C59",
+    "pinPairs": 2,
+    "currentRotationDegrees": 180,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    }
+  },
+  {
+    "reference": "C43",
+    "pinPairs": 2,
+    "currentRotationDegrees": 180,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    }
+  },
+  {
+    "reference": "C46",
+    "pinPairs": 2,
+    "currentRotationDegrees": 270,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497600000000304
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497600000000304
+    }
+  },
+  {
+    "reference": "C45",
+    "pinPairs": 2,
+    "currentRotationDegrees": 180,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    }
+  },
+  {
+    "reference": "C34",
+    "pinPairs": 2,
+    "currentRotationDegrees": 0,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    }
+  },
+  {
+    "reference": "F1",
+    "pinPairs": 2,
+    "currentRotationDegrees": 180,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.5075059999999976
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.5075059999999976
+    }
+  },
+  {
+    "reference": "D1",
+    "pinPairs": 2,
+    "currentRotationDegrees": 90,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.08490999999999982
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.08490999999999982
+    }
+  },
+  {
+    "reference": "BT1",
+    "pinPairs": 2,
+    "currentRotationDegrees": 0,
+    "best": {
+      "additionalCcwRotationDegrees": 90,
+      "rmsPinPositionDifferenceMm": 2.1601061501704057
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 3.386154896044184
+    }
+  },
+  {
+    "reference": "JP3",
+    "pinPairs": 2,
+    "currentRotationDegrees": 0,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.6200000000000045
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.6200000000000045
+    }
+  },
+  {
+    "reference": "R1",
+    "pinPairs": 2,
+    "currentRotationDegrees": 270,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163600000000159
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163600000000159
+    }
+  },
+  {
+    "reference": "R9",
+    "pinPairs": 2,
+    "currentRotationDegrees": 270,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999803
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999803
+    }
+  },
+  {
+    "reference": "SW2",
+    "pinPairs": 2,
+    "currentRotationDegrees": 180,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 1.3917664012811612
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 1.3917664012811612
+    }
+  },
+  {
+    "reference": "C48",
+    "pinPairs": 2,
+    "currentRotationDegrees": 180,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.0749759999999986
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.0749759999999986
+    }
+  },
+  {
+    "reference": "C5",
+    "pinPairs": 2,
+    "currentRotationDegrees": 180,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    }
+  },
+  {
+    "reference": "DL2",
+    "pinPairs": 2,
+    "currentRotationDegrees": 90,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.126051448480528
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.126051448480528
+    }
+  },
+  {
+    "reference": "C3",
+    "pinPairs": 2,
+    "currentRotationDegrees": 270,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    }
+  },
+  {
+    "reference": "U3",
+    "pinPairs": 5,
+    "currentRotationDegrees": 180,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.036670069822670785
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.036670069822670785
+    }
+  },
+  {
+    "reference": "C51",
+    "pinPairs": 2,
+    "currentRotationDegrees": 0,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    }
+  },
+  {
+    "reference": "R29",
+    "pinPairs": 2,
+    "currentRotationDegrees": 270,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163600000000159
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163600000000159
+    }
+  },
+  {
+    "reference": "C50",
+    "pinPairs": 2,
+    "currentRotationDegrees": 0,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    }
+  },
+  {
+    "reference": "X1",
+    "pinPairs": 2,
+    "currentRotationDegrees": 270,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.4229499999999984
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.4229499999999984
+    }
+  },
+  {
+    "reference": "R18",
+    "pinPairs": 2,
+    "currentRotationDegrees": 270,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999803
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999803
+    }
+  },
+  {
+    "reference": "R17",
+    "pinPairs": 2,
+    "currentRotationDegrees": 180,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999537
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999537
+    }
+  },
+  {
+    "reference": "U2",
+    "pinPairs": 44,
+    "currentRotationDegrees": 0,
+    "best": {
+      "additionalCcwRotationDegrees": 90,
+      "rmsPinPositionDifferenceMm": 10.631620171203974
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 11.697647422393764
+    }
+  },
+  {
+    "reference": "R11",
+    "pinPairs": 2,
+    "currentRotationDegrees": 180,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999537
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999537
+    }
+  },
+  {
+    "reference": "U10",
+    "pinPairs": 5,
+    "currentRotationDegrees": 0,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.03667006982266643
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.03667006982266643
+    }
+  },
+  {
+    "reference": "C4",
+    "pinPairs": 2,
+    "currentRotationDegrees": 270,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497600000000304
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497600000000304
+    }
+  },
+  {
+    "reference": "SW3",
+    "pinPairs": 2,
+    "currentRotationDegrees": 180,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.8459114927182904
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.8459114927182904
+    }
+  },
+  {
+    "reference": "C1",
+    "pinPairs": 2,
+    "currentRotationDegrees": 270,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.04999799999999688
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.04999799999999688
+    }
+  },
+  {
+    "reference": "C8",
+    "pinPairs": 2,
+    "currentRotationDegrees": 90,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497600000000304
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497600000000304
+    }
+  },
+  {
+    "reference": "CP2",
+    "pinPairs": 2,
+    "currentRotationDegrees": 180,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.04239600000000365
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.04239600000000365
+    }
+  },
+  {
+    "reference": "C62",
+    "pinPairs": 2,
+    "currentRotationDegrees": 180,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    }
+  },
+  {
+    "reference": "PTC1",
+    "pinPairs": 2,
+    "currentRotationDegrees": 90,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.16249780000000058
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.16249780000000058
+    }
+  },
+  {
+    "reference": "R34",
+    "pinPairs": 2,
+    "currentRotationDegrees": 0,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999803
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999803
+    }
+  },
+  {
+    "reference": "R6",
+    "pinPairs": 2,
+    "currentRotationDegrees": 270,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999981
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999981
+    }
+  },
+  {
+    "reference": "C52",
+    "pinPairs": 2,
+    "currentRotationDegrees": 180,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    }
+  },
+  {
+    "reference": "U16",
+    "pinPairs": 14,
+    "currentRotationDegrees": 270,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.06256400626558378
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.06256400626558378
+    }
+  },
+  {
+    "reference": "R3",
+    "pinPairs": 2,
+    "currentRotationDegrees": 0,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999093
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999093
+    }
+  },
+  {
+    "reference": "C7",
+    "pinPairs": 2,
+    "currentRotationDegrees": 180,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    }
+  },
+  {
+    "reference": "R2",
+    "pinPairs": 2,
+    "currentRotationDegrees": 270,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999981
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999981
+    }
+  },
+  {
+    "reference": "R12",
+    "pinPairs": 2,
+    "currentRotationDegrees": 0,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999448
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999448
+    }
+  },
+  {
+    "reference": "CP3",
+    "pinPairs": 2,
+    "currentRotationDegrees": 0,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.04239600000000365
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.04239600000000365
+    }
+  },
+  {
+    "reference": "R37",
+    "pinPairs": 2,
+    "currentRotationDegrees": 270,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163600000000248
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163600000000248
+    }
+  },
+  {
+    "reference": "EM3",
+    "pinPairs": 2,
+    "currentRotationDegrees": 180,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.08760299999999432
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.08760299999999432
+    }
+  },
+  {
+    "reference": "C6",
+    "pinPairs": 2,
+    "currentRotationDegrees": 0,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    }
+  },
+  {
+    "reference": "EM7",
+    "pinPairs": 2,
+    "currentRotationDegrees": 0,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.08760300000000143
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.08760300000000143
+    }
+  },
+  {
+    "reference": "C53",
+    "pinPairs": 2,
+    "currentRotationDegrees": 180,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    }
+  },
+  {
+    "reference": "U4",
+    "pinPairs": 5,
+    "currentRotationDegrees": 270,
+    "best": {
+      "additionalCcwRotationDegrees": 270,
+      "rmsPinPositionDifferenceMm": 1.3671521529746091
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 1.6860119746657918
+    }
+  },
+  {
+    "reference": "R20",
+    "pinPairs": 2,
+    "currentRotationDegrees": 270,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163600000698131
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163600000698131
+    }
+  },
+  {
+    "reference": "Q7",
+    "pinPairs": 6,
+    "currentRotationDegrees": 0,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.011596045992780728
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.011596045992780728
+    }
+  },
+  {
+    "reference": "R41",
+    "pinPairs": 2,
+    "currentRotationDegrees": 270,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999981
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999981
+    }
+  },
+  {
+    "reference": "C17",
+    "pinPairs": 2,
+    "currentRotationDegrees": 0,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497600000000659
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497600000000659
+    }
+  },
+  {
+    "reference": "C47",
+    "pinPairs": 2,
+    "currentRotationDegrees": 180,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    }
+  },
+  {
+    "reference": "R4",
+    "pinPairs": 2,
+    "currentRotationDegrees": 0,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999803
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999803
+    }
+  },
+  {
+    "reference": "R40",
+    "pinPairs": 2,
+    "currentRotationDegrees": 90,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999981
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999981
+    }
+  },
+  {
+    "reference": "C16",
+    "pinPairs": 2,
+    "currentRotationDegrees": 0,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    }
+  },
+  {
+    "reference": "NT1",
+    "pinPairs": 2,
+    "currentRotationDegrees": 0,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.2533639999999977
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.2533639999999977
+    }
+  },
+  {
+    "reference": "R38",
+    "pinPairs": 2,
+    "currentRotationDegrees": 90,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999981
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999981
+    }
+  },
+  {
+    "reference": "Q9",
+    "pinPairs": 6,
+    "currentRotationDegrees": 0,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.011596045992780718
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.011596045992780718
+    }
+  },
+  {
+    "reference": "R16",
+    "pinPairs": 2,
+    "currentRotationDegrees": 0,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999537
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999537
+    }
+  },
+  {
+    "reference": "Q2",
+    "pinPairs": 6,
+    "currentRotationDegrees": 0,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.011596045992780718
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.011596045992780718
+    }
+  },
+  {
+    "reference": "CP1",
+    "pinPairs": 2,
+    "currentRotationDegrees": 0,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.04239600000000365
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.04239600000000365
+    }
+  },
+  {
+    "reference": "SP1",
+    "pinPairs": 2,
+    "currentRotationDegrees": 0,
+    "best": {
+      "additionalCcwRotationDegrees": 90,
+      "rmsPinPositionDifferenceMm": 0.7550682220859192
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 2.0149742033098117
+    }
+  },
+  {
+    "reference": "C24",
+    "pinPairs": 2,
+    "currentRotationDegrees": 90,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    }
+  },
+  {
+    "reference": "R26",
+    "pinPairs": 2,
+    "currentRotationDegrees": 0,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163600000000159
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163600000000159
+    }
+  },
+  {
+    "reference": "Q6",
+    "pinPairs": 3,
+    "currentRotationDegrees": 0,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.15319233060292753
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.15319233060292753
+    }
+  },
+  {
+    "reference": "DL1",
+    "pinPairs": 2,
+    "currentRotationDegrees": 90,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.12493800000000022
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.12493800000000022
+    }
+  },
+  {
+    "reference": "Z58",
+    "pinPairs": 2,
+    "currentRotationDegrees": 0,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    }
+  },
+  {
+    "reference": "Q3",
+    "pinPairs": 3,
+    "currentRotationDegrees": 270,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.058923688532052945
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.058923688532052945
+    }
+  },
+  {
+    "reference": "U17",
+    "pinPairs": 5,
+    "currentRotationDegrees": 180,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.036670069822666435
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.036670069822666435
+    }
+  },
+  {
+    "reference": "R57",
+    "pinPairs": 2,
+    "currentRotationDegrees": 90,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999892
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999892
+    }
+  },
+  {
+    "reference": "R8",
+    "pinPairs": 2,
+    "currentRotationDegrees": 90,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163600000000248
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163600000000248
+    }
+  },
+  {
+    "reference": "C77",
+    "pinPairs": 2,
+    "currentRotationDegrees": 90,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    }
+  },
+  {
+    "reference": "R15",
+    "pinPairs": 2,
+    "currentRotationDegrees": 270,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999803
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999803
+    }
+  },
+  {
+    "reference": "C61",
+    "pinPairs": 2,
+    "currentRotationDegrees": 180,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497600000000304
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497600000000304
+    }
+  },
+  {
+    "reference": "R44",
+    "pinPairs": 2,
+    "currentRotationDegrees": 180,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999448
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999448
+    }
+  },
+  {
+    "reference": "D2",
+    "pinPairs": 2,
+    "currentRotationDegrees": 270,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.08490999999999893
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.08490999999999893
+    }
+  },
+  {
+    "reference": "R56",
+    "pinPairs": 2,
+    "currentRotationDegrees": 270,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999981
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999981
+    }
+  },
+  {
+    "reference": "L2",
+    "pinPairs": 2,
+    "currentRotationDegrees": 0,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.007488999999996082
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.007488999999996082
+    }
+  },
+  {
+    "reference": "C38",
+    "pinPairs": 2,
+    "currentRotationDegrees": 0,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    }
+  },
+  {
+    "reference": "C73",
+    "pinPairs": 2,
+    "currentRotationDegrees": 0,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    }
+  },
+  {
+    "reference": "C13",
+    "pinPairs": 2,
+    "currentRotationDegrees": 0,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    }
+  },
+  {
+    "reference": "C79",
+    "pinPairs": 2,
+    "currentRotationDegrees": 0,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    }
+  },
+  {
+    "reference": "C72",
+    "pinPairs": 2,
+    "currentRotationDegrees": 90,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497600000000304
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497600000000304
+    }
+  },
+  {
+    "reference": "R50",
+    "pinPairs": 2,
+    "currentRotationDegrees": 90,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999937
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999937
+    }
+  },
+  {
+    "reference": "R7",
+    "pinPairs": 2,
+    "currentRotationDegrees": 90,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999803
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999803
+    }
+  },
+  {
+    "reference": "R70",
+    "pinPairs": 2,
+    "currentRotationDegrees": 0,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999803
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999803
+    }
+  },
+  {
+    "reference": "C20",
+    "pinPairs": 2,
+    "currentRotationDegrees": 90,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497600000000304
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497600000000304
+    }
+  },
+  {
+    "reference": "R43",
+    "pinPairs": 2,
+    "currentRotationDegrees": 0,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999803
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999803
+    }
+  },
+  {
+    "reference": "P2",
+    "pinPairs": 41,
+    "currentRotationDegrees": 0,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.7347325422051577
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.7347325422051577
+    }
+  },
+  {
+    "reference": "C69",
+    "pinPairs": 2,
+    "currentRotationDegrees": 180,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999904
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999904
+    }
+  },
+  {
+    "reference": "C33",
+    "pinPairs": 2,
+    "currentRotationDegrees": 90,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497600000000126
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497600000000126
+    }
+  },
+  {
+    "reference": "C70",
+    "pinPairs": 2,
+    "currentRotationDegrees": 180,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497600000000126
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497600000000126
+    }
+  },
+  {
+    "reference": "C68",
+    "pinPairs": 2,
+    "currentRotationDegrees": 0,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497600000000659
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497600000000659
+    }
+  },
+  {
+    "reference": "R49",
+    "pinPairs": 2,
+    "currentRotationDegrees": 0,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999803
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999803
+    }
+  },
+  {
+    "reference": "RA1",
+    "pinPairs": 8,
+    "currentRotationDegrees": 0,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.10000163328946061
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.10000163328946061
+    }
+  },
+  {
+    "reference": "Q1",
+    "pinPairs": 3,
+    "currentRotationDegrees": 0,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.280556402449762
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.280556402449762
+    }
+  },
+  {
+    "reference": "EM1",
+    "pinPairs": 6,
+    "currentRotationDegrees": 90,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.1750768214562407
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.1750768214562407
+    }
+  },
+  {
+    "reference": "R14",
+    "pinPairs": 2,
+    "currentRotationDegrees": 180,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999448
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999448
+    }
+  },
+  {
+    "reference": "C29",
+    "pinPairs": 2,
+    "currentRotationDegrees": 90,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    }
+  },
+  {
+    "reference": "R71",
+    "pinPairs": 2,
+    "currentRotationDegrees": 180,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163600000000159
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163600000000159
+    }
+  },
+  {
+    "reference": "C55",
+    "pinPairs": 2,
+    "currentRotationDegrees": 0,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    }
+  },
+  {
+    "reference": "R30",
+    "pinPairs": 2,
+    "currentRotationDegrees": 90,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999981
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999981
+    }
+  },
+  {
+    "reference": "R67",
+    "pinPairs": 2,
+    "currentRotationDegrees": 270,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163600000000159
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163600000000159
+    }
+  },
+  {
+    "reference": "R72",
+    "pinPairs": 2,
+    "currentRotationDegrees": 0,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163600000000336
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163600000000336
+    }
+  },
+  {
+    "reference": "C54",
+    "pinPairs": 2,
+    "currentRotationDegrees": 180,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    }
+  },
+  {
+    "reference": "L1",
+    "pinPairs": 2,
+    "currentRotationDegrees": 0,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.007488999999996082
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.007488999999996082
+    }
+  },
+  {
+    "reference": "C2",
+    "pinPairs": 2,
+    "currentRotationDegrees": 0,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497600000000126
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497600000000126
+    }
+  },
+  {
+    "reference": "C80",
+    "pinPairs": 2,
+    "currentRotationDegrees": 0,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497600000000126
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497600000000126
+    }
+  },
+  {
+    "reference": "U12",
+    "pinPairs": 6,
+    "currentRotationDegrees": 90,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.212510002509684
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.212510002509684
+    }
+  },
+  {
+    "reference": "R46",
+    "pinPairs": 2,
+    "currentRotationDegrees": 180,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999803
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999803
+    }
+  },
+  {
+    "reference": "C18",
+    "pinPairs": 2,
+    "currentRotationDegrees": 0,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    }
+  },
+  {
+    "reference": "U14",
+    "pinPairs": 5,
+    "currentRotationDegrees": 0,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.015841380465095273
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.015841380465095273
+    }
+  },
+  {
+    "reference": "JP1",
+    "pinPairs": 2,
+    "currentRotationDegrees": 0,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.5079999999999956
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.5079999999999956
+    }
+  },
+  {
+    "reference": "C28",
+    "pinPairs": 2,
+    "currentRotationDegrees": 0,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    }
+  },
+  {
+    "reference": "U11",
+    "pinPairs": 6,
+    "currentRotationDegrees": 90,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.21251000250968757
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.21251000250968757
+    }
+  },
+  {
+    "reference": "SW1",
+    "pinPairs": 4,
+    "currentRotationDegrees": 163,
+    "best": {
+      "additionalCcwRotationDegrees": 180,
+      "rmsPinPositionDifferenceMm": 2.95734395127691
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 3.905396247031503
+    }
+  },
+  {
+    "reference": "U5",
+    "pinPairs": 10,
+    "currentRotationDegrees": 90,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.00006863031400160237
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.00006863031400160237
+    }
+  },
+  {
+    "reference": "C76",
+    "pinPairs": 2,
+    "currentRotationDegrees": 270,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    }
+  },
+  {
+    "reference": "C26",
+    "pinPairs": 2,
+    "currentRotationDegrees": 270,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999904
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999904
+    }
+  },
+  {
+    "reference": "U7",
+    "pinPairs": 14,
+    "currentRotationDegrees": 0,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.0624040062816491
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.0624040062816491
+    }
+  },
+  {
+    "reference": "R60",
+    "pinPairs": 2,
+    "currentRotationDegrees": 0,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999448
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999448
+    }
+  },
+  {
+    "reference": "R42",
+    "pinPairs": 2,
+    "currentRotationDegrees": 270,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999981
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999981
+    }
+  },
+  {
+    "reference": "C75",
+    "pinPairs": 2,
+    "currentRotationDegrees": 0,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497600000000126
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497600000000126
+    }
+  },
+  {
+    "reference": "C31",
+    "pinPairs": 2,
+    "currentRotationDegrees": 180,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    }
+  },
+  {
+    "reference": "C63",
+    "pinPairs": 2,
+    "currentRotationDegrees": 180,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    }
+  },
+  {
+    "reference": "C71",
+    "pinPairs": 2,
+    "currentRotationDegrees": 0,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    }
+  },
+  {
+    "reference": "VR2",
+    "pinPairs": 5,
+    "currentRotationDegrees": 195.25,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 3.5777048010502934
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 3.5777048010502934
+    }
+  },
+  {
+    "reference": "C60",
+    "pinPairs": 2,
+    "currentRotationDegrees": 0,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497600000000126
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497600000000126
+    }
+  },
+  {
+    "reference": "C39",
+    "pinPairs": 2,
+    "currentRotationDegrees": 0,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    }
+  },
+  {
+    "reference": "C35",
+    "pinPairs": 2,
+    "currentRotationDegrees": 0,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497600000000659
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497600000000659
+    }
+  },
+  {
+    "reference": "C27",
+    "pinPairs": 2,
+    "currentRotationDegrees": 0,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    }
+  },
+  {
+    "reference": "C10",
+    "pinPairs": 2,
+    "currentRotationDegrees": 180,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    }
+  },
+  {
+    "reference": "R73",
+    "pinPairs": 2,
+    "currentRotationDegrees": 0,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999448
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999448
+    }
+  },
+  {
+    "reference": "Q5",
+    "pinPairs": 6,
+    "currentRotationDegrees": 270,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.011596045992777176
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.011596045992777176
+    }
+  },
+  {
+    "reference": "R64",
+    "pinPairs": 2,
+    "currentRotationDegrees": 90,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163600000000159
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163600000000159
+    }
+  },
+  {
+    "reference": "C37",
+    "pinPairs": 2,
+    "currentRotationDegrees": 270,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.0749759999999986
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.0749759999999986
+    }
+  },
+  {
+    "reference": "C9",
+    "pinPairs": 2,
+    "currentRotationDegrees": 270,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497600000000304
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497600000000304
+    }
+  },
+  {
+    "reference": "R31",
+    "pinPairs": 2,
+    "currentRotationDegrees": 180,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999093
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999093
+    }
+  },
+  {
+    "reference": "C44",
+    "pinPairs": 2,
+    "currentRotationDegrees": 270,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497600000000304
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497600000000304
+    }
+  },
+  {
+    "reference": "R54",
+    "pinPairs": 2,
+    "currentRotationDegrees": 270,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999892
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999892
+    }
+  },
+  {
+    "reference": "C19",
+    "pinPairs": 2,
+    "currentRotationDegrees": 180,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    }
+  },
+  {
+    "reference": "U8",
+    "pinPairs": 5,
+    "currentRotationDegrees": 90,
+    "best": {
+      "additionalCcwRotationDegrees": 270,
+      "rmsPinPositionDifferenceMm": 1.3671521529746098
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 1.8238218685084837
+    }
+  },
+  {
+    "reference": "C21",
+    "pinPairs": 2,
+    "currentRotationDegrees": 270,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.04999800000000043
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.04999800000000043
+    }
+  },
+  {
+    "reference": "C64",
+    "pinPairs": 2,
+    "currentRotationDegrees": 0,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    }
+  },
+  {
+    "reference": "EM2",
+    "pinPairs": 6,
+    "currentRotationDegrees": 90,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.17507682145624076
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.17507682145624076
+    }
+  },
+  {
+    "reference": "U6",
+    "pinPairs": 10,
+    "currentRotationDegrees": 0,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.057422033723650776
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.057422033723650776
+    }
+  },
+  {
+    "reference": "R24",
+    "pinPairs": 2,
+    "currentRotationDegrees": 90,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999892
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999892
+    }
+  },
+  {
+    "reference": "R66",
+    "pinPairs": 2,
+    "currentRotationDegrees": 180,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999803
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999803
+    }
+  },
+  {
+    "reference": "R13",
+    "pinPairs": 2,
+    "currentRotationDegrees": 90,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163600000000248
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163600000000248
+    }
+  },
+  {
+    "reference": "R47",
+    "pinPairs": 2,
+    "currentRotationDegrees": 270,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999981
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999981
+    }
+  },
+  {
+    "reference": "R51",
+    "pinPairs": 2,
+    "currentRotationDegrees": 270,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163600000000114
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163600000000114
+    }
+  },
+  {
+    "reference": "C58",
+    "pinPairs": 2,
+    "currentRotationDegrees": 270,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.04999800000000043
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.04999800000000043
+    }
+  },
+  {
+    "reference": "VR1",
+    "pinPairs": 3,
+    "currentRotationDegrees": 0,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.18858859495733443
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.18858859495733443
+    }
+  },
+  {
+    "reference": "C12",
+    "pinPairs": 2,
+    "currentRotationDegrees": 90,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497600000000304
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497600000000304
+    }
+  },
+  {
+    "reference": "R65",
+    "pinPairs": 2,
+    "currentRotationDegrees": 90,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163600000000159
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163600000000159
+    }
+  },
+  {
+    "reference": "R48",
+    "pinPairs": 2,
+    "currentRotationDegrees": 180,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999803
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999803
+    }
+  },
+  {
+    "reference": "C42",
+    "pinPairs": 2,
+    "currentRotationDegrees": 270,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.049998000000000827
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.049998000000000827
+    }
+  },
+  {
+    "reference": "R25",
+    "pinPairs": 2,
+    "currentRotationDegrees": 90,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163600000000514
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163600000000514
+    }
+  },
+  {
+    "reference": "C74",
+    "pinPairs": 2,
+    "currentRotationDegrees": 90,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    }
+  },
+  {
+    "reference": "Q8",
+    "pinPairs": 3,
+    "currentRotationDegrees": 0,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.20033278186280257
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.20033278186280257
+    }
+  },
+  {
+    "reference": "C11",
+    "pinPairs": 2,
+    "currentRotationDegrees": 0,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    }
+  },
+  {
+    "reference": "U13",
+    "pinPairs": 10,
+    "currentRotationDegrees": 90,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.00006863031400175916
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.00006863031400175916
+    }
+  },
+  {
+    "reference": "Q10",
+    "pinPairs": 6,
+    "currentRotationDegrees": 270,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.01159604599277983
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.01159604599277983
+    }
+  },
+  {
+    "reference": "R63",
+    "pinPairs": 2,
+    "currentRotationDegrees": 180,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999093
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999093
+    }
+  },
+  {
+    "reference": "C78",
+    "pinPairs": 2,
+    "currentRotationDegrees": 270,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.0749759999999986
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.0749759999999986
+    }
+  },
+  {
+    "reference": "C36",
+    "pinPairs": 2,
+    "currentRotationDegrees": 0,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    }
+  },
+  {
+    "reference": "C14",
+    "pinPairs": 2,
+    "currentRotationDegrees": 180,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999904
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999904
+    }
+  },
+  {
+    "reference": "R45",
+    "pinPairs": 2,
+    "currentRotationDegrees": 180,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999093
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999093
+    }
+  },
+  {
+    "reference": "C57",
+    "pinPairs": 2,
+    "currentRotationDegrees": 270,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497600000000304
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497600000000304
+    }
+  },
+  {
+    "reference": "R35",
+    "pinPairs": 2,
+    "currentRotationDegrees": 270,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163600000000514
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163600000000514
+    }
+  },
+  {
+    "reference": "C25",
+    "pinPairs": 2,
+    "currentRotationDegrees": 90,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    }
+  },
+  {
+    "reference": "R52",
+    "pinPairs": 2,
+    "currentRotationDegrees": 180,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999803
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999803
+    }
+  },
+  {
+    "reference": "R58",
+    "pinPairs": 2,
+    "currentRotationDegrees": 0,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999093
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999093
+    }
+  },
+  {
+    "reference": "P3",
+    "pinPairs": 4,
+    "currentRotationDegrees": 290.99999999999994,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.547282231223185
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.547282231223185
+    }
+  },
+  {
+    "reference": "U9",
+    "pinPairs": 6,
+    "currentRotationDegrees": 180,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.011596045992780718
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.011596045992780718
+    }
+  },
+  {
+    "reference": "R59",
+    "pinPairs": 2,
+    "currentRotationDegrees": 0,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999448
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163599999999448
+    }
+  },
+  {
+    "reference": "R10",
+    "pinPairs": 2,
+    "currentRotationDegrees": 90,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163600000000514
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163600000000514
+    }
+  },
+  {
+    "reference": "C22",
+    "pinPairs": 2,
+    "currentRotationDegrees": 0,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497600000000126
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497600000000126
+    }
+  },
+  {
+    "reference": "U15",
+    "pinPairs": 6,
+    "currentRotationDegrees": 90,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.21251000250968577
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.21251000250968577
+    }
+  },
+  {
+    "reference": "R68",
+    "pinPairs": 2,
+    "currentRotationDegrees": 270,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163600000000159
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07163600000000159
+    }
+  },
+  {
+    "reference": "C56",
+    "pinPairs": 2,
+    "currentRotationDegrees": 0,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999949
+    }
+  },
+  {
+    "reference": "C32",
+    "pinPairs": 2,
+    "currentRotationDegrees": 90,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999904
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.07497599999999904
+    }
+  },
+  {
+    "reference": "U18",
+    "pinPairs": 6,
+    "currentRotationDegrees": 180,
+    "best": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.21251000250968222
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 0.21251000250968222
+    }
+  }
+]

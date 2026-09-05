@@ -1,0 +1,115 @@
+{
+  "query": "330 resistor array 4 0603",
+  "results": [
+    {
+      "source": "jlcpcb",
+      "lcsc": 25508,
+      "mfr": "4D03WGJ0330T5E",
+      "package": "0603x4",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "33Ω 4 62.5mW 8 ±200ppm/℃ ±5% 0603x4 Resistor Networks, Arrays ROHS",
+      "stock": 108661,
+      "price": 0.0086
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 425215,
+      "mfr": "4D03WGF3301T5E",
+      "package": "0603x4",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "1/16W 3.3kΩ 4 8 ±1% ±200ppm/℃ 0603x4 Resistor Networks, Arrays ROHS",
+      "stock": 40551,
+      "price": 0.0227
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 172477,
+      "mfr": "RC-ML08W331JT",
+      "package": "0603x4",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "1/16W 330Ω 4 8 ±100ppm/℃ ±5% 0603x4 Resistor Networks, Arrays ROHS",
+      "stock": 19217,
+      "price": 0.0112
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 136828,
+      "mfr": "YC164-JR-07330RL",
+      "package": "0603x4",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "330Ω 4 62.5mW 8 ±200ppm/℃ ±5% 0603x4 Resistor Networks, Arrays ROHS",
+      "stock": 18812,
+      "price": 0.0079
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 12018,
+      "mfr": "4D03WGJ0331T5E",
+      "package": "0603x4",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "1/16W 330Ω 4 8 ±200ppm/℃ ±5% 0603x4 Resistor Networks, Arrays ROHS",
+      "stock": 13833,
+      "price": 0.0082
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 169805,
+      "mfr": "RC-ML08W330JT",
+      "package": "0603x4",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "1/16W 33Ω 4 8 ±100ppm/℃ ±5% 0603x4 Resistor Networks, Arrays ROHS",
+      "stock": 7998,
+      "price": 0.0107
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 840641,
+      "mfr": "CAY16-330J4LF",
+      "package": "0603x4",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "33Ω 4 62.5mW 8 ±200ppm/℃ ±5% 0603x4 Resistor Networks, Arrays ROHS",
+      "stock": 6241,
+      "price": 0.0319
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 164039,
+      "mfr": "WA06X330JTL",
+      "package": "0603x4",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "100mW 33Ω 4 8 ±200ppm/℃ ±5% 0603x4 Resistor Networks, Arrays ROHS",
+      "stock": 4955,
+      "price": 0.0074
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 1731715,
+      "mfr": "EXB-V4V330JV",
+      "package": "0603x2",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "2 33Ω 4 63mW ±200ppm/℃ ±5% 0603x2 Resistor Networks, Arrays ROHS",
+      "stock": 4903,
+      "price": 0.0293
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 7500647,
+      "mfr": "2D03WGJ0330T5E",
+      "package": "0603x2",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "",
+      "stock": 4279,
+      "price": 0.0111
+    }
+  ]
+}

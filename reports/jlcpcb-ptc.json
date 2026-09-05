@@ -1,0 +1,16 @@
+{
+  "query": "0805L075SLYR",
+  "results": [
+    {
+      "source": "jlcpcb",
+      "lcsc": 207023,
+      "mfr": "0805L075SLYR",
+      "package": "0805",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+85℃ 1.5A 150mΩ 200ms 40mΩ 50A 600mW 6V 750mA 0805 Resettable Fuses ROHS",
+      "stock": 251,
+      "price": 0.2683
+    }
+  ]
+}

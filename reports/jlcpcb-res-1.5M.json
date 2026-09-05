@@ -1,0 +1,115 @@
+{
+  "query": "0603 1.5M ohm 1%",
+  "results": [
+    {
+      "source": "jlcpcb",
+      "lcsc": 308567,
+      "mfr": "MNR14E0APJ103",
+      "package": "0603x4",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "10kΩ 4 62.5mW 8 ±200ppm/℃ ±5% 0603x4 Resistor Networks, Arrays ROHS",
+      "stock": 30253,
+      "price": 0.0138
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 49325805,
+      "mfr": "SML-D12M8WT86SP",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+85℃ 1.6mm x 0.8mm square LED 160° 2.2V 25mcd~40mcd 54mW 572nm Discrete Diode Frosted White Lens Yellow Green 0603 LED Indication - Discrete ROHS",
+      "stock": 14948,
+      "price": 0.0551
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 510297,
+      "mfr": "SMLEN3WBC8W1",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+85℃ 120mcd 2.9V 33mW 5mA White White Lens 0603 LED Indication - Discrete ROHS",
+      "stock": 14738,
+      "price": 0.1616
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 2932783,
+      "mfr": "HoYH0603-1/2W-25mR-1%",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "25mΩ 500mW Current Sense Resistor SMD ±1% 0603 Current Sense Resistors / Shunt Resistors ROHS",
+      "stock": 12478,
+      "price": 0.0861
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 510028,
+      "mfr": "SMLD12WBN1W1",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+100℃ 120mcd 2.9V 5mA 66mW Discrete Diode White White Lens 0603 LED Indication - Discrete ROHS",
+      "stock": 10827,
+      "price": 0.2148
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 2926776,
+      "mfr": "SML-311UTT86",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-30℃~+85℃ 1.8V 2.5mcd 2mA 44mW 620nm Red 0603 LED Indication - Discrete ROHS",
+      "stock": 9628,
+      "price": 0.1017
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 2837822,
+      "mfr": "SMLD12BN1WT86",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+100℃ 2.9V 40mcd 470nm 5mA 66mW Blue Discrete Diode White Lens 0603 LED Indication - Discrete ROHS",
+      "stock": 8422,
+      "price": 0.1676
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 2846645,
+      "mfr": "SML-512UWT86",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+100℃ 20mA 2V 624nm 63mcd 75mW Discrete Diode Frosted White Lens Orange Red 0603 LED Indication - Discrete ROHS",
+      "stock": 7013,
+      "price": 0.1336
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 49655394,
+      "mfr": "GR0603J7M5T5G00",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-55℃~+155℃ 100mW 7.5MΩ 75V Thick Film Resistor ±100ppm/℃ ±5% 0603 Chip Resistor - Surface Mount ROHS",
+      "stock": 5000,
+      "price": 0.0008
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 881251,
+      "mfr": "CR0603F1M50P05Z",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-55℃~+155℃ 1.5MΩ 100mW 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS",
+      "stock": 4906,
+      "price": 0.0023
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "query": "TC33X-2-503E",
+  "results": [
+    {
+      "source": "jlcpcb",
+      "lcsc": 913246,
+      "mfr": "TC33X-2-503E",
+      "package": "SMD-3P,3.8x3.6mm",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "1 100mW 50kΩ ±25% ±250ppm/℃ SMD-3P,3.8x3.6mm Potentiometers, Variable Resistors ROHS",
+      "stock": 17735,
+      "price": 0.126
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 7066949,
+      "mfr": "TC33X-1-503E",
+      "package": "SMD",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "1 100mW 50kΩ ±25% ±250ppm/℃ SMD Potentiometers, Variable Resistors ROHS",
+      "stock": 350,
+      "price": 0.4199
+    }
+  ]
+}

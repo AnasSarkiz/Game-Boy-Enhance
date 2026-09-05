@@ -1,0 +1,16 @@
+{
+  "query": "0467002.NR",
+  "results": [
+    {
+      "source": "jlcpcb",
+      "lcsc": 187605,
+      "mfr": "0467002.NRHF",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-55℃~+90℃ 0.1891 0.8mm 1.6mm 2A 32V 32V 35A Surface Mount Fuse 0603 Disposable fuses ROHS",
+      "stock": 41093,
+      "price": 0.0583
+    }
+  ]
+}

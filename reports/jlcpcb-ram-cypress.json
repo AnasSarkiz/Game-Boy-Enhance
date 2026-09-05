@@ -1,0 +1,49 @@
+{
+  "query": "CY62128EV30",
+  "results": [
+    {
+      "source": "jlcpcb",
+      "lcsc": 2840304,
+      "mfr": "CY62128EV30LL-45SXIT",
+      "package": "SOIC-32",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+85℃ 1Mbit 2.2V~3.6V 45ns 4uA Parallel Port (Parallel) SOIC-32 SRAM ROHS",
+      "stock": 87,
+      "price": 3.013
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 2944685,
+      "mfr": "CY62128EV30LL-45ZAXI",
+      "package": "TFSOP-32",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "16mA 1Mbit 2.2V~3.6V 45ns 4uA TFSOP-32 SRAM ROHS",
+      "stock": 23,
+      "price": 2.5062
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 2953883,
+      "mfr": "CY62128EV30LL-45SXI",
+      "package": "SOIC-32",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+85℃ 1Mbit 2.2V~3.6V 45ns 4uA SOIC-32 SRAM ROHS",
+      "stock": 21,
+      "price": 3.614
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 2944850,
+      "mfr": "CY62128EV30LL-45ZXI",
+      "package": "TFSOP-32",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+85℃ 16mA 1Mbit 2.2V~3.6V 45ns 4uA TFSOP-32 SRAM ROHS",
+      "stock": 11,
+      "price": 5.379
+    }
+  ]
+}

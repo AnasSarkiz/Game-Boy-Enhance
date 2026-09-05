@@ -1,0 +1,115 @@
+{
+  "query": "0603 47pF 50V C0G",
+  "results": [
+    {
+      "source": "jlcpcb",
+      "lcsc": 1671,
+      "mfr": "CL10C470JB8NNNC",
+      "package": "0603",
+      "is_basic": true,
+      "is_preferred": false,
+      "description": "47pF 50V C0G ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+      "stock": 360883,
+      "price": 0.006
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 45359939,
+      "mfr": "CGA0603C0G470J500JT",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "",
+      "stock": 142823,
+      "price": 0.0024
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 5137501,
+      "mfr": "FCC0603N470J500CT",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "47pF 50V C0G ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+      "stock": 139403,
+      "price": 0.0026
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 94904,
+      "mfr": "0603CG470J500NT",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "47pF 50V C0G ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+      "stock": 40770,
+      "price": 0.0108
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 525253,
+      "mfr": "FN18N470J500PSG",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "47pF 50V C0G ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+      "stock": 30734,
+      "price": 0.0047
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 22374828,
+      "mfr": "CAI0603C0G470J500JT",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "47pF 50V C0G ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+      "stock": 12854,
+      "price": 0.0074
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 18220914,
+      "mfr": "CSA0603C0G470J500JT",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "47pF 50V C0G ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+      "stock": 10167,
+      "price": 0.0029
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 2991559,
+      "mfr": "0603CG470F500NT",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "47pF 50V C0G ±1% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+      "stock": 6809,
+      "price": 0.0116
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 302038,
+      "mfr": "0603CG470G500NT",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "47pF 50V C0G ±2% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+      "stock": 4742,
+      "price": 0.0158
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 465160,
+      "mfr": "HGC0603G0470J500NTHJ",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "47pF 50V C0G ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+      "stock": 4604,
+      "price": 0.0041
+    }
+  ]
+}

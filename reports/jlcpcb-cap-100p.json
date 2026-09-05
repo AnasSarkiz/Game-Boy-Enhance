@@ -1,0 +1,115 @@
+{
+  "query": "0603 100pF 50V C0G",
+  "results": [
+    {
+      "source": "jlcpcb",
+      "lcsc": 14858,
+      "mfr": "CL10C101JB8NNNC",
+      "package": "0603",
+      "is_basic": true,
+      "is_preferred": false,
+      "description": "100pF 50V C0G ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+      "stock": 1658528,
+      "price": 0.0069
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 5137494,
+      "mfr": "FCC0603N101J500CT",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "100pF 50V C0G ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+      "stock": 60948,
+      "price": 0.003
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 45359929,
+      "mfr": "CGA0603C0G101J500JT",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "100pF 50V C0G ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+      "stock": 27712,
+      "price": 0.0017
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 76709,
+      "mfr": "CGA3E2C0G1H101JT0Y0N",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "100pF 50V C0G ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+      "stock": 22694,
+      "price": 0.0205
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 71664,
+      "mfr": "GRM1885C1H101JA01D",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "100pF 50V C0G ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+      "stock": 20137,
+      "price": 0.0094
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 2167328,
+      "mfr": "C0603C101J5GACTU",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "100pF 50V C0G ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+      "stock": 12957,
+      "price": 0.063
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 2180415,
+      "mfr": "VJ0603A101FXACW1BC",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "100pF 50V C0G ±1% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+      "stock": 11485,
+      "price": 0.0423
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 183115,
+      "mfr": "C1608C0G1H101JT000N",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "100pF 50V C0G ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+      "stock": 11128,
+      "price": 0.0207
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 307357,
+      "mfr": "CL10C101JB81PNC",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "100pF 50V C0G ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+      "stock": 8475,
+      "price": 0.0091
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 22374827,
+      "mfr": "CAI0603C0G101J500JT",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "100pF 50V C0G ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+      "stock": 7474,
+      "price": 0.0058
+    }
+  ]
+}

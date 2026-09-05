@@ -1,0 +1,27 @@
+{
+  "query": "1SS355VMTE-17",
+  "results": [
+    {
+      "source": "jlcpcb",
+      "lcsc": 111695,
+      "mfr": "1SS355VMTE-17",
+      "package": "SOD-323F",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "1.2V@100mA 100mA 100nA@80V 4ns 500mA 80V Independent SOD-323F Switching Diodes ROHS",
+      "stock": 133442,
+      "price": 0.017
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 45369189,
+      "mfr": "1SS355VMTE-17-CN",
+      "package": "SOD-323FL",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "SOD-323FL Switching Diodes ROHS",
+      "stock": 2450,
+      "price": 0.0126
+    }
+  ]
+}

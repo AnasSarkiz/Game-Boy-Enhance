@@ -1,0 +1,115 @@
+{
+  "query": "0603 10uF 16V X5R",
+  "results": [
+    {
+      "source": "jlcpcb",
+      "lcsc": 7472959,
+      "mfr": "HGC0603R5106M160NTHJ",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "10uF 16V X5R ±20% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+      "stock": 939992,
+      "price": 0.0139
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 7432767,
+      "mfr": "HGC0603R5106K160NTHJ",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "",
+      "stock": 686634,
+      "price": 0.0165
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 962136,
+      "mfr": "CL10A106KO8NQNC",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "10uF 16V X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+      "stock": 275350,
+      "price": 0.0643
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 711098,
+      "mfr": "GRT188R61C106KE13D",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "10uF 16V X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+      "stock": 174232,
+      "price": 0.1551
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 18164635,
+      "mfr": "TCC0603X5R106K160CT",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "10uF 16V X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+      "stock": 134007,
+      "price": 0.0178
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 6119814,
+      "mfr": "CGA0603X5R106M160JT",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "",
+      "stock": 108826,
+      "price": 0.0136
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 109457,
+      "mfr": "CC0603MRX5R7BB106",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "10uF 16V X5R ±20% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+      "stock": 29210,
+      "price": 0.0872
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 70225,
+      "mfr": "0603X106K160NT",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "10uF 16V X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+      "stock": 16975,
+      "price": 0.1222
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 2936601,
+      "mfr": "CC0603KRX5R7BB106",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "10uF 16V X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+      "stock": 14979,
+      "price": 0.1501
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 92487,
+      "mfr": "CL10A106MO8NQNC",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "10uF 16V X5R ±20% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+      "stock": 14263,
+      "price": 0.0357
+    }
+  ]
+}

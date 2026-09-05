@@ -1,0 +1,115 @@
+{
+  "query": "0603 680pF 50V C0G",
+  "results": [
+    {
+      "source": "jlcpcb",
+      "lcsc": 30816,
+      "mfr": "CL10C681JB8NNNC",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "50V 680pF C0G ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+      "stock": 132627,
+      "price": 0.0154
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 327426,
+      "mfr": "0603CG681J500NT",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "50V 680pF C0G ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+      "stock": 27462,
+      "price": 0.0115
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 41361248,
+      "mfr": "CGA0603C0G681J500JT",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "",
+      "stock": 16559,
+      "price": 0.005
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 2179493,
+      "mfr": "06035A681FAT2A",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "50V 680pF C0G ±1% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+      "stock": 6002,
+      "price": 0.0747
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 53308569,
+      "mfr": "FCC0603N681J500CT",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+      "stock": 3950,
+      "price": 0.0023
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 51295055,
+      "mfr": "CAI0603C0G681J500JT",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "50V 680pF C0G ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+      "stock": 3930,
+      "price": 0.0052
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 49326340,
+      "mfr": "0603C0G681J500NT",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "",
+      "stock": 3156,
+      "price": 0.0063
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 694283,
+      "mfr": "C1608C0G2E681JT000N",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "250V 680pF C0G ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+      "stock": 2836,
+      "price": 0.0258
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 561830,
+      "mfr": "C0603C681J5GACAUTO",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "50V 680pF C0G ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+      "stock": 2632,
+      "price": 0.023
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 342925,
+      "mfr": "CGA3E2C0G1H681JT0Y0N",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "50V 680pF C0G ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+      "stock": 2258,
+      "price": 0.0183
+    }
+  ]
+}

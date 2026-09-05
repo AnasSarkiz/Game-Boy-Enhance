@@ -1,0 +1,71 @@
+{
+  "query": "0603 200k ohm 1%",
+  "results": [
+    {
+      "source": "jlcpcb",
+      "lcsc": 332260,
+      "mfr": "TR0603B200KP0525Z",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-55℃~+155℃ 100mW 200kΩ 75V Thin Film Resistor ±0.1% ±25ppm/℃ 0603 Chip Resistor - Surface Mount ROHS",
+      "stock": 11360,
+      "price": 0.0298
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 308122,
+      "mfr": "MCR03ERTJ204",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-55℃~+155℃ 100mW 200kΩ 50V Thick Film Resistor ±200ppm/℃ ±5% 0603 Chip Resistor - Surface Mount ROHS",
+      "stock": 1780,
+      "price": 0.0042
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 881135,
+      "mfr": "CR0603J200KP05Z",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-55℃~+155℃ 100mW 200kΩ 75V Thick Film Resistor ±100ppm/℃ ±5% 0603 Chip Resistor - Surface Mount ROHS",
+      "stock": 620,
+      "price": 0.0012
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 269686,
+      "mfr": "RMC0603200K5%N",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-55℃~+155℃ 100mW 200kΩ 50V Thick Film Resistor ±100ppm/℃ ±5% 0603 Chip Resistor - Surface Mount ROHS",
+      "stock": 98,
+      "price": 0.0029
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 881057,
+      "mfr": "CR0603F200KP05Z",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-55℃~+155℃ 100mW 200kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS",
+      "stock": 38,
+      "price": 0.0019
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 270127,
+      "mfr": "RMC0603200K1%N",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-55℃~+155℃ 100mW 200kΩ 50V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS",
+      "stock": 16,
+      "price": 0.0033
+    }
+  ]
+}

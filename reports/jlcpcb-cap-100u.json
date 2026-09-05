@@ -1,0 +1,115 @@
+{
+  "query": "1210 100uF 6.3V X5R",
+  "results": [
+    {
+      "source": "jlcpcb",
+      "lcsc": 49066,
+      "mfr": "CL32A107MQVNNNE",
+      "package": "1210",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "100uF 6.3V X5R ±20% 1210 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+      "stock": 17542,
+      "price": 0.3289
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 88154,
+      "mfr": "GRM32ER60J107ME20L",
+      "package": "1210",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "100uF 6.3V X5R ±20% 1210 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+      "stock": 10536,
+      "price": 0.4871
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 16196520,
+      "mfr": "CL32A107MQVNNWE",
+      "package": "1210",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "",
+      "stock": 8223,
+      "price": 0.2741
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 5445359,
+      "mfr": "1210X107M6R3NT",
+      "package": "1210",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "100uF 6.3V X5R ±20% 1210 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+      "stock": 7104,
+      "price": 0.2439
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 386025,
+      "mfr": "JMK325ABJ107MM-P",
+      "package": "1210",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "100uF 6.3V X5R ±20% 1210 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+      "stock": 3323,
+      "price": 0.4136
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 2167949,
+      "mfr": "C1210C107M9PACTU",
+      "package": "1210",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "100uF 6.3V X5R ±20% 1210 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+      "stock": 915,
+      "price": 0.7663
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 49326798,
+      "mfr": "1210X5R107M6R3NT",
+      "package": "1210",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "",
+      "stock": 805,
+      "price": 0.1699
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 191180,
+      "mfr": "JMK325BJ107MM-T",
+      "package": "1210",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "100uF 6.3V X5R ±20% 1210 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+      "stock": 350,
+      "price": 0.2613
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 509278,
+      "mfr": "1210X107M6R3CT",
+      "package": "1210",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "100uF 6.3V X5R ±20% 1210 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+      "stock": 258,
+      "price": 0.3926
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 711111,
+      "mfr": "GRT32ER60J107ME13L",
+      "package": "1210",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "100uF 6.3V X5R ±20% 1210 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+      "stock": 172,
+      "price": 0.4539
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "query": "NCV8164",
+  "results": [
+    {
+      "source": "jlcpcb",
+      "lcsc": 893132,
+      "mfr": "NCV8164AML250TCG",
+      "package": "TDFN-8-EP(3x3)",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+150℃@(Tj) 1 140mV@(300mA) 2.5V 300mA 30uA 5.5V 61dB@(100kHz)、83dB@(100Hz) 9uVrms Fixed Over Current Protection、Over Temperature Protection、Enable Positive TDFN-8-EP(3x3) Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+      "stock": 2888,
+      "price": 1.0982
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 893130,
+      "mfr": "NCV8164AML150TCG",
+      "package": "DFN-8-EP(3x3)",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+150℃@(Tj) 1 1.5V 180mV@(300mA) 300mA 30uA 5.5V 85dB@(1kHz) 9uVrms Fixed Over Current Protection、Over Temperature Protection、Enable、Short Circuit Protection Positive DFN-8-EP(3x3) Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+      "stock": 440,
+      "price": 1.2869
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 893136,
+      "mfr": "NCV8164AMLADJTCG",
+      "package": "DFN-8-EP(3x3)",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+150℃@(Tj) 1 1.2V~5V 300mA 30uA 5.5V 85dB@(1kHz) Adjustable Over Current Protection、Over Temperature Protection、Enable Positive DFN-8-EP(3x3) Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+      "stock": 407,
+      "price": 1.2576
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 893134,
+      "mfr": "NCV8164AML300TCG",
+      "package": "DFN-8-EP(3x3)",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+150℃@(Tj) 1 127mV@(300mA) 300mA 30uA 3V 5.5V 85dB@(1kHz) 9uVrms Fixed Over Current Protection、Over Temperature Protection、Enable Positive DFN-8-EP(3x3) Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+      "stock": 160,
+      "price": 0.6264
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 893133,
+      "mfr": "NCV8164AML280TCG",
+      "package": "TDFN-8-EP(3x3)",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+150℃@(Tj) 1 130mV@(300mA) 2.8V 300mA 30uA 5.5V 61dB@(100kHz)、83dB@(100Hz) 9uVrms Enable Fixed Positive TDFN-8-EP(3x3) Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+      "stock": 100,
+      "price": 0.916
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 893147,
+      "mfr": "NCV8164CSNADJT1G",
+      "package": "TSOP-5",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+150℃@(Tj) 1 1.2V~4.5V 300mA 30uA 5V 85dB@(1kHz) Adjustable Over Current Protection、Over Temperature Protection、Enable Positive TSOP-5 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+      "stock": 90,
+      "price": 0.8558
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 893145,
+      "mfr": "NCV8164CSN180T1G",
+      "package": "TSOP-5",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+150℃@(Tj) 1 1.8V 155mV@(300mA) 300mA 30uA 5V 6uVrms 85dB@(1kHz) Fixed Over Current Protection、Over Temperature Protection、Enable Positive TSOP-5 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+      "stock": 86,
+      "price": 0.4979
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 893137,
+      "mfr": "NCV8164AMTW120TAG",
+      "package": "WDFN-6-EP(2x2)",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "1 1.2V 300mA 30uA 5.5V 85dB@(1kHz) 9uVrms Fixed Over Current Protection、Over Temperature Protection、Enable Positive WDFN-6-EP(2x2) Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+      "stock": 84,
+      "price": 0.3742
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 893131,
+      "mfr": "NCV8164AML180TCG",
+      "package": "TDFN-8-EP(3x3)",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+150℃@(Tj) 1 1.8V 165mV@(300mA) 300mA 30uA 5.5V 85dB@(1kHz) 9uVrms Fixed Over Current Protection、Over Temperature Protection、Enable Positive TDFN-8-EP(3x3) Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+      "stock": 50,
+      "price": 1.1275
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 893138,
+      "mfr": "NCV8164AMTW180TAG",
+      "package": "WDFN-6-EP(2x2)",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+150℃@(Tj) 1 1.8V 300mA 30uA 5.5V 85dB@(1kHz) 9uVrms Fixed Over Current Protection、Over Temperature Protection、Enable Positive WDFN-6-EP(2x2) Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+      "stock": 25,
+      "price": 0.5873
+    }
+  ]
+}

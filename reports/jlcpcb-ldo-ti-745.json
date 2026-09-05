@@ -1,0 +1,16 @@
+{
+  "query": "TPS74525PQWDRVRQ1",
+  "results": [
+    {
+      "source": "jlcpcb",
+      "lcsc": 2865628,
+      "mfr": "TPS74525PQWDRVRQ1",
+      "package": "WSON-6-EP(2x2)",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+150℃@(Tj) 1 170mV@(500mA) 2.5V 25uA 42dB@(100kHz) 500mA 53uVrms 6V Fixed Positive Under Voltage Lockout、PG Pin、Over Current Protection、Over Temperature Protection、Enable WSON-6-EP(2x2) Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+      "stock": 100,
+      "price": 0.859
+    }
+  ]
+}

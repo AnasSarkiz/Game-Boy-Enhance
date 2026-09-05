@@ -1,0 +1,16 @@
+{
+  "query": "RK10J12R0A0B",
+  "results": [
+    {
+      "source": "jlcpcb",
+      "lcsc": 351175,
+      "mfr": "RK10J12R0A0B",
+      "package": "SMD-5P,14x2.5mm",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "10kΩ 20V 30mW ±30% SMD-5P,14x2.5mm Potentiometers, Variable Resistors ROHS",
+      "stock": 177,
+      "price": 1.4626
+    }
+  ]
+}

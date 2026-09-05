@@ -1,0 +1,115 @@
+{
+  "query": "B2B-PH-K-S",
+  "results": [
+    {
+      "source": "jlcpcb",
+      "lcsc": 131337,
+      "mfr": "B2B-PH-K-S(LF)(SN)",
+      "package": "插件,P=2mm",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-25℃~+85℃ 1 100V 1x2P 2 2A 2P 2mm 4.5mm 5.9mm 6mm Brass K Pin PA66 PH Through Hole Tin UL94V-0 White 插件,P=2mm Wire To Board Connector ROHS",
+      "stock": 298406,
+      "price": 0.035
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 5305734,
+      "mfr": "B2B-PH-K(LF)(SN)",
+      "package": "插件,P=2mm",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-55℃~+105℃、-55℃~+125℃、-40℃~+105℃、-25℃~+85℃、-25℃~+85℃ -、2.54mm 1mm、2mm、2.54mm 1x2P 2 2A、3A 2P、40P 2、1 4.5mm 5.9mm 63V、63V、100V 6mm Brass、Copper alloy、Copper alloy K Pin PA66 PH Through Hole、Through Hole、Surface Mount, Right Angle Tin、Gold、Tin UL94V-0 White、Black 插件,P=2mm Wire To Board Connector ROHS",
+      "stock": 22868,
+      "price": 0.0664
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 265003,
+      "mfr": "B2B-PH-SM4-TBT(LF)(SN)",
+      "package": "SMD,P=2mm",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-25℃~+85℃ 1 100V 1x2P 2 2A 2P 2mm 6.6mm 7.95mm 7mm Auxiliary Solder Pin Beige Copper alloy PA PH Surface Mount,Vertical Tin UL94V-0 SMD,P=2mm Wire To Board Connector ROHS",
+      "stock": 19700,
+      "price": 0.5385
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 51940125,
+      "mfr": "XY-B2B-PH-K-S",
+      "package": "-",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-25℃~+85℃ 1 1x2P 2 250V 2A 2P 2mm Brass PA66 Tin UL94V-0 White 插件,P=2mm Wire To Board Connector ROHS",
+      "stock": 11561,
+      "price": 0.0087
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 42422383,
+      "mfr": "APH-B2B-11",
+      "package": "插件,P=2mm",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "插件,P=2mm Wire To Board Connector ROHS",
+      "stock": 5853,
+      "price": 0.0111
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 964780,
+      "mfr": "BS-08-B2BA004",
+      "package": "-",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-25~85℃ Battery base CR2032 Phosphor bronze - ROHS",
+      "stock": 3822,
+      "price": 0.384
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 54444764,
+      "mfr": "B2B-PH-K-S-2PZZ",
+      "package": "插件,P=2mm",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "插件,P=2mm Wire To Board Connector ROHS",
+      "stock": 2100,
+      "price": 0.0101
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 594142,
+      "mfr": "B2B-PH-K-E(LF)(SN)",
+      "package": "插件,P=2mm",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-25℃~+85℃ 1 100V 1x2P 2 2A 2P 2mm 4.5mm 5.9mm 6mm Blue Brass K Pin PA66 PH Through Hole Tin UL94V-0 插件,P=2mm Wire To Board Connector ROHS",
+      "stock": 1902,
+      "price": 0.0484
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 5251182,
+      "mfr": "B2B-PH-K-S-GW",
+      "package": "插件,P=2mm",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-25℃~+85℃ 1 100V 1x2P 2 2A 2P 2mm 4.5mm 5.9mm 6mm Brass K Pin PA66 PH Through Hole Tin UL94V-0 White 插件,P=2mm Wire To Board Connector ROHS",
+      "stock": 1748,
+      "price": 0.3899
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 265438,
+      "mfr": "B2B-PH-K-K(LF)(SN)",
+      "package": "插件,P=2mm",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-25℃~+85℃ 1 100V 1x2P 2 2A 2P 2mm 4.5mm 5.9mm 6mm Black Brass K Pin PA66 PH Through Hole Tin UL94V-0 插件,P=2mm Wire To Board Connector ROHS",
+      "stock": 1663,
+      "price": 0.0707
+    }
+  ]
+}

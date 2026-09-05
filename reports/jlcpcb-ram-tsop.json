@@ -1,0 +1,16 @@
+{
+  "query": "IS62WV12816BLL-45TLI",
+  "results": [
+    {
+      "source": "jlcpcb",
+      "lcsc": 1351971,
+      "mfr": "IS62WV12816BLL-45TLI",
+      "package": "TSOPII-44-10.2mm",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+85℃ 10uA 2.5V~3.6V 2Mbit 35mA 45ns Auto power-down function TSOPII-44-10.2mm SRAM ROHS",
+      "stock": 5,
+      "price": 5.0173
+    }
+  ]
+}

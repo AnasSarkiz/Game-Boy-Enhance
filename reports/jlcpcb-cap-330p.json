@@ -1,0 +1,115 @@
+{
+  "query": "0603 330pF 50V C0G",
+  "results": [
+    {
+      "source": "jlcpcb",
+      "lcsc": 1664,
+      "mfr": "CL10C331JB8NNNC",
+      "package": "0603",
+      "is_basic": true,
+      "is_preferred": false,
+      "description": "330pF 50V C0G ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+      "stock": 261127,
+      "price": 0.01
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 22399617,
+      "mfr": "CGA0603C0G331J500JT",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "",
+      "stock": 8594,
+      "price": 0.0043
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 597160,
+      "mfr": "06035A331JAT2A",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "330pF 50V C0G ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+      "stock": 5259,
+      "price": 0.0196
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 190577,
+      "mfr": "0603CG331J500NT",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "330pF 50V C0G ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+      "stock": 5152,
+      "price": 0.0096
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 694282,
+      "mfr": "C1608C0G2E331JT000N",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "250V 330pF C0G ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+      "stock": 4094,
+      "price": 0.0222
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 49326323,
+      "mfr": "0603C0G331J500NT",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "",
+      "stock": 4088,
+      "price": 0.0036
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 2169092,
+      "mfr": "C0603C331JAGACAUTO",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "250V 330pF C0G ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+      "stock": 2489,
+      "price": 0.0363
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 3007644,
+      "mfr": "CGA3E3C0G2E331JT0Y0N",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "250V 330pF C0G ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+      "stock": 968,
+      "price": 0.0262
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 2176790,
+      "mfr": "VJ0603A331JXACW1BC",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "330pF 50V C0G ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+      "stock": 298,
+      "price": 0.0326
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 2169999,
+      "mfr": "VJ0603D331KXAAJ",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "330pF 50V C0G ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+      "stock": 143,
+      "price": 0.1362
+    }
+  ]
+}

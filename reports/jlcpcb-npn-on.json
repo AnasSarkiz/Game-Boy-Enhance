@@ -1,0 +1,49 @@
+{
+  "query": "MMBT3904LT1G",
+  "results": [
+    {
+      "source": "jlcpcb",
+      "lcsc": 81464,
+      "mfr": "MMBT3904LT1G",
+      "package": "SOT-23",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-55℃~+150℃ 1 NPN 200mA 200mV 225mW 300MHz 40 40V 50nA 6V NPN SOT-23 Bipolar (BJT) ROHS",
+      "stock": 325206,
+      "price": 0.0154
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 7422625,
+      "mfr": "MMBT3904LT1G",
+      "package": "SOT-23",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-55℃~+150℃ 1 NPN 100nA 200mA 200mW 300 300MHz 300mV 40V 6V NPN SOT-23 Bipolar (BJT) ROHS",
+      "stock": 41287,
+      "price": 0.0127
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 84555,
+      "mfr": "SMMBT3904LT1G",
+      "package": "SOT-23",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-55℃~+150℃ 1 NPN 200mA 200mV 225mW 300MHz 40 40V 50nA 6V NPN SOT-23 Bipolar (BJT) ROHS",
+      "stock": 15419,
+      "price": 0.0393
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 46682377,
+      "mfr": "SMMBT3904LT1G-HXY",
+      "package": "SOT-23",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "",
+      "stock": 471,
+      "price": 0.0218
+    }
+  ]
+}

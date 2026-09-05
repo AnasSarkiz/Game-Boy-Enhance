@@ -1,0 +1,16 @@
+{
+  "query": "AGB-SRAM",
+  "results": [
+    {
+      "source": "jlcpcb",
+      "lcsc": 1349215,
+      "mfr": "RMLV1616AGBG-5S2#AC0",
+      "package": "TFBGA-48(7.5x8.5)",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+85℃ 16Mbit 2.7V~3.6V 500nA 55ns TFBGA-48(7.5x8.5) SRAM ROHS",
+      "stock": 10,
+      "price": 16.5502
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "query": "MH1608-601Y",
+  "results": [
+    {
+      "source": "jlcpcb",
+      "lcsc": 780186,
+      "mfr": "MH1608-601Y",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-55℃~+125℃ 1 1A 200mΩ 600Ω@100MHz ±25% 0603 Ferrite Beads ROHS",
+      "stock": 24341,
+      "price": 0.0264
+    }
+  ]
+}

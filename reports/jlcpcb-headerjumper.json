@@ -1,0 +1,115 @@
+{
+  "query": "2.54 1x2 pin header",
+  "results": [
+    {
+      "source": "jlcpcb",
+      "lcsc": 492401,
+      "mfr": "PZ254V-11-02P",
+      "package": "插件,P=2.54mm",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+105℃ 1 1x2P 2.54mm 2.5mm 250V 2P 3A 3mm 6mm Black Brass Pin Header Through Hole 插件,P=2.54mm Pin Headers ROHS",
+      "stock": 1287508,
+      "price": 0.017
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 32713268,
+      "mfr": "HX PZ2.54-1x2P ZZ",
+      "package": "插件,P=2.54mm",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "",
+      "stock": 100812,
+      "price": 0.0146
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 49661,
+      "mfr": "2.54-1*2P母",
+      "package": "插件,P=2.54mm",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+105℃ 1 1x2P 2.54mm 2P 3.3mm 3A Brass Square Hole Through Hole Top 插件,P=2.54mm Female Headers ROHS",
+      "stock": 98016,
+      "price": 0.0645
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 358684,
+      "mfr": "MTP125-1102S1",
+      "package": "插件,P=2.54mm",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+105℃ 1 1x2P 2.54mm 2.5mm 2P 3A 3mm 6mm Black Brass Pin Header Through Hole 插件,P=2.54mm Pin Headers ROHS",
+      "stock": 92856,
+      "price": 0.0102
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 492410,
+      "mfr": "PZ254R-11-02P",
+      "package": "弯插,P=2.54mm",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+105℃ 1 1x2P 2.54mm 2.5mm 250V 2P 3A 6mm Black Brass Pin Header Right Angle 弯插,P=2.54mm Pin Headers ROHS",
+      "stock": 89454,
+      "price": 0.0154
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 124375,
+      "mfr": "B-2100S02P-A110",
+      "package": "插件,P=2.54mm",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+105℃ 1 1x2P 2.54mm 2.54mm 2P 3A 3mm 6mm Black Brass Gold Pin Header Through Hole 插件,P=2.54mm Pin Headers ROHS",
+      "stock": 71004,
+      "price": 0.0303
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 2894925,
+      "mfr": "PZ254-1-02-Z-8.5",
+      "package": "插件,P=2.54mm",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+105℃ 1 1x2P 2.54mm 2.5mm 2P 3A 3mm 6mm Black Brass Pin Header Through Hole 插件,P=2.54mm Pin Headers ROHS",
+      "stock": 48207,
+      "price": 0.0264
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 225477,
+      "mfr": "A2541WV-2P",
+      "package": "插件,P=2.54mm",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+105℃ 1 1x2P 2.54mm 2.54mm 250V 2P 3A 3mm 6mm Black Brass Gold Pin Header Through Hole 插件,P=2.54mm Pin Headers ROHS",
+      "stock": 47589,
+      "price": 0.0406
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 7430358,
+      "mfr": "DS1021-1x2SF11-B",
+      "package": "插件,P=2.54mm",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+105℃ 1 1x2P 2.54mm 250V 2P 3A Black Copper alloy Gold Pin Header Through Hole 插件,P=2.54mm Pin Headers ROHS",
+      "stock": 46180,
+      "price": 0.013
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 2905434,
+      "mfr": "KH-2.54PH180-1X2P-L11.5",
+      "package": "插件,P=2.54mm",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+105℃ 1 1x2P 2.54mm 2.5mm 2P 3A 3mm 6mm Black Pin Header Through Hole 插件,P=2.54mm Pin Headers ROHS",
+      "stock": 40170,
+      "price": 0.021
+    }
+  ]
+}

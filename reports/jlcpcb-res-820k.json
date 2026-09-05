@@ -1,0 +1,38 @@
+{
+  "query": "0603 820k ohm 1%",
+  "results": [
+    {
+      "source": "jlcpcb",
+      "lcsc": 5123617,
+      "mfr": "HoARG0603-1/10W-820KR-0.1%-TCR25",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "100mW 820kΩ Ceramic Resistor ±0.1% ±25ppm/℃ 0603 Chip Resistor - Surface Mount ROHS",
+      "stock": 6263,
+      "price": 0.0506
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 49653341,
+      "mfr": "GR0603F820KT5G00",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-55℃~+155℃ 100mW 75V 820kΩ Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS",
+      "stock": 3700,
+      "price": 0.001
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 429087,
+      "mfr": "CR0603J820KP05",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-55℃~+155℃ 100mW 50V 820kΩ Thick Film Resistor ±200ppm/℃ ±5% 0603 Chip Resistor - Surface Mount ROHS",
+      "stock": 6,
+      "price": 0.001
+    }
+  ]
+}

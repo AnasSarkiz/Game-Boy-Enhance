@@ -1,0 +1,115 @@
+{
+  "query": "0603 47 ohm 1%",
+  "results": [
+    {
+      "source": "jlcpcb",
+      "lcsc": 269715,
+      "mfr": "RMC060347K1%N",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-55℃~+155℃ 100mW 47kΩ 50V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS",
+      "stock": 8739,
+      "price": 0.0037
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 2837822,
+      "mfr": "SMLD12BN1WT86",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+100℃ 2.9V 40mcd 470nm 5mA 66mW Blue Discrete Diode White Lens 0603 LED Indication - Discrete ROHS",
+      "stock": 8422,
+      "price": 0.1676
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 881392,
+      "mfr": "CR0603F470RP05Z",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-55℃~+155℃ 100mW 470Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS",
+      "stock": 5686,
+      "price": 0.0018
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 49654741,
+      "mfr": "GR0603F200RT5G00",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-55℃~+155℃ 100mW 200Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS",
+      "stock": 5082,
+      "price": 0.0011
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 4355002,
+      "mfr": "SFR03EZPF4701",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "",
+      "stock": 5076,
+      "price": 0.0132
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 510263,
+      "mfr": "MCR03EZPJ911",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-55℃~+155℃ 100mW 50V 910Ω Thick Film Resistor ±200ppm/℃ ±5% 0603 Chip Resistor - Surface Mount ROHS",
+      "stock": 5000,
+      "price": 0.0082
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 2846657,
+      "mfr": "KTR03EZPF4701",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-55℃~+155℃ 100mW 350V 4.7kΩ Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS",
+      "stock": 5000,
+      "price": 0.0266
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 49654377,
+      "mfr": "GR0603F47RT5G00",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-55℃~+155℃ 100mW 47Ω 75V Thick Film Resistor ±1% 0603 Chip Resistor - Surface Mount ROHS",
+      "stock": 5000,
+      "price": 0.0011
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 49654784,
+      "mfr": "GR0603F86R6T5G00",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-55℃~+155℃ 100mW 75V 86.6Ω Thick Film Resistor ±1% 0603 Chip Resistor - Surface Mount ROHS",
+      "stock": 5000,
+      "price": 0.001
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 49654744,
+      "mfr": "GR0603F475KT5G00",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "100mW 475kΩ 75V Thick Film Resistor ±1% 0603 Chip Resistor - Surface Mount ROHS",
+      "stock": 4995,
+      "price": 0.001
+    }
+  ]
+}

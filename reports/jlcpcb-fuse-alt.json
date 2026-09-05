@@ -1,0 +1,16 @@
+{
+  "query": "0466002.NR",
+  "results": [
+    {
+      "source": "jlcpcb",
+      "lcsc": 3105,
+      "mfr": "0466002.NRHF",
+      "package": "1206",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-55℃~+90℃ 0.2326 1.6mm 2A 3.2mm 50A 63V 63V Surface Mount Fuse 1206 Disposable fuses ROHS",
+      "stock": 94916,
+      "price": 0.0715
+    }
+  ]
+}

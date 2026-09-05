@@ -1,0 +1,16 @@
+{
+  "query": "SJ-3524-SMT",
+  "results": [
+    {
+      "source": "jlcpcb",
+      "lcsc": 20182907,
+      "mfr": "SJ-3524-SMT-TR",
+      "package": "-",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "",
+      "stock": 48,
+      "price": 1.6665
+    }
+  ]
+}

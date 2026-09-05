@@ -1,0 +1,16 @@
+{
+  "query": "F0805B2R00FSTR",
+  "results": [
+    {
+      "source": "jlcpcb",
+      "lcsc": 5355645,
+      "mfr": "F0805B2R00FSTR",
+      "package": "0805",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-55℃~+125℃ 2A 50A 0805 Disposable fuses ROHS",
+      "stock": 1,
+      "price": 1.4179
+    }
+  ]
+}

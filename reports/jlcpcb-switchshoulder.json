@@ -1,0 +1,104 @@
+{
+  "query": "1825027-5",
+  "results": [
+    {
+      "source": "jlcpcb",
+      "lcsc": 266183,
+      "mfr": "1-1825027-1",
+      "package": "插件",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+105℃ 1.6N 100,000 cycles 24V 5.74mm 50mA 7.01mm 7.11mm PC Pin Right Angle Round Button SPST-NO 插件 Tactile Switches ROHS",
+      "stock": 20407,
+      "price": 0.2874
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 592923,
+      "mfr": "1-1825027-7",
+      "package": "弯插,6x6mm",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-20℃~+105℃ 1.6N 24V 50mA 6mm 6mm PC Pin Right Angle Round Button SPST With Bracket 弯插,6x6mm Tactile Switches ROHS",
+      "stock": 12772,
+      "price": 0.2366
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 266195,
+      "mfr": "1825027-2",
+      "package": "插件",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+105℃ 1.6N 100,000 cycles 24V 50mA 7.01mm 7.11mm PC Pin Right Angle Round Button SPST-NO With Bracket 插件 Tactile Switches ROHS",
+      "stock": 12200,
+      "price": 0.2202
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 266196,
+      "mfr": "1825027-8",
+      "package": "插件",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+105℃ 1.6N 100,000 cycles 24V 3.25mm 50mA 7.01mm 7.11mm PC Pin Right Angle Round Button SPST-NO 插件 Tactile Switches ROHS",
+      "stock": 12035,
+      "price": 0.1865
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 2928195,
+      "mfr": "1-1825027-4",
+      "package": "插件",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-20℃~+105℃ 1.6N 100,000 cycles 24V 50mA 7.01mm 7.11mm PC Pin Right Angle Round Button SPST With Bracket 插件 Tactile Switches ROHS",
+      "stock": 10062,
+      "price": 0.1393
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 86476,
+      "mfr": "1825027-5",
+      "package": "弯插,7x3.5mm",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-20℃~+105℃ 1.24mm 1.6N 24V 3.5mm 50mA 7mm PC Pin Right Angle Round Button SPST 弯插,7x3.5mm Tactile Switches ROHS",
+      "stock": 2675,
+      "price": 0.1897
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 590206,
+      "mfr": "2-1825027-0",
+      "package": "插件",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+105℃ 1.6N 100,000 cycles 24V 50mA 7.01mm 7.11mm PC Pin Right Angle Round Button SPST-NO 插件 Tactile Switches ROHS",
+      "stock": 1215,
+      "price": 0.2514
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 5329530,
+      "mfr": "2-1825027-4",
+      "package": "插件",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "",
+      "stock": 51,
+      "price": 0.4748
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 5166870,
+      "mfr": "1825027-1",
+      "package": "插件",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "",
+      "stock": 17,
+      "price": 0.478
+    }
+  ]
+}

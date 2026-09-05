@@ -1,0 +1,16 @@
+{
+  "query": "TPS7A2525DRVR",
+  "results": [
+    {
+      "source": "jlcpcb",
+      "lcsc": 2867877,
+      "mfr": "TPS7A2525DRVR",
+      "package": "WSON-6-EP(2x2)",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+125℃@(Tj) 1 18V 2.5V 2uA 300mA 300uVrms 340mV@(300mA) 75dB@(10Hz) Fixed PG Pin、Over Current Protection、Thermal Shutdown Positive WSON-6-EP(2x2) Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+      "stock": 162,
+      "price": 1.0559
+    }
+  ]
+}

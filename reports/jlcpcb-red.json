@@ -1,0 +1,16 @@
+{
+  "query": "150060RS75000",
+  "results": [
+    {
+      "source": "jlcpcb",
+      "lcsc": 3030991,
+      "mfr": "150060RS75000",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+85℃ 140° 20mA 250mcd 2V 625nm 630nm Discrete Diode Red Water Clear 0603 LED Indication - Discrete ROHS",
+      "stock": 1156,
+      "price": 0.2705
+    }
+  ]
+}

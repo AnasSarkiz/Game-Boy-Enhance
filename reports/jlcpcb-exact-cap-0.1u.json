@@ -1,0 +1,16 @@
+{
+  "query": "CL10B104KB8NNNC",
+  "results": [
+    {
+      "source": "jlcpcb",
+      "lcsc": 1591,
+      "mfr": "CL10B104KB8NNNC",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "100nF 50V X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+      "stock": 268519,
+      "price": 0.0115
+    }
+  ]
+}

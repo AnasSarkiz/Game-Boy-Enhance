@@ -1,0 +1,115 @@
+{
+  "query": "MMBT3906",
+  "results": [
+    {
+      "source": "jlcpcb",
+      "lcsc": 53444,
+      "mfr": "MMBT3906LT1G",
+      "package": "SOT-23",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-55℃~+150℃ 1 PNP 200mA 225mW 250MHz 250mV 40V 50nA 5V 60 PNP SOT-23 Bipolar (BJT) ROHS",
+      "stock": 441262,
+      "price": 0.0184
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 7420354,
+      "mfr": "MMBT3906",
+      "package": "SOT-23",
+      "is_basic": false,
+      "is_preferred": true,
+      "description": "-55℃~+150℃ 1 PNP 100 100nA 200mA 200mW 300MHz 300mV 40V 5V PNP SOT-23 Bipolar (BJT) ROHS",
+      "stock": 386814,
+      "price": 0.0096
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 727128,
+      "mfr": "MMBT3906",
+      "package": "SOT-23",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-55℃~+150℃ 1 PNP 100 100nA 200mA 200mW 300MHz 300mV 40V 5V PNP SOT-23 Bipolar (BJT) ROHS",
+      "stock": 306158,
+      "price": 0.0069
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 305435,
+      "mfr": "MMBT3906",
+      "package": "SOT-23",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "1 PNP 100 200mA 250MHz 300mW 400mV 40V 50nA 5V PNP SOT-23 Bipolar (BJT) ROHS",
+      "stock": 158494,
+      "price": 0.0061
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 364311,
+      "mfr": "MMBT3906",
+      "package": "SOT-23",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-55℃~+150℃ 1 PNP 100nA 200mA 200mW 300 300MHz 300mV 40V 5V PNP SOT-23 Bipolar (BJT) ROHS",
+      "stock": 135693,
+      "price": 0.0085
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 909755,
+      "mfr": "MMBT3906",
+      "package": "SOT-23",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-55℃~+150℃ 1 PNP 100nA 200mA 200mW 300 300MHz 300mV 40V 5V PNP SOT-23 Bipolar (BJT) ROHS",
+      "stock": 127825,
+      "price": 0.0077
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 51953475,
+      "mfr": "MMBT3906",
+      "package": "SOT-23",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-55℃~+150℃ 1 PNP 100nA 200mA 200mW 300@10mA,1V 300MHz 300mV@50mA,5mA 40V 5V PNP SOT-23 Bipolar (BJT) ROHS",
+      "stock": 122541,
+      "price": 0.0068
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 111114,
+      "mfr": "MMBT3906",
+      "package": "SOT-23",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-55℃~+150℃ 1 PNP 100 200mA 250MHz 300mW 400mV 40V 50nA 5V PNP SOT-23 Bipolar (BJT) ROHS",
+      "stock": 88027,
+      "price": 0.0103
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 2143,
+      "mfr": "MMBT3906 2A(RANGE:100-300)",
+      "package": "SOT-23",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-55℃~+150℃ 1 PNP 100 100nA 200mA 200mW 300MHz 300mV 40V 5V PNP SOT-23 Bipolar (BJT) ROHS",
+      "stock": 77637,
+      "price": 0.0118
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 61615,
+      "mfr": "MMBT3906T(RANGE:100-300)",
+      "package": "SOT-523",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "1 PNP 100 100nA 150mW 200mA 250MHz 400mV 40V 5V PNP SOT-523 Bipolar (BJT) ROHS",
+      "stock": 40303,
+      "price": 0.0222
+    }
+  ]
+}

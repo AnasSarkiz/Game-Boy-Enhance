@@ -1,0 +1,67 @@
+[
+  {
+    "reference": "BT1",
+    "pinPairs": 2,
+    "currentRotationDegrees": 0,
+    "best": {
+      "additionalCcwRotationDegrees": 90,
+      "rmsPinPositionDifferenceMm": 2.1601061501704057
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 3.386154896044184
+    }
+  },
+  {
+    "reference": "U2",
+    "pinPairs": 44,
+    "currentRotationDegrees": 0,
+    "best": {
+      "additionalCcwRotationDegrees": 90,
+      "rmsPinPositionDifferenceMm": 10.631620171203974
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 11.697647422393764
+    }
+  },
+  {
+    "reference": "SP1",
+    "pinPairs": 2,
+    "currentRotationDegrees": 0,
+    "best": {
+      "additionalCcwRotationDegrees": 90,
+      "rmsPinPositionDifferenceMm": 0.7550682220859192
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 2.0149742033098117
+    }
+  },
+  {
+    "reference": "SW1",
+    "pinPairs": 4,
+    "currentRotationDegrees": 163,
+    "best": {
+      "additionalCcwRotationDegrees": 180,
+      "rmsPinPositionDifferenceMm": 2.95734395127691
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 3.905396247031503
+    }
+  },
+  {
+    "reference": "U8",
+    "pinPairs": 5,
+    "currentRotationDegrees": 90,
+    "best": {
+      "additionalCcwRotationDegrees": 270,
+      "rmsPinPositionDifferenceMm": 1.3671521529746098
+    },
+    "current": {
+      "additionalCcwRotationDegrees": 0,
+      "rmsPinPositionDifferenceMm": 1.8238218685084837
+    }
+  }
+]

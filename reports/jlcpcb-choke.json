@@ -1,0 +1,16 @@
+{
+  "query": "ACM2520-801-3P-T002",
+  "results": [
+    {
+      "source": "jlcpcb",
+      "lcsc": 76578,
+      "mfr": "ACM2520-801-3P-T002",
+      "package": "SMD-6P,2.5x2mm",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+85℃ 1.6Ω 10MΩ 150mA 20V 3 800Ω@100MHz SMD-6P,2.5x2mm Common Mode Filters ROHS",
+      "stock": 2791,
+      "price": 0.4474
+    }
+  ]
+}

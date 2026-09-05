@@ -1,0 +1,115 @@
+{
+  "query": "0603 10k ohm 1%",
+  "results": [
+    {
+      "source": "jlcpcb",
+      "lcsc": 308567,
+      "mfr": "MNR14E0APJ103",
+      "package": "0603x4",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "10kΩ 4 62.5mW 8 ±200ppm/℃ ±5% 0603x4 Resistor Networks, Arrays ROHS",
+      "stock": 30253,
+      "price": 0.0138
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 253330,
+      "mfr": "ESR03EZPJ103",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-55℃~+155℃ 10kΩ 150V 250mW Thick Film Resistor ±200ppm/℃ ±5% 0603 Chip Resistor - Surface Mount ROHS",
+      "stock": 30098,
+      "price": 0.0139
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 49654298,
+      "mfr": "GR0603F10K5T5G00",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-55℃~+155℃ 10.5kΩ 100mW 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS",
+      "stock": 4485,
+      "price": 0.001
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 308098,
+      "mfr": "MCR03ERTJ114",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-55℃~+155℃ 100mW 110kΩ 50V Thick Film Resistor ±200ppm/℃ ±5% 0603 Chip Resistor - Surface Mount ROHS",
+      "stock": 3444,
+      "price": 0.0042
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 5123581,
+      "mfr": "HoAR0603-1/10W-10KR-0.1%-TCR25",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "100mW 10kΩ Ceramic Resistor ±0.1% ±25ppm/℃ 0603 Chip Resistor - Surface Mount ROHS",
+      "stock": 3180,
+      "price": 0.0537
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 5362358,
+      "mfr": "RMC 0603 10K J N",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "",
+      "stock": 2868,
+      "price": 0.0027
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 49654610,
+      "mfr": "GR0603J910KT5G00",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-55℃~+155℃ 100mW 75V 910kΩ Thick Film Resistor ±100ppm/℃ ±5% 0603 Chip Resistor - Surface Mount ROHS",
+      "stock": 2600,
+      "price": 0.0008
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 325607,
+      "mfr": "RMC 0603 210K F N",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-55℃~+155℃ 100mW 210kΩ 50V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS",
+      "stock": 2345,
+      "price": 0.0036
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 149938,
+      "mfr": "TR0603B510KP0525Z",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-55℃~+155℃ 100mW 510kΩ 75V Thin Film Resistor ±0.1% ±25ppm/℃ 0603 Chip Resistor - Surface Mount ROHS",
+      "stock": 2046,
+      "price": 0.0295
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 881314,
+      "mfr": "CR0603J910KP05Z",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-55℃~+155℃ 100mW 75V 910kΩ Thick Film Resistor ±100ppm/℃ ±5% 0603 Chip Resistor - Surface Mount ROHS",
+      "stock": 1971,
+      "price": 0.0011
+    }
+  ]
+}

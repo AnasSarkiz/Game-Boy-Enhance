@@ -1,0 +1,16 @@
+{
+  "query": "SKRRABE010",
+  "results": [
+    {
+      "source": "jlcpcb",
+      "lcsc": 125046,
+      "mfr": "SKRRABE010",
+      "package": "SMD,7.5x7mm",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-40℃~+85℃ 0.6mm 1.63N 12V 5,000,000 Cycles 50mA 7.5mm 7mm Round Button SMD(SMT) Tab SPST-NO Surface Mount,Vertical SMD,7.5x7mm Tactile Switches ROHS",
+      "stock": 6979,
+      "price": 0.1549
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "query": "9AC04194122080D2JB",
+  "results": [
+    {
+      "source": "jlcpcb",
+      "lcsc": 700804,
+      "mfr": "9AC04194122080D2JB",
+      "package": "HC-49S",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-20℃~+70℃ 12pF 4.194304MHz 80Ω Through Hole Crystal Oscillator ±20ppm HC-49S Crystals ROHS",
+      "stock": 1450,
+      "price": 0.0921
+    }
+  ]
+}

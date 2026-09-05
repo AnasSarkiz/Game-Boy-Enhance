@@ -1,0 +1,16 @@
+{
+  "query": "0603WAF8203T5E",
+  "results": [
+    {
+      "source": "jlcpcb",
+      "lcsc": 23252,
+      "mfr": "0603WAF8203T5E",
+      "package": "0603",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "-55℃~+155℃ 100mW 75V 820kΩ Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS",
+      "stock": 18334,
+      "price": 0.0022
+    }
+  ]
+}

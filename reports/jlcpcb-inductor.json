@@ -1,0 +1,27 @@
+{
+  "query": "DFE252012P-R47M",
+  "results": [
+    {
+      "source": "jlcpcb",
+      "lcsc": 237552,
+      "mfr": "DFE252012P-R47M=P2",
+      "package": "1008",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "27mΩ 470nH 4A 5.7A ±20% 1008 Power Inductors ROHS",
+      "stock": 4977,
+      "price": 0.0951
+    },
+    {
+      "source": "jlcpcb",
+      "lcsc": 1333867,
+      "mfr": "DFE252012PD-R47M=P2",
+      "package": "1008",
+      "is_basic": false,
+      "is_preferred": false,
+      "description": "27mΩ 470nH 4A 5.2A AEC-Q200 ±20% 1008 Power Inductors ROHS",
+      "stock": 3468,
+      "price": 0.2739
+    }
+  ]
+}

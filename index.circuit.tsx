@@ -12,7 +12,7 @@ export default function GameBoyEnhanceAgbm02() {
     {sections.map((section) => <FunctionalSection key={section.name} section={section} />)}
     <BoardNets />
     <RoutingPhases />
-    <silkscreentext text="AGBM-02 / TSCIRCUIT" pcbX={5} pcbY={-25} fontSize={1} />
-    <silkscreentext text="MouseBiteLabs reference / CC BY-SA 4.0" pcbX={5} pcbY={-27} fontSize={0.7} />
+    <silkscreentext text="AGBM-02 / TSCIRCUIT" pcbX={0} pcbY={18} fontSize={1} />
+    <silkscreentext text="MouseBiteLabs reference / CC BY-SA 4.0" pcbX={0} pcbY={16} fontSize={0.7} />
   </board>
 }
