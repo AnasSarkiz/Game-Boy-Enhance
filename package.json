@@ -21,7 +21,9 @@
     "audit:reference": "bun scripts/audit-reference.mjs",
     "check:release": "bun scripts/check-release.mjs",
     "audit:s4:reference": "python3 scripts/audit-s4-reference.py",
-    "audit:s4:imports": "python3 scripts/audit-s4-imports.py"
+    "audit:s4:imports": "python3 scripts/audit-s4-imports.py",
+    "build:s4:cpu-preview": "tsci build s4/previews/cpu-package.circuit.tsx --routing-disabled --disable-parts-engine --pcb-png --pcb-svgs --schematic-svgs --show-courtyards",
+    "audit:s4:cpu": "python3 scripts/audit-s4-cpu.py"
   },
   "devDependencies": {
     "tscircuit": "0.0.2463",

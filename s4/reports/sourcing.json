@@ -11,7 +11,20 @@
     "error": "Component not found",
     "supplier_response": "easyeda-C41411351.json",
     "diagnosis": "Public EasyEDA component-search API returned success with no LCSC component results; import failed before geometry conversion",
-    "courtyard_verified": false
+    "courtyard_verified": true,
+    "authorized_geometry_reuse": {
+      "source_part": "T113-S3",
+      "source_jlcpcb_part_number": "C5197687",
+      "import_command": "tsci import C5197687 --jlcpcb --use-exact-footprint",
+      "exit_code": 0,
+      "file": "../imports/T113_S3.tsx",
+      "wrapper": "../components/T113M4020DC0.tsx",
+      "manufacturer_part_number": "T113M4020DC0",
+      "jlcpcb_part_number": "C41411351",
+      "courtyard_checked": true,
+      "exact_s4_package_qualified": false
+    },
+    "courtyard_verification_scope": "Unchanged imported S3 courtyard only; S4 mechanical compatibility remains unqualified"
   },
   "alternate_cpu_entry": {
     "jlcpcb_part_number": "C9900264054",
@@ -21,8 +34,16 @@
     "error": "Component not found"
   },
   "successful_candidate_imports": [
-    {"part": "TLV62569PDDCR", "jlcpcb_part_number": "C398365", "file": "../imports/TLV62569PDDCR.tsx"},
-    {"part": "ADV7513BSWZ", "jlcpcb_part_number": "C408901", "file": "../imports/ADV7513BSWZ.tsx"}
+    {
+      "part": "TLV62569PDDCR",
+      "jlcpcb_part_number": "C398365",
+      "file": "../imports/TLV62569PDDCR.tsx"
+    },
+    {
+      "part": "ADV7513BSWZ",
+      "jlcpcb_part_number": "C408901",
+      "file": "../imports/ADV7513BSWZ.tsx"
+    }
   ],
   "ordered": false,
   "s4_board_implemented": false,

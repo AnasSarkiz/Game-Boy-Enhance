@@ -1,13 +1,13 @@
 # S4 Game Boy console redesign
 
-The selected processor is **Allwinner T113-S4 / T113M4020DC0, C41411351**. This supersedes the earlier Nintendo CPU design as the development target. Status: **reference and sourcing audit; implementation blocked on the exact CPU import**. There is no S4 console PCB or validated firmware yet. The repository's root `index.circuit.tsx` still contains the older AGBM-02 work and must not be mistaken for this redesign.
+The selected processor is **Allwinner T113-S4 / T113M4020DC0, C41411351**. This supersedes the earlier Nintendo CPU design as the development target. Status: **S3 supplier geometry imported; S4 component identity and isolated package preview implemented; electrical/package qualification pending**. There is no S4 console PCB or validated firmware yet. The repository's root `index.circuit.tsx` still contains the older AGBM-02 work and must not be mistaken for this redesign.
 
 ## Required result
 
 - Linux GB/GBC/GBA emulation, tested on the actual S4; compatibility and frame rate must be measured.
 - HDMI monitor connection including audio, USB controller support, game/save storage, reset/recovery/debug, and properly sequenced power.
 - Preserve the intended controls and audio functions. The old Nintendo display, SRAM, cartridge and link circuitry cannot be transferred electrically; any compatibility loss must remain explicit. No component may be marked DNP to hide a missing function.
-- TI preferred for suitable supporting ICs. Only genuine JLCPCB component imports with courtyards; no handwritten footprints or relabeled S3 component.
+- TI preferred for suitable supporting ICs. Only genuine JLCPCB component imports with courtyards; no handwritten footprints. On 2026-09-06 the user authorized reusing the S3 supplier package with S4 procurement identity; the source import remains unchanged and separately identifiable.
 - A larger console PCB is allowed. Start with a four-layer plan, but verify the stackup, current paths, USB/HDMI impedances and signal timing before selecting final dimensions. Minimum via copper diameter 0.45 mm and hole 0.30 mm.
 - Keep routing disabled until all components have real footprints and placement passes. Use schematic sheets and sections for power, processor/clock/reset, storage, HDMI/audio, and controls/USB/debug. Then evaluate fanout, route, and run copper DRC.
 
@@ -19,7 +19,9 @@ KiCad exported 84 reference components and 129 processor pins including the expo
 
 The exact TI TLV62569PDDCR regulator and Analog Devices ADV7513BSWZ HDMI transmitter were imported from JLCPCB. Their supplier geometry is unchanged. Each has a closed courtyard enclosing all pads, with no overlapping pad bounding boxes. This is only a component-geometry check; neither part is yet wired into an S4 board.
 
-See [BLOCKERS.md](BLOCKERS.md), [connection review](CONNECTION-REVIEW.md) and [sourcing table](JLCPCB-PARTS.md). No PCB preview, manufacturing output or S4 registry release is provided while the CPU geometry is missing.
+The CPU wrapper in `components/T113M4020DC0.tsx` uses the unchanged `imports/T113_S3.tsx` geometry and pin map. Its MPN is `T113M4020DC0` and its JLCPCB ordering number is `C41411351`. All 129 labels match the pinned reference by physical pin number. See [CPU package qualification](CPU-PACKAGE-REVIEW.md) for the exposed-pad and electrical limitations.
+
+See [BLOCKERS.md](BLOCKERS.md), [connection review](CONNECTION-REVIEW.md) and [sourcing table](JLCPCB-PARTS.md). An isolated, unrouted CPU package preview is available at `previews/cpu-package.circuit.tsx`; it is not the console or a powered CPU schematic. Manufacturing outputs and a console registry release remain blocked.
 
 ## Reproduce the audits
 
@@ -29,6 +31,8 @@ From the repository root:
 bun run typecheck
 bun run audit:s4:imports
 bun run audit:s4:reference
+bun run build:s4:cpu-preview
+bun run audit:s4:cpu
 ```
 
 The reference audit currently exits with status 1 because the upstream reference contains unresolved values and ERC errors. These are not suppressed. `reports/reference-erc.json` records the separate KiCad ERC run, including ignored checks and unavailable-library warnings. A clean result requires more than completing an export.

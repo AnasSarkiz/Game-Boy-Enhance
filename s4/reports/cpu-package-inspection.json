@@ -1,0 +1,30 @@
+{
+  "scope": "isolated_cpu_package_inspection_only",
+  "manufacturer_part_number": "T113M4020DC0",
+  "supplier_part_numbers": {
+    "jlcpcb": [
+      "C41411351"
+    ]
+  },
+  "geometry_source": "JLCPCB C5197687 / T113-S3",
+  "import_sha256": "6adb6d8e3f9302d97f6f8fcdc15bcb7cf60541f9bf1313a41a274405d6c3dc75",
+  "compiled_circuit_sha256": "785984db5578090bff815a87f7658d357a4bff077e4c76adea6a78be4a773a8e",
+  "unchanged_supplier_pads_and_courtyard": true,
+  "pins_matching_reference": 129,
+  "ground_pins": [
+    91,
+    129
+  ],
+  "unconnected_inspection_pins": 127,
+  "copper_trace_count": 0,
+  "dnp_count": 0,
+  "errors": [],
+  "warnings": [
+    {
+      "type": "source_no_power_pin_defined_warning",
+      "message": "U3 has no pin with requires_power=true"
+    }
+  ],
+  "s4_package_and_electrical_qualification_complete": false,
+  "console_board_implemented": false
+}

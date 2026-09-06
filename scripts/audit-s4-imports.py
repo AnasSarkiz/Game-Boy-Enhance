@@ -1,4 +1,4 @@
-"""Check the two imported candidate packages, without claiming board-level DRC."""
+"""Check imported candidate packages, without claiming board-level DRC."""
 
 import hashlib
 import json
@@ -66,7 +66,8 @@ def main():
     report = {
         "scope": "candidate_import_geometry_only",
         "limitation": "No circuit connections, board placement, copper routing, solder-mask or assembly check",
-        "packages": [check_package("TLV62569PDDCR.tsx", 6), check_package("ADV7513BSWZ.tsx", 65)],
+        "packages": [check_package("TLV62569PDDCR.tsx", 6), check_package("ADV7513BSWZ.tsx", 65),
+                     check_package("T113_S3.tsx", 129)],
     }
     (ROOT / "s4/reports/import-geometry.json").write_text(json.dumps(report, indent=2) + "\n")
     print(json.dumps(report, indent=2))

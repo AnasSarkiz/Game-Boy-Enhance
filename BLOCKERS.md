@@ -2,9 +2,9 @@
 
 ## Active S4 redesign — 2026-09-06
 
-The user selected T113-S4. The new [S4 blockers](s4/BLOCKERS.md), [JLCPCB table](s4/JLCPCB-PARTS.md), and [connection review](s4/CONNECTION-REVIEW.md) supersede the old Nintendo CPU procurement decision. **C41411351 exists in the catalog, but its exact JLCPCB import fails with `Component not found`.** No custom or relabeled footprint is used. Candidate TI power and ADI HDMI packages imported successfully; their courtyards and pad separation were checked independently.
+The user selected T113-S4. The new [S4 blockers](s4/BLOCKERS.md), [JLCPCB table](s4/JLCPCB-PARTS.md), and [connection review](s4/CONNECTION-REVIEW.md) supersede the old Nintendo CPU procurement decision. **C41411351 exists in the catalog, but its exact JLCPCB import fails with `Component not found`.** The user has now authorized reuse of the unchanged S3 supplier package through an S4 wrapper; both MPN and JLCPCB ordering identity target S4. Exact package qualification remains open. Candidate TI power and ADI HDMI packages imported successfully; their courtyards and pad separation were checked independently.
 
-The pinned Trellis reference has three ERC errors and unresolved component/identity conflicts. It is not being copied as a verified circuit. There is no S4 placement, routing or copper DRC result yet. The existing root circuit remains historical AGBM-02 work, not an S4 implementation. The following older findings are preserved for that circuit.
+The pinned Trellis reference has three ERC errors and unresolved component/identity conflicts. It is not being copied as a verified circuit. The isolated CPU preview passes placement checks; there is no full S4 console placement, routing or copper DRC result yet. The existing root circuit remains historical AGBM-02 work, not an S4 implementation. The following older findings are preserved for that circuit.
 
 **Placement-stage work in progress, 2026-09-05. Routing is disabled. Do not fabricate this revision.**
 
