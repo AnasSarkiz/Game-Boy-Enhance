@@ -1,10 +1,18 @@
 # Blockers and deviations
 
+## Active S4 redesign — 2026-09-06
+
+The user selected T113-S4. The new [S4 blockers](s4/BLOCKERS.md), [JLCPCB table](s4/JLCPCB-PARTS.md), and [connection review](s4/CONNECTION-REVIEW.md) supersede the old Nintendo CPU procurement decision. **C41411351 exists in the catalog, but its exact JLCPCB import fails with `Component not found`.** No custom or relabeled footprint is used. Candidate TI power and ADI HDMI packages imported successfully; their courtyards and pad separation were checked independently.
+
+The pinned Trellis reference has three ERC errors and unresolved component/identity conflicts. It is not being copied as a verified circuit. There is no S4 placement, routing or copper DRC result yet. The existing root circuit remains historical AGBM-02 work, not an S4 implementation. The following older findings are preserved for that circuit.
+
 **Placement-stage work in progress, 2026-09-05. Routing is disabled. Do not fabricate this revision.**
 
 ## Sourcing
 
 The [JLCPCB blocker table](JLCPCB-BLOCKERS.md) distinguishes missing exact matches, available alternatives, and catalog import failures.
+
+The [assembly requirements](docs/ASSEMBLY-REQUIREMENTS.md) require every intended function to remain populated and operational. No DNP workaround is permitted. The unresolved CPU/ports, unqualified screen assembly and ineffective legacy JP3 are completion blockers even though no component is marked DNP.
 
 1. **U1 Nintendo AGB CPU:** no verified JLCPCB listing for the original processor. A different TI MCU would not run this hardware as wired. The user's requirements to retain this CPU, import it from JLCPCB and avoid custom footprints cannot all be satisfied without a real catalog listing. All 128 real schematic pins remain; the PCB footprint is unresolved.
 2. **P1 cartridge and P4 link connectors:** no verified compatible JLCPCB matches. Their signals and contacts remain in the schematic with unresolved PCB geometry. Generic connectors are not silently substituted.

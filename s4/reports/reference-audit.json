@@ -1,0 +1,79 @@
+{
+  "scope": "unmodified_trellis_reference_only",
+  "reference_commit": "db4fe71623c14bcea47d7457d0db4c99d3899124",
+  "netlist_sha256": "a97afdc814af7921ea85eaf3f3258c7b1f8f60777bc0fe705bbc04a60b7d6053",
+  "component_count": 84,
+  "net_count_including_unconnected": 126,
+  "cpu_pin_count": 129,
+  "duplicate_pin_assignments": [],
+  "supply_pin_mismatches": [],
+  "undefined_component_values": [
+    {
+      "reference": "R8",
+      "symbol_value": "TODO"
+    },
+    {
+      "reference": "R9",
+      "symbol_value": "TODO"
+    }
+  ],
+  "nominal_regulator_outputs": [
+    {
+      "reference": "U1",
+      "upper_resistor_ohms": 453000.0,
+      "lower_resistor_ohms": 100000.0,
+      "nominal_output_volts": 3.318,
+      "basis": "TI TLV62569 Rev C feedback equation; nominal only"
+    },
+    {
+      "reference": "U2",
+      "upper_resistor_ohms": 51000.0,
+      "lower_resistor_ohms": 100000.0,
+      "nominal_output_volts": 0.906,
+      "basis": "TI TLV62569 Rev C feedback equation; nominal only"
+    }
+  ],
+  "reference_erc": {
+    "severity_counts": {
+      "error": 3,
+      "warning": 150
+    },
+    "type_counts": {
+      "different_unit_footprint": 1,
+      "generic-error": 2,
+      "lib_symbol_issues": 148,
+      "isolated_pin_label": 2
+    },
+    "ignored_checks": [
+      {
+        "description": "Four connection points are joined together",
+        "key": "four_way_junction"
+      },
+      {
+        "description": "SPICE model issue",
+        "key": "simulation_model_issue"
+      },
+      {
+        "description": "Footprint link issue",
+        "key": "footprint_link_issues"
+      }
+    ],
+    "limitation": "148 library-configuration warnings; this is not clean ERC or PCB DRC"
+  },
+  "cpu_identity": {
+    "symbol_value": "T113-S3",
+    "requested_mpn": "T113M4020DC0",
+    "jlcpcb_part_number": "C41411351"
+  },
+  "storage_identity": {
+    "symbol_value": "ZDSD08GLGEAG",
+    "mpn": "ZDSD04GLGEAG",
+    "datasheet": "https://datasheet.lcsc.com/lcsc/2005251034_XTX-XTSD08GLGEAG_C558840.pdf"
+  },
+  "console_implemented": false,
+  "s4_placement_checked": false,
+  "s4_routing_checked": false,
+  "s4_copper_drc_passed": false,
+  "all_connections_datasheet_verified": false,
+  "prototype_tested": false
+}

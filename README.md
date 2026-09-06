@@ -1,5 +1,7 @@
 # Game Boy Enhance AGBM-02 in tscircuit
 
+**2026-09-06: the active development target is the [T113-S4 console redesign](s4/README.md).** Its reference, sourcing results and connection audit are in `s4/`. The exact S4 JLCPCB import is blocked; no S4 PCB has been implemented. The root circuit and the published registry package still contain the earlier AGBM-02 adaptation described below.
+
 **Work in progress. Routing is disabled. This is not a complete or fabrication-ready board.**
 
 Adaptation of [MouseBiteLabs/Game-Boy-Enhance](https://github.com/MouseBiteLabs/Game-Boy-Enhance), AGBM-02 AA-battery revision 1.1, pinned to commit `1c4d928bbfe7ed568c83c68ddea11a5f65f4e830`. Original design and this derivative are licensed under [CC BY-SA 4.0](LICENSE.md).
@@ -11,6 +13,8 @@ The KiCad schematic is the connectivity reference; the PCB supplies relative pla
 Genuine JLCPCB imports are in `imports/`, created by `tsci import --jlcpcb --use-exact-footprint`. Their footprints and courtyards are retained. Handwritten/custom component footprints are not used. Components without verified catalog replacements remain explicitly unresolved in the schematic; missing PCB geometry is a release blocker, not an approved omission. TI parts are preferred for active circuitry. See the [JLCPCB blocker table](JLCPCB-BLOCKERS.md) and [BLOCKERS.md](BLOCKERS.md).
 
 The reference includes cartridge and link ports, SRAM, LCD FFC, clock, buttons/hotkey logic, battery protection, converters, sequencing, reset, stereo filtering, headphone/speaker amplifier, volume control, and test points. Their connectivity is being audited against manufacturer documentation. A passing netlist comparison alone does not establish electrical correctness.
+
+Required functions must be populated and operational; DNP is not a workaround for an unavailable or unqualified part. The [assembly requirements](docs/ASSEMBLY-REQUIREMENTS.md) record the current controls/display selections, CPU decision and outstanding functional gaps.
 
 The current compiled circuit has 245 physical component records (the three composite button symbols become eight switches), 242 imported courtyards, and three unresolved footprints: U1, P1 and P4. The reference audit checks 830 mapped pin-to-net endpoints across 217 connected nets. These counts do not imply datasheet qualification or completed routing. See `reports/current-status.json`.
 

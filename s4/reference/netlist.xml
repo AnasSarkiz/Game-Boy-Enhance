@@ -1,0 +1,3959 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/private/tmp/trellis-s4-reference/src/trellis_core.kicad_sch</source>
+    <date>2026-09-06T22:29:20</date>
+    <tool>Eeschema 10.0.3</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Trellis Core</title>
+        <company>Protolux Electronics (https://protolux.io)</company>
+        <rev>v0.1</rev>
+        <date>2025-10-25</date>
+        <source>trellis_core.kicad_sch</source>
+        <comment number="1" value="Designed by Gus Workman"/>
+        <comment number="2" value=""/>
+        <comment number="3" value="Licensed under CERN-OHL-P version 2"/>
+        <comment number="4" value="Copyright 2025 Protolux Electronics"/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Block Diagram/" tstamps="/1e482baf-6a3d-408b-b698-2a3b513f20dd/">
+      <title_block>
+        <title>Trellis Core</title>
+        <company>Protolux Electronics (https://protolux.io)</company>
+        <rev>v0.1</rev>
+        <date>2025-10-25</date>
+        <source>block_diagram.kicad_sch</source>
+        <comment number="1" value="Designed by Gus Workman"/>
+        <comment number="2" value=""/>
+        <comment number="3" value="Licensed under CERN-OHL-P version 2"/>
+        <comment number="4" value="Copyright 2025 Protolux Electronics"/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Architecture/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/">
+      <title_block>
+        <title>Trellis Core</title>
+        <company>Protolux Electronics (https://protolux.io)</company>
+        <rev>v0.1</rev>
+        <date>2025-10-25</date>
+        <source>architecture.kicad_sch</source>
+        <comment number="1" value="Designed by Gus Workman"/>
+        <comment number="2" value=""/>
+        <comment number="3" value="Licensed under CERN-OHL-P version 2"/>
+        <comment number="4" value="Copyright 2025 Protolux Electronics"/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Architecture/Power/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/7dee3082-7f64-4d36-bcff-e81e032ad1b1/">
+      <title_block>
+        <title>Trellis Core</title>
+        <company>Protolux Electronics (https://protolux.io)</company>
+        <rev>v0.1</rev>
+        <date>2025-10-25</date>
+        <source>power.kicad_sch</source>
+        <comment number="1" value="Designed by Gus Workman"/>
+        <comment number="2" value=""/>
+        <comment number="3" value="Licensed under CERN-OHL-P version 2"/>
+        <comment number="4" value="Copyright 2025 Protolux Electronics"/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/Architecture/CPU Core/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/8b8399d2-7f4a-4898-a152-7a99847e44d4/">
+      <title_block>
+        <title>Trellis Core</title>
+        <company>Protolux Electronics (https://protolux.io)</company>
+        <rev>v0.1</rev>
+        <date>2025-10-25</date>
+        <source>cpu_core.kicad_sch</source>
+        <comment number="1" value="Designed by Gus Workman"/>
+        <comment number="2" value=""/>
+        <comment number="3" value="Licensed under CERN-OHL-P version 2"/>
+        <comment number="4" value="Copyright 2025 Protolux Electronics"/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/Architecture/CPU IO/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/79a757f6-dfb5-41f2-81bf-98d5843b272f/">
+      <title_block>
+        <title>Trellis Core</title>
+        <company>Protolux Electronics (https://protolux.io)</company>
+        <rev>v0.1</rev>
+        <date>2025-10-25</date>
+        <source>cpu_io.kicad_sch</source>
+        <comment number="1" value="Designed by Gus Workman"/>
+        <comment number="2" value=""/>
+        <comment number="3" value="Licensed under CERN-OHL-P version 2"/>
+        <comment number="4" value="Copyright 2025 Protolux Electronics"/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/Architecture/USB/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/022199ce-6104-4da1-9bbf-d8401f9147e0/">
+      <title_block>
+        <title>Trellis Core</title>
+        <company>Protolux Electronics (https://protolux.io)</company>
+        <rev>v0.1</rev>
+        <date>2025-10-25</date>
+        <source>usb.kicad_sch</source>
+        <comment number="1" value="Designed by Gus Workman"/>
+        <comment number="2" value=""/>
+        <comment number="3" value="Licensed under CERN-OHL-P version 2"/>
+        <comment number="4" value="Copyright 2025 Protolux Electronics"/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="8" name="/Architecture/Storage/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/e7dd46a8-9c7d-44f1-a0b7-d6701589cc75/">
+      <title_block>
+        <title>Trellis Core</title>
+        <company>Protolux Electronics (https://protolux.io)</company>
+        <rev>v0.1</rev>
+        <date>2025-10-25</date>
+        <source>storage.kicad_sch</source>
+        <comment number="1" value="Designed by Gus Workman"/>
+        <comment number="2" value=""/>
+        <comment number="3" value="Licensed under CERN-OHL-P version 2"/>
+        <comment number="4" value="Copyright 2025 Protolux Electronics"/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="LCSC">C96446</field>
+        <field name="MPN">CL10A106MA8NRNC</field>
+        <field name="DigiKey"/>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C96446"/>
+      <property name="MPN" value="CL10A106MA8NRNC"/>
+      <property name="DigiKey" value=""/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Architecture/Power/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/7dee3082-7f64-4d36-bcff-e81e032ad1b1/"/>
+      <tstamps>5c4a4970-3be7-4e58-a75c-97b583b57a23</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>10p</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="LCSC">C32949</field>
+        <field name="MPN">CL05C100JB5NNNC</field>
+        <field name="DigiKey"/>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C32949"/>
+      <property name="MPN" value="CL05C100JB5NNNC"/>
+      <property name="DigiKey" value=""/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Architecture/Power/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/7dee3082-7f64-4d36-bcff-e81e032ad1b1/"/>
+      <tstamps>368ea88a-9538-47e4-b9a4-783ba48f6d1b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C3">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="LCSC">C96446</field>
+        <field name="MPN">CL10A106MA8NRNC</field>
+        <field name="DigiKey"/>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C96446"/>
+      <property name="MPN" value="CL10A106MA8NRNC"/>
+      <property name="DigiKey" value=""/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Architecture/Power/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/7dee3082-7f64-4d36-bcff-e81e032ad1b1/"/>
+      <tstamps>23ed91be-de6d-4c4b-87d8-9f50509f0d03</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C4">
+      <value>10p</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="LCSC">C32949</field>
+        <field name="MPN">CL05C100JB5NNNC</field>
+        <field name="DigiKey"/>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C32949"/>
+      <property name="MPN" value="CL05C100JB5NNNC"/>
+      <property name="DigiKey" value=""/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Architecture/Power/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/7dee3082-7f64-4d36-bcff-e81e032ad1b1/"/>
+      <tstamps>5bd0fcce-9858-4ebc-9e31-bf2b50c16f96</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C5">
+      <value>22u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="LCSC">C45783</field>
+        <field name="MPN">CL21A226MAQNNNE</field>
+        <field name="DigiKey"/>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C45783"/>
+      <property name="MPN" value="CL21A226MAQNNNE"/>
+      <property name="DigiKey" value=""/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Architecture/Power/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/7dee3082-7f64-4d36-bcff-e81e032ad1b1/"/>
+      <tstamps>4d1d3237-b0d2-47ae-8d19-cd384aa6341d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C6">
+      <value>22u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="LCSC">C45783</field>
+        <field name="MPN">CL21A226MAQNNNE</field>
+        <field name="DigiKey"/>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C45783"/>
+      <property name="MPN" value="CL21A226MAQNNNE"/>
+      <property name="DigiKey" value=""/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Architecture/Power/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/7dee3082-7f64-4d36-bcff-e81e032ad1b1/"/>
+      <tstamps>f6f056e6-fac2-4752-a09b-97165915e69d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C7">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="LCSC">C96446</field>
+        <field name="MPN">CL10A106MA8NRNC</field>
+        <field name="DigiKey"/>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C96446"/>
+      <property name="MPN" value="CL10A106MA8NRNC"/>
+      <property name="DigiKey" value=""/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Architecture/Power/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/7dee3082-7f64-4d36-bcff-e81e032ad1b1/"/>
+      <tstamps>1b6a9669-ca19-4ece-9d8d-e705cf94b466</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C8">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="LCSC">C307331</field>
+        <field name="MPN">CL05B104KB54PNC</field>
+        <field name="DigiKey"/>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C307331"/>
+      <property name="MPN" value="CL05B104KB54PNC"/>
+      <property name="DigiKey" value=""/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Architecture/Power/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/7dee3082-7f64-4d36-bcff-e81e032ad1b1/"/>
+      <tstamps>b9ce6baf-0f6e-4f5d-b338-3973ad8bff10</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D1">
+      <value>RED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <description>Light emitting diode, small symbol, filled shape</description>
+      <fields>
+        <field name="Sim.Pins">1=K 2=A</field>
+        <field name="LCSC">C84256</field>
+        <field name="MPN"> NCD0805R1</field>
+        <field name="DigiKey"/>
+        <field name="Footprint">LED_SMD:LED_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Light emitting diode, small symbol, filled shape</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small_Filled" description="Light emitting diode, small symbol, filled shape"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="LCSC" value="C84256"/>
+      <property name="MPN" value=" NCD0805R1"/>
+      <property name="DigiKey" value=""/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode light-emitting-diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/Architecture/Power/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/7dee3082-7f64-4d36-bcff-e81e032ad1b1/"/>
+      <tstamps>adb03f4a-5e1c-454a-8947-0afe5a008a79</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="L1">
+      <value>2u2</value>
+      <footprint>Inductor_SMD:L_Wuerth_MAPI-2510</footprint>
+      <description>Inductor, small symbol</description>
+      <fields>
+        <field name="LCSC">C22471111</field>
+        <field name="MPN">XRIM252012S2R2MBCA</field>
+        <field name="DigiKey"/>
+        <field name="Manufacturer">XR</field>
+        <field name="Footprint">Inductor_SMD:L_Wuerth_MAPI-2510</field>
+        <field name="Datasheet"/>
+        <field name="Description">Inductor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
+      <property name="LCSC" value="C22471111"/>
+      <property name="MPN" value="XRIM252012S2R2MBCA"/>
+      <property name="DigiKey" value=""/>
+      <property name="Manufacturer" value="XR"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
+      <sheetpath names="/Architecture/Power/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/7dee3082-7f64-4d36-bcff-e81e032ad1b1/"/>
+      <tstamps>1fdef9de-9d6a-4139-ae79-5dacd17ba4ad</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="L2">
+      <value>2u2</value>
+      <footprint>Inductor_SMD:L_Wuerth_MAPI-2510</footprint>
+      <description>Inductor, small symbol</description>
+      <fields>
+        <field name="LCSC">C22471111</field>
+        <field name="MPN">XRIM252012S2R2MBCA</field>
+        <field name="DigiKey"/>
+        <field name="Manufacturer">XR</field>
+        <field name="Footprint">Inductor_SMD:L_Wuerth_MAPI-2510</field>
+        <field name="Datasheet"/>
+        <field name="Description">Inductor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
+      <property name="LCSC" value="C22471111"/>
+      <property name="MPN" value="XRIM252012S2R2MBCA"/>
+      <property name="DigiKey" value=""/>
+      <property name="Manufacturer" value="XR"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
+      <sheetpath names="/Architecture/Power/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/7dee3082-7f64-4d36-bcff-e81e032ad1b1/"/>
+      <tstamps>fcef2ca9-482b-4c34-932d-6a5ece0c910f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <description>Resistor, small symbol</description>
+      <fields>
+        <field name="DigiKey"/>
+        <field name="LCSC">C25741</field>
+        <field name="MPN">0402WGF1003TCE</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="DigiKey" value=""/>
+      <property name="LCSC" value="C25741"/>
+      <property name="MPN" value="0402WGF1003TCE"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Architecture/Power/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/7dee3082-7f64-4d36-bcff-e81e032ad1b1/"/>
+      <tstamps>3a722604-83e0-42e8-89c3-4b86eb6cdabf</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2">
+      <value>453k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <description>Resistor, small symbol</description>
+      <fields>
+        <field name="MPN">0402WGF4533TCE</field>
+        <field name="LCSC">C27009</field>
+        <field name="DigiKey"/>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="MPN" value="0402WGF4533TCE"/>
+      <property name="LCSC" value="C27009"/>
+      <property name="DigiKey" value=""/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Architecture/Power/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/7dee3082-7f64-4d36-bcff-e81e032ad1b1/"/>
+      <tstamps>41f17df7-efb5-4674-9db8-10c24145c8a6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R3">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <description>Resistor, small symbol</description>
+      <fields>
+        <field name="DigiKey"/>
+        <field name="LCSC">C25741</field>
+        <field name="MPN">0402WGF1003TCE</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="DigiKey" value=""/>
+      <property name="LCSC" value="C25741"/>
+      <property name="MPN" value="0402WGF1003TCE"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Architecture/Power/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/7dee3082-7f64-4d36-bcff-e81e032ad1b1/"/>
+      <tstamps>d96036ff-1af2-4958-93a4-4b8c7fc7afac</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R4">
+      <value>5k1</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <description>Resistor, small symbol</description>
+      <fields>
+        <field name="LCSC">C25905</field>
+        <field name="MPN">0402WGF5101TCE</field>
+        <field name="DigiKey"/>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C25905"/>
+      <property name="MPN" value="0402WGF5101TCE"/>
+      <property name="DigiKey" value=""/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Architecture/Power/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/7dee3082-7f64-4d36-bcff-e81e032ad1b1/"/>
+      <tstamps>598daa02-0e9f-44d3-8f88-f427fda8d8ae</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R5">
+      <value>51k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <description>Resistor, small symbol</description>
+      <fields>
+        <field name="LCSC">C25794</field>
+        <field name="MPN">0402WGF5102TCE</field>
+        <field name="DigiKey"/>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C25794"/>
+      <property name="MPN" value="0402WGF5102TCE"/>
+      <property name="DigiKey" value=""/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Architecture/Power/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/7dee3082-7f64-4d36-bcff-e81e032ad1b1/"/>
+      <tstamps>d9ea9c09-d36e-42c0-a124-4be0ba602ba0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R6">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <description>Resistor, small symbol</description>
+      <fields>
+        <field name="DigiKey"/>
+        <field name="LCSC">C25741</field>
+        <field name="MPN">0402WGF1003TCE</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="DigiKey" value=""/>
+      <property name="LCSC" value="C25741"/>
+      <property name="MPN" value="0402WGF1003TCE"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Architecture/Power/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/7dee3082-7f64-4d36-bcff-e81e032ad1b1/"/>
+      <tstamps>f2be7088-58b1-40b7-a7fd-89625f3cc8e0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R7">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <description>Resistor, small symbol</description>
+      <fields>
+        <field name="DigiKey"/>
+        <field name="LCSC">C25741</field>
+        <field name="MPN">0402WGF1003TCE</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="DigiKey" value=""/>
+      <property name="LCSC" value="C25741"/>
+      <property name="MPN" value="0402WGF1003TCE"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Architecture/Power/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/7dee3082-7f64-4d36-bcff-e81e032ad1b1/"/>
+      <tstamps>4dcc1607-f027-47fa-8170-43898921cef3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>TLV62569PDDCR</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tlv62569.pdf</datasheet>
+      <description>High Efficiency Synchronous Buck Converter, Adjustable Output 0.6V-5.5V, 2A, SOT-23-6</description>
+      <fields>
+        <field name="MPN">TLV62569PDDCR</field>
+        <field name="LCSC">C398365</field>
+        <field name="DigiKey"/>
+        <field name="Manufacturer">Texas Insturments</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tlv62569.pdf</field>
+        <field name="Description">High Efficiency Synchronous Buck Converter, Adjustable Output 0.6V-5.5V, 2A, SOT-23-6</field>
+      </fields>
+      <libsource lib="Regulator_Switching" part="TLV62569DDC" description="High Efficiency Synchronous Buck Converter, Adjustable Output 0.6V-5.5V, 2A, SOT-23-6"/>
+      <property name="MPN" value="TLV62569PDDCR"/>
+      <property name="LCSC" value="C398365"/>
+      <property name="DigiKey" value=""/>
+      <property name="Manufacturer" value="Texas Insturments"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_keywords" value="Step-Down Buck DC-DC Regulator Adjustable"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/Architecture/Power/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/7dee3082-7f64-4d36-bcff-e81e032ad1b1/"/>
+      <tstamps>f1bc4f72-7651-4f74-bc80-6be21f183e80</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="4"/>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="6"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U2">
+      <value>TLV62569PDDCR</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tlv62569.pdf</datasheet>
+      <description>High Efficiency Synchronous Buck Converter, Adjustable Output 0.6V-5.5V, 2A, SOT-23-6</description>
+      <fields>
+        <field name="MPN">TLV62569PDDCR</field>
+        <field name="LCSC">C398365</field>
+        <field name="DigiKey"/>
+        <field name="Manufacturer">Texas Insturments</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tlv62569.pdf</field>
+        <field name="Description">High Efficiency Synchronous Buck Converter, Adjustable Output 0.6V-5.5V, 2A, SOT-23-6</field>
+      </fields>
+      <libsource lib="Regulator_Switching" part="TLV62569DDC" description="High Efficiency Synchronous Buck Converter, Adjustable Output 0.6V-5.5V, 2A, SOT-23-6"/>
+      <property name="MPN" value="TLV62569PDDCR"/>
+      <property name="LCSC" value="C398365"/>
+      <property name="DigiKey" value=""/>
+      <property name="Manufacturer" value="Texas Insturments"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_keywords" value="Step-Down Buck DC-DC Regulator Adjustable"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/Architecture/Power/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/7dee3082-7f64-4d36-bcff-e81e032ad1b1/"/>
+      <tstamps>8d2843b6-88ed-4517-a4f8-36ac69ed7b0b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="4"/>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="6"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C9">
+      <value>2u2</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="LCSC">C12530</field>
+        <field name="MPN">CL05A225MQ5NSNC</field>
+        <field name="DigiKey"/>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C12530"/>
+      <property name="MPN" value="CL05A225MQ5NSNC"/>
+      <property name="DigiKey" value=""/>
+      <property name="Sheetname" value="CPU Core"/>
+      <property name="Sheetfile" value="cpu_core.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Architecture/CPU Core/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/8b8399d2-7f4a-4898-a152-7a99847e44d4/"/>
+      <tstamps>387fd3f2-bb63-4589-9a4c-c9bb9f407a6e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C10">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="LCSC">C96446</field>
+        <field name="MPN">CL10A106MA8NRNC</field>
+        <field name="DigiKey"/>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C96446"/>
+      <property name="MPN" value="CL10A106MA8NRNC"/>
+      <property name="DigiKey" value=""/>
+      <property name="Sheetname" value="CPU Core"/>
+      <property name="Sheetfile" value="cpu_core.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Architecture/CPU Core/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/8b8399d2-7f4a-4898-a152-7a99847e44d4/"/>
+      <tstamps>1fef7aae-04c8-4130-bbb7-b60db714c8c6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C11">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="LCSC">C307331</field>
+        <field name="MPN">CL05B104KB54PNC</field>
+        <field name="DigiKey"/>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C307331"/>
+      <property name="MPN" value="CL05B104KB54PNC"/>
+      <property name="DigiKey" value=""/>
+      <property name="Sheetname" value="CPU Core"/>
+      <property name="Sheetfile" value="cpu_core.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Architecture/CPU Core/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/8b8399d2-7f4a-4898-a152-7a99847e44d4/"/>
+      <tstamps>3238dc37-cb76-4b24-92f0-263c7bd7967d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C12">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="LCSC">C307331</field>
+        <field name="MPN">CL05B104KB54PNC</field>
+        <field name="DigiKey"/>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C307331"/>
+      <property name="MPN" value="CL05B104KB54PNC"/>
+      <property name="DigiKey" value=""/>
+      <property name="Sheetname" value="CPU Core"/>
+      <property name="Sheetfile" value="cpu_core.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Architecture/CPU Core/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/8b8399d2-7f4a-4898-a152-7a99847e44d4/"/>
+      <tstamps>6e80ef77-a266-4abe-84c2-15e4214b495a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C13">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="LCSC">C307331</field>
+        <field name="MPN">CL05B104KB54PNC</field>
+        <field name="DigiKey"/>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C307331"/>
+      <property name="MPN" value="CL05B104KB54PNC"/>
+      <property name="DigiKey" value=""/>
+      <property name="Sheetname" value="CPU Core"/>
+      <property name="Sheetfile" value="cpu_core.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Architecture/CPU Core/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/8b8399d2-7f4a-4898-a152-7a99847e44d4/"/>
+      <tstamps>f7b3760c-ab32-4e19-99df-a307f69a490d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C14">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="LCSC">C307331</field>
+        <field name="MPN">CL05B104KB54PNC</field>
+        <field name="DigiKey"/>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C307331"/>
+      <property name="MPN" value="CL05B104KB54PNC"/>
+      <property name="DigiKey" value=""/>
+      <property name="Sheetname" value="CPU Core"/>
+      <property name="Sheetfile" value="cpu_core.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Architecture/CPU Core/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/8b8399d2-7f4a-4898-a152-7a99847e44d4/"/>
+      <tstamps>8179a26a-66ce-40c7-9e26-160a525b9dc9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C15">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="LCSC">C307331</field>
+        <field name="MPN">CL05B104KB54PNC</field>
+        <field name="DigiKey"/>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C307331"/>
+      <property name="MPN" value="CL05B104KB54PNC"/>
+      <property name="DigiKey" value=""/>
+      <property name="Sheetname" value="CPU Core"/>
+      <property name="Sheetfile" value="cpu_core.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Architecture/CPU Core/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/8b8399d2-7f4a-4898-a152-7a99847e44d4/"/>
+      <tstamps>db4204bb-80e8-4818-9c08-849c2d5fe745</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C16">
+      <value>2u2</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="LCSC">C12530</field>
+        <field name="MPN">CL05A225MQ5NSNC</field>
+        <field name="DigiKey"/>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C12530"/>
+      <property name="MPN" value="CL05A225MQ5NSNC"/>
+      <property name="DigiKey" value=""/>
+      <property name="Sheetname" value="CPU Core"/>
+      <property name="Sheetfile" value="cpu_core.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Architecture/CPU Core/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/8b8399d2-7f4a-4898-a152-7a99847e44d4/"/>
+      <tstamps>4c7cd960-ab2a-4137-ad91-0e10f265e541</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C17">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="LCSC">C307331</field>
+        <field name="MPN">CL05B104KB54PNC</field>
+        <field name="DigiKey"/>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C307331"/>
+      <property name="MPN" value="CL05B104KB54PNC"/>
+      <property name="DigiKey" value=""/>
+      <property name="Sheetname" value="CPU Core"/>
+      <property name="Sheetfile" value="cpu_core.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Architecture/CPU Core/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/8b8399d2-7f4a-4898-a152-7a99847e44d4/"/>
+      <tstamps>80f26e26-48c5-4642-bb0c-d4b1a0efe856</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C18">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="LCSC">C307331</field>
+        <field name="MPN">CL05B104KB54PNC</field>
+        <field name="DigiKey"/>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C307331"/>
+      <property name="MPN" value="CL05B104KB54PNC"/>
+      <property name="DigiKey" value=""/>
+      <property name="Sheetname" value="CPU Core"/>
+      <property name="Sheetfile" value="cpu_core.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Architecture/CPU Core/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/8b8399d2-7f4a-4898-a152-7a99847e44d4/"/>
+      <tstamps>87264d74-a0f1-4d3d-b788-c15e1b968c13</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C19">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="LCSC">C307331</field>
+        <field name="MPN">CL05B104KB54PNC</field>
+        <field name="DigiKey"/>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C307331"/>
+      <property name="MPN" value="CL05B104KB54PNC"/>
+      <property name="DigiKey" value=""/>
+      <property name="Sheetname" value="CPU Core"/>
+      <property name="Sheetfile" value="cpu_core.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Architecture/CPU Core/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/8b8399d2-7f4a-4898-a152-7a99847e44d4/"/>
+      <tstamps>923a6e79-9c06-4492-b427-f8bfde894925</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C20">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="LCSC">C307331</field>
+        <field name="MPN">CL05B104KB54PNC</field>
+        <field name="DigiKey"/>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C307331"/>
+      <property name="MPN" value="CL05B104KB54PNC"/>
+      <property name="DigiKey" value=""/>
+      <property name="Sheetname" value="CPU Core"/>
+      <property name="Sheetfile" value="cpu_core.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Architecture/CPU Core/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/8b8399d2-7f4a-4898-a152-7a99847e44d4/"/>
+      <tstamps>bd61c1cc-68ec-4275-ab91-3edcd80166ba</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C21">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="LCSC">C307331</field>
+        <field name="MPN">CL05B104KB54PNC</field>
+        <field name="DigiKey"/>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C307331"/>
+      <property name="MPN" value="CL05B104KB54PNC"/>
+      <property name="DigiKey" value=""/>
+      <property name="Sheetname" value="CPU Core"/>
+      <property name="Sheetfile" value="cpu_core.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Architecture/CPU Core/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/8b8399d2-7f4a-4898-a152-7a99847e44d4/"/>
+      <tstamps>d1789656-2051-4f23-bfa5-bff33f4f133b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C22">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="LCSC">C96446</field>
+        <field name="MPN">CL10A106MA8NRNC</field>
+        <field name="DigiKey"/>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C96446"/>
+      <property name="MPN" value="CL10A106MA8NRNC"/>
+      <property name="DigiKey" value=""/>
+      <property name="Sheetname" value="CPU Core"/>
+      <property name="Sheetfile" value="cpu_core.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Architecture/CPU Core/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/8b8399d2-7f4a-4898-a152-7a99847e44d4/"/>
+      <tstamps>74203c87-7e96-4e30-9151-1b0f27048772</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C23">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="LCSC">C307331</field>
+        <field name="MPN">CL05B104KB54PNC</field>
+        <field name="DigiKey"/>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C307331"/>
+      <property name="MPN" value="CL05B104KB54PNC"/>
+      <property name="DigiKey" value=""/>
+      <property name="Sheetname" value="CPU Core"/>
+      <property name="Sheetfile" value="cpu_core.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Architecture/CPU Core/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/8b8399d2-7f4a-4898-a152-7a99847e44d4/"/>
+      <tstamps>d0851b49-ff51-4325-8a80-8d0aff3991ff</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C24">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="LCSC">C307331</field>
+        <field name="MPN">CL05B104KB54PNC</field>
+        <field name="DigiKey"/>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C307331"/>
+      <property name="MPN" value="CL05B104KB54PNC"/>
+      <property name="DigiKey" value=""/>
+      <property name="Sheetname" value="CPU Core"/>
+      <property name="Sheetfile" value="cpu_core.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Architecture/CPU Core/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/8b8399d2-7f4a-4898-a152-7a99847e44d4/"/>
+      <tstamps>4f03341b-ceca-4afa-8166-1f44b46e2f52</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C25">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="LCSC">C307331</field>
+        <field name="MPN">CL05B104KB54PNC</field>
+        <field name="DigiKey"/>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C307331"/>
+      <property name="MPN" value="CL05B104KB54PNC"/>
+      <property name="DigiKey" value=""/>
+      <property name="Sheetname" value="CPU Core"/>
+      <property name="Sheetfile" value="cpu_core.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Architecture/CPU Core/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/8b8399d2-7f4a-4898-a152-7a99847e44d4/"/>
+      <tstamps>cc0fe424-5a4b-4b55-a1f0-29e52818575c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C26">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="LCSC">C307331</field>
+        <field name="MPN">CL05B104KB54PNC</field>
+        <field name="DigiKey"/>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C307331"/>
+      <property name="MPN" value="CL05B104KB54PNC"/>
+      <property name="DigiKey" value=""/>
+      <property name="Sheetname" value="CPU Core"/>
+      <property name="Sheetfile" value="cpu_core.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Architecture/CPU Core/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/8b8399d2-7f4a-4898-a152-7a99847e44d4/"/>
+      <tstamps>bb490667-d51c-41d6-89e5-7cd309339772</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C27">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="LCSC">C307331</field>
+        <field name="MPN">CL05B104KB54PNC</field>
+        <field name="DigiKey"/>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C307331"/>
+      <property name="MPN" value="CL05B104KB54PNC"/>
+      <property name="DigiKey" value=""/>
+      <property name="Sheetname" value="CPU Core"/>
+      <property name="Sheetfile" value="cpu_core.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Architecture/CPU Core/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/8b8399d2-7f4a-4898-a152-7a99847e44d4/"/>
+      <tstamps>1b36dbb6-b3a2-4bf3-a09b-8baa860370cc</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C28">
+      <value>2u2</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="LCSC">C12530</field>
+        <field name="MPN">CL05A225MQ5NSNC</field>
+        <field name="DigiKey"/>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C12530"/>
+      <property name="MPN" value="CL05A225MQ5NSNC"/>
+      <property name="DigiKey" value=""/>
+      <property name="Sheetname" value="CPU Core"/>
+      <property name="Sheetfile" value="cpu_core.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Architecture/CPU Core/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/8b8399d2-7f4a-4898-a152-7a99847e44d4/"/>
+      <tstamps>8b5f52b0-b4fe-452e-82cc-417b9222dc4f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C29">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="LCSC">C96446</field>
+        <field name="MPN">CL10A106MA8NRNC</field>
+        <field name="DigiKey"/>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C96446"/>
+      <property name="MPN" value="CL10A106MA8NRNC"/>
+      <property name="DigiKey" value=""/>
+      <property name="Sheetname" value="CPU Core"/>
+      <property name="Sheetfile" value="cpu_core.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Architecture/CPU Core/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/8b8399d2-7f4a-4898-a152-7a99847e44d4/"/>
+      <tstamps>f688fd02-17ca-41a1-af47-ecea1d28ad1f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C30">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="LCSC">C307331</field>
+        <field name="MPN">CL05B104KB54PNC</field>
+        <field name="DigiKey"/>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C307331"/>
+      <property name="MPN" value="CL05B104KB54PNC"/>
+      <property name="DigiKey" value=""/>
+      <property name="Sheetname" value="CPU Core"/>
+      <property name="Sheetfile" value="cpu_core.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Architecture/CPU Core/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/8b8399d2-7f4a-4898-a152-7a99847e44d4/"/>
+      <tstamps>6f1413d7-1378-44ad-b606-6492ce79e483</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C31">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="LCSC">C307331</field>
+        <field name="MPN">CL05B104KB54PNC</field>
+        <field name="DigiKey"/>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C307331"/>
+      <property name="MPN" value="CL05B104KB54PNC"/>
+      <property name="DigiKey" value=""/>
+      <property name="Sheetname" value="CPU Core"/>
+      <property name="Sheetfile" value="cpu_core.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Architecture/CPU Core/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/8b8399d2-7f4a-4898-a152-7a99847e44d4/"/>
+      <tstamps>d7350153-b5bc-4db0-8d07-1f523b568547</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C32">
+      <value>10p</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="LCSC">C32949</field>
+        <field name="MPN">CL05C100JB5NNNC</field>
+        <field name="DigiKey"/>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C32949"/>
+      <property name="MPN" value="CL05C100JB5NNNC"/>
+      <property name="DigiKey" value=""/>
+      <property name="Sheetname" value="CPU Core"/>
+      <property name="Sheetfile" value="cpu_core.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Architecture/CPU Core/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/8b8399d2-7f4a-4898-a152-7a99847e44d4/"/>
+      <tstamps>b7ab87c4-ff28-4a5a-8b2e-80ab1789b3ee</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C33">
+      <value>10p</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="LCSC">C32949</field>
+        <field name="MPN">CL05C100JB5NNNC</field>
+        <field name="DigiKey"/>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C32949"/>
+      <property name="MPN" value="CL05C100JB5NNNC"/>
+      <property name="DigiKey" value=""/>
+      <property name="Sheetname" value="CPU Core"/>
+      <property name="Sheetfile" value="cpu_core.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Architecture/CPU Core/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/8b8399d2-7f4a-4898-a152-7a99847e44d4/"/>
+      <tstamps>5d2f04d0-22dc-4c1b-8a46-74506620fb26</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C34">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="LCSC">C307331</field>
+        <field name="MPN">CL05B104KB54PNC</field>
+        <field name="DigiKey"/>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C307331"/>
+      <property name="MPN" value="CL05B104KB54PNC"/>
+      <property name="DigiKey" value=""/>
+      <property name="Sheetname" value="CPU Core"/>
+      <property name="Sheetfile" value="cpu_core.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Architecture/CPU Core/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/8b8399d2-7f4a-4898-a152-7a99847e44d4/"/>
+      <tstamps>17385128-e914-4864-ae31-c79c63c91d39</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C35">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="LCSC">C307331</field>
+        <field name="MPN">CL05B104KB54PNC</field>
+        <field name="DigiKey"/>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C307331"/>
+      <property name="MPN" value="CL05B104KB54PNC"/>
+      <property name="DigiKey" value=""/>
+      <property name="Sheetname" value="CPU Core"/>
+      <property name="Sheetfile" value="cpu_core.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Architecture/CPU Core/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/8b8399d2-7f4a-4898-a152-7a99847e44d4/"/>
+      <tstamps>bfc3e46b-d83c-43e9-8b54-502b1ed83090</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C36">
+      <value>18p</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="LCSC">C1549</field>
+        <field name="MPN">0402CG180J500NT</field>
+        <field name="DigiKey"/>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C1549"/>
+      <property name="MPN" value="0402CG180J500NT"/>
+      <property name="DigiKey" value=""/>
+      <property name="Sheetname" value="CPU Core"/>
+      <property name="Sheetfile" value="cpu_core.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Architecture/CPU Core/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/8b8399d2-7f4a-4898-a152-7a99847e44d4/"/>
+      <tstamps>6d775e67-c760-4cf1-b761-4ea8d9775b47</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C37">
+      <value>18p</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="LCSC">C1549</field>
+        <field name="MPN">0402CG180J500NT</field>
+        <field name="DigiKey"/>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C1549"/>
+      <property name="MPN" value="0402CG180J500NT"/>
+      <property name="DigiKey" value=""/>
+      <property name="Sheetname" value="CPU Core"/>
+      <property name="Sheetfile" value="cpu_core.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Architecture/CPU Core/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/8b8399d2-7f4a-4898-a152-7a99847e44d4/"/>
+      <tstamps>d19af21e-c0bc-46d1-b7ae-2159623c7299</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C38">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="LCSC">C307331</field>
+        <field name="MPN">CL05B104KB54PNC</field>
+        <field name="DigiKey"/>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C307331"/>
+      <property name="MPN" value="CL05B104KB54PNC"/>
+      <property name="DigiKey" value=""/>
+      <property name="Sheetname" value="CPU Core"/>
+      <property name="Sheetfile" value="cpu_core.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Architecture/CPU Core/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/8b8399d2-7f4a-4898-a152-7a99847e44d4/"/>
+      <tstamps>7d312572-5abe-42b4-aec6-c5b5a884d8ef</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C39">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="LCSC">C307331</field>
+        <field name="MPN">CL05B104KB54PNC</field>
+        <field name="DigiKey"/>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C307331"/>
+      <property name="MPN" value="CL05B104KB54PNC"/>
+      <property name="DigiKey" value=""/>
+      <property name="Sheetname" value="CPU Core"/>
+      <property name="Sheetfile" value="cpu_core.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Architecture/CPU Core/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/8b8399d2-7f4a-4898-a152-7a99847e44d4/"/>
+      <tstamps>ab5eaa43-d6a8-486b-804a-751ef18ae6cc</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C40">
+      <value>2u2</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="LCSC">C12530</field>
+        <field name="MPN">CL05A225MQ5NSNC</field>
+        <field name="DigiKey"/>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C12530"/>
+      <property name="MPN" value="CL05A225MQ5NSNC"/>
+      <property name="DigiKey" value=""/>
+      <property name="Sheetname" value="CPU Core"/>
+      <property name="Sheetfile" value="cpu_core.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Architecture/CPU Core/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/8b8399d2-7f4a-4898-a152-7a99847e44d4/"/>
+      <tstamps>c2e5d8ab-9e83-4da5-8fbc-0f9ebccefe8e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R8">
+      <value>TODO</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <description>Resistor, small symbol</description>
+      <fields>
+        <field name="MPN"/>
+        <field name="LCSC"/>
+        <field name="DigiKey"/>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="MPN" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="DigiKey" value=""/>
+      <property name="Sheetname" value="CPU Core"/>
+      <property name="Sheetfile" value="cpu_core.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Architecture/CPU Core/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/8b8399d2-7f4a-4898-a152-7a99847e44d4/"/>
+      <tstamps>5fa11f0d-f887-469d-bd1d-0a675ecc699c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R9">
+      <value>TODO</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <description>Resistor, small symbol</description>
+      <fields>
+        <field name="LCSC"/>
+        <field name="MPN"/>
+        <field name="DigiKey"/>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value=""/>
+      <property name="MPN" value=""/>
+      <property name="DigiKey" value=""/>
+      <property name="Sheetname" value="CPU Core"/>
+      <property name="Sheetfile" value="cpu_core.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Architecture/CPU Core/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/8b8399d2-7f4a-4898-a152-7a99847e44d4/"/>
+      <tstamps>b56cd03d-6f63-4294-a60c-4d4a830592e4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R10">
+      <value>240R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <description>Resistor, small symbol</description>
+      <fields>
+        <field name="LCSC">C23350</field>
+        <field name="MPN">0603WAF2400T5E</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C23350"/>
+      <property name="MPN" value="0603WAF2400T5E"/>
+      <property name="Sheetname" value="CPU Core"/>
+      <property name="Sheetfile" value="cpu_core.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Architecture/CPU Core/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/8b8399d2-7f4a-4898-a152-7a99847e44d4/"/>
+      <tstamps>20f8cc95-534c-422c-a2b2-7b7711543839</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R11">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <description>Resistor, small symbol</description>
+      <fields>
+        <field name="DigiKey"/>
+        <field name="LCSC">C25741</field>
+        <field name="MPN">0402WGF1003TCE</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="DigiKey" value=""/>
+      <property name="LCSC" value="C25741"/>
+      <property name="MPN" value="0402WGF1003TCE"/>
+      <property name="Sheetname" value="CPU Core"/>
+      <property name="Sheetfile" value="cpu_core.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Architecture/CPU Core/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/8b8399d2-7f4a-4898-a152-7a99847e44d4/"/>
+      <tstamps>96dfb345-94f1-4a5c-8a8a-808cb67e8016</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK</footprint>
+      <description>Push button switch, generic, two pins</description>
+      <fields>
+        <field name="MPN">TSA010A2026B</field>
+        <field name="LCSC">C2888420</field>
+        <field name="Manufacturer">BZCN</field>
+        <field name="Footprint">Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK</field>
+        <field name="Datasheet"/>
+        <field name="Description">Push button switch, generic, two pins</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="MPN" value="TSA010A2026B"/>
+      <property name="LCSC" value="C2888420"/>
+      <property name="Manufacturer" value="BZCN"/>
+      <property name="Sheetname" value="CPU Core"/>
+      <property name="Sheetfile" value="cpu_core.kicad_sch"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/Architecture/CPU Core/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/8b8399d2-7f4a-4898-a152-7a99847e44d4/"/>
+      <tstamps>d6ea8687-d81e-4d73-9da2-e5bc8675b143</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U3">
+      <value>T113-S3</value>
+      <footprint>gworkman_mpu:T113-S3</footprint>
+      <datasheet>https://linux-sunxi.org/images/7/73/T113-s3_datasheet_v1.6.pdf</datasheet>
+      <description>Dual-core ARM Cortex-A7 CPU with 128MB embedded DDR3 RAM</description>
+      <fields>
+        <field name="MPN">T113M4020DC0</field>
+        <field name="LCSC">C41411351</field>
+        <field name="DigiKey"/>
+        <field name="Manufacturer">Allwinner</field>
+        <field name="Footprint">gworkman_mpu:T113-S3</field>
+        <field name="Datasheet">https://linux-sunxi.org/images/7/73/T113-s3_datasheet_v1.6.pdf</field>
+        <field name="Description">Dual-core ARM Cortex-A7 CPU with 128MB embedded DDR3 RAM</field>
+      </fields>
+      <libsource lib="gworkman_mpu" part="T113-S3" description="Dual-core ARM Cortex-A7 CPU with 128MB embedded DDR3 RAM"/>
+      <property name="MPN" value="T113M4020DC0"/>
+      <property name="LCSC" value="C41411351"/>
+      <property name="DigiKey" value=""/>
+      <property name="Manufacturer" value="Allwinner"/>
+      <property name="Sheetname" value="CPU Core"/>
+      <property name="Sheetfile" value="cpu_core.kicad_sch"/>
+      <sheetpath names="/Architecture/CPU Core/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/8b8399d2-7f4a-4898-a152-7a99847e44d4/"/>
+      <tstamps>a70f3a93-0428-48b7-8379-0b20b30b148f 8004b1c6-9f39-4c1f-9ee1-2ae9ad41d0b1 bf0fe418-6e45-44bf-ad3b-93935c732ce2 53231869-b310-4cd2-9218-95c7dd81802c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="29"/>
+            <pin num="83"/>
+            <pin num="34"/>
+            <pin num="128"/>
+            <pin num="66"/>
+            <pin num="77"/>
+            <pin num="46"/>
+            <pin num="51"/>
+            <pin num="81"/>
+            <pin num="116"/>
+            <pin num="117"/>
+            <pin num="28"/>
+            <pin num="26"/>
+            <pin num="20"/>
+            <pin num="107"/>
+            <pin num="65"/>
+            <pin num="50"/>
+            <pin num="30"/>
+            <pin num="49"/>
+            <pin num="48"/>
+            <pin num="27"/>
+          </pins>
+        </unit>
+        <unit name="B">
+          <pins>
+            <pin num="21"/>
+            <pin num="22"/>
+            <pin num="23"/>
+            <pin num="24"/>
+            <pin num="25"/>
+            <pin num="47"/>
+            <pin num="89"/>
+            <pin num="97"/>
+            <pin num="91"/>
+            <pin num="129"/>
+          </pins>
+        </unit>
+        <unit name="C">
+          <pins>
+            <pin num="114"/>
+            <pin num="115"/>
+            <pin num="113"/>
+            <pin num="112"/>
+          </pins>
+        </unit>
+        <unit name="D">
+          <pins>
+            <pin num="78"/>
+            <pin num="108"/>
+            <pin num="109"/>
+            <pin num="110"/>
+            <pin num="111"/>
+          </pins>
+        </unit>
+        <unit name="E">
+          <pins>
+            <pin num="86"/>
+            <pin num="85"/>
+            <pin num="84"/>
+            <pin num="82"/>
+            <pin num="80"/>
+            <pin num="79"/>
+            <pin num="19"/>
+            <pin num="18"/>
+            <pin num="17"/>
+            <pin num="16"/>
+            <pin num="15"/>
+            <pin num="14"/>
+            <pin num="120"/>
+            <pin num="118"/>
+            <pin num="119"/>
+            <pin num="121"/>
+            <pin num="123"/>
+            <pin num="122"/>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="124"/>
+            <pin num="125"/>
+            <pin num="126"/>
+            <pin num="127"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="55"/>
+            <pin num="56"/>
+            <pin num="57"/>
+            <pin num="58"/>
+            <pin num="59"/>
+            <pin num="60"/>
+            <pin num="61"/>
+            <pin num="62"/>
+            <pin num="63"/>
+            <pin num="64"/>
+            <pin num="67"/>
+            <pin num="68"/>
+            <pin num="70"/>
+            <pin num="69"/>
+            <pin num="71"/>
+            <pin num="72"/>
+            <pin num="73"/>
+            <pin num="74"/>
+            <pin num="75"/>
+            <pin num="76"/>
+            <pin num="54"/>
+            <pin num="53"/>
+            <pin num="52"/>
+            <pin num="44"/>
+            <pin num="45"/>
+            <pin num="35"/>
+            <pin num="33"/>
+            <pin num="43"/>
+            <pin num="42"/>
+            <pin num="41"/>
+            <pin num="40"/>
+            <pin num="39"/>
+            <pin num="38"/>
+            <pin num="37"/>
+            <pin num="36"/>
+            <pin num="32"/>
+            <pin num="31"/>
+          </pins>
+        </unit>
+        <unit name="F">
+          <pins>
+            <pin num="101"/>
+            <pin num="102"/>
+            <pin num="103"/>
+            <pin num="104"/>
+            <pin num="105"/>
+            <pin num="99"/>
+            <pin num="98"/>
+            <pin num="100"/>
+            <pin num="106"/>
+            <pin num="87"/>
+            <pin num="88"/>
+            <pin num="96"/>
+            <pin num="95"/>
+            <pin num="94"/>
+            <pin num="93"/>
+            <pin num="92"/>
+            <pin num="90"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Y1">
+      <value>24MHz</value>
+      <footprint>Crystal:Crystal_SMD_2520-4Pin_2.5x2.0mm</footprint>
+      <description>Four pin crystal, GND on pins 2 and 4, small symbol</description>
+      <fields>
+        <field name="MPN">CM4024M00008001</field>
+        <field name="LCSC">C7294624</field>
+        <field name="DigiKey"/>
+        <field name="Manufacturer">huaxindianzi</field>
+        <field name="Footprint">Crystal:Crystal_SMD_2520-4Pin_2.5x2.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Four pin crystal, GND on pins 2 and 4, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="Crystal_GND24_Small" description="Four pin crystal, GND on pins 2 and 4, small symbol"/>
+      <property name="MPN" value="CM4024M00008001"/>
+      <property name="LCSC" value="C7294624"/>
+      <property name="DigiKey" value=""/>
+      <property name="Manufacturer" value="huaxindianzi"/>
+      <property name="Sheetname" value="CPU Core"/>
+      <property name="Sheetfile" value="cpu_core.kicad_sch"/>
+      <property name="ki_keywords" value="quartz ceramic resonator oscillator"/>
+      <property name="ki_fp_filters" value="Crystal*"/>
+      <sheetpath names="/Architecture/CPU Core/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/8b8399d2-7f4a-4898-a152-7a99847e44d4/"/>
+      <tstamps>8f59ae8e-05ee-425d-916a-7ebc7058e5c5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="4"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Y2">
+      <value>32.768kHz</value>
+      <footprint>Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm</footprint>
+      <description>Two pin crystal, small symbol</description>
+      <fields>
+        <field name="MPN">Q13FC13500004</field>
+        <field name="LCSC">C32346</field>
+        <field name="DigiKey"/>
+        <field name="Manufacturer">EPSON</field>
+        <field name="Footprint">Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Two pin crystal, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="Crystal_Small" description="Two pin crystal, small symbol"/>
+      <property name="MPN" value="Q13FC13500004"/>
+      <property name="LCSC" value="C32346"/>
+      <property name="DigiKey" value=""/>
+      <property name="Manufacturer" value="EPSON"/>
+      <property name="Sheetname" value="CPU Core"/>
+      <property name="Sheetfile" value="cpu_core.kicad_sch"/>
+      <property name="ki_keywords" value="quartz ceramic resonator oscillator"/>
+      <property name="ki_fp_filters" value="Crystal*"/>
+      <sheetpath names="/Architecture/CPU Core/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/8b8399d2-7f4a-4898-a152-7a99847e44d4/"/>
+      <tstamps>1e84710d-c8d2-4edb-a3c8-87d0edd9dc16</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R12">
+      <value>5k1</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <description>Resistor, small symbol</description>
+      <fields>
+        <field name="LCSC">C25905</field>
+        <field name="MPN">0402WGF5101TCE</field>
+        <field name="DigiKey"/>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C25905"/>
+      <property name="MPN" value="0402WGF5101TCE"/>
+      <property name="DigiKey" value=""/>
+      <property name="Sheetname" value="CPU IO"/>
+      <property name="Sheetfile" value="cpu_io.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Architecture/CPU IO/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/79a757f6-dfb5-41f2-81bf-98d5843b272f/"/>
+      <tstamps>06e7e0c8-b9dc-4189-94dc-75757ca1f18a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R13">
+      <value>5k1</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <description>Resistor, small symbol</description>
+      <fields>
+        <field name="LCSC">C25905</field>
+        <field name="MPN">0402WGF5101TCE</field>
+        <field name="DigiKey"/>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C25905"/>
+      <property name="MPN" value="0402WGF5101TCE"/>
+      <property name="DigiKey" value=""/>
+      <property name="Sheetname" value="CPU IO"/>
+      <property name="Sheetfile" value="cpu_io.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Architecture/CPU IO/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/79a757f6-dfb5-41f2-81bf-98d5843b272f/"/>
+      <tstamps>522a0800-63c0-4b31-b0d4-585a56a7e77a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R14">
+      <value>5k1</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <description>Resistor, small symbol</description>
+      <fields>
+        <field name="LCSC">C25905</field>
+        <field name="MPN">0402WGF5101TCE</field>
+        <field name="DigiKey"/>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C25905"/>
+      <property name="MPN" value="0402WGF5101TCE"/>
+      <property name="DigiKey" value=""/>
+      <property name="Sheetname" value="CPU IO"/>
+      <property name="Sheetfile" value="cpu_io.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Architecture/CPU IO/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/79a757f6-dfb5-41f2-81bf-98d5843b272f/"/>
+      <tstamps>4cebec9b-f3f3-4f64-9bd9-344a0b25c30e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R24">
+      <value>5k1</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <description>Resistor, small symbol</description>
+      <fields>
+        <field name="LCSC">C25905</field>
+        <field name="MPN">0402WGF5101TCE</field>
+        <field name="DigiKey"/>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C25905"/>
+      <property name="MPN" value="0402WGF5101TCE"/>
+      <property name="DigiKey" value=""/>
+      <property name="Sheetname" value="CPU IO"/>
+      <property name="Sheetfile" value="cpu_io.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Architecture/CPU IO/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/79a757f6-dfb5-41f2-81bf-98d5843b272f/"/>
+      <tstamps>33678ce7-7e1c-4ca6-9b78-36cd7396e2d1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R25">
+      <value>5k1</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <description>Resistor, small symbol</description>
+      <fields>
+        <field name="LCSC">C25905</field>
+        <field name="MPN">0402WGF5101TCE</field>
+        <field name="DigiKey"/>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C25905"/>
+      <property name="MPN" value="0402WGF5101TCE"/>
+      <property name="DigiKey" value=""/>
+      <property name="Sheetname" value="CPU IO"/>
+      <property name="Sheetfile" value="cpu_io.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Architecture/CPU IO/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/79a757f6-dfb5-41f2-81bf-98d5843b272f/"/>
+      <tstamps>833e9629-f93d-45e3-a1da-fe722f9fbd31</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="F1">
+      <value>1A</value>
+      <footprint>Fuse:Fuse_1206_3216Metric</footprint>
+      <description>Resettable fuse, polymeric positive temperature coefficient, small symbol</description>
+      <fields>
+        <field name="MPN">JK-nSMD100-16</field>
+        <field name="LCSC">C369161</field>
+        <field name="Manufacturer">Jinrui Electronic Materials Co.</field>
+        <field name="Footprint">Fuse:Fuse_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resettable fuse, polymeric positive temperature coefficient, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="Polyfuse_Small" description="Resettable fuse, polymeric positive temperature coefficient, small symbol"/>
+      <property name="MPN" value="JK-nSMD100-16"/>
+      <property name="LCSC" value="C369161"/>
+      <property name="Manufacturer" value="Jinrui Electronic Materials Co."/>
+      <property name="Sheetname" value="USB"/>
+      <property name="Sheetfile" value="usb.kicad_sch"/>
+      <property name="ki_keywords" value="resettable fuse PTC PPTC polyfuse polyswitch"/>
+      <property name="ki_fp_filters" value="*polyfuse* *PTC*"/>
+      <sheetpath names="/Architecture/USB/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/022199ce-6104-4da1-9bbf-d8401f9147e0/"/>
+      <tstamps>9268bf78-be99-473f-8591-938e0e22924d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>USB_C_Receptacle_USB2.0_14P</value>
+      <footprint>Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7010ASV</footprint>
+      <datasheet>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</datasheet>
+      <description>USB 2.0-only 14P Type-C Receptacle connector</description>
+      <fields>
+        <field name="LCSC">C41427493</field>
+        <field name="MPN">HX TYPE-C 16P L8.35</field>
+        <field name="DigiKey"/>
+        <field name="Manufacturer">hanxia</field>
+        <field name="Footprint">Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7010ASV</field>
+        <field name="Datasheet">https://www.usb.org/sites/default/files/documents/usb_type-c.zip</field>
+        <field name="Description">USB 2.0-only 14P Type-C Receptacle connector</field>
+      </fields>
+      <libsource lib="Connector" part="USB_C_Receptacle_USB2.0_14P" description="USB 2.0-only 14P Type-C Receptacle connector"/>
+      <property name="LCSC" value="C41427493"/>
+      <property name="MPN" value="HX TYPE-C 16P L8.35"/>
+      <property name="DigiKey" value=""/>
+      <property name="Manufacturer" value="hanxia"/>
+      <property name="Sheetname" value="USB"/>
+      <property name="Sheetfile" value="usb.kicad_sch"/>
+      <property name="ki_keywords" value="usb universal serial bus type-C USB2.0"/>
+      <property name="ki_fp_filters" value="USB*C*Receptacle*"/>
+      <sheetpath names="/Architecture/USB/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/022199ce-6104-4da1-9bbf-d8401f9147e0/"/>
+      <tstamps>efe447a9-54f1-4c87-b458-abd89778196d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="S1"/>
+            <pin num="A1"/>
+            <pin num="A12"/>
+            <pin num="B1"/>
+            <pin num="B12"/>
+            <pin num="A4"/>
+            <pin num="A9"/>
+            <pin num="B4"/>
+            <pin num="B9"/>
+            <pin num="A5"/>
+            <pin num="B5"/>
+            <pin num="A7"/>
+            <pin num="B7"/>
+            <pin num="A6"/>
+            <pin num="B6"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R15">
+      <value>5k1</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <description>Resistor, small symbol</description>
+      <fields>
+        <field name="LCSC">C25905</field>
+        <field name="MPN">0402WGF5101TCE</field>
+        <field name="DigiKey"/>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C25905"/>
+      <property name="MPN" value="0402WGF5101TCE"/>
+      <property name="DigiKey" value=""/>
+      <property name="Sheetname" value="USB"/>
+      <property name="Sheetfile" value="usb.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Architecture/USB/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/022199ce-6104-4da1-9bbf-d8401f9147e0/"/>
+      <tstamps>6e462a2f-1c66-4645-9ea0-565e2bfaf67a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R16">
+      <value>5k1</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <description>Resistor, small symbol</description>
+      <fields>
+        <field name="LCSC">C25905</field>
+        <field name="MPN">0402WGF5101TCE</field>
+        <field name="DigiKey"/>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C25905"/>
+      <property name="MPN" value="0402WGF5101TCE"/>
+      <property name="DigiKey" value=""/>
+      <property name="Sheetname" value="USB"/>
+      <property name="Sheetfile" value="usb.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Architecture/USB/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/022199ce-6104-4da1-9bbf-d8401f9147e0/"/>
+      <tstamps>7a74ac16-8f52-49a6-8349-5dfac87fe123</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U4">
+      <value>USBLC6-2SC6</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>https://www.st.com/resource/en/datasheet/usblc6-2.pdf</datasheet>
+      <description>Very low capacitance ESD protection diode, 2 data-line, SOT-23-6</description>
+      <fields>
+        <field name="LCSC">C2827654</field>
+        <field name="MPN">USBLC6-2SC6</field>
+        <field name="DigiKey"/>
+        <field name="Manufacturer">TECH PUBLIC</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">https://www.st.com/resource/en/datasheet/usblc6-2.pdf</field>
+        <field name="Description">Very low capacitance ESD protection diode, 2 data-line, SOT-23-6</field>
+      </fields>
+      <libsource lib="Power_Protection" part="USBLC6-2SC6" description="Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"/>
+      <property name="LCSC" value="C2827654"/>
+      <property name="MPN" value="USBLC6-2SC6"/>
+      <property name="DigiKey" value=""/>
+      <property name="Manufacturer" value="TECH PUBLIC"/>
+      <property name="Sheetname" value="USB"/>
+      <property name="Sheetfile" value="usb.kicad_sch"/>
+      <property name="ki_keywords" value="usb ethernet video"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/Architecture/USB/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/022199ce-6104-4da1-9bbf-d8401f9147e0/"/>
+      <tstamps>9c5747d3-67cc-4c02-a8d4-33032b55a4c2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="5"/>
+            <pin num="2"/>
+            <pin num="6"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C41">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="LCSC">C96446</field>
+        <field name="MPN">CL10A106MA8NRNC</field>
+        <field name="DigiKey"/>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C96446"/>
+      <property name="MPN" value="CL10A106MA8NRNC"/>
+      <property name="DigiKey" value=""/>
+      <property name="Sheetname" value="Storage"/>
+      <property name="Sheetfile" value="storage.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Architecture/Storage/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/e7dd46a8-9c7d-44f1-a0b7-d6701589cc75/"/>
+      <tstamps>d011c958-d31e-4b84-8796-c9d91dd1ec41</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C42">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="LCSC">C307331</field>
+        <field name="MPN">CL05B104KB54PNC</field>
+        <field name="DigiKey"/>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C307331"/>
+      <property name="MPN" value="CL05B104KB54PNC"/>
+      <property name="DigiKey" value=""/>
+      <property name="Sheetname" value="Storage"/>
+      <property name="Sheetfile" value="storage.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Architecture/Storage/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/e7dd46a8-9c7d-44f1-a0b7-d6701589cc75/"/>
+      <tstamps>f2a1bbdc-21ee-4174-8e6b-5638546116a5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C43">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="LCSC">C307331</field>
+        <field name="MPN">CL05B104KB54PNC</field>
+        <field name="DigiKey"/>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C307331"/>
+      <property name="MPN" value="CL05B104KB54PNC"/>
+      <property name="DigiKey" value=""/>
+      <property name="Sheetname" value="Storage"/>
+      <property name="Sheetfile" value="storage.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Architecture/Storage/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/e7dd46a8-9c7d-44f1-a0b7-d6701589cc75/"/>
+      <tstamps>8dd9c824-002e-4353-ad24-375eaa8a6a76</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C44">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="LCSC">C307331</field>
+        <field name="MPN">CL05B104KB54PNC</field>
+        <field name="DigiKey"/>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C307331"/>
+      <property name="MPN" value="CL05B104KB54PNC"/>
+      <property name="DigiKey" value=""/>
+      <property name="Sheetname" value="Storage"/>
+      <property name="Sheetfile" value="storage.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Architecture/Storage/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/e7dd46a8-9c7d-44f1-a0b7-d6701589cc75/"/>
+      <tstamps>33530dba-8e45-4830-a5fa-779835d317e4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R17">
+      <value>51k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <description>Resistor, small symbol</description>
+      <fields>
+        <field name="LCSC">C25794</field>
+        <field name="MPN">0402WGF5102TCE</field>
+        <field name="DigiKey"/>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C25794"/>
+      <property name="MPN" value="0402WGF5102TCE"/>
+      <property name="DigiKey" value=""/>
+      <property name="Sheetname" value="Storage"/>
+      <property name="Sheetfile" value="storage.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Architecture/Storage/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/e7dd46a8-9c7d-44f1-a0b7-d6701589cc75/"/>
+      <tstamps>76659a72-6e4e-4295-a29a-5b4be6b1fe08</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R18">
+      <value>51k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <description>Resistor, small symbol</description>
+      <fields>
+        <field name="LCSC">C25794</field>
+        <field name="MPN">0402WGF5102TCE</field>
+        <field name="DigiKey"/>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C25794"/>
+      <property name="MPN" value="0402WGF5102TCE"/>
+      <property name="DigiKey" value=""/>
+      <property name="Sheetname" value="Storage"/>
+      <property name="Sheetfile" value="storage.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Architecture/Storage/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/e7dd46a8-9c7d-44f1-a0b7-d6701589cc75/"/>
+      <tstamps>caa73014-931e-4ca2-81c5-5c60cdf4122c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R19">
+      <value>51k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <description>Resistor, small symbol</description>
+      <fields>
+        <field name="LCSC">C25794</field>
+        <field name="MPN">0402WGF5102TCE</field>
+        <field name="DigiKey"/>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C25794"/>
+      <property name="MPN" value="0402WGF5102TCE"/>
+      <property name="DigiKey" value=""/>
+      <property name="Sheetname" value="Storage"/>
+      <property name="Sheetfile" value="storage.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Architecture/Storage/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/e7dd46a8-9c7d-44f1-a0b7-d6701589cc75/"/>
+      <tstamps>89e4f6f7-5702-4f4e-ba48-e44b5a26f88b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R20">
+      <value>51k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <description>Resistor, small symbol</description>
+      <fields>
+        <field name="LCSC">C25794</field>
+        <field name="MPN">0402WGF5102TCE</field>
+        <field name="DigiKey"/>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C25794"/>
+      <property name="MPN" value="0402WGF5102TCE"/>
+      <property name="DigiKey" value=""/>
+      <property name="Sheetname" value="Storage"/>
+      <property name="Sheetfile" value="storage.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Architecture/Storage/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/e7dd46a8-9c7d-44f1-a0b7-d6701589cc75/"/>
+      <tstamps>5ed6eee0-89aa-49a2-a160-407dc64e0a60</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R21">
+      <value>51k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <description>Resistor, small symbol</description>
+      <fields>
+        <field name="LCSC">C25794</field>
+        <field name="MPN">0402WGF5102TCE</field>
+        <field name="DigiKey"/>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C25794"/>
+      <property name="MPN" value="0402WGF5102TCE"/>
+      <property name="DigiKey" value=""/>
+      <property name="Sheetname" value="Storage"/>
+      <property name="Sheetfile" value="storage.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Architecture/Storage/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/e7dd46a8-9c7d-44f1-a0b7-d6701589cc75/"/>
+      <tstamps>4f3451f2-8ff8-4a50-ba55-998e1332c0ae</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R22">
+      <value>5k1</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <description>Resistor, small symbol</description>
+      <fields>
+        <field name="LCSC">C25905</field>
+        <field name="MPN">0402WGF5101TCE</field>
+        <field name="DigiKey"/>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C25905"/>
+      <property name="MPN" value="0402WGF5101TCE"/>
+      <property name="DigiKey" value=""/>
+      <property name="Sheetname" value="Storage"/>
+      <property name="Sheetfile" value="storage.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Architecture/Storage/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/e7dd46a8-9c7d-44f1-a0b7-d6701589cc75/"/>
+      <tstamps>c5024e52-1ec9-4842-acf6-118277a78809</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R23">
+      <value>22R</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <description>Resistor, small symbol</description>
+      <fields>
+        <field name="LCSC">C25092</field>
+        <field name="MPN">0402WGF220JTCE</field>
+        <field name="DigiKey"/>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C25092"/>
+      <property name="MPN" value="0402WGF220JTCE"/>
+      <property name="DigiKey" value=""/>
+      <property name="Sheetname" value="Storage"/>
+      <property name="Sheetfile" value="storage.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Architecture/Storage/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/e7dd46a8-9c7d-44f1-a0b7-d6701589cc75/"/>
+      <tstamps>6b975e25-dea8-443a-aeed-768f12796e86</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK</footprint>
+      <description>Push button switch, generic, two pins</description>
+      <fields>
+        <field name="MPN">TSA010A2026B</field>
+        <field name="LCSC">C2888420</field>
+        <field name="Manufacturer">BZCN</field>
+        <field name="Footprint">Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK</field>
+        <field name="Datasheet"/>
+        <field name="Description">Push button switch, generic, two pins</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="MPN" value="TSA010A2026B"/>
+      <property name="LCSC" value="C2888420"/>
+      <property name="Manufacturer" value="BZCN"/>
+      <property name="Sheetname" value="Storage"/>
+      <property name="Sheetfile" value="storage.kicad_sch"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/Architecture/Storage/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/e7dd46a8-9c7d-44f1-a0b7-d6701589cc75/"/>
+      <tstamps>10233b58-847d-4eb7-adfd-fd2bbf99561c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U5">
+      <value>ZDSD08GLGEAG</value>
+      <footprint>Package_LGA:LGA-8_8x6mm_P1.27mm</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2005251034_XTX-XTSD08GLGEAG_C558840.pdf</datasheet>
+      <description>8Gbit NAND flash compliant with SD2.0 interface, 50Mhz 3.3V, LGA-8</description>
+      <fields>
+        <field name="MPN">ZDSD04GLGEAG</field>
+        <field name="LCSC">C2875854</field>
+        <field name="Manufacturer">Zetta</field>
+        <field name="Footprint">Package_LGA:LGA-8_8x6mm_P1.27mm</field>
+        <field name="Datasheet">https://datasheet.lcsc.com/lcsc/2005251034_XTX-XTSD08GLGEAG_C558840.pdf</field>
+        <field name="Description">8Gbit NAND flash compliant with SD2.0 interface, 50Mhz 3.3V, LGA-8</field>
+      </fields>
+      <libsource lib="Memory_Flash" part="XTSD08G" description="8Gbit NAND flash compliant with SD2.0 interface, 50Mhz 3.3V, LGA-8"/>
+      <property name="MPN" value="ZDSD04GLGEAG"/>
+      <property name="LCSC" value="C2875854"/>
+      <property name="Manufacturer" value="Zetta"/>
+      <property name="Sheetname" value="Storage"/>
+      <property name="Sheetfile" value="storage.kicad_sch"/>
+      <property name="ki_keywords" value="50MHz 8Gbit NAND FLASH SD2.0 "/>
+      <property name="ki_fp_filters" value="*LGA*8x6mm*P1.27mm*"/>
+      <sheetpath names="/Architecture/Storage/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/e7dd46a8-9c7d-44f1-a0b7-d6701589cc75/"/>
+      <tstamps>5a0a851d-9ea8-40b6-a89e-010fb08d5f73</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="5"/>
+            <pin num="3"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U6">
+      <value>SN74AHC1G08</value>
+      <footprint>Package_TO_SOT_SMD:Texas_R-PDSO-G5_DCK-5</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf</datasheet>
+      <description>Single AND Gate, Low-Voltage CMOS</description>
+      <fields>
+        <field name="MPN">SN74AHC1G08DCKR</field>
+        <field name="LCSC">C122838</field>
+        <field name="Manufacturer">Texas Insturments</field>
+        <field name="Footprint">Package_TO_SOT_SMD:Texas_R-PDSO-G5_DCK-5</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf</field>
+        <field name="Description">Single AND Gate, Low-Voltage CMOS</field>
+      </fields>
+      <libsource lib="74xGxx" part="74LVC1G08" description="Single AND Gate, Low-Voltage CMOS"/>
+      <property name="MPN" value="SN74AHC1G08DCKR"/>
+      <property name="LCSC" value="C122838"/>
+      <property name="Manufacturer" value="Texas Insturments"/>
+      <property name="Sheetname" value="Storage"/>
+      <property name="Sheetfile" value="storage.kicad_sch"/>
+      <property name="ki_keywords" value="Single Gate AND LVC CMOS"/>
+      <property name="ki_fp_filters" value="SOT?23* Texas?R-PDSO-G5?DCK* Texas?R-PDSO-N5?DRL* Texas?X2SON*0.8x0.8mm*P0.48mm*"/>
+      <sheetpath names="/Architecture/Storage/" tstamps="/59ce12e5-a282-4a91-b798-941455026f14/e7dd46a8-9c7d-44f1-a0b7-d6701589cc75/"/>
+      <tstamps>25f94d61-016d-4322-bd5a-557c8247f51b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="5"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="74xGxx" part="74LVC1G08">
+      <description>Single AND Gate, Low-Voltage CMOS</description>
+      <docs>https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+        <fp>Texas?R-PDSO-G5?DCK*</fp>
+        <fp>Texas?R-PDSO-N5?DRL*</fp>
+        <fp>Texas?X2SON*0.8x0.8mm*P0.48mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LVC1G08</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf</field>
+        <field name="Description">Single AND Gate, Low-Voltage CMOS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="" type="output"/>
+        <pin num="5" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_C_Receptacle_USB2.0_14P">
+      <description>USB 2.0-only 14P Type-C Receptacle connector</description>
+      <docs>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</docs>
+      <footprints>
+        <fp>USB*C*Receptacle*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_C_Receptacle_USB2.0_14P</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://www.usb.org/sites/default/files/documents/usb_type-c.zip</field>
+        <field name="Description">USB 2.0-only 14P Type-C Receptacle connector</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND" type="passive"/>
+        <pin num="A4" name="VBUS" type="passive"/>
+        <pin num="A5" name="CC1" type="bidirectional"/>
+        <pin num="A6" name="D+" type="bidirectional"/>
+        <pin num="A7" name="D-" type="bidirectional"/>
+        <pin num="A9" name="VBUS" type="passive"/>
+        <pin num="A12" name="GND" type="passive"/>
+        <pin num="B1" name="GND" type="passive"/>
+        <pin num="B4" name="VBUS" type="passive"/>
+        <pin num="B5" name="CC2" type="bidirectional"/>
+        <pin num="B6" name="D+" type="bidirectional"/>
+        <pin num="B7" name="D-" type="bidirectional"/>
+        <pin num="B9" name="VBUS" type="passive"/>
+        <pin num="B12" name="GND" type="passive"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal_GND24_Small">
+      <description>Four pin crystal, GND on pins 2 and 4, small symbol</description>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_GND24_Small</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Four pin crystal, GND on pins 2 and 4, small symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal_Small">
+      <description>Two pin crystal, small symbol</description>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_Small</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Two pin crystal, small symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED_Small_Filled">
+      <description>Light emitting diode, small symbol, filled shape</description>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_Small_Filled</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Light emitting diode, small symbol, filled shape</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L_Small">
+      <description>Inductor, small symbol</description>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_Small</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Inductor, small symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Polyfuse_Small">
+      <description>Resettable fuse, polymeric positive temperature coefficient, small symbol</description>
+      <footprints>
+        <fp>*polyfuse*</fp>
+        <fp>*PTC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Polyfuse_Small</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Resettable fuse, polymeric positive temperature coefficient, small symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor, small symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Memory_Flash" part="XTSD08G">
+      <description>8Gbit NAND flash compliant with SD2.0 interface, 50Mhz 3.3V, LGA-8</description>
+      <docs>https://datasheet.lcsc.com/lcsc/2005251034_XTX-XTSD08GLGEAG_C558840.pdf</docs>
+      <footprints>
+        <fp>*LGA*8x6mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">XTSD08G</field>
+        <field name="Footprint">Package_LGA:LGA-8_8x6mm_P1.27mm</field>
+        <field name="Datasheet">https://datasheet.lcsc.com/lcsc/2005251034_XTX-XTSD08GLGEAG_C558840.pdf</field>
+        <field name="Description">8Gbit NAND flash compliant with SD2.0 interface, 50Mhz 3.3V, LGA-8</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SD2" type="bidirectional"/>
+        <pin num="2" name="SD3/~{CS}" type="bidirectional"/>
+        <pin num="3" name="CLK" type="input"/>
+        <pin num="4" name="VSS" type="power_in"/>
+        <pin num="5" name="CMD/DI" type="input"/>
+        <pin num="6" name="SD0/DO" type="bidirectional"/>
+        <pin num="7" name="SD1" type="bidirectional"/>
+        <pin num="8" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Protection" part="USBLC6-2SC6">
+      <description>Very low capacitance ESD protection diode, 2 data-line, SOT-23-6</description>
+      <docs>https://www.st.com/resource/en/datasheet/usblc6-2.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">USBLC6-2SC6</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">https://www.st.com/resource/en/datasheet/usblc6-2.pdf</field>
+        <field name="Description">Very low capacitance ESD protection diode, 2 data-line, SOT-23-6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="I/O1" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="I/O2" type="passive"/>
+        <pin num="4" name="I/O2" type="passive"/>
+        <pin num="5" name="VBUS" type="passive"/>
+        <pin num="6" name="I/O1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Switching" part="TLV62569DDC">
+      <description>High Efficiency Synchronous Buck Converter, Adjustable Output 0.6V-5.5V, 2A, SOT-23-6</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tlv62569.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TLV62569DDC</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tlv62569.pdf</field>
+        <field name="Description">High Efficiency Synchronous Buck Converter, Adjustable Output 0.6V-5.5V, 2A, SOT-23-6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="EN" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="SW" type="power_out"/>
+        <pin num="4" name="VIN" type="power_in"/>
+        <pin num="5" name="PG" type="open_collector"/>
+        <pin num="6" name="FB" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Push button switch, generic, two pins</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="gworkman_mpu" part="T113-S3">
+      <description>Dual-core ARM Cortex-A7 CPU with 128MB embedded DDR3 RAM</description>
+      <docs>https://linux-sunxi.org/images/7/73/T113-s3_datasheet_v1.6.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">T113-S3</field>
+        <field name="Footprint">Package_QFP:LQFP-128_14x14mm_P0.4mm</field>
+        <field name="Datasheet">https://linux-sunxi.org/images/7/73/T113-s3_datasheet_v1.6.pdf</field>
+        <field name="Description">Dual-core ARM Cortex-A7 CPU with 128MB embedded DDR3 RAM</field>
+        <field name="MPN">T113M4020DC0</field>
+        <field name="LCSC">C41411351</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PG6" type="bidirectional"/>
+        <pin num="2" name="PG7" type="bidirectional"/>
+        <pin num="3" name="PG8" type="bidirectional"/>
+        <pin num="4" name="PG9" type="bidirectional"/>
+        <pin num="5" name="PG10" type="bidirectional"/>
+        <pin num="6" name="PG11" type="bidirectional"/>
+        <pin num="7" name="PF0" type="bidirectional"/>
+        <pin num="8" name="PF1" type="bidirectional"/>
+        <pin num="9" name="PF2" type="bidirectional"/>
+        <pin num="10" name="PF3" type="bidirectional"/>
+        <pin num="11" name="PF4" type="bidirectional"/>
+        <pin num="12" name="PF5" type="bidirectional"/>
+        <pin num="13" name="PF6" type="bidirectional"/>
+        <pin num="14" name="PC7" type="bidirectional"/>
+        <pin num="15" name="PC6" type="bidirectional"/>
+        <pin num="16" name="PC5" type="bidirectional"/>
+        <pin num="17" name="PC4" type="bidirectional"/>
+        <pin num="18" name="PC3" type="bidirectional"/>
+        <pin num="19" name="PC2" type="bidirectional"/>
+        <pin num="20" name="VCC_PLL" type="power_in"/>
+        <pin num="21" name="REFCLK_OUT" type="output"/>
+        <pin num="22" name="DXOUT" type="bidirectional"/>
+        <pin num="23" name="DXIN" type="bidirectional"/>
+        <pin num="24" name="X32KOUT" type="bidirectional"/>
+        <pin num="25" name="X32KIN" type="bidirectional"/>
+        <pin num="26" name="VCC_RTC" type="power_in"/>
+        <pin num="27" name="RESET" type="input"/>
+        <pin num="28" name="LDOA_OUT" type="power_out"/>
+        <pin num="29" name="LDO_IN" type="power_in"/>
+        <pin num="30" name="LDOB_OUT" type="power_out"/>
+        <pin num="31" name="PE13" type="bidirectional"/>
+        <pin num="32" name="PE12" type="bidirectional"/>
+        <pin num="33" name="PE3" type="bidirectional"/>
+        <pin num="34" name="VCC_PE" type="power_in"/>
+        <pin num="35" name="PE2" type="bidirectional"/>
+        <pin num="36" name="PE11" type="bidirectional"/>
+        <pin num="37" name="PE10" type="bidirectional"/>
+        <pin num="38" name="PE9" type="bidirectional"/>
+        <pin num="39" name="PE8" type="bidirectional"/>
+        <pin num="40" name="PE7" type="bidirectional"/>
+        <pin num="41" name="PE6" type="bidirectional"/>
+        <pin num="42" name="PE5" type="bidirectional"/>
+        <pin num="43" name="PE4" type="bidirectional"/>
+        <pin num="44" name="PE0" type="bidirectional"/>
+        <pin num="45" name="PE1" type="bidirectional"/>
+        <pin num="46" name="VDD_SYS0" type="power_in"/>
+        <pin num="47" name="DZQ" type="input"/>
+        <pin num="48" name="VCC_DRAM0" type="power_in"/>
+        <pin num="49" name="VCC_DRAM1" type="power_in"/>
+        <pin num="50" name="VDD18_DRAM" type="power_in"/>
+        <pin num="51" name="VDD_SYS1" type="power_in"/>
+        <pin num="52" name="PD22" type="bidirectional"/>
+        <pin num="53" name="PD21" type="bidirectional"/>
+        <pin num="54" name="PD20" type="bidirectional"/>
+        <pin num="55" name="PD0" type="bidirectional"/>
+        <pin num="56" name="PD1" type="bidirectional"/>
+        <pin num="57" name="PD2" type="bidirectional"/>
+        <pin num="58" name="PD3" type="bidirectional"/>
+        <pin num="59" name="PD4" type="bidirectional"/>
+        <pin num="60" name="PD5" type="bidirectional"/>
+        <pin num="61" name="PD6" type="bidirectional"/>
+        <pin num="62" name="PD7" type="bidirectional"/>
+        <pin num="63" name="PD8" type="bidirectional"/>
+        <pin num="64" name="PD9" type="bidirectional"/>
+        <pin num="65" name="VCC_LVDS" type="power_in"/>
+        <pin num="66" name="VCC_PD" type="power_in"/>
+        <pin num="67" name="PD10" type="bidirectional"/>
+        <pin num="68" name="PD11" type="bidirectional"/>
+        <pin num="69" name="PD13" type="bidirectional"/>
+        <pin num="70" name="PD12" type="bidirectional"/>
+        <pin num="71" name="PD14" type="bidirectional"/>
+        <pin num="72" name="PD15" type="bidirectional"/>
+        <pin num="73" name="PD16" type="bidirectional"/>
+        <pin num="74" name="PD17" type="bidirectional"/>
+        <pin num="75" name="PD18" type="bidirectional"/>
+        <pin num="76" name="PD19" type="bidirectional"/>
+        <pin num="77" name="VCC_TVOUT" type="power_in"/>
+        <pin num="78" name="TVOUT0" type="output"/>
+        <pin num="79" name="PB7" type="bidirectional"/>
+        <pin num="80" name="PB6" type="bidirectional"/>
+        <pin num="81" name="VDD_SYS2" type="power_in"/>
+        <pin num="82" name="PB5" type="bidirectional"/>
+        <pin num="83" name="VCC_IO" type="power_in"/>
+        <pin num="84" name="PB4" type="bidirectional"/>
+        <pin num="85" name="PB3" type="bidirectional"/>
+        <pin num="86" name="PB2" type="bidirectional"/>
+        <pin num="87" name="MICIN3P" type="input"/>
+        <pin num="88" name="MICIN3N" type="input"/>
+        <pin num="89" name="AVCC" type="input"/>
+        <pin num="90" name="VRA2" type="input"/>
+        <pin num="91" name="AGND" type="input"/>
+        <pin num="92" name="VRA1" type="input"/>
+        <pin num="93" name="FMINR" type="input"/>
+        <pin num="94" name="FMINL" type="input"/>
+        <pin num="95" name="LINEINR" type="input"/>
+        <pin num="96" name="LINEINL" type="input"/>
+        <pin num="97" name="HPVCC" type="input"/>
+        <pin num="98" name="HPOUTR" type="input"/>
+        <pin num="99" name="HPOUTL" type="input"/>
+        <pin num="100" name="HPOUTFB" type="input"/>
+        <pin num="101" name="GPADC0" type="input"/>
+        <pin num="102" name="TP_X1" type="input"/>
+        <pin num="103" name="TP_X2" type="input"/>
+        <pin num="104" name="TP_Y1" type="input"/>
+        <pin num="105" name="TP_Y2" type="input"/>
+        <pin num="106" name="NC0" type="input"/>
+        <pin num="107" name="VCC_TVIN" type="power_in"/>
+        <pin num="108" name="TVIN0" type="input"/>
+        <pin num="109" name="TVIN1" type="input"/>
+        <pin num="110" name="TVIN_VRP" type="power_in"/>
+        <pin num="111" name="TVIN_VRN" type="power_in"/>
+        <pin num="112" name="USB1_DP" type="bidirectional"/>
+        <pin num="113" name="USB1_DM" type="bidirectional"/>
+        <pin num="114" name="USB0_DM" type="bidirectional"/>
+        <pin num="115" name="USB0_DP" type="bidirectional"/>
+        <pin num="116" name="VDD_CORE0" type="power_in"/>
+        <pin num="117" name="VDD_CORE1" type="power_in"/>
+        <pin num="118" name="PG1" type="bidirectional"/>
+        <pin num="119" name="PG2" type="bidirectional"/>
+        <pin num="120" name="PG0" type="bidirectional"/>
+        <pin num="121" name="PG3" type="bidirectional"/>
+        <pin num="122" name="PG5" type="bidirectional"/>
+        <pin num="123" name="PG4" type="bidirectional"/>
+        <pin num="124" name="PG12" type="bidirectional"/>
+        <pin num="125" name="PG13" type="bidirectional"/>
+        <pin num="126" name="PG14" type="bidirectional"/>
+        <pin num="127" name="PG15" type="bidirectional"/>
+        <pin num="128" name="VCC_PG" type="power_in"/>
+        <pin num="129" name="EPAD" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries/>
+  <nets>
+    <net code="1" name="+0V9" class="Default">
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="C24" pin="1" pintype="passive"/>
+      <node ref="C25" pin="1" pintype="passive"/>
+      <node ref="C26" pin="1" pintype="passive"/>
+      <node ref="C27" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="L2" pin="2" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U3" pin="116" pinfunction="VDD_CORE0_116" pintype="power_in"/>
+      <node ref="U3" pin="117" pinfunction="VDD_CORE1_117" pintype="power_in"/>
+      <node ref="U3" pin="46" pinfunction="VDD_SYS0_46" pintype="power_in"/>
+      <node ref="U3" pin="51" pinfunction="VDD_SYS1_51" pintype="power_in"/>
+      <node ref="U3" pin="81" pinfunction="VDD_SYS2_81" pintype="power_in"/>
+    </net>
+    <net code="2" name="+1V5" class="Default">
+      <node ref="C28" pin="1" pintype="passive"/>
+      <node ref="C29" pin="1" pintype="passive"/>
+      <node ref="C30" pin="1" pintype="passive"/>
+      <node ref="C31" pin="1" pintype="passive"/>
+      <node ref="U3" pin="30" pinfunction="LDOB_OUT_30" pintype="power_out"/>
+      <node ref="U3" pin="48" pinfunction="VCC_DRAM0_48" pintype="power_in"/>
+      <node ref="U3" pin="49" pinfunction="VCC_DRAM1_49" pintype="power_in"/>
+    </net>
+    <net code="3" name="+1V8" class="Default">
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="C34" pin="1" pintype="passive"/>
+      <node ref="C35" pin="1" pintype="passive"/>
+      <node ref="U3" pin="107" pinfunction="VCC_TVIN_107" pintype="power_in"/>
+      <node ref="U3" pin="20" pinfunction="VCC_PLL_20" pintype="power_in"/>
+      <node ref="U3" pin="26" pinfunction="VCC_RTC_26" pintype="power_in"/>
+      <node ref="U3" pin="28" pinfunction="LDOA_OUT_28" pintype="power_out"/>
+      <node ref="U3" pin="50" pinfunction="VDD18_DRAM_50" pintype="power_in"/>
+      <node ref="U3" pin="65" pinfunction="VCC_LVDS_65" pintype="power_in"/>
+      <node ref="U3" pin="89" pinfunction="AVCC_89" pintype="input"/>
+      <node ref="U3" pin="97" pinfunction="HPVCC_97" pintype="input"/>
+    </net>
+    <net code="4" name="+3V3" class="Default">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C41" pin="1" pintype="passive"/>
+      <node ref="C42" pin="1" pintype="passive"/>
+      <node ref="C43" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="L1" pin="2" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="U3" pin="128" pinfunction="VCC_PG_128" pintype="power_in"/>
+      <node ref="U3" pin="29" pinfunction="LDO_IN_29" pintype="power_in"/>
+      <node ref="U3" pin="34" pinfunction="VCC_PE_34" pintype="power_in"/>
+      <node ref="U3" pin="66" pinfunction="VCC_PD_66" pintype="power_in"/>
+      <node ref="U3" pin="77" pinfunction="VCC_TVOUT_77" pintype="power_in"/>
+      <node ref="U3" pin="83" pinfunction="VCC_IO_83" pintype="power_in"/>
+      <node ref="U5" pin="8" pinfunction="VDD_8" pintype="power_in"/>
+      <node ref="U6" pin="5" pinfunction="VCC_5" pintype="power_in"/>
+    </net>
+    <net code="5" name="/Architecture/CPU Core/DXIN" class="Default">
+      <node ref="C32" pin="1" pintype="passive"/>
+      <node ref="U3" pin="23" pinfunction="DXIN_23" pintype="bidirectional"/>
+      <node ref="Y1" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="6" name="/Architecture/CPU Core/DXOUT" class="Default">
+      <node ref="C33" pin="1" pintype="passive"/>
+      <node ref="U3" pin="22" pinfunction="DXOUT_22" pintype="bidirectional"/>
+      <node ref="Y1" pin="3" pinfunction="3_3" pintype="passive"/>
+    </net>
+    <net code="7" name="/Architecture/CPU Core/LXIN" class="Default">
+      <node ref="C36" pin="1" pintype="passive"/>
+      <node ref="U3" pin="25" pinfunction="X32KIN_25" pintype="bidirectional"/>
+      <node ref="Y2" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="8" name="/Architecture/CPU Core/LXOUT" class="Default">
+      <node ref="C37" pin="1" pintype="passive"/>
+      <node ref="U3" pin="24" pinfunction="X32KOUT_24" pintype="bidirectional"/>
+      <node ref="Y2" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="9" name="/Architecture/CPU Core/V_MEASURE" class="Default">
+      <node ref="R8" pin="1" pintype="passive+no_connect"/>
+    </net>
+    <net code="10" name="/Architecture/CPU Core/~{RESET}" class="Default">
+      <node ref="C40" pin="1" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U3" pin="27" pinfunction="RESET_27" pintype="input"/>
+    </net>
+    <net code="11" name="/Architecture/CPU IO/BOARD_ID_1" class="Default">
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="U3" pin="13" pinfunction="PF6_13" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="/Architecture/CPU IO/BOARD_ID_2" class="Default">
+      <node ref="R24" pin="1" pintype="passive"/>
+      <node ref="U3" pin="53" pinfunction="PD21_53" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="/Architecture/CPU IO/BOARD_ID_3" class="Default">
+      <node ref="R25" pin="1" pintype="passive"/>
+      <node ref="U3" pin="52" pinfunction="PD22_52" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="/Architecture/CPU IO/BOOT_SEL0" class="Default">
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="U3" pin="17" pinfunction="PC4_17" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="/Architecture/CPU IO/BOOT_SEL1" class="Default">
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="U3" pin="16" pinfunction="PC5_16" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="/Architecture/CPU IO/DEBUG_RX" class="Default">
+      <node ref="U3" pin="63" pinfunction="PD8_63" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="/Architecture/CPU IO/DEBUG_TX" class="Default">
+      <node ref="U3" pin="62" pinfunction="PD7_62" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="/Architecture/CPU IO/SDC0_CLK" class="Default">
+      <node ref="U3" pin="9" pinfunction="PF2_9" pintype="bidirectional"/>
+      <node ref="U6" pin="1" pintype="input"/>
+    </net>
+    <net code="19" name="/Architecture/CPU IO/SDC0_CMD" class="Default">
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="U3" pin="10" pinfunction="PF3_10" pintype="bidirectional"/>
+      <node ref="U5" pin="5" pinfunction="CMD/DI_5" pintype="input"/>
+    </net>
+    <net code="20" name="/Architecture/CPU IO/SDC0_D0" class="Default">
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="U3" pin="8" pinfunction="PF1_8" pintype="bidirectional"/>
+      <node ref="U5" pin="6" pinfunction="SD0/DO_6" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="/Architecture/CPU IO/SDC0_D1" class="Default">
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="U3" pin="7" pinfunction="PF0_7" pintype="bidirectional"/>
+      <node ref="U5" pin="7" pinfunction="SD1_7" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="/Architecture/CPU IO/SDC0_D2" class="Default">
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="U3" pin="12" pinfunction="PF5_12" pintype="bidirectional"/>
+      <node ref="U5" pin="1" pinfunction="SD2_1" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="/Architecture/CPU IO/SDC0_D3" class="Default">
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="U3" pin="11" pinfunction="PF4_11" pintype="bidirectional"/>
+      <node ref="U5" pin="2" pinfunction="SD3/~{CS}_2" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="/Architecture/Power/3V3_PG" class="Default">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="PG_5" pintype="open_collector"/>
+      <node ref="U2" pin="1" pinfunction="EN_1" pintype="input"/>
+    </net>
+    <net code="25" name="/Architecture/USB/USB0_CC1" class="Default">
+      <node ref="J1" pin="A5" pinfunction="CC1_A5" pintype="bidirectional"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+    </net>
+    <net code="26" name="/Architecture/USB/USB0_CC2" class="Default">
+      <node ref="J1" pin="B5" pinfunction="CC2_B5" pintype="bidirectional"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+    </net>
+    <net code="27" name="/Architecture/USB/USB0_DN" class="Default">
+      <node ref="U3" pin="114" pinfunction="USB0_DM_114" pintype="bidirectional"/>
+      <node ref="U4" pin="6" pinfunction="I/O1_6" pintype="passive"/>
+    </net>
+    <net code="28" name="/Architecture/USB/USB0_DP" class="Default">
+      <node ref="U3" pin="115" pinfunction="USB0_DP_115" pintype="bidirectional"/>
+      <node ref="U4" pin="4" pinfunction="I/O2_4" pintype="passive"/>
+    </net>
+    <net code="29" name="GND" class="Default">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="C24" pin="2" pintype="passive"/>
+      <node ref="C25" pin="2" pintype="passive"/>
+      <node ref="C26" pin="2" pintype="passive"/>
+      <node ref="C27" pin="2" pintype="passive"/>
+      <node ref="C28" pin="2" pintype="passive"/>
+      <node ref="C29" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C30" pin="2" pintype="passive"/>
+      <node ref="C31" pin="2" pintype="passive"/>
+      <node ref="C32" pin="2" pintype="passive"/>
+      <node ref="C33" pin="2" pintype="passive"/>
+      <node ref="C34" pin="2" pintype="passive"/>
+      <node ref="C35" pin="2" pintype="passive"/>
+      <node ref="C36" pin="2" pintype="passive"/>
+      <node ref="C37" pin="2" pintype="passive"/>
+      <node ref="C38" pin="2" pintype="passive"/>
+      <node ref="C39" pin="2" pintype="passive"/>
+      <node ref="C40" pin="2" pintype="passive"/>
+      <node ref="C41" pin="2" pintype="passive"/>
+      <node ref="C42" pin="2" pintype="passive"/>
+      <node ref="C43" pin="2" pintype="passive"/>
+      <node ref="C44" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="J1" pin="A1" pinfunction="GND_A1" pintype="passive"/>
+      <node ref="J1" pin="A12" pinfunction="GND_A12" pintype="passive"/>
+      <node ref="J1" pin="B1" pinfunction="GND_B1" pintype="passive"/>
+      <node ref="J1" pin="B12" pinfunction="GND_B12" pintype="passive"/>
+      <node ref="J1" pin="S1" pinfunction="SHIELD_S1" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="GND_2" pintype="power_in"/>
+      <node ref="U2" pin="2" pinfunction="GND_2" pintype="power_in"/>
+      <node ref="U3" pin="129" pinfunction="EPAD_129" pintype="power_in"/>
+      <node ref="U3" pin="91" pinfunction="AGND_91" pintype="input"/>
+      <node ref="U3" pin="93" pinfunction="FMINR_93" pintype="input"/>
+      <node ref="U3" pin="94" pinfunction="FMINL_94" pintype="input"/>
+      <node ref="U4" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="U5" pin="4" pinfunction="VSS_4" pintype="power_in"/>
+      <node ref="U6" pin="3" pinfunction="GND_3" pintype="power_in"/>
+      <node ref="Y1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="Y1" pin="4" pinfunction="4_4" pintype="passive"/>
+    </net>
+    <net code="30" name="Net-(C44-Pad1)" class="Default">
+      <node ref="C44" pin="1" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U6" pin="2" pintype="input"/>
+    </net>
+    <net code="31" name="Net-(D1-K)" class="Default">
+      <node ref="D1" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(J1-D+-PadA6)" class="Default">
+      <node ref="J1" pin="A6" pinfunction="D+_A6" pintype="bidirectional"/>
+      <node ref="J1" pin="B6" pinfunction="D+_B6" pintype="bidirectional"/>
+      <node ref="U4" pin="3" pinfunction="I/O2_3" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(J1-D--PadA7)" class="Default">
+      <node ref="J1" pin="A7" pinfunction="D-_A7" pintype="bidirectional"/>
+      <node ref="J1" pin="B7" pinfunction="D-_B7" pintype="bidirectional"/>
+      <node ref="U4" pin="1" pinfunction="I/O1_1" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(R23-Pad1)" class="Default">
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="U6" pin="4" pintype="output"/>
+    </net>
+    <net code="35" name="Net-(U1-EN)" class="Default">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="EN_1" pintype="input"/>
+    </net>
+    <net code="36" name="Net-(U1-FB)" class="Default">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="FB_6" pintype="input"/>
+    </net>
+    <net code="37" name="Net-(U1-SW)" class="Default">
+      <node ref="L1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="SW_3" pintype="power_out"/>
+    </net>
+    <net code="38" name="Net-(U2-FB)" class="Default">
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="FB_6" pintype="input"/>
+    </net>
+    <net code="39" name="Net-(U2-SW)" class="Default">
+      <node ref="L2" pin="1" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="SW_3" pintype="power_out"/>
+    </net>
+    <net code="40" name="Net-(U3B-DZQ)" class="Default">
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="U3" pin="47" pinfunction="DZQ_47" pintype="input"/>
+    </net>
+    <net code="41" name="Net-(U3F-GPADC0)" class="Default">
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U3" pin="101" pinfunction="GPADC0_101" pintype="input"/>
+    </net>
+    <net code="42" name="Net-(U3F-VRA1)" class="Default">
+      <node ref="C39" pin="1" pintype="passive"/>
+      <node ref="U3" pin="92" pinfunction="VRA1_92" pintype="input"/>
+    </net>
+    <net code="43" name="Net-(U3F-VRA2)" class="Default">
+      <node ref="C38" pin="1" pintype="passive"/>
+      <node ref="U3" pin="90" pinfunction="VRA2_90" pintype="input"/>
+    </net>
+    <net code="44" name="Net-(U4-VBUS)" class="Default">
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="J1" pin="A4" pinfunction="VBUS_A4" pintype="passive"/>
+      <node ref="J1" pin="A9" pinfunction="VBUS_A9" pintype="passive"/>
+      <node ref="J1" pin="B4" pinfunction="VBUS_B4" pintype="passive"/>
+      <node ref="J1" pin="B9" pinfunction="VBUS_B9" pintype="passive"/>
+      <node ref="U4" pin="5" pinfunction="VBUS_5" pintype="passive"/>
+    </net>
+    <net code="45" name="Net-(U5-CLK)" class="Default">
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="U5" pin="3" pinfunction="CLK_3" pintype="input"/>
+    </net>
+    <net code="46" name="VBUS" class="Default">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="VIN_4" pintype="power_in"/>
+      <node ref="U2" pin="4" pinfunction="VIN_4" pintype="power_in"/>
+    </net>
+    <net code="47" name="unconnected-(U2-PG-Pad5)" class="Default">
+      <node ref="U2" pin="5" pinfunction="PG_5" pintype="open_collector+no_connect"/>
+    </net>
+    <net code="48" name="unconnected-(U3B-REFCLK_OUT-Pad21)" class="Default">
+      <node ref="U3" pin="21" pinfunction="REFCLK_OUT_21" pintype="output+no_connect"/>
+    </net>
+    <net code="49" name="unconnected-(U3C-USB1_DM-Pad113)" class="Default">
+      <node ref="U3" pin="113" pinfunction="USB1_DM_113" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="50" name="unconnected-(U3C-USB1_DP-Pad112)" class="Default">
+      <node ref="U3" pin="112" pinfunction="USB1_DP_112" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="51" name="unconnected-(U3D-TVIN0-Pad108)" class="Default">
+      <node ref="U3" pin="108" pinfunction="TVIN0_108" pintype="input+no_connect"/>
+    </net>
+    <net code="52" name="unconnected-(U3D-TVIN1-Pad109)" class="Default">
+      <node ref="U3" pin="109" pinfunction="TVIN1_109" pintype="input+no_connect"/>
+    </net>
+    <net code="53" name="unconnected-(U3D-TVIN_VRN-Pad111)" class="Default">
+      <node ref="U3" pin="111" pinfunction="TVIN_VRN_111" pintype="power_in+no_connect"/>
+    </net>
+    <net code="54" name="unconnected-(U3D-TVIN_VRP-Pad110)" class="Default">
+      <node ref="U3" pin="110" pinfunction="TVIN_VRP_110" pintype="power_in+no_connect"/>
+    </net>
+    <net code="55" name="unconnected-(U3D-TVOUT0-Pad78)" class="Default">
+      <node ref="U3" pin="78" pinfunction="TVOUT0_78" pintype="output+no_connect"/>
+    </net>
+    <net code="56" name="unconnected-(U3E-PB2-Pad86)" class="Default">
+      <node ref="U3" pin="86" pinfunction="PB2_86" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="57" name="unconnected-(U3E-PB3-Pad85)" class="Default">
+      <node ref="U3" pin="85" pinfunction="PB3_85" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="58" name="unconnected-(U3E-PB4-Pad84)" class="Default">
+      <node ref="U3" pin="84" pinfunction="PB4_84" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="59" name="unconnected-(U3E-PB5-Pad82)" class="Default">
+      <node ref="U3" pin="82" pinfunction="PB5_82" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="60" name="unconnected-(U3E-PB6-Pad80)" class="Default">
+      <node ref="U3" pin="80" pinfunction="PB6_80" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="61" name="unconnected-(U3E-PB7-Pad79)" class="Default">
+      <node ref="U3" pin="79" pinfunction="PB7_79" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="62" name="unconnected-(U3E-PC2-Pad19)" class="Default">
+      <node ref="U3" pin="19" pinfunction="PC2_19" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="63" name="unconnected-(U3E-PC3-Pad18)" class="Default">
+      <node ref="U3" pin="18" pinfunction="PC3_18" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="64" name="unconnected-(U3E-PC6-Pad15)" class="Default">
+      <node ref="U3" pin="15" pinfunction="PC6_15" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="65" name="unconnected-(U3E-PC7-Pad14)" class="Default">
+      <node ref="U3" pin="14" pinfunction="PC7_14" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="66" name="unconnected-(U3E-PD0-Pad55)" class="Default">
+      <node ref="U3" pin="55" pinfunction="PD0_55" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="67" name="unconnected-(U3E-PD1-Pad56)" class="Default">
+      <node ref="U3" pin="56" pinfunction="PD1_56" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="68" name="unconnected-(U3E-PD2-Pad57)" class="Default">
+      <node ref="U3" pin="57" pinfunction="PD2_57" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="69" name="unconnected-(U3E-PD3-Pad58)" class="Default">
+      <node ref="U3" pin="58" pinfunction="PD3_58" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="70" name="unconnected-(U3E-PD4-Pad59)" class="Default">
+      <node ref="U3" pin="59" pinfunction="PD4_59" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="71" name="unconnected-(U3E-PD5-Pad60)" class="Default">
+      <node ref="U3" pin="60" pinfunction="PD5_60" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="72" name="unconnected-(U3E-PD6-Pad61)" class="Default">
+      <node ref="U3" pin="61" pinfunction="PD6_61" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="73" name="unconnected-(U3E-PD9-Pad64)" class="Default">
+      <node ref="U3" pin="64" pinfunction="PD9_64" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="74" name="unconnected-(U3E-PD10-Pad67)" class="Default">
+      <node ref="U3" pin="67" pinfunction="PD10_67" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="75" name="unconnected-(U3E-PD11-Pad68)" class="Default">
+      <node ref="U3" pin="68" pinfunction="PD11_68" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="76" name="unconnected-(U3E-PD12-Pad70)" class="Default">
+      <node ref="U3" pin="70" pinfunction="PD12_70" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="77" name="unconnected-(U3E-PD13-Pad69)" class="Default">
+      <node ref="U3" pin="69" pinfunction="PD13_69" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="78" name="unconnected-(U3E-PD14-Pad71)" class="Default">
+      <node ref="U3" pin="71" pinfunction="PD14_71" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="79" name="unconnected-(U3E-PD15-Pad72)" class="Default">
+      <node ref="U3" pin="72" pinfunction="PD15_72" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="80" name="unconnected-(U3E-PD16-Pad73)" class="Default">
+      <node ref="U3" pin="73" pinfunction="PD16_73" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="81" name="unconnected-(U3E-PD17-Pad74)" class="Default">
+      <node ref="U3" pin="74" pinfunction="PD17_74" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="82" name="unconnected-(U3E-PD18-Pad75)" class="Default">
+      <node ref="U3" pin="75" pinfunction="PD18_75" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="83" name="unconnected-(U3E-PD19-Pad76)" class="Default">
+      <node ref="U3" pin="76" pinfunction="PD19_76" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="84" name="unconnected-(U3E-PD20-Pad54)" class="Default">
+      <node ref="U3" pin="54" pinfunction="PD20_54" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="85" name="unconnected-(U3E-PE0-Pad44)" class="Default">
+      <node ref="U3" pin="44" pinfunction="PE0_44" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="86" name="unconnected-(U3E-PE1-Pad45)" class="Default">
+      <node ref="U3" pin="45" pinfunction="PE1_45" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="87" name="unconnected-(U3E-PE2-Pad35)" class="Default">
+      <node ref="U3" pin="35" pinfunction="PE2_35" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="88" name="unconnected-(U3E-PE3-Pad33)" class="Default">
+      <node ref="U3" pin="33" pinfunction="PE3_33" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="89" name="unconnected-(U3E-PE4-Pad43)" class="Default">
+      <node ref="U3" pin="43" pinfunction="PE4_43" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="90" name="unconnected-(U3E-PE5-Pad42)" class="Default">
+      <node ref="U3" pin="42" pinfunction="PE5_42" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="91" name="unconnected-(U3E-PE6-Pad41)" class="Default">
+      <node ref="U3" pin="41" pinfunction="PE6_41" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="92" name="unconnected-(U3E-PE7-Pad40)" class="Default">
+      <node ref="U3" pin="40" pinfunction="PE7_40" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="93" name="unconnected-(U3E-PE8-Pad39)" class="Default">
+      <node ref="U3" pin="39" pinfunction="PE8_39" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="94" name="unconnected-(U3E-PE9-Pad38)" class="Default">
+      <node ref="U3" pin="38" pinfunction="PE9_38" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="95" name="unconnected-(U3E-PE10-Pad37)" class="Default">
+      <node ref="U3" pin="37" pinfunction="PE10_37" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="96" name="unconnected-(U3E-PE11-Pad36)" class="Default">
+      <node ref="U3" pin="36" pinfunction="PE11_36" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="97" name="unconnected-(U3E-PE12-Pad32)" class="Default">
+      <node ref="U3" pin="32" pinfunction="PE12_32" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="98" name="unconnected-(U3E-PE13-Pad31)" class="Default">
+      <node ref="U3" pin="31" pinfunction="PE13_31" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="99" name="unconnected-(U3E-PG0-Pad120)" class="Default">
+      <node ref="U3" pin="120" pinfunction="PG0_120" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="100" name="unconnected-(U3E-PG1-Pad118)" class="Default">
+      <node ref="U3" pin="118" pinfunction="PG1_118" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="101" name="unconnected-(U3E-PG2-Pad119)" class="Default">
+      <node ref="U3" pin="119" pinfunction="PG2_119" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="102" name="unconnected-(U3E-PG3-Pad121)" class="Default">
+      <node ref="U3" pin="121" pinfunction="PG3_121" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="103" name="unconnected-(U3E-PG4-Pad123)" class="Default">
+      <node ref="U3" pin="123" pinfunction="PG4_123" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="104" name="unconnected-(U3E-PG5-Pad122)" class="Default">
+      <node ref="U3" pin="122" pinfunction="PG5_122" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="105" name="unconnected-(U3E-PG6-Pad1)" class="Default">
+      <node ref="U3" pin="1" pinfunction="PG6_1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="106" name="unconnected-(U3E-PG7-Pad2)" class="Default">
+      <node ref="U3" pin="2" pinfunction="PG7_2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="107" name="unconnected-(U3E-PG8-Pad3)" class="Default">
+      <node ref="U3" pin="3" pinfunction="PG8_3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="108" name="unconnected-(U3E-PG9-Pad4)" class="Default">
+      <node ref="U3" pin="4" pinfunction="PG9_4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="109" name="unconnected-(U3E-PG10-Pad5)" class="Default">
+      <node ref="U3" pin="5" pinfunction="PG10_5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="110" name="unconnected-(U3E-PG11-Pad6)" class="Default">
+      <node ref="U3" pin="6" pinfunction="PG11_6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="111" name="unconnected-(U3E-PG12-Pad124)" class="Default">
+      <node ref="U3" pin="124" pinfunction="PG12_124" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="112" name="unconnected-(U3E-PG13-Pad125)" class="Default">
+      <node ref="U3" pin="125" pinfunction="PG13_125" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="113" name="unconnected-(U3E-PG14-Pad126)" class="Default">
+      <node ref="U3" pin="126" pinfunction="PG14_126" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="114" name="unconnected-(U3E-PG15-Pad127)" class="Default">
+      <node ref="U3" pin="127" pinfunction="PG15_127" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="115" name="unconnected-(U3F-HPOUTFB-Pad100)" class="Default">
+      <node ref="U3" pin="100" pinfunction="HPOUTFB_100" pintype="input+no_connect"/>
+    </net>
+    <net code="116" name="unconnected-(U3F-HPOUTL-Pad99)" class="Default">
+      <node ref="U3" pin="99" pinfunction="HPOUTL_99" pintype="input+no_connect"/>
+    </net>
+    <net code="117" name="unconnected-(U3F-HPOUTR-Pad98)" class="Default">
+      <node ref="U3" pin="98" pinfunction="HPOUTR_98" pintype="input+no_connect"/>
+    </net>
+    <net code="118" name="unconnected-(U3F-LINEINL-Pad96)" class="Default">
+      <node ref="U3" pin="96" pinfunction="LINEINL_96" pintype="input+no_connect"/>
+    </net>
+    <net code="119" name="unconnected-(U3F-LINEINR-Pad95)" class="Default">
+      <node ref="U3" pin="95" pinfunction="LINEINR_95" pintype="input+no_connect"/>
+    </net>
+    <net code="120" name="unconnected-(U3F-MICIN3N-Pad88)" class="Default">
+      <node ref="U3" pin="88" pinfunction="MICIN3N_88" pintype="input+no_connect"/>
+    </net>
+    <net code="121" name="unconnected-(U3F-MICIN3P-Pad87)" class="Default">
+      <node ref="U3" pin="87" pinfunction="MICIN3P_87" pintype="input+no_connect"/>
+    </net>
+    <net code="122" name="unconnected-(U3F-NC0-Pad106)" class="Default">
+      <node ref="U3" pin="106" pinfunction="NC0_106" pintype="input+no_connect"/>
+    </net>
+    <net code="123" name="unconnected-(U3F-TP_X1-Pad102)" class="Default">
+      <node ref="U3" pin="102" pinfunction="TP_X1_102" pintype="input+no_connect"/>
+    </net>
+    <net code="124" name="unconnected-(U3F-TP_X2-Pad103)" class="Default">
+      <node ref="U3" pin="103" pinfunction="TP_X2_103" pintype="input+no_connect"/>
+    </net>
+    <net code="125" name="unconnected-(U3F-TP_Y1-Pad104)" class="Default">
+      <node ref="U3" pin="104" pinfunction="TP_Y1_104" pintype="input+no_connect"/>
+    </net>
+    <net code="126" name="unconnected-(U3F-TP_Y2-Pad105)" class="Default">
+      <node ref="U3" pin="105" pinfunction="TP_Y2_105" pintype="input+no_connect"/>
+    </net>
+  </nets>
+</export>

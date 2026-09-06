@@ -1,5 +1,7 @@
 # JLCPCB sourcing and import blockers
 
+**Active redesign:** the selected processor is now T113-S4. See the [current S4 JLCPCB table](s4/JLCPCB-PARTS.md). The table below applies to the historical AGBM-02 circuit.
+
 Checked 2026-09-05 with the JLCPCB search/import commands. “No verified match” means no usable exact match was found in these searches; it is not a claim that the part can never appear in the catalog. No custom component footprint is used to fill a missing listing.
 
 ## Reference parts without a verified exact JLCPCB match

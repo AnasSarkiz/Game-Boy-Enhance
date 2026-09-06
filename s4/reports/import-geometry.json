@@ -1,0 +1,22 @@
+{
+  "scope": "candidate_import_geometry_only",
+  "limitation": "No circuit connections, board placement, copper routing, solder-mask or assembly check",
+  "packages": [
+    {
+      "file": "TLV62569PDDCR.tsx",
+      "sha256": "52daf440b1543dbc280db975b04ddc7915e85365e750d911fa96aa21f41fd5c1",
+      "pad_count": 6,
+      "closed_courtyard_contains_pads": true,
+      "pad_bounding_boxes_overlap": false,
+      "minimum_pad_bound_clearance_mm": 0.417957
+    },
+    {
+      "file": "ADV7513BSWZ.tsx",
+      "sha256": "c0237571932b342e9719d5cb193473ebc21888484cf4fa906ee8033e80da1c3b",
+      "pad_count": 65,
+      "closed_courtyard_contains_pads": true,
+      "pad_bounding_boxes_overlap": false,
+      "minimum_pad_bound_clearance_mm": 0.219862
+    }
+  ]
+}

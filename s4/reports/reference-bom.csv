@@ -1,0 +1,85 @@
+reference,symbol_value,manufacturer_part_number,jlcpcb_part_number,reference_sheet,import_status
+C1,10u,CL10A106MA8NRNC,C96446,/Architecture/Power/,not_qualified
+C2,10p,CL05C100JB5NNNC,C32949,/Architecture/Power/,not_qualified
+C3,10u,CL10A106MA8NRNC,C96446,/Architecture/Power/,not_qualified
+C4,10p,CL05C100JB5NNNC,C32949,/Architecture/Power/,not_qualified
+C5,22u,CL21A226MAQNNNE,C45783,/Architecture/Power/,not_qualified
+C6,22u,CL21A226MAQNNNE,C45783,/Architecture/Power/,not_qualified
+C7,10u,CL10A106MA8NRNC,C96446,/Architecture/Power/,not_qualified
+C8,100n,CL05B104KB54PNC,C307331,/Architecture/Power/,not_qualified
+D1,RED, NCD0805R1,C84256,/Architecture/Power/,not_qualified
+L1,2u2,XRIM252012S2R2MBCA,C22471111,/Architecture/Power/,not_qualified
+L2,2u2,XRIM252012S2R2MBCA,C22471111,/Architecture/Power/,not_qualified
+R1,100k,0402WGF1003TCE,C25741,/Architecture/Power/,not_qualified
+R2,453k,0402WGF4533TCE,C27009,/Architecture/Power/,not_qualified
+R3,100k,0402WGF1003TCE,C25741,/Architecture/Power/,not_qualified
+R4,5k1,0402WGF5101TCE,C25905,/Architecture/Power/,not_qualified
+R5,51k,0402WGF5102TCE,C25794,/Architecture/Power/,not_qualified
+R6,100k,0402WGF1003TCE,C25741,/Architecture/Power/,not_qualified
+R7,100k,0402WGF1003TCE,C25741,/Architecture/Power/,not_qualified
+U1,TLV62569PDDCR,TLV62569PDDCR,C398365,/Architecture/Power/,not_qualified
+U2,TLV62569PDDCR,TLV62569PDDCR,C398365,/Architecture/Power/,not_qualified
+C9,2u2,CL05A225MQ5NSNC,C12530,/Architecture/CPU Core/,not_qualified
+C10,10u,CL10A106MA8NRNC,C96446,/Architecture/CPU Core/,not_qualified
+C11,100n,CL05B104KB54PNC,C307331,/Architecture/CPU Core/,not_qualified
+C12,100n,CL05B104KB54PNC,C307331,/Architecture/CPU Core/,not_qualified
+C13,100n,CL05B104KB54PNC,C307331,/Architecture/CPU Core/,not_qualified
+C14,100n,CL05B104KB54PNC,C307331,/Architecture/CPU Core/,not_qualified
+C15,100n,CL05B104KB54PNC,C307331,/Architecture/CPU Core/,not_qualified
+C16,2u2,CL05A225MQ5NSNC,C12530,/Architecture/CPU Core/,not_qualified
+C17,100n,CL05B104KB54PNC,C307331,/Architecture/CPU Core/,not_qualified
+C18,100n,CL05B104KB54PNC,C307331,/Architecture/CPU Core/,not_qualified
+C19,100n,CL05B104KB54PNC,C307331,/Architecture/CPU Core/,not_qualified
+C20,100n,CL05B104KB54PNC,C307331,/Architecture/CPU Core/,not_qualified
+C21,100n,CL05B104KB54PNC,C307331,/Architecture/CPU Core/,not_qualified
+C22,10u,CL10A106MA8NRNC,C96446,/Architecture/CPU Core/,not_qualified
+C23,100n,CL05B104KB54PNC,C307331,/Architecture/CPU Core/,not_qualified
+C24,100n,CL05B104KB54PNC,C307331,/Architecture/CPU Core/,not_qualified
+C25,100n,CL05B104KB54PNC,C307331,/Architecture/CPU Core/,not_qualified
+C26,100n,CL05B104KB54PNC,C307331,/Architecture/CPU Core/,not_qualified
+C27,100n,CL05B104KB54PNC,C307331,/Architecture/CPU Core/,not_qualified
+C28,2u2,CL05A225MQ5NSNC,C12530,/Architecture/CPU Core/,not_qualified
+C29,10u,CL10A106MA8NRNC,C96446,/Architecture/CPU Core/,not_qualified
+C30,100n,CL05B104KB54PNC,C307331,/Architecture/CPU Core/,not_qualified
+C31,100n,CL05B104KB54PNC,C307331,/Architecture/CPU Core/,not_qualified
+C32,10p,CL05C100JB5NNNC,C32949,/Architecture/CPU Core/,not_qualified
+C33,10p,CL05C100JB5NNNC,C32949,/Architecture/CPU Core/,not_qualified
+C34,100n,CL05B104KB54PNC,C307331,/Architecture/CPU Core/,not_qualified
+C35,100n,CL05B104KB54PNC,C307331,/Architecture/CPU Core/,not_qualified
+C36,18p,0402CG180J500NT,C1549,/Architecture/CPU Core/,not_qualified
+C37,18p,0402CG180J500NT,C1549,/Architecture/CPU Core/,not_qualified
+C38,100n,CL05B104KB54PNC,C307331,/Architecture/CPU Core/,not_qualified
+C39,100n,CL05B104KB54PNC,C307331,/Architecture/CPU Core/,not_qualified
+C40,2u2,CL05A225MQ5NSNC,C12530,/Architecture/CPU Core/,not_qualified
+R8,TODO,,,/Architecture/CPU Core/,not_qualified
+R9,TODO,,,/Architecture/CPU Core/,not_qualified
+R10,240R,0603WAF2400T5E,C23350,/Architecture/CPU Core/,not_qualified
+R11,100k,0402WGF1003TCE,C25741,/Architecture/CPU Core/,not_qualified
+SW1,SW_Push,TSA010A2026B,C2888420,/Architecture/CPU Core/,not_qualified
+U3,T113-S3,T113M4020DC0,C41411351,/Architecture/CPU Core/,not_qualified
+Y1,24MHz,CM4024M00008001,C7294624,/Architecture/CPU Core/,not_qualified
+Y2,32.768kHz,Q13FC13500004,C32346,/Architecture/CPU Core/,not_qualified
+R12,5k1,0402WGF5101TCE,C25905,/Architecture/CPU IO/,not_qualified
+R13,5k1,0402WGF5101TCE,C25905,/Architecture/CPU IO/,not_qualified
+R14,5k1,0402WGF5101TCE,C25905,/Architecture/CPU IO/,not_qualified
+R24,5k1,0402WGF5101TCE,C25905,/Architecture/CPU IO/,not_qualified
+R25,5k1,0402WGF5101TCE,C25905,/Architecture/CPU IO/,not_qualified
+F1,1A,JK-nSMD100-16,C369161,/Architecture/USB/,not_qualified
+J1,USB_C_Receptacle_USB2.0_14P,HX TYPE-C 16P L8.35,C41427493,/Architecture/USB/,not_qualified
+R15,5k1,0402WGF5101TCE,C25905,/Architecture/USB/,not_qualified
+R16,5k1,0402WGF5101TCE,C25905,/Architecture/USB/,not_qualified
+U4,USBLC6-2SC6,USBLC6-2SC6,C2827654,/Architecture/USB/,not_qualified
+C41,10u,CL10A106MA8NRNC,C96446,/Architecture/Storage/,not_qualified
+C42,100n,CL05B104KB54PNC,C307331,/Architecture/Storage/,not_qualified
+C43,100n,CL05B104KB54PNC,C307331,/Architecture/Storage/,not_qualified
+C44,100n,CL05B104KB54PNC,C307331,/Architecture/Storage/,not_qualified
+R17,51k,0402WGF5102TCE,C25794,/Architecture/Storage/,not_qualified
+R18,51k,0402WGF5102TCE,C25794,/Architecture/Storage/,not_qualified
+R19,51k,0402WGF5102TCE,C25794,/Architecture/Storage/,not_qualified
+R20,51k,0402WGF5102TCE,C25794,/Architecture/Storage/,not_qualified
+R21,51k,0402WGF5102TCE,C25794,/Architecture/Storage/,not_qualified
+R22,5k1,0402WGF5101TCE,C25905,/Architecture/Storage/,not_qualified
+R23,22R,0402WGF220JTCE,C25092,/Architecture/Storage/,not_qualified
+SW2,SW_Push,TSA010A2026B,C2888420,/Architecture/Storage/,not_qualified
+U5,ZDSD08GLGEAG,ZDSD04GLGEAG,C2875854,/Architecture/Storage/,not_qualified
+U6,SN74AHC1G08,SN74AHC1G08DCKR,C122838,/Architecture/Storage/,not_qualified

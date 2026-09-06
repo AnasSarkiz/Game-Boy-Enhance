@@ -1,0 +1,130 @@
+physical_pin,reference_pin_function,reference_net,s4_datasheet_verified
+1,PG6_1,unconnected-(U3E-PG6-Pad1),False
+2,PG7_2,unconnected-(U3E-PG7-Pad2),False
+3,PG8_3,unconnected-(U3E-PG8-Pad3),False
+4,PG9_4,unconnected-(U3E-PG9-Pad4),False
+5,PG10_5,unconnected-(U3E-PG10-Pad5),False
+6,PG11_6,unconnected-(U3E-PG11-Pad6),False
+7,PF0_7,/Architecture/CPU IO/SDC0_D1,False
+8,PF1_8,/Architecture/CPU IO/SDC0_D0,False
+9,PF2_9,/Architecture/CPU IO/SDC0_CLK,False
+10,PF3_10,/Architecture/CPU IO/SDC0_CMD,False
+11,PF4_11,/Architecture/CPU IO/SDC0_D3,False
+12,PF5_12,/Architecture/CPU IO/SDC0_D2,False
+13,PF6_13,/Architecture/CPU IO/BOARD_ID_1,False
+14,PC7_14,unconnected-(U3E-PC7-Pad14),False
+15,PC6_15,unconnected-(U3E-PC6-Pad15),False
+16,PC5_16,/Architecture/CPU IO/BOOT_SEL1,False
+17,PC4_17,/Architecture/CPU IO/BOOT_SEL0,False
+18,PC3_18,unconnected-(U3E-PC3-Pad18),False
+19,PC2_19,unconnected-(U3E-PC2-Pad19),False
+20,VCC_PLL_20,+1V8,False
+21,REFCLK_OUT_21,unconnected-(U3B-REFCLK_OUT-Pad21),False
+22,DXOUT_22,/Architecture/CPU Core/DXOUT,False
+23,DXIN_23,/Architecture/CPU Core/DXIN,False
+24,X32KOUT_24,/Architecture/CPU Core/LXOUT,False
+25,X32KIN_25,/Architecture/CPU Core/LXIN,False
+26,VCC_RTC_26,+1V8,False
+27,RESET_27,/Architecture/CPU Core/~{RESET},False
+28,LDOA_OUT_28,+1V8,False
+29,LDO_IN_29,+3V3,False
+30,LDOB_OUT_30,+1V5,False
+31,PE13_31,unconnected-(U3E-PE13-Pad31),False
+32,PE12_32,unconnected-(U3E-PE12-Pad32),False
+33,PE3_33,unconnected-(U3E-PE3-Pad33),False
+34,VCC_PE_34,+3V3,False
+35,PE2_35,unconnected-(U3E-PE2-Pad35),False
+36,PE11_36,unconnected-(U3E-PE11-Pad36),False
+37,PE10_37,unconnected-(U3E-PE10-Pad37),False
+38,PE9_38,unconnected-(U3E-PE9-Pad38),False
+39,PE8_39,unconnected-(U3E-PE8-Pad39),False
+40,PE7_40,unconnected-(U3E-PE7-Pad40),False
+41,PE6_41,unconnected-(U3E-PE6-Pad41),False
+42,PE5_42,unconnected-(U3E-PE5-Pad42),False
+43,PE4_43,unconnected-(U3E-PE4-Pad43),False
+44,PE0_44,unconnected-(U3E-PE0-Pad44),False
+45,PE1_45,unconnected-(U3E-PE1-Pad45),False
+46,VDD_SYS0_46,+0V9,False
+47,DZQ_47,Net-(U3B-DZQ),False
+48,VCC_DRAM0_48,+1V5,False
+49,VCC_DRAM1_49,+1V5,False
+50,VDD18_DRAM_50,+1V8,False
+51,VDD_SYS1_51,+0V9,False
+52,PD22_52,/Architecture/CPU IO/BOARD_ID_3,False
+53,PD21_53,/Architecture/CPU IO/BOARD_ID_2,False
+54,PD20_54,unconnected-(U3E-PD20-Pad54),False
+55,PD0_55,unconnected-(U3E-PD0-Pad55),False
+56,PD1_56,unconnected-(U3E-PD1-Pad56),False
+57,PD2_57,unconnected-(U3E-PD2-Pad57),False
+58,PD3_58,unconnected-(U3E-PD3-Pad58),False
+59,PD4_59,unconnected-(U3E-PD4-Pad59),False
+60,PD5_60,unconnected-(U3E-PD5-Pad60),False
+61,PD6_61,unconnected-(U3E-PD6-Pad61),False
+62,PD7_62,/Architecture/CPU IO/DEBUG_TX,False
+63,PD8_63,/Architecture/CPU IO/DEBUG_RX,False
+64,PD9_64,unconnected-(U3E-PD9-Pad64),False
+65,VCC_LVDS_65,+1V8,False
+66,VCC_PD_66,+3V3,False
+67,PD10_67,unconnected-(U3E-PD10-Pad67),False
+68,PD11_68,unconnected-(U3E-PD11-Pad68),False
+69,PD13_69,unconnected-(U3E-PD13-Pad69),False
+70,PD12_70,unconnected-(U3E-PD12-Pad70),False
+71,PD14_71,unconnected-(U3E-PD14-Pad71),False
+72,PD15_72,unconnected-(U3E-PD15-Pad72),False
+73,PD16_73,unconnected-(U3E-PD16-Pad73),False
+74,PD17_74,unconnected-(U3E-PD17-Pad74),False
+75,PD18_75,unconnected-(U3E-PD18-Pad75),False
+76,PD19_76,unconnected-(U3E-PD19-Pad76),False
+77,VCC_TVOUT_77,+3V3,False
+78,TVOUT0_78,unconnected-(U3D-TVOUT0-Pad78),False
+79,PB7_79,unconnected-(U3E-PB7-Pad79),False
+80,PB6_80,unconnected-(U3E-PB6-Pad80),False
+81,VDD_SYS2_81,+0V9,False
+82,PB5_82,unconnected-(U3E-PB5-Pad82),False
+83,VCC_IO_83,+3V3,False
+84,PB4_84,unconnected-(U3E-PB4-Pad84),False
+85,PB3_85,unconnected-(U3E-PB3-Pad85),False
+86,PB2_86,unconnected-(U3E-PB2-Pad86),False
+87,MICIN3P_87,unconnected-(U3F-MICIN3P-Pad87),False
+88,MICIN3N_88,unconnected-(U3F-MICIN3N-Pad88),False
+89,AVCC_89,+1V8,False
+90,VRA2_90,Net-(U3F-VRA2),False
+91,AGND_91,GND,False
+92,VRA1_92,Net-(U3F-VRA1),False
+93,FMINR_93,GND,False
+94,FMINL_94,GND,False
+95,LINEINR_95,unconnected-(U3F-LINEINR-Pad95),False
+96,LINEINL_96,unconnected-(U3F-LINEINL-Pad96),False
+97,HPVCC_97,+1V8,False
+98,HPOUTR_98,unconnected-(U3F-HPOUTR-Pad98),False
+99,HPOUTL_99,unconnected-(U3F-HPOUTL-Pad99),False
+100,HPOUTFB_100,unconnected-(U3F-HPOUTFB-Pad100),False
+101,GPADC0_101,Net-(U3F-GPADC0),False
+102,TP_X1_102,unconnected-(U3F-TP_X1-Pad102),False
+103,TP_X2_103,unconnected-(U3F-TP_X2-Pad103),False
+104,TP_Y1_104,unconnected-(U3F-TP_Y1-Pad104),False
+105,TP_Y2_105,unconnected-(U3F-TP_Y2-Pad105),False
+106,NC0_106,unconnected-(U3F-NC0-Pad106),False
+107,VCC_TVIN_107,+1V8,False
+108,TVIN0_108,unconnected-(U3D-TVIN0-Pad108),False
+109,TVIN1_109,unconnected-(U3D-TVIN1-Pad109),False
+110,TVIN_VRP_110,unconnected-(U3D-TVIN_VRP-Pad110),False
+111,TVIN_VRN_111,unconnected-(U3D-TVIN_VRN-Pad111),False
+112,USB1_DP_112,unconnected-(U3C-USB1_DP-Pad112),False
+113,USB1_DM_113,unconnected-(U3C-USB1_DM-Pad113),False
+114,USB0_DM_114,/Architecture/USB/USB0_DN,False
+115,USB0_DP_115,/Architecture/USB/USB0_DP,False
+116,VDD_CORE0_116,+0V9,False
+117,VDD_CORE1_117,+0V9,False
+118,PG1_118,unconnected-(U3E-PG1-Pad118),False
+119,PG2_119,unconnected-(U3E-PG2-Pad119),False
+120,PG0_120,unconnected-(U3E-PG0-Pad120),False
+121,PG3_121,unconnected-(U3E-PG3-Pad121),False
+122,PG5_122,unconnected-(U3E-PG5-Pad122),False
+123,PG4_123,unconnected-(U3E-PG4-Pad123),False
+124,PG12_124,unconnected-(U3E-PG12-Pad124),False
+125,PG13_125,unconnected-(U3E-PG13-Pad125),False
+126,PG14_126,unconnected-(U3E-PG14-Pad126),False
+127,PG15_127,unconnected-(U3E-PG15-Pad127),False
+128,VCC_PG_128,+3V3,False
+129,EPAD_129,GND,False
