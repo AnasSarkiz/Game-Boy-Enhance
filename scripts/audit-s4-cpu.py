@@ -55,8 +55,16 @@ def main():
                for entry in circuit), "Missing rendered functional section heading"
     errors = [entry for entry in circuit if entry["type"].endswith("_error")]
     warnings = [entry for entry in circuit if entry["type"].endswith("_warning")]
+    # This deliberately unwired fixture must now fail connection DRC. It checks
+    # that customizing the S4 component strengthens, rather than hides, checks.
+    required_unwired_pins = {20, 26, 28, 29, 30, 34, 46, 48, 49, 50, 51, 65, 66, 77, 81, 83, 89, 97, 107, 116, 117, 128}
+    assert len(errors) == len(required_unwired_pins)
+    assert all(entry["type"] == "source_pin_must_be_connected_error" for entry in errors)
+    pin_numbers_by_port_id = {port["source_port_id"]: port["pin_number"] for port in source_ports}
+    assert {pin_numbers_by_port_id[entry["source_port_id"]] for entry in errors} == required_unwired_pins
     report = {
-        "scope": "isolated_cpu_package_inspection_only",
+        "scope": "isolated_cpu_package_and_negative_connection_test",
+        "expected_missing_connection_errors_verified": len(errors),
         "manufacturer_part_number": cpu["manufacturer_part_number"],
         "supplier_part_numbers": cpu["supplier_part_numbers"],
         "geometry_source": "JLCPCB C5197687 / T113-S3",
@@ -75,7 +83,6 @@ def main():
     }
     (ROOT / "s4/reports/cpu-package-inspection.json").write_text(json.dumps(report, indent=2) + "\n")
     print(json.dumps(report, indent=2))
-    assert not errors, "Compiled package has DRC errors"
 
 
 if __name__ == "__main__":

@@ -1,6 +1,6 @@
 # S4 Game Boy console redesign
 
-The selected processor is **Allwinner T113-S4 / T113M4020DC0, C41411351**. This supersedes the earlier Nintendo CPU design as the development target. Status: **S3 supplier geometry imported; S4 component identity and isolated package preview implemented; electrical/package qualification pending**. There is no S4 console PCB or validated firmware yet. The repository's root `index.circuit.tsx` still contains the older AGBM-02 work and must not be mistaken for this redesign.
+The selected processor is **Allwinner T113-S4 / T113M4020DC0, C41411351**. This supersedes the earlier Nintendo CPU design as the development target. Status: **connected 58-component power/CPU/clock/reset stage implemented; electrical/package qualification and console interfaces pending**. There is no S4 console PCB or validated firmware yet. The repository's root `index.circuit.tsx` still contains the older AGBM-02 work and must not be mistaken for this redesign.
 
 ## Required result
 
@@ -17,11 +17,11 @@ The [Trellis Core reference](https://github.com/protolux-electronics/trellis_cor
 
 KiCad exported 84 reference components and 129 processor pins including the exposed ground pad. Reproducible reports include the complete reference BOM, CPU pin/net table, supply-net checks and ERC diagnostics. These describe the reference, not a newly connected console.
 
-The exact TI TLV62569PDDCR regulator and Analog Devices ADV7513BSWZ HDMI transmitter were imported from JLCPCB. Their supplier geometry is unchanged. Each has a closed courtyard enclosing all pads, with no overlapping pad bounding boxes. This is only a component-geometry check; neither part is yet wired into an S4 board.
+The exact TI TLV62569PDDCR regulator and Analog Devices ADV7513BSWZ HDMI transmitter were imported from JLCPCB. Their supplier geometry is unchanged. Each has a closed courtyard enclosing all pads, with no overlapping pad bounding boxes. Both TI regulator stages are now connected in the power/core stage; the HDMI transmitter remains an unwired candidate.
 
 The CPU wrapper in `components/T113M4020DC0.tsx` uses the unchanged `imports/T113_S3.tsx` geometry and pin map. Its MPN is `T113M4020DC0` and its JLCPCB ordering number is `C41411351`. All 129 labels match the pinned reference by physical pin number. See [CPU package qualification](CPU-PACKAGE-REVIEW.md) for the exposed-pad and electrical limitations.
 
-See [BLOCKERS.md](BLOCKERS.md), [connection review](CONNECTION-REVIEW.md) and [sourcing table](JLCPCB-PARTS.md). An isolated, unrouted CPU package preview is available at `previews/cpu-package.circuit.tsx`; it is not the console or a powered CPU schematic. Manufacturing outputs and a console registry release remain blocked.
+See [BLOCKERS.md](BLOCKERS.md), [connection review](CONNECTION-REVIEW.md) and [sourcing table](JLCPCB-PARTS.md). The connected stage is `power-core.circuit.tsx`, with two schematic sheets and functional sections. It is incomplete: USB input/protection, storage, controls, HDMI/audio and firmware are still required. The isolated `previews/cpu-package.circuit.tsx` is now also a negative connection test: the stricter CPU definition must report its 22 intentionally unwired required pins. Manufacturing outputs and a console registry release remain blocked.
 
 ## Reproduce the audits
 
@@ -33,6 +33,9 @@ bun run audit:s4:imports
 bun run audit:s4:reference
 bun run build:s4:cpu-preview
 bun run audit:s4:cpu
+bun run generate:s4:core
+bun run build:s4:core
+bun run audit:s4:core
 ```
 
 The reference audit currently exits with status 1 because the upstream reference contains unresolved values and ERC errors. These are not suppressed. `reports/reference-erc.json` records the separate KiCad ERC run, including ignored checks and unavailable-library warnings. A clean result requires more than completing an export.
@@ -40,3 +43,5 @@ The reference audit currently exits with status 1 because the upstream reference
 ## Acceptance before manufacturing
 
 Require a qualified BOM and manufacturer pin map, power/current/sequencing budgets, a schematic-to-compiled-net comparison, zero actionable placement/copper DRC errors, complete required connections and ground returns, and fabrication review. Prototype testing must demonstrate power-up/brownout/recovery, 256 MB RAM operation, game/save storage, controllers/buttons, HDMI video and audio, and representative games. Software checks cannot prove that a physical board has no assembly shorts or that every game works.
+
+See [power/core stage review](POWER-CORE-REVIEW.md) for implemented connections, changes from the reference and remaining qualification.

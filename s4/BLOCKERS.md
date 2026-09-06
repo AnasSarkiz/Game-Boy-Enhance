@@ -1,6 +1,6 @@
 # S4 blockers — 2026-09-06
 
-**Do not fabricate. No S4 console PCB has been implemented or routed.** An isolated CPU preview now uses the unchanged S3 supplier package with S4 procurement metadata, as explicitly authorized on 2026-09-06. Package and electrical qualification remain required.
+**Do not fabricate. No S4 console PCB has been implemented or routed.** The 58-component power/CPU/clock/reset stage now uses the unchanged S3 supplier package with S4 procurement metadata, as explicitly authorized on 2026-09-06. Package and electrical qualification remain required.
 
 | ID | Finding and evidence | Required resolution |
 |---|---|---|
@@ -17,8 +17,12 @@
 
 The XML audit finds no duplicate physical pin assignments or mismatch in the specified reference CPU supply-pin sets. This does **not** prove the reference is electrically correct or that there are no copper shorts. A netlist export can contain internally consistent but incorrect wiring.
 
-The three candidate imports pass pad-number, courtyard-containment and conservative pad-overlap checks. The isolated CPU preview passes placement checks; this does not establish placement or connections for a console. The CPU import declares no required power pins and does not mark EPAD as requiring ground; its build warning is retained. Pins 91 and 129 are explicitly connected to GND in the inspection fixture, while its other 127 pins remain unwired. The complete design must add verified power-domain requirements and connect every required pin.
+All 19 candidate imports pass pad-count, courtyard-containment and conservative pad-overlap checks. The customized CPU now requires all 20 supply inputs, both LDO outputs and both ground pins to be connected, while forbidding NC106 connections. The connected stage satisfies these requirements; the isolated CPU fixture deliberately fails with 22 missing-connection errors to exercise the checks. Exact S4 voltage tolerances are not invented.
 
 ## Known changes from the original Enhance project
 
 The new processor and Linux emulator replace the Nintendo execution architecture. Its original SRAM/clock/power wiring cannot be carried over. HDMI, USB controllers and emulator storage require new circuits and firmware. Original cartridge/link and original LCD compatibility are unimplemented, not silently treated as working. Board enlargement means original shell compatibility is not promised. None of these limitations is represented as DNP.
+
+## Connected stage limitations
+
+`POWER-CORE-REVIEW.md` documents the 58-component stage and its RESET pull-up change to 1.8 V. The generator lists 26 remaining reference components, including input protection, boot storage/recovery, straps and the unresolved ADC divider. These are unfinished work, not DNP omissions. HDMI/audio, controller ports and firmware are additional unfinished console functions. Reset hold time, brownout response, startup sequencing, effective decoupling and S4 package qualification still block manufacturing.

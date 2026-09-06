@@ -1,0 +1,12 @@
+{
+  "C10": { "pcbX": -15.5, "reason": "Bulk input capacitor outside the close CPU decoupler row" },
+  "C22": { "pcbY": -15.0, "reason": "Bulk core capacitor outside the close CPU decoupler row" },
+  "C29": { "pcbY": 14.5, "reason": "Bulk analog capacitor outside the close CPU decoupler row" },
+  "C18": { "pcbX": 10.6, "pcbY": 0.0, "reason": "Close 1.8V decoupler clear of the main crystal courtyard" },
+  "Y1": { "pcbX": 14.0, "pcbY": 1.5, "reason": "Keep 24MHz oscillator connections close to CPU pins 22/23" },
+  "Y2": { "pcbX": 14.7, "pcbY": 5.2, "reason": "Keep RTC oscillator connections close to CPU pins 24/25" },
+  "C32": { "pcbX": 13.0, "pcbY": -2.2, "reason": "24MHz load capacitor beside crystal with courtyard clearance" },
+  "C33": { "pcbX": 16.8, "pcbY": 1.5, "reason": "24MHz load capacitor beside crystal with courtyard clearance" },
+  "C36": { "pcbX": 13.6, "pcbY": 7.8, "pcbRotation": 270, "reason": "RTC load capacitor beside crystal, signal land facing CPU" },
+  "C37": { "pcbX": 15.3, "pcbY": 7.8, "pcbRotation": 270, "reason": "RTC load capacitor beside crystal, signal land facing CPU" }
+}

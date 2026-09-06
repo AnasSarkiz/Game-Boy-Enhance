@@ -1,0 +1,50 @@
+<TraceLengthAnalysis requestedTarget="net.DXIN" resolvedTarget="net.DXIN" targetKind="net" traceCount="3" totalLengthMm="10.46" totalStraightLineDistanceMm="10.46">
+  <Trace id="source_trace_58:source_port_94" label="C32.pin1 -&gt; net.DXIN" connectionType="via net" lengthMm="3.83" straightLineDistanceMm="3.83">
+    <ConnectedPins>
+      <Pin ref="C32.pin1" />
+      <Pin ref="U3.DXIN" />
+      <Pin ref="Y1.pin1" />
+    </ConnectedPins>
+    <PinPositions>
+      <Pin ref="C32.pin1" x="13.00" y="-2.62" layers="top" />
+      <Pin ref="U3.DXIN" x="7.63" y="2.60" layers="top" />
+      <Pin ref="Y1.pin1" x="13.25" y="2.45" layers="top" />
+    </PinPositions>
+    <Connection kind="via net" target="net.DXIN" x="11.29" y="0.81" layer="top" />
+    <TraceRequirements>
+      <MaxLengthMm>10.00</MaxLengthMm>
+    </TraceRequirements>
+  </Trace>
+  <Trace id="source_trace_59:source_port_138" label="U3.DXIN -&gt; net.DXIN" connectionType="via net" lengthMm="4.08" straightLineDistanceMm="4.08">
+    <ConnectedPins>
+      <Pin ref="U3.DXIN" />
+      <Pin ref="C32.pin1" />
+      <Pin ref="Y1.pin1" />
+    </ConnectedPins>
+    <PinPositions>
+      <Pin ref="U3.DXIN" x="7.63" y="2.60" layers="top" />
+      <Pin ref="C32.pin1" x="13.00" y="-2.62" layers="top" />
+      <Pin ref="Y1.pin1" x="13.25" y="2.45" layers="top" />
+    </PinPositions>
+    <Connection kind="via net" target="net.DXIN" x="11.29" y="0.81" layer="top" />
+    <TraceRequirements>
+      <MaxLengthMm>10.00</MaxLengthMm>
+    </TraceRequirements>
+  </Trace>
+  <Trace id="source_trace_60:source_port_249" label="Y1.pin1 -&gt; net.DXIN" connectionType="via net" lengthMm="2.55" straightLineDistanceMm="2.55">
+    <ConnectedPins>
+      <Pin ref="Y1.pin1" />
+      <Pin ref="C32.pin1" />
+      <Pin ref="U3.DXIN" />
+    </ConnectedPins>
+    <PinPositions>
+      <Pin ref="Y1.pin1" x="13.25" y="2.45" layers="top" />
+      <Pin ref="C32.pin1" x="13.00" y="-2.62" layers="top" />
+      <Pin ref="U3.DXIN" x="7.63" y="2.60" layers="top" />
+    </PinPositions>
+    <Connection kind="via net" target="net.DXIN" x="11.29" y="0.81" layer="top" />
+    <TraceRequirements>
+      <MaxLengthMm>10.00</MaxLengthMm>
+    </TraceRequirements>
+  </Trace>
+</TraceLengthAnalysis>

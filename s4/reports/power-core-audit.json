@@ -1,0 +1,79 @@
+{
+  "scope": "connected_power_cpu_clock_reset_stage_only",
+  "component_count": 58,
+  "courtyard_count": 58,
+  "minimum_courtyard_gap_mm": 0.1044,
+  "reference_net_partitions_checked": 21,
+  "connected_endpoints_checked": 157,
+  "cpu_supply_inputs_required_and_connected": [
+    20,
+    26,
+    29,
+    34,
+    46,
+    48,
+    49,
+    50,
+    51,
+    65,
+    66,
+    77,
+    81,
+    83,
+    89,
+    97,
+    107,
+    116,
+    117,
+    128
+  ],
+  "cpu_ldo_outputs_required_and_connected": [
+    28,
+    30
+  ],
+  "cpu_ground_pins_required_and_connected": [
+    91,
+    129
+  ],
+  "reference_deviations": [
+    {
+      "pin": "R11.1",
+      "reference_net": "+3V3",
+      "implemented_net": "+1V8",
+      "reason": "RESET pin 27 belongs to VCC-RTC (1.8V), Allwinner table 4-2"
+    }
+  ],
+  "remaining_reference_components": [
+    "C41",
+    "C42",
+    "C43",
+    "C44",
+    "F1",
+    "J1",
+    "R12",
+    "R13",
+    "R14",
+    "R15",
+    "R16",
+    "R17",
+    "R18",
+    "R19",
+    "R20",
+    "R21",
+    "R22",
+    "R23",
+    "R24",
+    "R25",
+    "R8",
+    "R9",
+    "SW2",
+    "U4",
+    "U5",
+    "U6"
+  ],
+  "routing_disabled": true,
+  "routed_copper_drc_performed": false,
+  "full_console": false,
+  "diagnostics": [],
+  "compiled_circuit_sha256": "55761df5db9f9a90fbb6292f36a3f55632628ffef1c717ed5ae431388e495022"
+}

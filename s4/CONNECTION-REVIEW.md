@@ -1,12 +1,12 @@
 # S4 connection review
 
-This is a pre-implementation review, not sign-off for every connection. All physical pin numbers below come from the pinned Trellis schematic and the linked S3 family documentation. S4-specific electrical confirmation remains required. `reports/reference-cpu-pins.csv` lists all 129 reference CPU pins without marking them datasheet-qualified.
+A 58-component power/core stage is implemented; this remains a qualification review, not sign-off for every console connection. All physical pin numbers below come from the pinned Trellis schematic and the linked S3 family documentation. S4-specific electrical confirmation remains required. `reports/reference-cpu-pins.csv` lists all 129 reference CPU pins without marking them datasheet-qualified.
 
 ## Power and startup
 
 The reference uses two [TI TLV62569PDDCR converters](https://www.ti.com/lit/ds/symlink/tlv62569.pdf), whose SOT23-6 pins are EN=1, GND=2, SW=3, VIN=4, PG=5 and FB=6. The generated JLCPCB import matches these pin names and numbers. The 0.6 V feedback equation gives **3.318 V** with 453 kΩ/100 kΩ, and **0.906 V** with 51 kΩ/100 kΩ. These are nominal values; tolerance, transients and current budgets are not verified.
 
-The reference's 3.3 V converter PG drives the core converter EN. The core PG is unconnected, while CPU RESET uses a separate RC/pushbutton. Do not assume this guarantees reset during every brownout; qualification needs the S4 reset thresholds and timing. Switching current loops and decoupling must remain short even on a larger board.
+The reference's 3.3 V converter PG drives the core converter EN. The core PG is unconnected, while CPU RESET uses a separate RC/pushbutton. The new stage moves R11.1 from 3.3 V to LDOA 1.8 V because RESET is in the VCC-RTC domain (Allwinner table 4-2). Do not assume this guarantees reset during every brownout; qualification needs the S4 reset thresholds and timing. Switching current loops and decoupling must remain short even on a larger board.
 
 | Reference net | CPU physical pins | Treatment |
 |---|---|---|

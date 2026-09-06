@@ -1,0 +1,98 @@
+[
+  {
+    "jlcpcb_part_number": "C96446",
+    "exit_code": 0,
+    "stdout": "- Searching...\n- Importing \"C96446\" from JLCPCB...\n\u2714 Imported /Users/anassarkiz/tsci/Game-Boy-Enhance/s4/imports/CL10A106MA8NRNC.tsx\n",
+    "stderr": ""
+  },
+  {
+    "jlcpcb_part_number": "C32949",
+    "exit_code": 0,
+    "stdout": "- Searching...\n- Importing \"C32949\" from JLCPCB...\n\u2714 Imported /Users/anassarkiz/tsci/Game-Boy-Enhance/s4/imports/CL05C100JB5NNNC.tsx\n",
+    "stderr": ""
+  },
+  {
+    "jlcpcb_part_number": "C45783",
+    "exit_code": 0,
+    "stdout": "- Searching...\n- Importing \"C45783\" from JLCPCB...\n\u2714 Imported /Users/anassarkiz/tsci/Game-Boy-Enhance/s4/imports/CL21A226MAQNNNE.tsx\n",
+    "stderr": ""
+  },
+  {
+    "jlcpcb_part_number": "C307331",
+    "exit_code": 0,
+    "stdout": "- Searching...\n- Importing \"C307331\" from JLCPCB...\n\u2714 Imported /Users/anassarkiz/tsci/Game-Boy-Enhance/s4/imports/CL05B104KB54PNC.tsx\n",
+    "stderr": ""
+  },
+  {
+    "jlcpcb_part_number": "C84256",
+    "exit_code": 0,
+    "stdout": "- Searching...\n- Importing \"C84256\" from JLCPCB...\n\u2714 Imported /Users/anassarkiz/tsci/Game-Boy-Enhance/s4/imports/NCD0805R1.tsx\n",
+    "stderr": ""
+  },
+  {
+    "jlcpcb_part_number": "C22471111",
+    "exit_code": 0,
+    "stdout": "- Searching...\n- Importing \"C22471111\" from JLCPCB...\n\u2714 Imported /Users/anassarkiz/tsci/Game-Boy-Enhance/s4/imports/XRIM252012S2R2MBCA.tsx\n",
+    "stderr": ""
+  },
+  {
+    "jlcpcb_part_number": "C25741",
+    "exit_code": 0,
+    "stdout": "- Searching...\n- Importing \"C25741\" from JLCPCB...\n\u2714 Imported /Users/anassarkiz/tsci/Game-Boy-Enhance/s4/imports/A_0402WGF1003TCE.tsx\n",
+    "stderr": ""
+  },
+  {
+    "jlcpcb_part_number": "C27009",
+    "exit_code": 0,
+    "stdout": "- Searching...\n- Importing \"C27009\" from JLCPCB...\n\u2714 Imported /Users/anassarkiz/tsci/Game-Boy-Enhance/s4/imports/A_0402WGF4533TCE.tsx\n",
+    "stderr": ""
+  },
+  {
+    "jlcpcb_part_number": "C25905",
+    "exit_code": 0,
+    "stdout": "- Searching...\n- Importing \"C25905\" from JLCPCB...\n\u2714 Imported /Users/anassarkiz/tsci/Game-Boy-Enhance/s4/imports/A_0402WGF5101TCE.tsx\n",
+    "stderr": ""
+  },
+  {
+    "jlcpcb_part_number": "C25794",
+    "exit_code": 0,
+    "stdout": "- Searching...\n- Importing \"C25794\" from JLCPCB...\n\u2714 Imported /Users/anassarkiz/tsci/Game-Boy-Enhance/s4/imports/A_0402WGF5102TCE.tsx\n",
+    "stderr": ""
+  },
+  {
+    "jlcpcb_part_number": "C12530",
+    "exit_code": 0,
+    "stdout": "- Searching...\n- Importing \"C12530\" from JLCPCB...\n\u2714 Imported /Users/anassarkiz/tsci/Game-Boy-Enhance/s4/imports/CL05A225MQ5NSNC.tsx\n",
+    "stderr": ""
+  },
+  {
+    "jlcpcb_part_number": "C1549",
+    "exit_code": 0,
+    "stdout": "- Searching...\n- Importing \"C1549\" from JLCPCB...\n\u2714 Imported /Users/anassarkiz/tsci/Game-Boy-Enhance/s4/imports/A_0402CG180J500NT.tsx\n",
+    "stderr": ""
+  },
+  {
+    "jlcpcb_part_number": "C23350",
+    "exit_code": 0,
+    "stdout": "- Searching...\n- Importing \"C23350\" from JLCPCB...\n\u2714 Imported /Users/anassarkiz/tsci/Game-Boy-Enhance/s4/imports/A_0603WAF2400T5E.tsx\n",
+    "stderr": ""
+  },
+  {
+    "jlcpcb_part_number": "C2888420",
+    "exit_code": 0,
+    "stdout": "- Searching...\n- Importing \"C2888420\" from JLCPCB...\n\u2714 Imported /Users/anassarkiz/tsci/Game-Boy-Enhance/s4/imports/TSA010A2026B.tsx\n",
+    "stderr": ""
+  },
+  {
+    "jlcpcb_part_number": "C7294624",
+    "exit_code": 0,
+    "stdout": "- Searching...\n- Importing \"C7294624\" from JLCPCB...\n\u2714 Imported /Users/anassarkiz/tsci/Game-Boy-Enhance/s4/imports/CM4024M00008001.tsx\n",
+    "stderr": ""
+  },
+  {
+    "jlcpcb_part_number": "C32346",
+    "exit_code": 0,
+    "stdout": "- Searching...\n- Importing \"C32346\" from JLCPCB...\n\u2714 Imported /Users/anassarkiz/tsci/Game-Boy-Enhance/s4/imports/Q13FC13500004.tsx\n",
+    "stderr": ""
+  }
+]

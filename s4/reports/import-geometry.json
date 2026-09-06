@@ -3,14 +3,6 @@
   "limitation": "No circuit connections, board placement, copper routing, solder-mask or assembly check",
   "packages": [
     {
-      "file": "TLV62569PDDCR.tsx",
-      "sha256": "52daf440b1543dbc280db975b04ddc7915e85365e750d911fa96aa21f41fd5c1",
-      "pad_count": 6,
-      "closed_courtyard_contains_pads": true,
-      "pad_bounding_boxes_overlap": false,
-      "minimum_pad_bound_clearance_mm": 0.417957
-    },
-    {
       "file": "ADV7513BSWZ.tsx",
       "sha256": "c0237571932b342e9719d5cb193473ebc21888484cf4fa906ee8033e80da1c3b",
       "pad_count": 65,
@@ -19,12 +11,148 @@
       "minimum_pad_bound_clearance_mm": 0.219862
     },
     {
+      "file": "A_0402CG180J500NT.tsx",
+      "sha256": "4b8ddb87b479a21a9744b10741c52317d7c5cdd5ee9773533a215d5dc9f6bed2",
+      "pad_count": 2,
+      "closed_courtyard_contains_pads": true,
+      "pad_bounding_boxes_overlap": false,
+      "minimum_pad_bound_clearance_mm": 0.340233
+    },
+    {
+      "file": "A_0402WGF1003TCE.tsx",
+      "sha256": "ab561bbdc9991940714135e190be1510189d2150eac0e993496e829eb08c37fc",
+      "pad_count": 2,
+      "closed_courtyard_contains_pads": true,
+      "pad_bounding_boxes_overlap": false,
+      "minimum_pad_bound_clearance_mm": 0.299974
+    },
+    {
+      "file": "A_0402WGF4533TCE.tsx",
+      "sha256": "8da1972cc656798aed06457e11f12edd3ae4b159a59d4e66c0e1932bf2aeee41",
+      "pad_count": 2,
+      "closed_courtyard_contains_pads": true,
+      "pad_bounding_boxes_overlap": false,
+      "minimum_pad_bound_clearance_mm": 0.299974
+    },
+    {
+      "file": "A_0402WGF5101TCE.tsx",
+      "sha256": "a0f3b265ce67193320079e97d3641d246728f9146a6adf1c775ba3d45d1cb696",
+      "pad_count": 2,
+      "closed_courtyard_contains_pads": true,
+      "pad_bounding_boxes_overlap": false,
+      "minimum_pad_bound_clearance_mm": 0.299974
+    },
+    {
+      "file": "A_0402WGF5102TCE.tsx",
+      "sha256": "21c63e39b20cd8029069ae3364b4b24ec41e11dc6d4ff5bbdaba77b50e9df143",
+      "pad_count": 2,
+      "closed_courtyard_contains_pads": true,
+      "pad_bounding_boxes_overlap": false,
+      "minimum_pad_bound_clearance_mm": 0.299974
+    },
+    {
+      "file": "A_0603WAF2400T5E.tsx",
+      "sha256": "04b264268c727fdc5d4381d9320c1d49a515fe151f48d09131d9fd4dde922bd1",
+      "pad_count": 2,
+      "closed_courtyard_contains_pads": true,
+      "pad_bounding_boxes_overlap": false,
+      "minimum_pad_bound_clearance_mm": 0.700253
+    },
+    {
+      "file": "CL05A225MQ5NSNC.tsx",
+      "sha256": "9708709f702b916725538aeb53afdf9180070c475e58bfc19c6d40f9e70f17e5",
+      "pad_count": 2,
+      "closed_courtyard_contains_pads": true,
+      "pad_bounding_boxes_overlap": false,
+      "minimum_pad_bound_clearance_mm": 0.340233
+    },
+    {
+      "file": "CL05B104KB54PNC.tsx",
+      "sha256": "78df37c04ea8b1c3525ae240c4c2ab98a0835db4fadec0428e14ada22b2a7317",
+      "pad_count": 2,
+      "closed_courtyard_contains_pads": true,
+      "pad_bounding_boxes_overlap": false,
+      "minimum_pad_bound_clearance_mm": 0.340233
+    },
+    {
+      "file": "CL05C100JB5NNNC.tsx",
+      "sha256": "5040425b6bdb6603f21fd850c25324a46cd5dee4c018fc6fa09369676b5d48ed",
+      "pad_count": 2,
+      "closed_courtyard_contains_pads": true,
+      "pad_bounding_boxes_overlap": false,
+      "minimum_pad_bound_clearance_mm": 0.340233
+    },
+    {
+      "file": "CL10A106MA8NRNC.tsx",
+      "sha256": "7f2b1d82780456e610044207bd79d345d786a86a60dc2c19c92617ce98a5748e",
+      "pad_count": 2,
+      "closed_courtyard_contains_pads": true,
+      "pad_bounding_boxes_overlap": false,
+      "minimum_pad_bound_clearance_mm": 0.60005
+    },
+    {
+      "file": "CL21A226MAQNNNE.tsx",
+      "sha256": "763c977dfd6b12467b4e3d367280155c44c45c45edb652b5d891e742730c0beb",
+      "pad_count": 2,
+      "closed_courtyard_contains_pads": true,
+      "pad_bounding_boxes_overlap": false,
+      "minimum_pad_bound_clearance_mm": 0.589991
+    },
+    {
+      "file": "CM4024M00008001.tsx",
+      "sha256": "83b6f2dab6c1ec5498b3d8c26580e241df62f4f24c72136b61b0f3147cedc2cc",
+      "pad_count": 4,
+      "closed_courtyard_contains_pads": true,
+      "pad_bounding_boxes_overlap": false,
+      "minimum_pad_bound_clearance_mm": 0.400126
+    },
+    {
+      "file": "NCD0805R1.tsx",
+      "sha256": "e04715f59362ab959d45b1d85f3700f96f2e9d295cb84926888937ac5956de88",
+      "pad_count": 2,
+      "closed_courtyard_contains_pads": true,
+      "pad_bounding_boxes_overlap": false,
+      "minimum_pad_bound_clearance_mm": 1.20015
+    },
+    {
+      "file": "Q13FC13500004.tsx",
+      "sha256": "8270ca9c3b452d003772bef85d2aad6f03f4ec6e1897e1ab38d43d0d355b7a95",
+      "pad_count": 2,
+      "closed_courtyard_contains_pads": true,
+      "pad_bounding_boxes_overlap": false,
+      "minimum_pad_bound_clearance_mm": 1.500124
+    },
+    {
       "file": "T113_S3.tsx",
       "sha256": "6adb6d8e3f9302d97f6f8fcdc15bcb7cf60541f9bf1313a41a274405d6c3dc75",
       "pad_count": 129,
       "closed_courtyard_contains_pads": true,
       "pad_bounding_boxes_overlap": false,
       "minimum_pad_bound_clearance_mm": 0.199542
+    },
+    {
+      "file": "TLV62569PDDCR.tsx",
+      "sha256": "52daf440b1543dbc280db975b04ddc7915e85365e750d911fa96aa21f41fd5c1",
+      "pad_count": 6,
+      "closed_courtyard_contains_pads": true,
+      "pad_bounding_boxes_overlap": false,
+      "minimum_pad_bound_clearance_mm": 0.417957
+    },
+    {
+      "file": "TSA010A2026B.tsx",
+      "sha256": "5932352f5f678b8298f53cf7720b3565ffca38d4dfee801d527d9aa4f6f8278c",
+      "pad_count": 2,
+      "closed_courtyard_contains_pads": true,
+      "pad_bounding_boxes_overlap": false,
+      "minimum_pad_bound_clearance_mm": 3.050286
+    },
+    {
+      "file": "XRIM252012S2R2MBCA.tsx",
+      "sha256": "110c0681619be8086436e1400cd75c760a45e6c4cf77360665353357be0f8427",
+      "pad_count": 2,
+      "closed_courtyard_contains_pads": true,
+      "pad_bounding_boxes_overlap": false,
+      "minimum_pad_bound_clearance_mm": 0.699846
     }
   ]
 }

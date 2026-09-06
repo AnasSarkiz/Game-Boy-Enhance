@@ -1,0 +1,1379 @@
+{
+  "scope": "power_cpu_clock_reset_stage",
+  "components": [
+    {
+      "reference": "C1",
+      "component": "CL10A106MA8NRNC",
+      "section": "power",
+      "manufacturer_part_number": "CL10A106MA8NRNC",
+      "jlcpcb_part_number": "C96446",
+      "pcbX": -8.27,
+      "pcbY": -35.2351,
+      "pcbRotation": 0
+    },
+    {
+      "reference": "C2",
+      "component": "CL05C100JB5NNNC",
+      "section": "power",
+      "manufacturer_part_number": "CL05C100JB5NNNC",
+      "jlcpcb_part_number": "C32949",
+      "pcbX": -3.915,
+      "pcbY": -28.855,
+      "pcbRotation": 180
+    },
+    {
+      "reference": "C3",
+      "component": "CL10A106MA8NRNC",
+      "section": "power",
+      "manufacturer_part_number": "CL10A106MA8NRNC",
+      "jlcpcb_part_number": "C96446",
+      "pcbX": -8.265,
+      "pcbY": -24.505,
+      "pcbRotation": 0
+    },
+    {
+      "reference": "C4",
+      "component": "CL05C100JB5NNNC",
+      "section": "power",
+      "manufacturer_part_number": "CL05C100JB5NNNC",
+      "jlcpcb_part_number": "C32949",
+      "pcbX": 27.985,
+      "pcbY": -30.885,
+      "pcbRotation": 180
+    },
+    {
+      "reference": "C5",
+      "component": "CL21A226MAQNNNE",
+      "section": "power",
+      "manufacturer_part_number": "CL21A226MAQNNNE",
+      "jlcpcb_part_number": "C45783",
+      "pcbX": 23.635,
+      "pcbY": -24.215,
+      "pcbRotation": 0
+    },
+    {
+      "reference": "C6",
+      "component": "CL21A226MAQNNNE",
+      "section": "power",
+      "manufacturer_part_number": "CL21A226MAQNNNE",
+      "jlcpcb_part_number": "C45783",
+      "pcbX": 23.635,
+      "pcbY": -21.025,
+      "pcbRotation": 0
+    },
+    {
+      "reference": "C7",
+      "component": "CL10A106MA8NRNC",
+      "section": "power",
+      "manufacturer_part_number": "CL10A106MA8NRNC",
+      "jlcpcb_part_number": "C96446",
+      "pcbX": 23.635,
+      "pcbY": -35.235,
+      "pcbRotation": 0
+    },
+    {
+      "reference": "C8",
+      "component": "CL05B104KB54PNC",
+      "section": "power",
+      "manufacturer_part_number": "CL05B104KB54PNC",
+      "jlcpcb_part_number": "C307331",
+      "pcbX": 27.985,
+      "pcbY": -26.825,
+      "pcbRotation": 0
+    },
+    {
+      "reference": "C9",
+      "component": "CL05A225MQ5NSNC",
+      "section": "cpu_core",
+      "manufacturer_part_number": "CL05A225MQ5NSNC",
+      "jlcpcb_part_number": "C12530",
+      "pcbX": 11.4,
+      "pcbY": 9.28,
+      "pcbRotation": 0
+    },
+    {
+      "reference": "C10",
+      "component": "CL10A106MA8NRNC",
+      "section": "cpu_core",
+      "manufacturer_part_number": "CL10A106MA8NRNC",
+      "jlcpcb_part_number": "C96446",
+      "pcbX": -15.5,
+      "pcbY": 0.29,
+      "pcbRotation": 90
+    },
+    {
+      "reference": "C11",
+      "component": "CL05B104KB54PNC",
+      "section": "cpu_core",
+      "manufacturer_part_number": "CL05B104KB54PNC",
+      "jlcpcb_part_number": "C307331",
+      "pcbX": -11.4,
+      "pcbY": -1.45,
+      "pcbRotation": 180
+    },
+    {
+      "reference": "C12",
+      "component": "CL05B104KB54PNC",
+      "section": "cpu_core",
+      "manufacturer_part_number": "CL05B104KB54PNC",
+      "jlcpcb_part_number": "C307331",
+      "pcbX": 8.41,
+      "pcbY": 11.4,
+      "pcbRotation": 90
+    },
+    {
+      "reference": "C13",
+      "component": "CL05B104KB54PNC",
+      "section": "cpu_core",
+      "manufacturer_part_number": "CL05B104KB54PNC",
+      "jlcpcb_part_number": "C307331",
+      "pcbX": 8.99,
+      "pcbY": -11.4,
+      "pcbRotation": 270
+    },
+    {
+      "reference": "C14",
+      "component": "CL05B104KB54PNC",
+      "section": "cpu_core",
+      "manufacturer_part_number": "CL05B104KB54PNC",
+      "jlcpcb_part_number": "C307331",
+      "pcbX": -11.4,
+      "pcbY": 8.41,
+      "pcbRotation": 180
+    },
+    {
+      "reference": "C15",
+      "component": "CL05B104KB54PNC",
+      "section": "cpu_core",
+      "manufacturer_part_number": "CL05B104KB54PNC",
+      "jlcpcb_part_number": "C307331",
+      "pcbX": -11.4,
+      "pcbY": 2.03,
+      "pcbRotation": 180
+    },
+    {
+      "reference": "C16",
+      "component": "CL05A225MQ5NSNC",
+      "section": "cpu_core",
+      "manufacturer_part_number": "CL05A225MQ5NSNC",
+      "jlcpcb_part_number": "C12530",
+      "pcbX": 11.4,
+      "pcbY": 7.685,
+      "pcbRotation": 0
+    },
+    {
+      "reference": "C17",
+      "component": "CL05B104KB54PNC",
+      "section": "cpu_core",
+      "manufacturer_part_number": "CL05B104KB54PNC",
+      "jlcpcb_part_number": "C307331",
+      "pcbX": 11.4,
+      "pcbY": 6.09,
+      "pcbRotation": 0
+    },
+    {
+      "reference": "C18",
+      "component": "CL05B104KB54PNC",
+      "section": "cpu_core",
+      "manufacturer_part_number": "CL05B104KB54PNC",
+      "jlcpcb_part_number": "C307331",
+      "pcbX": 10.6,
+      "pcbY": 0.0,
+      "pcbRotation": 0
+    },
+    {
+      "reference": "C19",
+      "component": "CL05B104KB54PNC",
+      "section": "cpu_core",
+      "manufacturer_part_number": "CL05B104KB54PNC",
+      "jlcpcb_part_number": "C307331",
+      "pcbX": -3.19,
+      "pcbY": -11.4,
+      "pcbRotation": 270
+    },
+    {
+      "reference": "C20",
+      "component": "CL05B104KB54PNC",
+      "section": "cpu_core",
+      "manufacturer_part_number": "CL05B104KB54PNC",
+      "jlcpcb_part_number": "C307331",
+      "pcbX": -11.4,
+      "pcbY": 10.15,
+      "pcbRotation": 180
+    },
+    {
+      "reference": "C21",
+      "component": "CL05B104KB54PNC",
+      "section": "cpu_core",
+      "manufacturer_part_number": "CL05B104KB54PNC",
+      "jlcpcb_part_number": "C307331",
+      "pcbX": -2.61,
+      "pcbY": 11.4,
+      "pcbRotation": 90
+    },
+    {
+      "reference": "C22",
+      "component": "CL10A106MA8NRNC",
+      "section": "cpu_core",
+      "manufacturer_part_number": "CL10A106MA8NRNC",
+      "jlcpcb_part_number": "C96446",
+      "pcbX": 4.06,
+      "pcbY": -15.0,
+      "pcbRotation": 180
+    },
+    {
+      "reference": "C23",
+      "component": "CL05B104KB54PNC",
+      "section": "cpu_core",
+      "manufacturer_part_number": "CL05B104KB54PNC",
+      "jlcpcb_part_number": "C307331",
+      "pcbX": 4.64,
+      "pcbY": 11.4,
+      "pcbRotation": 90
+    },
+    {
+      "reference": "C24",
+      "component": "CL05B104KB54PNC",
+      "section": "cpu_core",
+      "manufacturer_part_number": "CL05B104KB54PNC",
+      "jlcpcb_part_number": "C307331",
+      "pcbX": -4.35,
+      "pcbY": 11.4,
+      "pcbRotation": 90
+    },
+    {
+      "reference": "C25",
+      "component": "CL05B104KB54PNC",
+      "section": "cpu_core",
+      "manufacturer_part_number": "CL05B104KB54PNC",
+      "jlcpcb_part_number": "C307331",
+      "pcbX": -11.4,
+      "pcbY": 0.29,
+      "pcbRotation": 180
+    },
+    {
+      "reference": "C26",
+      "component": "CL05B104KB54PNC",
+      "section": "cpu_core",
+      "manufacturer_part_number": "CL05B104KB54PNC",
+      "jlcpcb_part_number": "C307331",
+      "pcbX": 4.205,
+      "pcbY": -11.4,
+      "pcbRotation": 270
+    },
+    {
+      "reference": "C27",
+      "component": "CL05B104KB54PNC",
+      "section": "cpu_core",
+      "manufacturer_part_number": "CL05B104KB54PNC",
+      "jlcpcb_part_number": "C307331",
+      "pcbX": 2.61,
+      "pcbY": -11.4,
+      "pcbRotation": 270
+    },
+    {
+      "reference": "C28",
+      "component": "CL05A225MQ5NSNC",
+      "section": "cpu_core",
+      "manufacturer_part_number": "CL05A225MQ5NSNC",
+      "jlcpcb_part_number": "C12530",
+      "pcbX": 11.4,
+      "pcbY": 10.875,
+      "pcbRotation": 0
+    },
+    {
+      "reference": "C29",
+      "component": "CL10A106MA8NRNC",
+      "section": "cpu_core",
+      "manufacturer_part_number": "CL10A106MA8NRNC",
+      "jlcpcb_part_number": "C96446",
+      "pcbX": -0.725,
+      "pcbY": 14.5,
+      "pcbRotation": 0
+    },
+    {
+      "reference": "C30",
+      "component": "CL05B104KB54PNC",
+      "section": "cpu_core",
+      "manufacturer_part_number": "CL05B104KB54PNC",
+      "jlcpcb_part_number": "C307331",
+      "pcbX": -0.725,
+      "pcbY": 11.4,
+      "pcbRotation": 90
+    },
+    {
+      "reference": "C31",
+      "component": "CL05B104KB54PNC",
+      "section": "cpu_core",
+      "manufacturer_part_number": "CL05B104KB54PNC",
+      "jlcpcb_part_number": "C307331",
+      "pcbX": 0.87,
+      "pcbY": 11.4,
+      "pcbRotation": 90
+    },
+    {
+      "reference": "C32",
+      "component": "CL05C100JB5NNNC",
+      "section": "cpu_core",
+      "manufacturer_part_number": "CL05C100JB5NNNC",
+      "jlcpcb_part_number": "C32949",
+      "pcbX": 13.0,
+      "pcbY": -2.2,
+      "pcbRotation": 90
+    },
+    {
+      "reference": "C33",
+      "component": "CL05C100JB5NNNC",
+      "section": "cpu_core",
+      "manufacturer_part_number": "CL05C100JB5NNNC",
+      "jlcpcb_part_number": "C32949",
+      "pcbX": 16.8,
+      "pcbY": 1.5,
+      "pcbRotation": 270
+    },
+    {
+      "reference": "C34",
+      "component": "CL05B104KB54PNC",
+      "section": "cpu_core",
+      "manufacturer_part_number": "CL05B104KB54PNC",
+      "jlcpcb_part_number": "C307331",
+      "pcbX": -8.99,
+      "pcbY": -11.4,
+      "pcbRotation": 270
+    },
+    {
+      "reference": "C35",
+      "component": "CL05B104KB54PNC",
+      "section": "cpu_core",
+      "manufacturer_part_number": "CL05B104KB54PNC",
+      "jlcpcb_part_number": "C307331",
+      "pcbX": -11.5,
+      "pcbY": -4.93,
+      "pcbRotation": 180
+    },
+    {
+      "reference": "C36",
+      "component": "A_0402CG180J500NT",
+      "section": "cpu_core",
+      "manufacturer_part_number": "0402CG180J500NT",
+      "jlcpcb_part_number": "C1549",
+      "pcbX": 13.6,
+      "pcbY": 7.8,
+      "pcbRotation": 270
+    },
+    {
+      "reference": "C37",
+      "component": "A_0402CG180J500NT",
+      "section": "cpu_core",
+      "manufacturer_part_number": "0402CG180J500NT",
+      "jlcpcb_part_number": "C1549",
+      "pcbX": 15.3,
+      "pcbY": 7.8,
+      "pcbRotation": 270
+    },
+    {
+      "reference": "C38",
+      "component": "CL05B104KB54PNC",
+      "section": "cpu_core",
+      "manufacturer_part_number": "CL05B104KB54PNC",
+      "jlcpcb_part_number": "C307331",
+      "pcbX": -11.5,
+      "pcbY": -6.525,
+      "pcbRotation": 180
+    },
+    {
+      "reference": "C39",
+      "component": "CL05B104KB54PNC",
+      "section": "cpu_core",
+      "manufacturer_part_number": "CL05B104KB54PNC",
+      "jlcpcb_part_number": "C307331",
+      "pcbX": -11.5,
+      "pcbY": -8.265,
+      "pcbRotation": 180
+    },
+    {
+      "reference": "C40",
+      "component": "CL05A225MQ5NSNC",
+      "section": "cpu_core",
+      "manufacturer_part_number": "CL05A225MQ5NSNC",
+      "jlcpcb_part_number": "C12530",
+      "pcbX": 17.255,
+      "pcbY": 14.6,
+      "pcbRotation": 90
+    },
+    {
+      "reference": "R1",
+      "component": "A_0402WGF1003TCE",
+      "section": "power",
+      "manufacturer_part_number": "0402WGF1003TCE",
+      "jlcpcb_part_number": "C25741",
+      "pcbX": -3.915,
+      "pcbY": -26.825,
+      "pcbRotation": 180
+    },
+    {
+      "reference": "R2",
+      "component": "A_0402WGF4533TCE",
+      "section": "power",
+      "manufacturer_part_number": "0402WGF4533TCE",
+      "jlcpcb_part_number": "C27009",
+      "pcbX": -3.915,
+      "pcbY": -30.885,
+      "pcbRotation": 180
+    },
+    {
+      "reference": "R3",
+      "component": "A_0402WGF1003TCE",
+      "section": "power",
+      "manufacturer_part_number": "0402WGF1003TCE",
+      "jlcpcb_part_number": "C25741",
+      "pcbX": -3.915,
+      "pcbY": -32.915,
+      "pcbRotation": 0
+    },
+    {
+      "reference": "R4",
+      "component": "A_0402WGF5101TCE",
+      "section": "power",
+      "manufacturer_part_number": "0402WGF5101TCE",
+      "jlcpcb_part_number": "C25905",
+      "pcbX": -2.32,
+      "pcbY": -37.99,
+      "pcbRotation": 0
+    },
+    {
+      "reference": "R5",
+      "component": "A_0402WGF5102TCE",
+      "section": "power",
+      "manufacturer_part_number": "0402WGF5102TCE",
+      "jlcpcb_part_number": "C25794",
+      "pcbX": 27.985,
+      "pcbY": -32.915,
+      "pcbRotation": 180
+    },
+    {
+      "reference": "R6",
+      "component": "A_0402WGF1003TCE",
+      "section": "power",
+      "manufacturer_part_number": "0402WGF1003TCE",
+      "jlcpcb_part_number": "C25741",
+      "pcbX": 27.985,
+      "pcbY": -28.855,
+      "pcbRotation": 180
+    },
+    {
+      "reference": "R7",
+      "component": "A_0402WGF1003TCE",
+      "section": "power",
+      "manufacturer_part_number": "0402WGF1003TCE",
+      "jlcpcb_part_number": "C25741",
+      "pcbX": 27.985,
+      "pcbY": -34.945,
+      "pcbRotation": 0
+    },
+    {
+      "reference": "R10",
+      "component": "A_0603WAF2400T5E",
+      "section": "cpu_core",
+      "manufacturer_part_number": "0603WAF2400T5E",
+      "jlcpcb_part_number": "C23350",
+      "pcbX": 2.755,
+      "pcbY": 17.4,
+      "pcbRotation": 90
+    },
+    {
+      "reference": "R11",
+      "component": "A_0402WGF1003TCE",
+      "section": "cpu_core",
+      "manufacturer_part_number": "0402WGF1003TCE",
+      "jlcpcb_part_number": "C25741",
+      "pcbX": 17.255,
+      "pcbY": 17.69,
+      "pcbRotation": 90
+    },
+    {
+      "reference": "U1",
+      "component": "TLV62569PDDCR",
+      "section": "power",
+      "manufacturer_part_number": "TLV62569PDDCR",
+      "jlcpcb_part_number": "C398365",
+      "pcbX": -8.265,
+      "pcbY": -29.87,
+      "pcbRotation": 180
+    },
+    {
+      "reference": "U2",
+      "component": "TLV62569PDDCR",
+      "section": "power",
+      "manufacturer_part_number": "TLV62569PDDCR",
+      "jlcpcb_part_number": "C398365",
+      "pcbX": 23.635,
+      "pcbY": -29.87,
+      "pcbRotation": 180
+    },
+    {
+      "reference": "U3",
+      "component": "T113M4020DC0",
+      "section": "cpu_core",
+      "manufacturer_part_number": "T113M4020DC0",
+      "jlcpcb_part_number": "C41411351",
+      "pcbX": 0.0,
+      "pcbY": 0.0,
+      "pcbRotation": 90
+    },
+    {
+      "reference": "L1",
+      "component": "XRIM252012S2R2MBCA",
+      "section": "power",
+      "manufacturer_part_number": "XRIM252012S2R2MBCA",
+      "jlcpcb_part_number": "C22471111",
+      "pcbX": -13.34,
+      "pcbY": -29.87,
+      "pcbRotation": 90
+    },
+    {
+      "reference": "L2",
+      "component": "XRIM252012S2R2MBCA",
+      "section": "power",
+      "manufacturer_part_number": "XRIM252012S2R2MBCA",
+      "jlcpcb_part_number": "C22471111",
+      "pcbX": 18.56,
+      "pcbY": -29.87,
+      "pcbRotation": 90
+    },
+    {
+      "reference": "D1",
+      "component": "NCD0805R1",
+      "section": "power",
+      "manufacturer_part_number": "NCD0805R1",
+      "jlcpcb_part_number": "C84256",
+      "pcbX": -2.32,
+      "pcbY": -41.47,
+      "pcbRotation": 270
+    },
+    {
+      "reference": "SW1",
+      "component": "TSA010A2026B",
+      "section": "cpu_core",
+      "manufacturer_part_number": "TSA010A2026B",
+      "jlcpcb_part_number": "C2888420",
+      "pcbX": 20.735,
+      "pcbY": 19.43,
+      "pcbRotation": 270
+    },
+    {
+      "reference": "Y1",
+      "component": "MainClock",
+      "section": "cpu_core",
+      "manufacturer_part_number": "CM4024M00008001",
+      "jlcpcb_part_number": "C7294624",
+      "pcbX": 14.0,
+      "pcbY": 1.5,
+      "pcbRotation": 270
+    },
+    {
+      "reference": "Y2",
+      "component": "RtcClock",
+      "section": "cpu_core",
+      "manufacturer_part_number": "Q13FC13500004",
+      "jlcpcb_part_number": "C32346",
+      "pcbX": 14.7,
+      "pcbY": 5.2,
+      "pcbRotation": 0
+    }
+  ],
+  "nets": [
+    {
+      "reference_net": "+0V9",
+      "name": "VDD_CORE_0V9",
+      "nodes": [
+        {
+          "reference": "C22",
+          "pin": "1"
+        },
+        {
+          "reference": "C23",
+          "pin": "1"
+        },
+        {
+          "reference": "C24",
+          "pin": "1"
+        },
+        {
+          "reference": "C25",
+          "pin": "1"
+        },
+        {
+          "reference": "C26",
+          "pin": "1"
+        },
+        {
+          "reference": "C27",
+          "pin": "1"
+        },
+        {
+          "reference": "C4",
+          "pin": "1"
+        },
+        {
+          "reference": "C5",
+          "pin": "1"
+        },
+        {
+          "reference": "C6",
+          "pin": "1"
+        },
+        {
+          "reference": "L2",
+          "pin": "2"
+        },
+        {
+          "reference": "R5",
+          "pin": "1"
+        },
+        {
+          "reference": "U3",
+          "pin": "116"
+        },
+        {
+          "reference": "U3",
+          "pin": "117"
+        },
+        {
+          "reference": "U3",
+          "pin": "46"
+        },
+        {
+          "reference": "U3",
+          "pin": "51"
+        },
+        {
+          "reference": "U3",
+          "pin": "81"
+        }
+      ]
+    },
+    {
+      "reference_net": "+1V5",
+      "name": "DDR_1V5",
+      "nodes": [
+        {
+          "reference": "C28",
+          "pin": "1"
+        },
+        {
+          "reference": "C29",
+          "pin": "1"
+        },
+        {
+          "reference": "C30",
+          "pin": "1"
+        },
+        {
+          "reference": "C31",
+          "pin": "1"
+        },
+        {
+          "reference": "U3",
+          "pin": "30"
+        },
+        {
+          "reference": "U3",
+          "pin": "48"
+        },
+        {
+          "reference": "U3",
+          "pin": "49"
+        }
+      ]
+    },
+    {
+      "reference_net": "+1V8",
+      "name": "LDOA_1V8",
+      "nodes": [
+        {
+          "reference": "C16",
+          "pin": "1"
+        },
+        {
+          "reference": "C17",
+          "pin": "1"
+        },
+        {
+          "reference": "C18",
+          "pin": "1"
+        },
+        {
+          "reference": "C19",
+          "pin": "1"
+        },
+        {
+          "reference": "C20",
+          "pin": "1"
+        },
+        {
+          "reference": "C21",
+          "pin": "1"
+        },
+        {
+          "reference": "C34",
+          "pin": "1"
+        },
+        {
+          "reference": "C35",
+          "pin": "1"
+        },
+        {
+          "reference": "U3",
+          "pin": "107"
+        },
+        {
+          "reference": "U3",
+          "pin": "20"
+        },
+        {
+          "reference": "U3",
+          "pin": "26"
+        },
+        {
+          "reference": "U3",
+          "pin": "28"
+        },
+        {
+          "reference": "U3",
+          "pin": "50"
+        },
+        {
+          "reference": "U3",
+          "pin": "65"
+        },
+        {
+          "reference": "U3",
+          "pin": "89"
+        },
+        {
+          "reference": "U3",
+          "pin": "97"
+        },
+        {
+          "reference": "R11",
+          "pin": "1"
+        }
+      ]
+    },
+    {
+      "reference_net": "+3V3",
+      "name": "SYS_3V3",
+      "nodes": [
+        {
+          "reference": "C10",
+          "pin": "1"
+        },
+        {
+          "reference": "C11",
+          "pin": "1"
+        },
+        {
+          "reference": "C12",
+          "pin": "1"
+        },
+        {
+          "reference": "C13",
+          "pin": "1"
+        },
+        {
+          "reference": "C14",
+          "pin": "1"
+        },
+        {
+          "reference": "C15",
+          "pin": "1"
+        },
+        {
+          "reference": "C2",
+          "pin": "1"
+        },
+        {
+          "reference": "C3",
+          "pin": "1"
+        },
+        {
+          "reference": "C9",
+          "pin": "1"
+        },
+        {
+          "reference": "D1",
+          "pin": "2"
+        },
+        {
+          "reference": "L1",
+          "pin": "2"
+        },
+        {
+          "reference": "R2",
+          "pin": "1"
+        },
+        {
+          "reference": "U3",
+          "pin": "128"
+        },
+        {
+          "reference": "U3",
+          "pin": "29"
+        },
+        {
+          "reference": "U3",
+          "pin": "34"
+        },
+        {
+          "reference": "U3",
+          "pin": "66"
+        },
+        {
+          "reference": "U3",
+          "pin": "77"
+        },
+        {
+          "reference": "U3",
+          "pin": "83"
+        }
+      ]
+    },
+    {
+      "reference_net": "/Architecture/CPU Core/DXIN",
+      "name": "DXIN",
+      "nodes": [
+        {
+          "reference": "C32",
+          "pin": "1"
+        },
+        {
+          "reference": "U3",
+          "pin": "23"
+        },
+        {
+          "reference": "Y1",
+          "pin": "1"
+        }
+      ]
+    },
+    {
+      "reference_net": "/Architecture/CPU Core/DXOUT",
+      "name": "DXOUT",
+      "nodes": [
+        {
+          "reference": "C33",
+          "pin": "1"
+        },
+        {
+          "reference": "U3",
+          "pin": "22"
+        },
+        {
+          "reference": "Y1",
+          "pin": "3"
+        }
+      ]
+    },
+    {
+      "reference_net": "/Architecture/CPU Core/LXIN",
+      "name": "LXIN",
+      "nodes": [
+        {
+          "reference": "C36",
+          "pin": "1"
+        },
+        {
+          "reference": "U3",
+          "pin": "25"
+        },
+        {
+          "reference": "Y2",
+          "pin": "1"
+        }
+      ]
+    },
+    {
+      "reference_net": "/Architecture/CPU Core/LXOUT",
+      "name": "LXOUT",
+      "nodes": [
+        {
+          "reference": "C37",
+          "pin": "1"
+        },
+        {
+          "reference": "U3",
+          "pin": "24"
+        },
+        {
+          "reference": "Y2",
+          "pin": "2"
+        }
+      ]
+    },
+    {
+      "reference_net": "/Architecture/CPU Core/~{RESET}",
+      "name": "RESET_N",
+      "nodes": [
+        {
+          "reference": "C40",
+          "pin": "1"
+        },
+        {
+          "reference": "R11",
+          "pin": "2"
+        },
+        {
+          "reference": "SW1",
+          "pin": "2"
+        },
+        {
+          "reference": "U3",
+          "pin": "27"
+        }
+      ]
+    },
+    {
+      "reference_net": "/Architecture/Power/3V3_PG",
+      "name": "SYS_3V3_PG",
+      "nodes": [
+        {
+          "reference": "C8",
+          "pin": "1"
+        },
+        {
+          "reference": "R6",
+          "pin": "2"
+        },
+        {
+          "reference": "U1",
+          "pin": "5"
+        },
+        {
+          "reference": "U2",
+          "pin": "1"
+        }
+      ]
+    },
+    {
+      "reference_net": "GND",
+      "name": "GND",
+      "nodes": [
+        {
+          "reference": "C1",
+          "pin": "2"
+        },
+        {
+          "reference": "C10",
+          "pin": "2"
+        },
+        {
+          "reference": "C11",
+          "pin": "2"
+        },
+        {
+          "reference": "C12",
+          "pin": "2"
+        },
+        {
+          "reference": "C13",
+          "pin": "2"
+        },
+        {
+          "reference": "C14",
+          "pin": "2"
+        },
+        {
+          "reference": "C15",
+          "pin": "2"
+        },
+        {
+          "reference": "C16",
+          "pin": "2"
+        },
+        {
+          "reference": "C17",
+          "pin": "2"
+        },
+        {
+          "reference": "C18",
+          "pin": "2"
+        },
+        {
+          "reference": "C19",
+          "pin": "2"
+        },
+        {
+          "reference": "C20",
+          "pin": "2"
+        },
+        {
+          "reference": "C21",
+          "pin": "2"
+        },
+        {
+          "reference": "C22",
+          "pin": "2"
+        },
+        {
+          "reference": "C23",
+          "pin": "2"
+        },
+        {
+          "reference": "C24",
+          "pin": "2"
+        },
+        {
+          "reference": "C25",
+          "pin": "2"
+        },
+        {
+          "reference": "C26",
+          "pin": "2"
+        },
+        {
+          "reference": "C27",
+          "pin": "2"
+        },
+        {
+          "reference": "C28",
+          "pin": "2"
+        },
+        {
+          "reference": "C29",
+          "pin": "2"
+        },
+        {
+          "reference": "C3",
+          "pin": "2"
+        },
+        {
+          "reference": "C30",
+          "pin": "2"
+        },
+        {
+          "reference": "C31",
+          "pin": "2"
+        },
+        {
+          "reference": "C32",
+          "pin": "2"
+        },
+        {
+          "reference": "C33",
+          "pin": "2"
+        },
+        {
+          "reference": "C34",
+          "pin": "2"
+        },
+        {
+          "reference": "C35",
+          "pin": "2"
+        },
+        {
+          "reference": "C36",
+          "pin": "2"
+        },
+        {
+          "reference": "C37",
+          "pin": "2"
+        },
+        {
+          "reference": "C38",
+          "pin": "2"
+        },
+        {
+          "reference": "C39",
+          "pin": "2"
+        },
+        {
+          "reference": "C40",
+          "pin": "2"
+        },
+        {
+          "reference": "C5",
+          "pin": "2"
+        },
+        {
+          "reference": "C6",
+          "pin": "2"
+        },
+        {
+          "reference": "C7",
+          "pin": "2"
+        },
+        {
+          "reference": "C8",
+          "pin": "2"
+        },
+        {
+          "reference": "C9",
+          "pin": "2"
+        },
+        {
+          "reference": "R10",
+          "pin": "2"
+        },
+        {
+          "reference": "R3",
+          "pin": "2"
+        },
+        {
+          "reference": "R4",
+          "pin": "2"
+        },
+        {
+          "reference": "R7",
+          "pin": "2"
+        },
+        {
+          "reference": "SW1",
+          "pin": "1"
+        },
+        {
+          "reference": "U1",
+          "pin": "2"
+        },
+        {
+          "reference": "U2",
+          "pin": "2"
+        },
+        {
+          "reference": "U3",
+          "pin": "129"
+        },
+        {
+          "reference": "U3",
+          "pin": "91"
+        },
+        {
+          "reference": "U3",
+          "pin": "93"
+        },
+        {
+          "reference": "U3",
+          "pin": "94"
+        },
+        {
+          "reference": "Y1",
+          "pin": "2"
+        },
+        {
+          "reference": "Y1",
+          "pin": "4"
+        }
+      ]
+    },
+    {
+      "reference_net": "Net-(D1-K)",
+      "name": "Net__D1_K_",
+      "nodes": [
+        {
+          "reference": "D1",
+          "pin": "1"
+        },
+        {
+          "reference": "R4",
+          "pin": "1"
+        }
+      ]
+    },
+    {
+      "reference_net": "Net-(U1-EN)",
+      "name": "BUCK_3V3_EN",
+      "nodes": [
+        {
+          "reference": "R1",
+          "pin": "2"
+        },
+        {
+          "reference": "U1",
+          "pin": "1"
+        }
+      ]
+    },
+    {
+      "reference_net": "Net-(U1-FB)",
+      "name": "BUCK_3V3_FB",
+      "nodes": [
+        {
+          "reference": "C2",
+          "pin": "2"
+        },
+        {
+          "reference": "R2",
+          "pin": "2"
+        },
+        {
+          "reference": "R3",
+          "pin": "1"
+        },
+        {
+          "reference": "U1",
+          "pin": "6"
+        }
+      ]
+    },
+    {
+      "reference_net": "Net-(U1-SW)",
+      "name": "BUCK_3V3_SW",
+      "nodes": [
+        {
+          "reference": "L1",
+          "pin": "1"
+        },
+        {
+          "reference": "U1",
+          "pin": "3"
+        }
+      ]
+    },
+    {
+      "reference_net": "Net-(U2-FB)",
+      "name": "BUCK_CORE_FB",
+      "nodes": [
+        {
+          "reference": "C4",
+          "pin": "2"
+        },
+        {
+          "reference": "R5",
+          "pin": "2"
+        },
+        {
+          "reference": "R7",
+          "pin": "1"
+        },
+        {
+          "reference": "U2",
+          "pin": "6"
+        }
+      ]
+    },
+    {
+      "reference_net": "Net-(U2-SW)",
+      "name": "BUCK_CORE_SW",
+      "nodes": [
+        {
+          "reference": "L2",
+          "pin": "1"
+        },
+        {
+          "reference": "U2",
+          "pin": "3"
+        }
+      ]
+    },
+    {
+      "reference_net": "Net-(U3B-DZQ)",
+      "name": "DDR_ZQ",
+      "nodes": [
+        {
+          "reference": "R10",
+          "pin": "1"
+        },
+        {
+          "reference": "U3",
+          "pin": "47"
+        }
+      ]
+    },
+    {
+      "reference_net": "Net-(U3F-VRA1)",
+      "name": "Net__U3F_VRA1_",
+      "nodes": [
+        {
+          "reference": "C39",
+          "pin": "1"
+        },
+        {
+          "reference": "U3",
+          "pin": "92"
+        }
+      ]
+    },
+    {
+      "reference_net": "Net-(U3F-VRA2)",
+      "name": "Net__U3F_VRA2_",
+      "nodes": [
+        {
+          "reference": "C38",
+          "pin": "1"
+        },
+        {
+          "reference": "U3",
+          "pin": "90"
+        }
+      ]
+    },
+    {
+      "reference_net": "VBUS",
+      "name": "INPUT_5V",
+      "nodes": [
+        {
+          "reference": "C1",
+          "pin": "1"
+        },
+        {
+          "reference": "C7",
+          "pin": "1"
+        },
+        {
+          "reference": "R1",
+          "pin": "1"
+        },
+        {
+          "reference": "R6",
+          "pin": "1"
+        },
+        {
+          "reference": "U1",
+          "pin": "4"
+        },
+        {
+          "reference": "U2",
+          "pin": "4"
+        }
+      ]
+    }
+  ],
+  "unimplemented_reference_components": [
+    "C41",
+    "C42",
+    "C43",
+    "C44",
+    "F1",
+    "J1",
+    "R12",
+    "R13",
+    "R14",
+    "R15",
+    "R16",
+    "R17",
+    "R18",
+    "R19",
+    "R20",
+    "R21",
+    "R22",
+    "R23",
+    "R24",
+    "R25",
+    "R8",
+    "R9",
+    "SW2",
+    "U4",
+    "U5",
+    "U6"
+  ],
+  "deviations": [
+    {
+      "pin": "R11.1",
+      "reference_net": "+3V3",
+      "implemented_net": "+1V8",
+      "reason": "RESET pin 27 belongs to VCC-RTC (1.8V), Allwinner table 4-2"
+    }
+  ],
+  "full_console": false,
+  "routing_disabled": true
+}

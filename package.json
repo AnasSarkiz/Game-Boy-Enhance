@@ -23,7 +23,12 @@
     "audit:s4:reference": "python3 scripts/audit-s4-reference.py",
     "audit:s4:imports": "python3 scripts/audit-s4-imports.py",
     "build:s4:cpu-preview": "tsci build s4/previews/cpu-package.circuit.tsx --routing-disabled --disable-parts-engine --pcb-png --pcb-svgs --schematic-svgs --show-courtyards",
-    "audit:s4:cpu": "python3 scripts/audit-s4-cpu.py"
+    "audit:s4:cpu": "python3 scripts/audit-s4-cpu.py",
+    "generate:s4:core": "python3 scripts/generate-s4-core.py",
+    "build:s4:core": "tsci build s4/power-core.circuit.tsx --routing-disabled --disable-parts-engine --pcb-png --pcb-svgs --schematic-svgs --show-courtyards",
+    "audit:s4:core": "python3 scripts/audit-s4-core.py",
+    "check:s4:netlist": "tsci check netlist s4/power-core.circuit.tsx",
+    "check:s4:placement": "tsci check placement s4/power-core.circuit.tsx"
   },
   "devDependencies": {
     "tscircuit": "0.0.2463",

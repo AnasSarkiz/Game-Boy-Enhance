@@ -23,7 +23,7 @@ def check_package(filename, expected_pins):
     for pad in re.findall(r"<smtpad\b.*?/>", source, re.DOTALL):
         if attribute(pad, "shape") not in ["rect", "pill"] or "pcbRotation" in pad:
             raise ValueError("Audit requires an axis-aligned rectangular or pill pad")
-        pin = re.search(r'portHints=\{\["pin(\d+)"\]\}', pad)
+        pin = re.search(r'portHints=\{\["pin(\d+)"(?:,"[^"]+")*\]\}', pad)
         if pin is None:
             raise ValueError("Imported pad has no unique numbered pin hint")
         pads.append({"pin": int(pin.group(1)), **{
@@ -63,11 +63,19 @@ def check_package(filename, expected_pins):
 
 
 def main():
+    expected_pins = {"TLV62569PDDCR.tsx": 6, "ADV7513BSWZ.tsx": 65, "T113_S3.tsx": 129,
+                     "CM4024M00008001.tsx": 4,
+                     **{f"{name}.tsx": 2 for name in [
+                         "CL10A106MA8NRNC", "CL05C100JB5NNNC", "CL21A226MAQNNNE", "CL05B104KB54PNC",
+                         "NCD0805R1", "XRIM252012S2R2MBCA", "A_0402WGF1003TCE", "A_0402WGF4533TCE",
+                         "A_0402WGF5101TCE", "A_0402WGF5102TCE", "CL05A225MQ5NSNC", "A_0402CG180J500NT",
+                         "A_0603WAF2400T5E", "TSA010A2026B", "Q13FC13500004",
+                     ]}}
     report = {
         "scope": "candidate_import_geometry_only",
         "limitation": "No circuit connections, board placement, copper routing, solder-mask or assembly check",
-        "packages": [check_package("TLV62569PDDCR.tsx", 6), check_package("ADV7513BSWZ.tsx", 65),
-                     check_package("T113_S3.tsx", 129)],
+        "packages": [check_package(path.name, expected_pins[path.name])
+                     for path in sorted(IMPORTS.glob("*.tsx"))],
     }
     (ROOT / "s4/reports/import-geometry.json").write_text(json.dumps(report, indent=2) + "\n")
     print(json.dumps(report, indent=2))

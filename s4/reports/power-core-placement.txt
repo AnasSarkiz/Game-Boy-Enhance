@@ -1,0 +1,72 @@
+placement summary: no placement issues
+
+board top-layer utilization:
+- occupied: 5.073% (613.883mm^2 of 12100mm^2)
+- empty spaces over 5% of board area:
+  - 35.035% (4239.268mm^2); bounds=(minX=-55mm, maxX=-16.461mm, minY=-55mm, maxY=55mm)
+  - 23.477% (2840.772mm^2); bounds=(minX=29.175mm, maxX=55mm, minY=-55mm, maxY=55mm)
+  - 5.85% (707.855mm^2); bounds=(minX=-1.118mm, maxX=17.015mm, minY=-55mm, maxY=-15.961mm)
+
+board-edge status:
+- C1: 19.315mm inside top edge
+- C2: 25.875mm inside top edge
+- C3: 30.045mm inside top edge
+- C4: 23.845mm inside top edge
+- C5: 29.66mm inside right edge
+- C6: 29.66mm inside right edge
+- C7: 19.315mm inside top edge
+- C8: 26.345mm inside right edge
+- R1: 27.905mm inside top edge
+- R2: 23.845mm inside top edge
+- R3: 21.815mm inside top edge
+- R4: 16.74mm inside top edge
+- R5: 21.815mm inside top edge
+- R6: 25.875mm inside top edge
+- R7: 19.785mm inside top edge
+- U1: 23.445mm inside top edge
+- U2: 23.445mm inside top edge
+- L1: 23.68mm inside top edge
+- L2: 23.68mm inside top edge
+- D1: 11.93mm inside top edge
+- C9: 42.93mm inside right edge
+- C10: 39.05mm inside left edge
+- C11: 42.93mm inside left edge
+- C12: 42.93mm inside bottom edge
+- C13: 42.93mm inside top edge
+- C14: 42.93mm inside left edge
+- C15: 42.93mm inside left edge
+- C16: 42.93mm inside right edge
+- C17: 42.93mm inside right edge
+- C18: 43.73mm inside right edge
+- C19: 42.93mm inside top edge
+- C20: 42.93mm inside left edge
+- C21: 42.93mm inside bottom edge
+- C22: 39.55mm inside top edge
+- C23: 42.93mm inside bottom edge
+- C24: 42.93mm inside bottom edge
+- C25: 42.93mm inside left edge
+- C26: 42.93mm inside top edge
+- C27: 42.93mm inside top edge
+- C28: 42.93mm inside right edge
+- C29: 40.05mm inside bottom edge
+- C30: 42.93mm inside bottom edge
+- C31: 42.93mm inside bottom edge
+- C32: 41.73mm inside right edge
+- C33: 37.93mm inside right edge
+- C34: 42.93mm inside top edge
+- C35: 42.83mm inside left edge
+- C36: 41.13mm inside right edge
+- C37: 39.43mm inside right edge
+- C38: 42.83mm inside left edge
+- C39: 42.83mm inside left edge
+- C40: 37.475mm inside right edge
+- R10: 36.443mm inside bottom edge
+- R11: 36.594mm inside bottom edge
+- U3: 46.64mm inside left edge
+- SW1: 32.695mm inside bottom edge
+- Y1: 39.7mm inside right edge
+- Y2: 38.55mm inside right edge
+
+placement drc:
+Errors: 0
+Warnings: 0

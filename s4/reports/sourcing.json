@@ -47,5 +47,8 @@
   ],
   "ordered": false,
   "s4_board_implemented": false,
-  "all_components_qualified": false
+  "all_components_qualified": false,
+  "power_core_stage_implemented": true,
+  "power_core_stage_component_count": 58,
+  "power_core_import_log": "power-core-imports.json"
 }
