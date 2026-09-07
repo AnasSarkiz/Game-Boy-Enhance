@@ -1,5 +1,5 @@
 {
-  "scope": "power_cpu_clock_reset_stage",
+  "scope": "power_cpu_usb_storage_recovery_controls_stage",
   "components": [
     {
       "reference": "C1",
@@ -402,6 +402,46 @@
       "pcbRotation": 90
     },
     {
+      "reference": "C41",
+      "component": "CL10A106MA8NRNC",
+      "section": "storage",
+      "manufacturer_part_number": "CL10A106MA8NRNC",
+      "jlcpcb_part_number": "C96446",
+      "pcbX": 34,
+      "pcbY": -4,
+      "pcbRotation": 90
+    },
+    {
+      "reference": "C42",
+      "component": "CL05B104KB54PNC",
+      "section": "storage",
+      "manufacturer_part_number": "CL05B104KB54PNC",
+      "jlcpcb_part_number": "C307331",
+      "pcbX": 34,
+      "pcbY": -0.8,
+      "pcbRotation": 90
+    },
+    {
+      "reference": "C43",
+      "component": "CL05B104KB54PNC",
+      "section": "storage",
+      "manufacturer_part_number": "CL05B104KB54PNC",
+      "jlcpcb_part_number": "C307331",
+      "pcbX": 18,
+      "pcbY": -4.5,
+      "pcbRotation": 0
+    },
+    {
+      "reference": "C44",
+      "component": "CL05B104KB54PNC",
+      "section": "storage",
+      "manufacturer_part_number": "CL05B104KB54PNC",
+      "jlcpcb_part_number": "C307331",
+      "pcbX": 19,
+      "pcbY": -11,
+      "pcbRotation": 90
+    },
+    {
       "reference": "R1",
       "component": "A_0402WGF1003TCE",
       "section": "power",
@@ -492,6 +532,146 @@
       "pcbRotation": 90
     },
     {
+      "reference": "R12",
+      "component": "A_0402WGF5101TCE",
+      "section": "cpu_io",
+      "manufacturer_part_number": "0402WGF5101TCE",
+      "jlcpcb_part_number": "C25905",
+      "pcbX": 17,
+      "pcbY": -2,
+      "pcbRotation": 90
+    },
+    {
+      "reference": "R13",
+      "component": "A_0402WGF5101TCE",
+      "section": "cpu_io",
+      "manufacturer_part_number": "0402WGF5101TCE",
+      "jlcpcb_part_number": "C25905",
+      "pcbX": 19,
+      "pcbY": -2,
+      "pcbRotation": 90
+    },
+    {
+      "reference": "R14",
+      "component": "A_0402WGF5101TCE",
+      "section": "cpu_io",
+      "manufacturer_part_number": "0402WGF5101TCE",
+      "jlcpcb_part_number": "C25905",
+      "pcbX": 21,
+      "pcbY": -2,
+      "pcbRotation": 90
+    },
+    {
+      "reference": "R15",
+      "component": "A_0402WGF5101TCE",
+      "section": "usb",
+      "manufacturer_part_number": "0402WGF5101TCE",
+      "jlcpcb_part_number": "C25905",
+      "pcbX": -3.5,
+      "pcbY": -43,
+      "pcbRotation": 90
+    },
+    {
+      "reference": "R16",
+      "component": "A_0402WGF5101TCE",
+      "section": "usb",
+      "manufacturer_part_number": "0402WGF5101TCE",
+      "jlcpcb_part_number": "C25905",
+      "pcbX": 3.5,
+      "pcbY": -43,
+      "pcbRotation": 90
+    },
+    {
+      "reference": "R17",
+      "component": "A_0402WGF5102TCE",
+      "section": "storage",
+      "manufacturer_part_number": "0402WGF5102TCE",
+      "jlcpcb_part_number": "C25794",
+      "pcbX": 31,
+      "pcbY": 0,
+      "pcbRotation": 90
+    },
+    {
+      "reference": "R18",
+      "component": "A_0402WGF5102TCE",
+      "section": "storage",
+      "manufacturer_part_number": "0402WGF5102TCE",
+      "jlcpcb_part_number": "C25794",
+      "pcbX": 29,
+      "pcbY": 0,
+      "pcbRotation": 90
+    },
+    {
+      "reference": "R19",
+      "component": "A_0402WGF5102TCE",
+      "section": "storage",
+      "manufacturer_part_number": "0402WGF5102TCE",
+      "jlcpcb_part_number": "C25794",
+      "pcbX": 27,
+      "pcbY": 0,
+      "pcbRotation": 90
+    },
+    {
+      "reference": "R20",
+      "component": "A_0402WGF5102TCE",
+      "section": "storage",
+      "manufacturer_part_number": "0402WGF5102TCE",
+      "jlcpcb_part_number": "C25794",
+      "pcbX": 25,
+      "pcbY": 0,
+      "pcbRotation": 90
+    },
+    {
+      "reference": "R21",
+      "component": "A_0402WGF5102TCE",
+      "section": "storage",
+      "manufacturer_part_number": "0402WGF5102TCE",
+      "jlcpcb_part_number": "C25794",
+      "pcbX": 23,
+      "pcbY": 0,
+      "pcbRotation": 90
+    },
+    {
+      "reference": "R22",
+      "component": "A_0402WGF5101TCE",
+      "section": "storage",
+      "manufacturer_part_number": "0402WGF5101TCE",
+      "jlcpcb_part_number": "C25905",
+      "pcbX": 17,
+      "pcbY": -11,
+      "pcbRotation": 90
+    },
+    {
+      "reference": "R23",
+      "component": "A_0402WGF220JTCE",
+      "section": "storage",
+      "manufacturer_part_number": "0402WGF220JTCE",
+      "jlcpcb_part_number": "C25092",
+      "pcbX": 21.3,
+      "pcbY": -7.65,
+      "pcbRotation": 0
+    },
+    {
+      "reference": "R24",
+      "component": "A_0402WGF5101TCE",
+      "section": "cpu_io",
+      "manufacturer_part_number": "0402WGF5101TCE",
+      "jlcpcb_part_number": "C25905",
+      "pcbX": 0,
+      "pcbY": 17,
+      "pcbRotation": 90
+    },
+    {
+      "reference": "R25",
+      "component": "A_0402WGF5101TCE",
+      "section": "cpu_io",
+      "manufacturer_part_number": "0402WGF5101TCE",
+      "jlcpcb_part_number": "C25905",
+      "pcbX": 6,
+      "pcbY": 17,
+      "pcbRotation": 90
+    },
+    {
       "reference": "U1",
       "component": "TLV62569PDDCR",
       "section": "power",
@@ -522,6 +702,36 @@
       "pcbRotation": 90
     },
     {
+      "reference": "U4",
+      "component": "UsbRecoveryProtection",
+      "section": "usb",
+      "manufacturer_part_number": "USBLC6-2SC6",
+      "jlcpcb_part_number": "C2827654",
+      "pcbX": 0,
+      "pcbY": -41,
+      "pcbRotation": 0
+    },
+    {
+      "reference": "U5",
+      "component": "BootStorage",
+      "section": "storage",
+      "manufacturer_part_number": "ZDSD04GLGEAG",
+      "jlcpcb_part_number": "C2875854",
+      "pcbX": 28,
+      "pcbY": -5,
+      "pcbRotation": 0
+    },
+    {
+      "reference": "U6",
+      "component": "RecoveryClockGate",
+      "section": "storage",
+      "manufacturer_part_number": "SN74AHC1G08DCKR",
+      "jlcpcb_part_number": "C122838",
+      "pcbX": 18,
+      "pcbY": -7,
+      "pcbRotation": 180
+    },
+    {
       "reference": "L1",
       "component": "XRIM252012S2R2MBCA",
       "section": "power",
@@ -547,9 +757,9 @@
       "section": "power",
       "manufacturer_part_number": "NCD0805R1",
       "jlcpcb_part_number": "C84256",
-      "pcbX": -2.32,
-      "pcbY": -41.47,
-      "pcbRotation": 270
+      "pcbX": -12,
+      "pcbY": -42,
+      "pcbRotation": 90
     },
     {
       "reference": "SW1",
@@ -560,6 +770,16 @@
       "pcbX": 20.735,
       "pcbY": 19.43,
       "pcbRotation": 270
+    },
+    {
+      "reference": "SW2",
+      "component": "TSA010A2026B",
+      "section": "storage",
+      "manufacturer_part_number": "TSA010A2026B",
+      "jlcpcb_part_number": "C2888420",
+      "pcbX": 18,
+      "pcbY": -16,
+      "pcbRotation": 0
     },
     {
       "reference": "Y1",
@@ -580,11 +800,334 @@
       "pcbX": 14.7,
       "pcbY": 5.2,
       "pcbRotation": 0
+    },
+    {
+      "reference": "F1",
+      "component": "UsbInputFuse",
+      "section": "usb",
+      "manufacturer_part_number": "JK-nSMD100-16",
+      "jlcpcb_part_number": "C369161",
+      "pcbX": -7,
+      "pcbY": -42,
+      "pcbRotation": 90
+    },
+    {
+      "reference": "J1",
+      "component": "UsbRecoveryConnector",
+      "section": "usb",
+      "manufacturer_part_number": "HX TYPE-C 16P L8.35",
+      "jlcpcb_part_number": "C41427493",
+      "pcbX": 0,
+      "pcbY": -48,
+      "pcbRotation": 0
+    },
+    {
+      "reference": "SW3",
+      "component": "TSA010A2026B",
+      "section": "controls",
+      "manufacturer_part_number": "TSA010A2026B",
+      "jlcpcb_part_number": "C2888420",
+      "pcbX": -36,
+      "pcbY": 34,
+      "pcbRotation": 0
+    },
+    {
+      "reference": "R26",
+      "component": "A_0402WGF5101TCE",
+      "section": "controls",
+      "manufacturer_part_number": "0402WGF5101TCE",
+      "jlcpcb_part_number": "C25905",
+      "pcbX": -37,
+      "pcbY": 30.5,
+      "pcbRotation": 90
+    },
+    {
+      "reference": "C45",
+      "component": "CL05B104KB54PNC",
+      "section": "controls",
+      "manufacturer_part_number": "CL05B104KB54PNC",
+      "jlcpcb_part_number": "C307331",
+      "pcbX": -35,
+      "pcbY": 30.5,
+      "pcbRotation": 90
+    },
+    {
+      "reference": "SW4",
+      "component": "TSA010A2026B",
+      "section": "controls",
+      "manufacturer_part_number": "TSA010A2026B",
+      "jlcpcb_part_number": "C2888420",
+      "pcbX": -36,
+      "pcbY": 16,
+      "pcbRotation": 0
+    },
+    {
+      "reference": "R27",
+      "component": "A_0402WGF5101TCE",
+      "section": "controls",
+      "manufacturer_part_number": "0402WGF5101TCE",
+      "jlcpcb_part_number": "C25905",
+      "pcbX": -37,
+      "pcbY": 12.5,
+      "pcbRotation": 90
+    },
+    {
+      "reference": "C46",
+      "component": "CL05B104KB54PNC",
+      "section": "controls",
+      "manufacturer_part_number": "CL05B104KB54PNC",
+      "jlcpcb_part_number": "C307331",
+      "pcbX": -35,
+      "pcbY": 12.5,
+      "pcbRotation": 90
+    },
+    {
+      "reference": "SW5",
+      "component": "TSA010A2026B",
+      "section": "controls",
+      "manufacturer_part_number": "TSA010A2026B",
+      "jlcpcb_part_number": "C2888420",
+      "pcbX": -45,
+      "pcbY": 25,
+      "pcbRotation": 0
+    },
+    {
+      "reference": "R28",
+      "component": "A_0402WGF5101TCE",
+      "section": "controls",
+      "manufacturer_part_number": "0402WGF5101TCE",
+      "jlcpcb_part_number": "C25905",
+      "pcbX": -46,
+      "pcbY": 21.5,
+      "pcbRotation": 90
+    },
+    {
+      "reference": "C47",
+      "component": "CL05B104KB54PNC",
+      "section": "controls",
+      "manufacturer_part_number": "CL05B104KB54PNC",
+      "jlcpcb_part_number": "C307331",
+      "pcbX": -44,
+      "pcbY": 21.5,
+      "pcbRotation": 90
+    },
+    {
+      "reference": "SW6",
+      "component": "TSA010A2026B",
+      "section": "controls",
+      "manufacturer_part_number": "TSA010A2026B",
+      "jlcpcb_part_number": "C2888420",
+      "pcbX": -27,
+      "pcbY": 25,
+      "pcbRotation": 0
+    },
+    {
+      "reference": "R29",
+      "component": "A_0402WGF5101TCE",
+      "section": "controls",
+      "manufacturer_part_number": "0402WGF5101TCE",
+      "jlcpcb_part_number": "C25905",
+      "pcbX": -28,
+      "pcbY": 21.5,
+      "pcbRotation": 90
+    },
+    {
+      "reference": "C48",
+      "component": "CL05B104KB54PNC",
+      "section": "controls",
+      "manufacturer_part_number": "CL05B104KB54PNC",
+      "jlcpcb_part_number": "C307331",
+      "pcbX": -26,
+      "pcbY": 21.5,
+      "pcbRotation": 90
+    },
+    {
+      "reference": "SW7",
+      "component": "TSA010A2026B",
+      "section": "controls",
+      "manufacturer_part_number": "TSA010A2026B",
+      "jlcpcb_part_number": "C2888420",
+      "pcbX": 38,
+      "pcbY": 31,
+      "pcbRotation": 0
+    },
+    {
+      "reference": "R30",
+      "component": "A_0402WGF5101TCE",
+      "section": "controls",
+      "manufacturer_part_number": "0402WGF5101TCE",
+      "jlcpcb_part_number": "C25905",
+      "pcbX": 37,
+      "pcbY": 27.5,
+      "pcbRotation": 90
+    },
+    {
+      "reference": "C49",
+      "component": "CL05B104KB54PNC",
+      "section": "controls",
+      "manufacturer_part_number": "CL05B104KB54PNC",
+      "jlcpcb_part_number": "C307331",
+      "pcbX": 39,
+      "pcbY": 27.5,
+      "pcbRotation": 90
+    },
+    {
+      "reference": "SW8",
+      "component": "TSA010A2026B",
+      "section": "controls",
+      "manufacturer_part_number": "TSA010A2026B",
+      "jlcpcb_part_number": "C2888420",
+      "pcbX": 27,
+      "pcbY": 23,
+      "pcbRotation": 0
+    },
+    {
+      "reference": "R31",
+      "component": "A_0402WGF5101TCE",
+      "section": "controls",
+      "manufacturer_part_number": "0402WGF5101TCE",
+      "jlcpcb_part_number": "C25905",
+      "pcbX": 26,
+      "pcbY": 19.5,
+      "pcbRotation": 90
+    },
+    {
+      "reference": "C50",
+      "component": "CL05B104KB54PNC",
+      "section": "controls",
+      "manufacturer_part_number": "CL05B104KB54PNC",
+      "jlcpcb_part_number": "C307331",
+      "pcbX": 28,
+      "pcbY": 19.5,
+      "pcbRotation": 90
+    },
+    {
+      "reference": "SW9",
+      "component": "TSA010A2026B",
+      "section": "controls",
+      "manufacturer_part_number": "TSA010A2026B",
+      "jlcpcb_part_number": "C2888420",
+      "pcbX": 7,
+      "pcbY": 42,
+      "pcbRotation": 0
+    },
+    {
+      "reference": "R32",
+      "component": "A_0402WGF5101TCE",
+      "section": "controls",
+      "manufacturer_part_number": "0402WGF5101TCE",
+      "jlcpcb_part_number": "C25905",
+      "pcbX": 6,
+      "pcbY": 38.5,
+      "pcbRotation": 90
+    },
+    {
+      "reference": "C51",
+      "component": "CL05B104KB54PNC",
+      "section": "controls",
+      "manufacturer_part_number": "CL05B104KB54PNC",
+      "jlcpcb_part_number": "C307331",
+      "pcbX": 8,
+      "pcbY": 38.5,
+      "pcbRotation": 90
+    },
+    {
+      "reference": "SW10",
+      "component": "TSA010A2026B",
+      "section": "controls",
+      "manufacturer_part_number": "TSA010A2026B",
+      "jlcpcb_part_number": "C2888420",
+      "pcbX": -7,
+      "pcbY": 42,
+      "pcbRotation": 0
+    },
+    {
+      "reference": "R33",
+      "component": "A_0402WGF5101TCE",
+      "section": "controls",
+      "manufacturer_part_number": "0402WGF5101TCE",
+      "jlcpcb_part_number": "C25905",
+      "pcbX": -8,
+      "pcbY": 38.5,
+      "pcbRotation": 90
+    },
+    {
+      "reference": "C52",
+      "component": "CL05B104KB54PNC",
+      "section": "controls",
+      "manufacturer_part_number": "CL05B104KB54PNC",
+      "jlcpcb_part_number": "C307331",
+      "pcbX": -6,
+      "pcbY": 38.5,
+      "pcbRotation": 90
+    },
+    {
+      "reference": "SW11",
+      "component": "TSA010A2026B",
+      "section": "controls",
+      "manufacturer_part_number": "TSA010A2026B",
+      "jlcpcb_part_number": "C2888420",
+      "pcbX": -44,
+      "pcbY": 46,
+      "pcbRotation": 0
+    },
+    {
+      "reference": "R34",
+      "component": "A_0402WGF5101TCE",
+      "section": "controls",
+      "manufacturer_part_number": "0402WGF5101TCE",
+      "jlcpcb_part_number": "C25905",
+      "pcbX": -45,
+      "pcbY": 42.5,
+      "pcbRotation": 90
+    },
+    {
+      "reference": "C53",
+      "component": "CL05B104KB54PNC",
+      "section": "controls",
+      "manufacturer_part_number": "CL05B104KB54PNC",
+      "jlcpcb_part_number": "C307331",
+      "pcbX": -43,
+      "pcbY": 42.5,
+      "pcbRotation": 90
+    },
+    {
+      "reference": "SW12",
+      "component": "TSA010A2026B",
+      "section": "controls",
+      "manufacturer_part_number": "TSA010A2026B",
+      "jlcpcb_part_number": "C2888420",
+      "pcbX": 44,
+      "pcbY": 46,
+      "pcbRotation": 0
+    },
+    {
+      "reference": "R35",
+      "component": "A_0402WGF5101TCE",
+      "section": "controls",
+      "manufacturer_part_number": "0402WGF5101TCE",
+      "jlcpcb_part_number": "C25905",
+      "pcbX": 43,
+      "pcbY": 42.5,
+      "pcbRotation": 90
+    },
+    {
+      "reference": "C54",
+      "component": "CL05B104KB54PNC",
+      "section": "controls",
+      "manufacturer_part_number": "CL05B104KB54PNC",
+      "jlcpcb_part_number": "C307331",
+      "pcbX": 45,
+      "pcbY": 42.5,
+      "pcbRotation": 90
     }
   ],
   "nets": [
     {
       "reference_net": "+0V9",
+      "reference_nets": [
+        "+0V9"
+      ],
       "name": "VDD_CORE_0V9",
       "nodes": [
         {
@@ -655,6 +1198,9 @@
     },
     {
       "reference_net": "+1V5",
+      "reference_nets": [
+        "+1V5"
+      ],
       "name": "DDR_1V5",
       "nodes": [
         {
@@ -689,6 +1235,9 @@
     },
     {
       "reference_net": "+1V8",
+      "reference_nets": [
+        "+1V8"
+      ],
       "name": "LDOA_1V8",
       "nodes": [
         {
@@ -763,6 +1312,9 @@
     },
     {
       "reference_net": "+3V3",
+      "reference_nets": [
+        "+3V3"
+      ],
       "name": "SYS_3V3",
       "nodes": [
         {
@@ -798,6 +1350,18 @@
           "pin": "1"
         },
         {
+          "reference": "C41",
+          "pin": "1"
+        },
+        {
+          "reference": "C42",
+          "pin": "1"
+        },
+        {
+          "reference": "C43",
+          "pin": "1"
+        },
+        {
           "reference": "C9",
           "pin": "1"
         },
@@ -810,8 +1374,40 @@
           "pin": "2"
         },
         {
+          "reference": "R12",
+          "pin": "1"
+        },
+        {
+          "reference": "R13",
+          "pin": "1"
+        },
+        {
+          "reference": "R17",
+          "pin": "1"
+        },
+        {
+          "reference": "R18",
+          "pin": "1"
+        },
+        {
+          "reference": "R19",
+          "pin": "1"
+        },
+        {
           "reference": "R2",
           "pin": "1"
+        },
+        {
+          "reference": "R20",
+          "pin": "1"
+        },
+        {
+          "reference": "R21",
+          "pin": "1"
+        },
+        {
+          "reference": "R22",
+          "pin": "2"
         },
         {
           "reference": "U3",
@@ -836,11 +1432,62 @@
         {
           "reference": "U3",
           "pin": "83"
+        },
+        {
+          "reference": "U5",
+          "pin": "8"
+        },
+        {
+          "reference": "U6",
+          "pin": "5"
+        },
+        {
+          "reference": "R26",
+          "pin": "1"
+        },
+        {
+          "reference": "R27",
+          "pin": "1"
+        },
+        {
+          "reference": "R28",
+          "pin": "1"
+        },
+        {
+          "reference": "R29",
+          "pin": "1"
+        },
+        {
+          "reference": "R30",
+          "pin": "1"
+        },
+        {
+          "reference": "R31",
+          "pin": "1"
+        },
+        {
+          "reference": "R32",
+          "pin": "1"
+        },
+        {
+          "reference": "R33",
+          "pin": "1"
+        },
+        {
+          "reference": "R34",
+          "pin": "1"
+        },
+        {
+          "reference": "R35",
+          "pin": "1"
         }
       ]
     },
     {
       "reference_net": "/Architecture/CPU Core/DXIN",
+      "reference_nets": [
+        "/Architecture/CPU Core/DXIN"
+      ],
       "name": "DXIN",
       "nodes": [
         {
@@ -859,6 +1506,9 @@
     },
     {
       "reference_net": "/Architecture/CPU Core/DXOUT",
+      "reference_nets": [
+        "/Architecture/CPU Core/DXOUT"
+      ],
       "name": "DXOUT",
       "nodes": [
         {
@@ -877,6 +1527,9 @@
     },
     {
       "reference_net": "/Architecture/CPU Core/LXIN",
+      "reference_nets": [
+        "/Architecture/CPU Core/LXIN"
+      ],
       "name": "LXIN",
       "nodes": [
         {
@@ -895,6 +1548,9 @@
     },
     {
       "reference_net": "/Architecture/CPU Core/LXOUT",
+      "reference_nets": [
+        "/Architecture/CPU Core/LXOUT"
+      ],
       "name": "LXOUT",
       "nodes": [
         {
@@ -913,6 +1569,9 @@
     },
     {
       "reference_net": "/Architecture/CPU Core/~{RESET}",
+      "reference_nets": [
+        "/Architecture/CPU Core/~{RESET}"
+      ],
       "name": "RESET_N",
       "nodes": [
         {
@@ -934,7 +1593,217 @@
       ]
     },
     {
+      "reference_net": "/Architecture/CPU IO/BOARD_ID_1",
+      "reference_nets": [
+        "/Architecture/CPU IO/BOARD_ID_1"
+      ],
+      "name": "BOARD_ID_1",
+      "nodes": [
+        {
+          "reference": "R14",
+          "pin": "1"
+        },
+        {
+          "reference": "U3",
+          "pin": "13"
+        }
+      ]
+    },
+    {
+      "reference_net": "/Architecture/CPU IO/BOARD_ID_2",
+      "reference_nets": [
+        "/Architecture/CPU IO/BOARD_ID_2"
+      ],
+      "name": "BOARD_ID_2",
+      "nodes": [
+        {
+          "reference": "R24",
+          "pin": "1"
+        },
+        {
+          "reference": "U3",
+          "pin": "39"
+        }
+      ]
+    },
+    {
+      "reference_net": "/Architecture/CPU IO/BOARD_ID_3",
+      "reference_nets": [
+        "/Architecture/CPU IO/BOARD_ID_3"
+      ],
+      "name": "BOARD_ID_3",
+      "nodes": [
+        {
+          "reference": "R25",
+          "pin": "1"
+        },
+        {
+          "reference": "U3",
+          "pin": "38"
+        }
+      ]
+    },
+    {
+      "reference_net": "/Architecture/CPU IO/BOOT_SEL0",
+      "reference_nets": [
+        "/Architecture/CPU IO/BOOT_SEL0"
+      ],
+      "name": "BOOT_SEL0",
+      "nodes": [
+        {
+          "reference": "R13",
+          "pin": "2"
+        },
+        {
+          "reference": "U3",
+          "pin": "17"
+        }
+      ]
+    },
+    {
+      "reference_net": "/Architecture/CPU IO/BOOT_SEL1",
+      "reference_nets": [
+        "/Architecture/CPU IO/BOOT_SEL1"
+      ],
+      "name": "BOOT_SEL1",
+      "nodes": [
+        {
+          "reference": "R12",
+          "pin": "2"
+        },
+        {
+          "reference": "U3",
+          "pin": "16"
+        }
+      ]
+    },
+    {
+      "reference_net": "/Architecture/CPU IO/SDC0_CLK",
+      "reference_nets": [
+        "/Architecture/CPU IO/SDC0_CLK"
+      ],
+      "name": "SDC0_CLK",
+      "nodes": [
+        {
+          "reference": "U3",
+          "pin": "9"
+        },
+        {
+          "reference": "U6",
+          "pin": "1"
+        }
+      ]
+    },
+    {
+      "reference_net": "/Architecture/CPU IO/SDC0_CMD",
+      "reference_nets": [
+        "/Architecture/CPU IO/SDC0_CMD"
+      ],
+      "name": "SDC0_CMD",
+      "nodes": [
+        {
+          "reference": "R19",
+          "pin": "2"
+        },
+        {
+          "reference": "U3",
+          "pin": "10"
+        },
+        {
+          "reference": "U5",
+          "pin": "5"
+        }
+      ]
+    },
+    {
+      "reference_net": "/Architecture/CPU IO/SDC0_D0",
+      "reference_nets": [
+        "/Architecture/CPU IO/SDC0_D0"
+      ],
+      "name": "SDC0_D0",
+      "nodes": [
+        {
+          "reference": "R18",
+          "pin": "2"
+        },
+        {
+          "reference": "U3",
+          "pin": "8"
+        },
+        {
+          "reference": "U5",
+          "pin": "6"
+        }
+      ]
+    },
+    {
+      "reference_net": "/Architecture/CPU IO/SDC0_D1",
+      "reference_nets": [
+        "/Architecture/CPU IO/SDC0_D1"
+      ],
+      "name": "SDC0_D1",
+      "nodes": [
+        {
+          "reference": "R17",
+          "pin": "2"
+        },
+        {
+          "reference": "U3",
+          "pin": "7"
+        },
+        {
+          "reference": "U5",
+          "pin": "7"
+        }
+      ]
+    },
+    {
+      "reference_net": "/Architecture/CPU IO/SDC0_D2",
+      "reference_nets": [
+        "/Architecture/CPU IO/SDC0_D2"
+      ],
+      "name": "SDC0_D2",
+      "nodes": [
+        {
+          "reference": "R21",
+          "pin": "2"
+        },
+        {
+          "reference": "U3",
+          "pin": "12"
+        },
+        {
+          "reference": "U5",
+          "pin": "1"
+        }
+      ]
+    },
+    {
+      "reference_net": "/Architecture/CPU IO/SDC0_D3",
+      "reference_nets": [
+        "/Architecture/CPU IO/SDC0_D3"
+      ],
+      "name": "SDC0_D3",
+      "nodes": [
+        {
+          "reference": "R20",
+          "pin": "2"
+        },
+        {
+          "reference": "U3",
+          "pin": "11"
+        },
+        {
+          "reference": "U5",
+          "pin": "2"
+        }
+      ]
+    },
+    {
       "reference_net": "/Architecture/Power/3V3_PG",
+      "reference_nets": [
+        "/Architecture/Power/3V3_PG"
+      ],
       "name": "SYS_3V3_PG",
       "nodes": [
         {
@@ -956,7 +1825,104 @@
       ]
     },
     {
+      "reference_net": "/Architecture/USB/USB0_CC1",
+      "reference_nets": [
+        "/Architecture/USB/USB0_CC1"
+      ],
+      "name": "USB0_CC1",
+      "nodes": [
+        {
+          "reference": "J1",
+          "pin": "15"
+        },
+        {
+          "reference": "R15",
+          "pin": "1"
+        }
+      ]
+    },
+    {
+      "reference_net": "/Architecture/USB/USB0_CC2",
+      "reference_nets": [
+        "/Architecture/USB/USB0_CC2"
+      ],
+      "name": "USB0_CC2",
+      "nodes": [
+        {
+          "reference": "J1",
+          "pin": "9"
+        },
+        {
+          "reference": "R16",
+          "pin": "1"
+        }
+      ]
+    },
+    {
+      "reference_net": "/Architecture/USB/USB0_DN",
+      "reference_nets": [
+        "/Architecture/USB/USB0_DN",
+        "Net-(J1-D--PadA7)"
+      ],
+      "name": "USB0_DM",
+      "nodes": [
+        {
+          "reference": "U3",
+          "pin": "114"
+        },
+        {
+          "reference": "U4",
+          "pin": "6"
+        },
+        {
+          "reference": "J1",
+          "pin": "12"
+        },
+        {
+          "reference": "J1",
+          "pin": "14"
+        },
+        {
+          "reference": "U4",
+          "pin": "1"
+        }
+      ]
+    },
+    {
+      "reference_net": "/Architecture/USB/USB0_DP",
+      "reference_nets": [
+        "/Architecture/USB/USB0_DP",
+        "Net-(J1-D+-PadA6)"
+      ],
+      "name": "USB0_DP",
+      "nodes": [
+        {
+          "reference": "U3",
+          "pin": "115"
+        },
+        {
+          "reference": "U4",
+          "pin": "4"
+        },
+        {
+          "reference": "J1",
+          "pin": "11"
+        },
+        {
+          "reference": "J1",
+          "pin": "13"
+        },
+        {
+          "reference": "U4",
+          "pin": "3"
+        }
+      ]
+    },
+    {
       "reference_net": "GND",
+      "reference_nets": [
+        "GND"
+      ],
       "name": "GND",
       "nodes": [
         {
@@ -1092,6 +2058,22 @@
           "pin": "2"
         },
         {
+          "reference": "C41",
+          "pin": "2"
+        },
+        {
+          "reference": "C42",
+          "pin": "2"
+        },
+        {
+          "reference": "C43",
+          "pin": "2"
+        },
+        {
+          "reference": "C44",
+          "pin": "2"
+        },
+        {
           "reference": "C5",
           "pin": "2"
         },
@@ -1112,7 +2094,51 @@
           "pin": "2"
         },
         {
+          "reference": "J1",
+          "pin": "1"
+        },
+        {
+          "reference": "J1",
+          "pin": "2"
+        },
+        {
+          "reference": "J1",
+          "pin": "3"
+        },
+        {
+          "reference": "J1",
+          "pin": "4"
+        },
+        {
+          "reference": "J1",
+          "pin": "5"
+        },
+        {
+          "reference": "J1",
+          "pin": "7"
+        },
+        {
           "reference": "R10",
+          "pin": "2"
+        },
+        {
+          "reference": "R14",
+          "pin": "2"
+        },
+        {
+          "reference": "R15",
+          "pin": "2"
+        },
+        {
+          "reference": "R16",
+          "pin": "2"
+        },
+        {
+          "reference": "R24",
+          "pin": "2"
+        },
+        {
+          "reference": "R25",
           "pin": "2"
         },
         {
@@ -1129,6 +2155,10 @@
         },
         {
           "reference": "SW1",
+          "pin": "1"
+        },
+        {
+          "reference": "SW2",
           "pin": "1"
         },
         {
@@ -1156,17 +2186,137 @@
           "pin": "94"
         },
         {
+          "reference": "U4",
+          "pin": "2"
+        },
+        {
+          "reference": "U5",
+          "pin": "4"
+        },
+        {
+          "reference": "U6",
+          "pin": "3"
+        },
+        {
           "reference": "Y1",
           "pin": "2"
         },
         {
           "reference": "Y1",
           "pin": "4"
+        },
+        {
+          "reference": "SW3",
+          "pin": "1"
+        },
+        {
+          "reference": "C45",
+          "pin": "2"
+        },
+        {
+          "reference": "SW4",
+          "pin": "1"
+        },
+        {
+          "reference": "C46",
+          "pin": "2"
+        },
+        {
+          "reference": "SW5",
+          "pin": "1"
+        },
+        {
+          "reference": "C47",
+          "pin": "2"
+        },
+        {
+          "reference": "SW6",
+          "pin": "1"
+        },
+        {
+          "reference": "C48",
+          "pin": "2"
+        },
+        {
+          "reference": "SW7",
+          "pin": "1"
+        },
+        {
+          "reference": "C49",
+          "pin": "2"
+        },
+        {
+          "reference": "SW8",
+          "pin": "1"
+        },
+        {
+          "reference": "C50",
+          "pin": "2"
+        },
+        {
+          "reference": "SW9",
+          "pin": "1"
+        },
+        {
+          "reference": "C51",
+          "pin": "2"
+        },
+        {
+          "reference": "SW10",
+          "pin": "1"
+        },
+        {
+          "reference": "C52",
+          "pin": "2"
+        },
+        {
+          "reference": "SW11",
+          "pin": "1"
+        },
+        {
+          "reference": "C53",
+          "pin": "2"
+        },
+        {
+          "reference": "SW12",
+          "pin": "1"
+        },
+        {
+          "reference": "C54",
+          "pin": "2"
+        }
+      ]
+    },
+    {
+      "reference_net": "Net-(C44-Pad1)",
+      "reference_nets": [
+        "Net-(C44-Pad1)"
+      ],
+      "name": "FEL_CLOCK_ENABLE",
+      "nodes": [
+        {
+          "reference": "C44",
+          "pin": "1"
+        },
+        {
+          "reference": "R22",
+          "pin": "1"
+        },
+        {
+          "reference": "SW2",
+          "pin": "2"
+        },
+        {
+          "reference": "U6",
+          "pin": "2"
         }
       ]
     },
     {
       "reference_net": "Net-(D1-K)",
+      "reference_nets": [
+        "Net-(D1-K)"
+      ],
       "name": "Net__D1_K_",
       "nodes": [
         {
@@ -1180,7 +2330,27 @@
       ]
     },
     {
+      "reference_net": "Net-(R23-Pad1)",
+      "reference_nets": [
+        "Net-(R23-Pad1)"
+      ],
+      "name": "SDC0_CLK_BUFFERED",
+      "nodes": [
+        {
+          "reference": "R23",
+          "pin": "1"
+        },
+        {
+          "reference": "U6",
+          "pin": "4"
+        }
+      ]
+    },
+    {
       "reference_net": "Net-(U1-EN)",
+      "reference_nets": [
+        "Net-(U1-EN)"
+      ],
       "name": "BUCK_3V3_EN",
       "nodes": [
         {
@@ -1195,6 +2365,9 @@
     },
     {
       "reference_net": "Net-(U1-FB)",
+      "reference_nets": [
+        "Net-(U1-FB)"
+      ],
       "name": "BUCK_3V3_FB",
       "nodes": [
         {
@@ -1217,6 +2390,9 @@
     },
     {
       "reference_net": "Net-(U1-SW)",
+      "reference_nets": [
+        "Net-(U1-SW)"
+      ],
       "name": "BUCK_3V3_SW",
       "nodes": [
         {
@@ -1231,6 +2407,9 @@
     },
     {
       "reference_net": "Net-(U2-FB)",
+      "reference_nets": [
+        "Net-(U2-FB)"
+      ],
       "name": "BUCK_CORE_FB",
       "nodes": [
         {
@@ -1253,6 +2432,9 @@
     },
     {
       "reference_net": "Net-(U2-SW)",
+      "reference_nets": [
+        "Net-(U2-SW)"
+      ],
       "name": "BUCK_CORE_SW",
       "nodes": [
         {
@@ -1267,6 +2449,9 @@
     },
     {
       "reference_net": "Net-(U3B-DZQ)",
+      "reference_nets": [
+        "Net-(U3B-DZQ)"
+      ],
       "name": "DDR_ZQ",
       "nodes": [
         {
@@ -1281,6 +2466,9 @@
     },
     {
       "reference_net": "Net-(U3F-VRA1)",
+      "reference_nets": [
+        "Net-(U3F-VRA1)"
+      ],
       "name": "Net__U3F_VRA1_",
       "nodes": [
         {
@@ -1295,6 +2483,9 @@
     },
     {
       "reference_net": "Net-(U3F-VRA2)",
+      "reference_nets": [
+        "Net-(U3F-VRA2)"
+      ],
       "name": "Net__U3F_VRA2_",
       "nodes": [
         {
@@ -1308,7 +2499,52 @@
       ]
     },
     {
+      "reference_net": "Net-(U4-VBUS)",
+      "reference_nets": [
+        "Net-(U4-VBUS)"
+      ],
+      "name": "USB_C_VBUS_5V",
+      "nodes": [
+        {
+          "reference": "F1",
+          "pin": "1"
+        },
+        {
+          "reference": "J1",
+          "pin": "6"
+        },
+        {
+          "reference": "J1",
+          "pin": "8"
+        },
+        {
+          "reference": "U4",
+          "pin": "5"
+        }
+      ]
+    },
+    {
+      "reference_net": "Net-(U5-CLK)",
+      "reference_nets": [
+        "Net-(U5-CLK)"
+      ],
+      "name": "SDC0_CLK_STORAGE",
+      "nodes": [
+        {
+          "reference": "R23",
+          "pin": "2"
+        },
+        {
+          "reference": "U5",
+          "pin": "3"
+        }
+      ]
+    },
+    {
       "reference_net": "VBUS",
+      "reference_nets": [
+        "VBUS"
+      ],
       "name": "INPUT_5V",
       "nodes": [
         {
@@ -1318,6 +2554,10 @@
         {
           "reference": "C7",
           "pin": "1"
+        },
+        {
+          "reference": "F1",
+          "pin": "2"
         },
         {
           "reference": "R1",
@@ -1336,35 +2576,241 @@
           "pin": "4"
         }
       ]
+    },
+    {
+      "reference_net": null,
+      "reference_nets": [],
+      "name": "BUTTON_UP_N",
+      "nodes": [
+        {
+          "reference": "U3",
+          "pin": "44"
+        },
+        {
+          "reference": "SW3",
+          "pin": "2"
+        },
+        {
+          "reference": "R26",
+          "pin": "2"
+        },
+        {
+          "reference": "C45",
+          "pin": "1"
+        }
+      ]
+    },
+    {
+      "reference_net": null,
+      "reference_nets": [],
+      "name": "BUTTON_DOWN_N",
+      "nodes": [
+        {
+          "reference": "U3",
+          "pin": "45"
+        },
+        {
+          "reference": "SW4",
+          "pin": "2"
+        },
+        {
+          "reference": "R27",
+          "pin": "2"
+        },
+        {
+          "reference": "C46",
+          "pin": "1"
+        }
+      ]
+    },
+    {
+      "reference_net": null,
+      "reference_nets": [],
+      "name": "BUTTON_LEFT_N",
+      "nodes": [
+        {
+          "reference": "U3",
+          "pin": "35"
+        },
+        {
+          "reference": "SW5",
+          "pin": "2"
+        },
+        {
+          "reference": "R28",
+          "pin": "2"
+        },
+        {
+          "reference": "C47",
+          "pin": "1"
+        }
+      ]
+    },
+    {
+      "reference_net": null,
+      "reference_nets": [],
+      "name": "BUTTON_RIGHT_N",
+      "nodes": [
+        {
+          "reference": "U3",
+          "pin": "33"
+        },
+        {
+          "reference": "SW6",
+          "pin": "2"
+        },
+        {
+          "reference": "R29",
+          "pin": "2"
+        },
+        {
+          "reference": "C48",
+          "pin": "1"
+        }
+      ]
+    },
+    {
+      "reference_net": null,
+      "reference_nets": [],
+      "name": "BUTTON_A_N",
+      "nodes": [
+        {
+          "reference": "U3",
+          "pin": "41"
+        },
+        {
+          "reference": "SW7",
+          "pin": "2"
+        },
+        {
+          "reference": "R30",
+          "pin": "2"
+        },
+        {
+          "reference": "C49",
+          "pin": "1"
+        }
+      ]
+    },
+    {
+      "reference_net": null,
+      "reference_nets": [],
+      "name": "BUTTON_B_N",
+      "nodes": [
+        {
+          "reference": "U3",
+          "pin": "40"
+        },
+        {
+          "reference": "SW8",
+          "pin": "2"
+        },
+        {
+          "reference": "R31",
+          "pin": "2"
+        },
+        {
+          "reference": "C50",
+          "pin": "1"
+        }
+      ]
+    },
+    {
+      "reference_net": null,
+      "reference_nets": [],
+      "name": "BUTTON_START_N",
+      "nodes": [
+        {
+          "reference": "U3",
+          "pin": "37"
+        },
+        {
+          "reference": "SW9",
+          "pin": "2"
+        },
+        {
+          "reference": "R32",
+          "pin": "2"
+        },
+        {
+          "reference": "C51",
+          "pin": "1"
+        }
+      ]
+    },
+    {
+      "reference_net": null,
+      "reference_nets": [],
+      "name": "BUTTON_SELECT_N",
+      "nodes": [
+        {
+          "reference": "U3",
+          "pin": "36"
+        },
+        {
+          "reference": "SW10",
+          "pin": "2"
+        },
+        {
+          "reference": "R33",
+          "pin": "2"
+        },
+        {
+          "reference": "C52",
+          "pin": "1"
+        }
+      ]
+    },
+    {
+      "reference_net": null,
+      "reference_nets": [],
+      "name": "BUTTON_L_N",
+      "nodes": [
+        {
+          "reference": "U3",
+          "pin": "32"
+        },
+        {
+          "reference": "SW11",
+          "pin": "2"
+        },
+        {
+          "reference": "R34",
+          "pin": "2"
+        },
+        {
+          "reference": "C53",
+          "pin": "1"
+        }
+      ]
+    },
+    {
+      "reference_net": null,
+      "reference_nets": [],
+      "name": "BUTTON_R_N",
+      "nodes": [
+        {
+          "reference": "U3",
+          "pin": "31"
+        },
+        {
+          "reference": "SW12",
+          "pin": "2"
+        },
+        {
+          "reference": "R35",
+          "pin": "2"
+        },
+        {
+          "reference": "C54",
+          "pin": "1"
+        }
+      ]
     }
   ],
   "unimplemented_reference_components": [
-    "C41",
-    "C42",
-    "C43",
-    "C44",
-    "F1",
-    "J1",
-    "R12",
-    "R13",
-    "R14",
-    "R15",
-    "R16",
-    "R17",
-    "R18",
-    "R19",
-    "R20",
-    "R21",
-    "R22",
-    "R23",
-    "R24",
-    "R25",
     "R8",
-    "R9",
-    "SW2",
-    "U4",
-    "U5",
-    "U6"
+    "R9"
   ],
   "deviations": [
     {
@@ -1372,8 +2818,44 @@
       "reference_net": "+3V3",
       "implemented_net": "+1V8",
       "reason": "RESET pin 27 belongs to VCC-RTC (1.8V), Allwinner table 4-2"
+    },
+    {
+      "reference_pin": "U3.53",
+      "implemented_pin": "U3.39",
+      "net": "BOARD_ID_2",
+      "reason": "Move PD21 board-ID input to PE8 to free LCD VSYNC"
+    },
+    {
+      "reference_pin": "U3.52",
+      "implemented_pin": "U3.38",
+      "net": "BOARD_ID_3",
+      "reason": "Move PD22 board-ID input to PE9 to reserve audio-capable PD22"
+    },
+    {
+      "component": "U5",
+      "reason": "Resolve incorrect ZDSD08 symbol display to exact 4-Gbit/512-MByte ZDSD04GLGEAG MPN"
+    },
+    {
+      "component": "J1",
+      "reason": "Map alphabetic contacts to genuine supplier solder-tail and shield pad numbers"
+    },
+    {
+      "component": "U4",
+      "reason": "Represent internally connected USBLC6 paths 1-6 and 3-4 as continuous USB nets"
+    },
+    {
+      "section": "controls",
+      "reason": "Add ten active-low GPIO game inputs with genuine JLCPCB switches, 5.1k pull-ups and 100nF filters; firmware debounce required"
     }
   ],
+  "schematic_sections": {
+    "power": "TI REGULATORS / SEQUENCING",
+    "cpu_core": "S4 SUPPLIES / CLOCKS / RESET",
+    "cpu_io": "BOOT STRAPS / BOARD IDENTIFICATION",
+    "usb": "USB-C POWER / RECOVERY",
+    "storage": "512 MB SD STORAGE / FEL RECOVERY",
+    "controls": "GAME INPUTS / GPIO FILTERS"
+  },
   "full_console": false,
   "routing_disabled": true
 }

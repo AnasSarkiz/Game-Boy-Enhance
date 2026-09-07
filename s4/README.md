@@ -1,6 +1,6 @@
 # S4 Game Boy console redesign
 
-The selected processor is **Allwinner T113-S4 / T113M4020DC0, C41411351**. This supersedes the earlier Nintendo CPU design as the development target. Status: **connected 58-component power/CPU/clock/reset stage implemented; electrical/package qualification and console interfaces pending**. There is no S4 console PCB or validated firmware yet. The repository's root `index.circuit.tsx` still contains the older AGBM-02 work and must not be mistaken for this redesign.
+The selected processor is **Allwinner T113-S4 / T113M4020DC0, C41411351**. This supersedes the earlier Nintendo CPU design as the development target. Status: **connected 112-component power/CPU/USB/storage/controls stage implemented; electrical/package qualification and console interfaces pending**. The connected placement board is incomplete and has no validated firmware yet. The repository's root `index.circuit.tsx` still contains the older AGBM-02 work and must not be mistaken for this redesign.
 
 ## Required result
 
@@ -21,7 +21,7 @@ The exact TI TLV62569PDDCR regulator and Analog Devices ADV7513BSWZ HDMI transmi
 
 The CPU wrapper in `components/T113M4020DC0.tsx` uses the unchanged `imports/T113_S3.tsx` geometry and pin map. Its MPN is `T113M4020DC0` and its JLCPCB ordering number is `C41411351`. All 129 labels match the pinned reference by physical pin number. See [CPU package qualification](CPU-PACKAGE-REVIEW.md) for the exposed-pad and electrical limitations.
 
-See [BLOCKERS.md](BLOCKERS.md), [connection review](CONNECTION-REVIEW.md) and [sourcing table](JLCPCB-PARTS.md). The connected stage is `power-core.circuit.tsx`, with two schematic sheets and functional sections. It is incomplete: USB input/protection, storage, controls, HDMI/audio and firmware are still required. The isolated `previews/cpu-package.circuit.tsx` is now also a negative connection test: the stricter CPU definition must report its 22 intentionally unwired required pins. Manufacturing outputs and a console registry release remain blocked.
+See [BLOCKERS.md](BLOCKERS.md), [connection review](CONNECTION-REVIEW.md) and [sourcing table](JLCPCB-PARTS.md). The connected stage is `power-core.circuit.tsx`, with six schematic sheets and functional sections. USB-C power/recovery, SD boot storage, recovery clock gating, boot/ID pulls and ten GPIO game inputs are connected. HDMI/audio, a powered USB host port, debug access, power qualification and firmware are still required. See [interface review](INTERFACE-REVIEW.md) for the pin checks and remaining limitations. The isolated `previews/cpu-package.circuit.tsx` is now also a negative connection test: the stricter CPU definition must report its 22 intentionally unwired required pins. Manufacturing outputs and a console registry release remain blocked.
 
 ## Reproduce the audits
 
@@ -36,6 +36,7 @@ bun run audit:s4:cpu
 bun run generate:s4:core
 bun run build:s4:core
 bun run audit:s4:core
+bun run preview:s4:sheets
 ```
 
 The reference audit currently exits with status 1 because the upstream reference contains unresolved values and ERC errors. These are not suppressed. `reports/reference-erc.json` records the separate KiCad ERC run, including ignored checks and unavailable-library warnings. A clean result requires more than completing an export.

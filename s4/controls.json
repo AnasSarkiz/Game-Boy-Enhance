@@ -1,0 +1,16 @@
+{
+  "electrical_reference": "T113-S3 family datasheet tables 4-2/4-3: VCC-PE domain, GPIO input function 0; active-low switch to ground with external 5.1k pull-up and 100nF filter",
+  "software_requirement": "Configure these pins as GPIO inputs and debounce press/release events; S4 firmware and physical controls are untested",
+  "buttons": [
+    { "function": "UP", "gpio": "PE0", "cpu_pin": 44, "switch": "SW3", "pullup": "R26", "filter": "C45", "pcbX": -36, "pcbY": 34 },
+    { "function": "DOWN", "gpio": "PE1", "cpu_pin": 45, "switch": "SW4", "pullup": "R27", "filter": "C46", "pcbX": -36, "pcbY": 16 },
+    { "function": "LEFT", "gpio": "PE2", "cpu_pin": 35, "switch": "SW5", "pullup": "R28", "filter": "C47", "pcbX": -45, "pcbY": 25 },
+    { "function": "RIGHT", "gpio": "PE3", "cpu_pin": 33, "switch": "SW6", "pullup": "R29", "filter": "C48", "pcbX": -27, "pcbY": 25 },
+    { "function": "A", "gpio": "PE6", "cpu_pin": 41, "switch": "SW7", "pullup": "R30", "filter": "C49", "pcbX": 38, "pcbY": 31 },
+    { "function": "B", "gpio": "PE7", "cpu_pin": 40, "switch": "SW8", "pullup": "R31", "filter": "C50", "pcbX": 27, "pcbY": 23 },
+    { "function": "START", "gpio": "PE10", "cpu_pin": 37, "switch": "SW9", "pullup": "R32", "filter": "C51", "pcbX": 7, "pcbY": 42 },
+    { "function": "SELECT", "gpio": "PE11", "cpu_pin": 36, "switch": "SW10", "pullup": "R33", "filter": "C52", "pcbX": -7, "pcbY": 42 },
+    { "function": "L", "gpio": "PE12", "cpu_pin": 32, "switch": "SW11", "pullup": "R34", "filter": "C53", "pcbX": -44, "pcbY": 46 },
+    { "function": "R", "gpio": "PE13", "cpu_pin": 31, "switch": "SW12", "pullup": "R35", "filter": "C54", "pcbX": 44, "pcbY": 46 }
+  ]
+}

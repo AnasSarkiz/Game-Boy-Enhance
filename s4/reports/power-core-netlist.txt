@@ -61,6 +61,60 @@ COMPONENTS:
  - SW1: SW1, source_component
  - Y1: Y1, source_component
  - Y2: Y2, source_component
+ - R12: 5.1kΩ resistor
+ - R13: 5.1kΩ resistor
+ - R14: 5.1kΩ resistor
+ - R24: 5.1kΩ resistor
+ - R25: 5.1kΩ resistor
+ - R15: 5.1kΩ resistor
+ - R16: 5.1kΩ resistor
+ - U4: USBLC6-2SC6
+ - F1: F1, source_component
+ - J1: J1, source_component
+ - C41: 10uF capacitor
+ - C42: 100nF capacitor
+ - C43: 100nF capacitor
+ - C44: 100nF capacitor
+ - R17: 51kΩ resistor
+ - R18: 51kΩ resistor
+ - R19: 51kΩ resistor
+ - R20: 51kΩ resistor
+ - R21: 51kΩ resistor
+ - R22: 5.1kΩ resistor
+ - R23: 22Ω resistor
+ - U5: ZDSD04GLGEAG
+ - U6: SN74AHC1G08DCKR
+ - SW2: SW2, source_component
+ - SW3: SW3, source_component
+ - R26: 5.1kΩ resistor
+ - C45: 100nF capacitor
+ - SW4: SW4, source_component
+ - R27: 5.1kΩ resistor
+ - C46: 100nF capacitor
+ - SW5: SW5, source_component
+ - R28: 5.1kΩ resistor
+ - C47: 100nF capacitor
+ - SW6: SW6, source_component
+ - R29: 5.1kΩ resistor
+ - C48: 100nF capacitor
+ - SW7: SW7, source_component
+ - R30: 5.1kΩ resistor
+ - C49: 100nF capacitor
+ - SW8: SW8, source_component
+ - R31: 5.1kΩ resistor
+ - C50: 100nF capacitor
+ - SW9: SW9, source_component
+ - R32: 5.1kΩ resistor
+ - C51: 100nF capacitor
+ - SW10: SW10, source_component
+ - R33: 5.1kΩ resistor
+ - C52: 100nF capacitor
+ - SW11: SW11, source_component
+ - R34: 5.1kΩ resistor
+ - C53: 100nF capacitor
+ - SW12: SW12, source_component
+ - R35: 5.1kΩ resistor
+ - C54: 100nF capacitor
 
 NET: VDD_CORE_0V9
   - U3 VDD_SYS2
@@ -109,16 +163,39 @@ NET: LDOA_1V8
   - C16 pin1 (+)
 
 NET: SYS_3V3
+  - R35 pin1
+  - R34 pin1
+  - R33 pin1
+  - R32 pin1
+  - R31 pin1
+  - R30 pin1
+  - R29 pin1
+  - R28 pin1
+  - R27 pin1
+  - R26 pin1
+  - U6 VCC
+  - U5 VDD
   - U3 VCC_IO
   - U3 VCC_TVOUT
   - U3 VCC_PD
   - U3 VCC_PE
   - U3 LDO_IN
   - U3 VCC_PG
+  - R22 pin2
+  - R21 pin1
+  - R20 pin1
   - R2 pin1
+  - R19 pin1
+  - R18 pin1
+  - R17 pin1
+  - R13 pin1
+  - R12 pin1
   - L1 pin2 (-)
   - D1 anode (+)
   - C9 pin1 (+)
+  - C43 pin1 (+)
+  - C42 pin1 (+)
+  - C41 pin1 (+)
   - C3 pin1 (+)
   - C2 pin1 (+)
   - C15 pin1 (+)
@@ -154,31 +231,141 @@ NET: RESET_N
   - R11 pin2
   - C40 pin1 (+)
 
+NET: BOARD_ID_1
+  - U3 PF6
+  - R14 pin1
+
+NET: BOARD_ID_2
+  - U3 PE8
+  - R24 pin1
+
+NET: BOARD_ID_3
+  - U3 PE9
+  - R25 pin1
+
+NET: BOOT_SEL0
+  - U3 PC4
+  - R13 pin2
+
+NET: BOOT_SEL1
+  - U3 PC5
+  - R12 pin2
+
+NET: SDC0_CLK
+  - U6 A
+  - U3 PF2
+
+NET: SDC0_CMD
+  - U5 CMD
+  - U3 PF3
+  - R19 pin2
+
+NET: SDC0_D0
+  - U5 DAT0
+  - U3 PF1
+  - R18 pin2
+
+NET: SDC0_D1
+  - U5 DAT1
+  - U3 PF0
+  - R17 pin2
+
+NET: SDC0_D2
+  - U5 DAT2
+  - U3 PF5
+  - R21 pin2
+
+NET: SDC0_D3
+  - U5 DAT3
+  - U3 PF4
+  - R20 pin2
+
 NET: SYS_3V3_PG
   - U2 EN
   - U1 PG
   - R6 pin2
   - C8 pin1 (+)
 
+NET: USB0_CC1
+  - R15 pin1
+  - J1 A5
+
+NET: USB0_CC2
+  - R16 pin1
+  - J1 B5
+
+NET: USB0_DM
+  - J1 B7
+  - J1 A7
+  - U4 IO11
+  - U4 IO12
+  - U3 USB0_DM
+
+NET: USB0_DP
+  - J1 A6
+  - J1 B6
+  - U4 IO21
+  - U4 IO22
+  - U3 USB0_DP
+
 NET: GND
+  - C54 pin2 (-)
+  - SW12 pin1
+  - C53 pin2 (-)
+  - SW11 pin1
+  - C52 pin2 (-)
+  - SW10 pin1
+  - C51 pin2 (-)
+  - SW9 pin1
+  - C50 pin2 (-)
+  - SW8 pin1
+  - C49 pin2 (-)
+  - SW7 pin1
+  - C48 pin2 (-)
+  - SW6 pin1
+  - C47 pin2 (-)
+  - SW5 pin1
+  - C46 pin2 (-)
+  - SW4 pin1
+  - C45 pin2 (-)
+  - SW3 pin1
   - Y1 pin4
   - Y1 pin2
+  - U6 GND
+  - U5 GND
+  - U4 GND
   - U3 FMINL
   - U3 FMINR
   - U3 AGND
   - U3 EPAD
   - U2 GND
   - U1 GND
+  - SW2 pin1
   - SW1 pin1
   - R7 pin2
   - R4 pin2
   - R3 pin2
+  - R25 pin2
+  - R24 pin2
+  - R16 pin2
+  - R15 pin2
+  - R14 pin2
   - R10 pin2
+  - J1 B1A12
+  - J1 A1B12
+  - J1 pin4
+  - J1 pin3
+  - J1 pin2
+  - J1 pin1
   - C9 pin2 (-)
   - C8 pin2 (-)
   - C7 pin2 (-)
   - C6 pin2 (-)
   - C5 pin2 (-)
+  - C44 pin2 (-)
+  - C43 pin2 (-)
+  - C42 pin2 (-)
+  - C41 pin2 (-)
   - C40 pin2 (-)
   - C39 pin2 (-)
   - C38 pin2 (-)
@@ -213,9 +400,19 @@ NET: GND
   - C10 pin2 (-)
   - C1 pin2 (-)
 
+NET: FEL_CLOCK_ENABLE
+  - U6 B
+  - SW2 pin2
+  - R22 pin1
+  - C44 pin1 (+)
+
 NET: Net__D1_K_
   - R4 pin1
   - D1 cathode (-)
+
+NET: SDC0_CLK_BUFFERED
+  - U6 Y
+  - R23 pin1
 
 NET: BUCK_3V3_EN
   - U1 EN
@@ -253,13 +450,84 @@ NET: Net__U3F_VRA2_
   - U3 VRA2
   - C38 pin1 (+)
 
+NET: USB_C_VBUS_5V
+  - U4 VBUS
+  - J1 B4A9
+  - J1 A4B9
+  - F1 pin1
+
+NET: SDC0_CLK_STORAGE
+  - U5 CLK
+  - R23 pin2
+
 NET: INPUT_5V
   - U2 VIN
   - U1 VIN
   - R6 pin1
   - R1 pin1
+  - F1 pin2
   - C7 pin1 (+)
   - C1 pin1 (+)
+
+NET: BUTTON_UP_N
+  - C45 pin1 (+)
+  - R26 pin2
+  - SW3 pin2
+  - U3 PE0
+
+NET: BUTTON_DOWN_N
+  - C46 pin1 (+)
+  - R27 pin2
+  - SW4 pin2
+  - U3 PE1
+
+NET: BUTTON_LEFT_N
+  - C47 pin1 (+)
+  - R28 pin2
+  - SW5 pin2
+  - U3 PE2
+
+NET: BUTTON_RIGHT_N
+  - C48 pin1 (+)
+  - R29 pin2
+  - SW6 pin2
+  - U3 PE3
+
+NET: BUTTON_A_N
+  - C49 pin1 (+)
+  - R30 pin2
+  - SW7 pin2
+  - U3 PE6
+
+NET: BUTTON_B_N
+  - C50 pin1 (+)
+  - R31 pin2
+  - SW8 pin2
+  - U3 PE7
+
+NET: BUTTON_START_N
+  - C51 pin1 (+)
+  - R32 pin2
+  - SW9 pin2
+  - U3 PE10
+
+NET: BUTTON_SELECT_N
+  - C52 pin1 (+)
+  - R33 pin2
+  - SW10 pin2
+  - U3 PE11
+
+NET: BUTTON_L_N
+  - C53 pin1 (+)
+  - R34 pin2
+  - SW11 pin2
+  - U3 PE12
+
+NET: BUTTON_R_N
+  - C54 pin1 (+)
+  - R35 pin2
+  - SW12 pin2
+  - U3 PE13
 
 
 COMPONENT_PINS:
@@ -494,17 +762,17 @@ U3 (T113M4020DC0)
 - pin4(PG9): NOT_CONNECTED
 - pin5(PG10): NOT_CONNECTED
 - pin6(PG11): NOT_CONNECTED
-- pin7(PF0): NOT_CONNECTED
-- pin8(PF1): NOT_CONNECTED
-- pin9(PF2): NOT_CONNECTED
-- pin10(PF3): NOT_CONNECTED
-- pin11(PF4): NOT_CONNECTED
-- pin12(PF5): NOT_CONNECTED
-- pin13(PF6): NOT_CONNECTED
+- pin7(PF0): NETS(SDC0_D1)
+- pin8(PF1): NETS(SDC0_D0)
+- pin9(PF2): NETS(SDC0_CLK)
+- pin10(PF3): NETS(SDC0_CMD)
+- pin11(PF4): NETS(SDC0_D3)
+- pin12(PF5): NETS(SDC0_D2)
+- pin13(PF6): NETS(BOARD_ID_1)
 - pin14(PC7): NOT_CONNECTED
 - pin15(PC6): NOT_CONNECTED
-- pin16(PC5): NOT_CONNECTED
-- pin17(PC4): NOT_CONNECTED
+- pin16(PC5): NETS(BOOT_SEL1)
+- pin17(PC4): NETS(BOOT_SEL0)
 - pin18(PC3): NOT_CONNECTED
 - pin19(PC2): NOT_CONNECTED
 - pin20(VCC_PLL): NETS(LDOA_1V8)
@@ -518,21 +786,21 @@ U3 (T113M4020DC0)
 - pin28(LDOA_OUT): NETS(LDOA_1V8)
 - pin29(LDO_IN): NETS(SYS_3V3)
 - pin30(LDOB_OUT): NETS(DDR_1V5)
-- pin31(PE13): NOT_CONNECTED
-- pin32(PE12): NOT_CONNECTED
-- pin33(PE3): NOT_CONNECTED
+- pin31(PE13): NETS(BUTTON_R_N)
+- pin32(PE12): NETS(BUTTON_L_N)
+- pin33(PE3): NETS(BUTTON_RIGHT_N)
 - pin34(VCC_PE): NETS(SYS_3V3)
-- pin35(PE2): NOT_CONNECTED
-- pin36(PE11): NOT_CONNECTED
-- pin37(PE10): NOT_CONNECTED
-- pin38(PE9): NOT_CONNECTED
-- pin39(PE8): NOT_CONNECTED
-- pin40(PE7): NOT_CONNECTED
-- pin41(PE6): NOT_CONNECTED
+- pin35(PE2): NETS(BUTTON_LEFT_N)
+- pin36(PE11): NETS(BUTTON_SELECT_N)
+- pin37(PE10): NETS(BUTTON_START_N)
+- pin38(PE9): NETS(BOARD_ID_3)
+- pin39(PE8): NETS(BOARD_ID_2)
+- pin40(PE7): NETS(BUTTON_B_N)
+- pin41(PE6): NETS(BUTTON_A_N)
 - pin42(PE5): NOT_CONNECTED
 - pin43(PE4): NOT_CONNECTED
-- pin44(PE0): NOT_CONNECTED
-- pin45(PE1): NOT_CONNECTED
+- pin44(PE0): NETS(BUTTON_UP_N)
+- pin45(PE1): NETS(BUTTON_DOWN_N)
 - pin46(VDD_SYS0): NETS(VDD_CORE_0V9)
 - pin47(DZQ): NETS(DDR_ZQ)
 - pin48(VCC_DRAM0): NETS(DDR_1V5)
@@ -601,8 +869,8 @@ U3 (T113M4020DC0)
 - pin111(TVIN_VRN): NOT_CONNECTED
 - pin112(USB1_DP): NOT_CONNECTED
 - pin113(USB1_DM): NOT_CONNECTED
-- pin114(USB0_DM): NOT_CONNECTED
-- pin115(USB0_DP): NOT_CONNECTED
+- pin114(USB0_DM): NETS(USB0_DM)
+- pin115(USB0_DP): NETS(USB0_DP)
 - pin116(VDD_CORE0): NETS(VDD_CORE_0V9)
 - pin117(VDD_CORE1): NETS(VDD_CORE_0V9)
 - pin118(PG1): NOT_CONNECTED
@@ -631,3 +899,246 @@ Y1 (CM4024M00008001)
 Y2 (Q13FC13500004)
 - pin1(pos, left, X1): NETS(LXIN)
 - pin2(neg, right, X2): NETS(LXOUT)
+
+R12 (5.1kΩ undefined)
+- pin1(anode, pos, left): NETS(SYS_3V3)
+- pin2(cathode, neg, right): NETS(BOOT_SEL1)
+
+R13 (5.1kΩ undefined)
+- pin1(anode, pos, left): NETS(SYS_3V3)
+- pin2(cathode, neg, right): NETS(BOOT_SEL0)
+
+R14 (5.1kΩ undefined)
+- pin1(anode, pos, left): NETS(BOARD_ID_1)
+- pin2(cathode, neg, right): NETS(GND)
+
+R24 (5.1kΩ undefined)
+- pin1(anode, pos, left): NETS(BOARD_ID_2)
+- pin2(cathode, neg, right): NETS(GND)
+
+R25 (5.1kΩ undefined)
+- pin1(anode, pos, left): NETS(BOARD_ID_3)
+- pin2(cathode, neg, right): NETS(GND)
+
+R15 (5.1kΩ undefined)
+- pin1(anode, pos, left): NETS(USB0_CC1)
+- pin2(cathode, neg, right): NETS(GND)
+
+R16 (5.1kΩ undefined)
+- pin1(anode, pos, left): NETS(USB0_CC2)
+- pin2(cathode, neg, right): NETS(GND)
+
+U4 (USBLC6-2SC6)
+- pin1(IO11): NETS(USB0_DM)
+- pin2(GND): NETS(GND)
+- pin3(IO21): NETS(USB0_DP)
+- pin4(IO22): NETS(USB0_DP)
+- pin5(VBUS): NETS(USB_C_VBUS_5V)
+- pin6(IO12): NETS(USB0_DM)
+
+F1 (JK-nSMD100-16)
+- pin1: NETS(USB_C_VBUS_5V)
+- pin2: NETS(INPUT_5V)
+
+J1 (HX TYPE-C 16P L8.35)
+- pin1: NETS(GND)
+- pin2: NETS(GND)
+- pin3: NETS(GND)
+- pin4: NETS(GND)
+- pin5(A1B12, GND1): NETS(GND)
+- pin6(A4B9, VBUS1): NETS(USB_C_VBUS_5V)
+- pin7(B1A12, GND2): NETS(GND)
+- pin8(B4A9, VBUS2): NETS(USB_C_VBUS_5V)
+- pin9(B5, CC2): NETS(USB0_CC2)
+- pin10(A8, SBU1): NOT_CONNECTED
+- pin11(B6, DP2): NETS(USB0_DP)
+- pin12(A7, DN1): NETS(USB0_DM)
+- pin13(A6, DP1): NETS(USB0_DP)
+- pin14(B7, DN2): NETS(USB0_DM)
+- pin15(A5, CC1): NETS(USB0_CC1)
+- pin16(B8, SBU2): NOT_CONNECTED
+
+C41 (10uF undefined)
+- pin1(pos): NETS(SYS_3V3)
+- pin2(neg): NETS(GND)
+
+C42 (100nF undefined)
+- pin1(pos): NETS(SYS_3V3)
+- pin2(neg): NETS(GND)
+
+C43 (100nF undefined)
+- pin1(pos): NETS(SYS_3V3)
+- pin2(neg): NETS(GND)
+
+C44 (100nF undefined)
+- pin1(pos): NETS(FEL_CLOCK_ENABLE)
+- pin2(neg): NETS(GND)
+
+R17 (51kΩ undefined)
+- pin1(anode, pos, left): NETS(SYS_3V3)
+- pin2(cathode, neg, right): NETS(SDC0_D1)
+
+R18 (51kΩ undefined)
+- pin1(anode, pos, left): NETS(SYS_3V3)
+- pin2(cathode, neg, right): NETS(SDC0_D0)
+
+R19 (51kΩ undefined)
+- pin1(anode, pos, left): NETS(SYS_3V3)
+- pin2(cathode, neg, right): NETS(SDC0_CMD)
+
+R20 (51kΩ undefined)
+- pin1(anode, pos, left): NETS(SYS_3V3)
+- pin2(cathode, neg, right): NETS(SDC0_D3)
+
+R21 (51kΩ undefined)
+- pin1(anode, pos, left): NETS(SYS_3V3)
+- pin2(cathode, neg, right): NETS(SDC0_D2)
+
+R22 (5.1kΩ undefined)
+- pin1(anode, pos, left): NETS(FEL_CLOCK_ENABLE)
+- pin2(cathode, neg, right): NETS(SYS_3V3)
+
+R23 (22Ω undefined)
+- pin1(anode, pos, left): NETS(SDC0_CLK_BUFFERED)
+- pin2(cathode, neg, right): NETS(SDC0_CLK_STORAGE)
+
+U5 (ZDSD04GLGEAG)
+- pin1(DAT2): NETS(SDC0_D2)
+- pin2(DAT3): NETS(SDC0_D3)
+- pin3(CLK): NETS(SDC0_CLK_STORAGE)
+- pin4(GND): NETS(GND)
+- pin5(CMD): NETS(SDC0_CMD)
+- pin6(DAT0): NETS(SDC0_D0)
+- pin7(DAT1): NETS(SDC0_D1)
+- pin8(VDD): NETS(SYS_3V3)
+
+U6 (SN74AHC1G08DCKR)
+- pin1(A): NETS(SDC0_CLK)
+- pin2(B): NETS(FEL_CLOCK_ENABLE)
+- pin3(GND): NETS(GND)
+- pin4(Y): NETS(SDC0_CLK_BUFFERED)
+- pin5(VCC): NETS(SYS_3V3)
+
+SW2 (TSA010A2026B)
+- pin1: NETS(GND)
+- pin2: NETS(FEL_CLOCK_ENABLE)
+
+SW3 (TSA010A2026B)
+- pin1: NETS(GND)
+- pin2: NETS(BUTTON_UP_N)
+
+R26 (5.1kΩ undefined)
+- pin1(anode, pos, left): NETS(SYS_3V3)
+- pin2(cathode, neg, right): NETS(BUTTON_UP_N)
+
+C45 (100nF undefined)
+- pin1(pos): NETS(BUTTON_UP_N)
+- pin2(neg): NETS(GND)
+
+SW4 (TSA010A2026B)
+- pin1: NETS(GND)
+- pin2: NETS(BUTTON_DOWN_N)
+
+R27 (5.1kΩ undefined)
+- pin1(anode, pos, left): NETS(SYS_3V3)
+- pin2(cathode, neg, right): NETS(BUTTON_DOWN_N)
+
+C46 (100nF undefined)
+- pin1(pos): NETS(BUTTON_DOWN_N)
+- pin2(neg): NETS(GND)
+
+SW5 (TSA010A2026B)
+- pin1: NETS(GND)
+- pin2: NETS(BUTTON_LEFT_N)
+
+R28 (5.1kΩ undefined)
+- pin1(anode, pos, left): NETS(SYS_3V3)
+- pin2(cathode, neg, right): NETS(BUTTON_LEFT_N)
+
+C47 (100nF undefined)
+- pin1(pos): NETS(BUTTON_LEFT_N)
+- pin2(neg): NETS(GND)
+
+SW6 (TSA010A2026B)
+- pin1: NETS(GND)
+- pin2: NETS(BUTTON_RIGHT_N)
+
+R29 (5.1kΩ undefined)
+- pin1(anode, pos, left): NETS(SYS_3V3)
+- pin2(cathode, neg, right): NETS(BUTTON_RIGHT_N)
+
+C48 (100nF undefined)
+- pin1(pos): NETS(BUTTON_RIGHT_N)
+- pin2(neg): NETS(GND)
+
+SW7 (TSA010A2026B)
+- pin1: NETS(GND)
+- pin2: NETS(BUTTON_A_N)
+
+R30 (5.1kΩ undefined)
+- pin1(anode, pos, left): NETS(SYS_3V3)
+- pin2(cathode, neg, right): NETS(BUTTON_A_N)
+
+C49 (100nF undefined)
+- pin1(pos): NETS(BUTTON_A_N)
+- pin2(neg): NETS(GND)
+
+SW8 (TSA010A2026B)
+- pin1: NETS(GND)
+- pin2: NETS(BUTTON_B_N)
+
+R31 (5.1kΩ undefined)
+- pin1(anode, pos, left): NETS(SYS_3V3)
+- pin2(cathode, neg, right): NETS(BUTTON_B_N)
+
+C50 (100nF undefined)
+- pin1(pos): NETS(BUTTON_B_N)
+- pin2(neg): NETS(GND)
+
+SW9 (TSA010A2026B)
+- pin1: NETS(GND)
+- pin2: NETS(BUTTON_START_N)
+
+R32 (5.1kΩ undefined)
+- pin1(anode, pos, left): NETS(SYS_3V3)
+- pin2(cathode, neg, right): NETS(BUTTON_START_N)
+
+C51 (100nF undefined)
+- pin1(pos): NETS(BUTTON_START_N)
+- pin2(neg): NETS(GND)
+
+SW10 (TSA010A2026B)
+- pin1: NETS(GND)
+- pin2: NETS(BUTTON_SELECT_N)
+
+R33 (5.1kΩ undefined)
+- pin1(anode, pos, left): NETS(SYS_3V3)
+- pin2(cathode, neg, right): NETS(BUTTON_SELECT_N)
+
+C52 (100nF undefined)
+- pin1(pos): NETS(BUTTON_SELECT_N)
+- pin2(neg): NETS(GND)
+
+SW11 (TSA010A2026B)
+- pin1: NETS(GND)
+- pin2: NETS(BUTTON_L_N)
+
+R34 (5.1kΩ undefined)
+- pin1(anode, pos, left): NETS(SYS_3V3)
+- pin2(cathode, neg, right): NETS(BUTTON_L_N)
+
+C53 (100nF undefined)
+- pin1(pos): NETS(BUTTON_L_N)
+- pin2(neg): NETS(GND)
+
+SW12 (TSA010A2026B)
+- pin1: NETS(GND)
+- pin2: NETS(BUTTON_R_N)
+
+R35 (5.1kΩ undefined)
+- pin1(anode, pos, left): NETS(SYS_3V3)
+- pin2(cathode, neg, right): NETS(BUTTON_R_N)
+
+C54 (100nF undefined)
+- pin1(pos): NETS(BUTTON_R_N)
+- pin2(neg): NETS(GND)

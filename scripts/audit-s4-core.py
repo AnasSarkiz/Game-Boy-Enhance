@@ -9,6 +9,27 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 S4 = ROOT / "s4"
 POWER_INPUTS = {20, 26, 29, 34, 46, 48, 49, 50, 51, 65, 66, 77, 81, 83, 89, 97, 107, 116, 117, 128}
+USB_CONTACTS = {"A1": ["5"], "B12": ["5"], "A12": ["7"], "B1": ["7"],
+                "A4": ["6"], "B9": ["6"], "A9": ["8"], "B4": ["8"],
+                "A5": ["15"], "B5": ["9"], "A6": ["13"], "B6": ["11"],
+                "A7": ["12"], "B7": ["14"], "S1": ["1", "2", "3", "4"]}
+
+
+def reference_endpoints(net, expected_refs):
+    endpoints = set()
+    for node in net.findall("node"):
+        ref, pin = node.attrib["ref"], node.attrib["pin"]
+        if ref not in expected_refs:
+            continue
+        if ref == "J1":
+            endpoints.update((ref, mapped) for mapped in USB_CONTACTS[pin])
+        else:
+            if ref == "U3" and pin == "53":
+                pin = "39"  # BOARD_ID_2: PD21 -> PE8, preserve LCD VSYNC.
+            elif ref == "U3" and pin == "52":
+                pin = "38"  # BOARD_ID_3: PD22 -> PE9.
+            endpoints.add((ref, pin))
+    return endpoints
 
 
 def main():
@@ -24,18 +45,33 @@ def main():
         key = port.get("subcircuit_connectivity_map_key")
         if key:
             partitions.setdefault(key, set()).add((components[port["source_component_id"]]["name"], str(port["pin_number"])))
-    expected_partitions = []
+    reference_groups = {}
     schematic = ET.parse(S4 / "reference/netlist.xml").getroot()
     for net in schematic.findall("./nets/net"):
         if net.attrib["name"].startswith("unconnected-"):
             continue
-        endpoints = {(node.attrib["ref"], node.attrib["pin"]) for node in net.findall("node") if node.attrib["ref"] in expected_refs}
+        endpoints = reference_endpoints(net, expected_refs)
         if net.attrib["name"] == "+3V3":
             endpoints.remove(("R11", "1"))
         if net.attrib["name"] == "+1V8":
             endpoints.add(("R11", "1"))
         if len(endpoints) >= 2:
-            expected_partitions.append(frozenset(endpoints))
+            reference_groups[net.attrib["name"]] = endpoints
+    # Verify actual continuous nets through ST's two internally connected paths.
+    for cpu_net, connector_net in [("/Architecture/USB/USB0_DN", "Net-(J1-D--PadA7)"),
+                                   ("/Architecture/USB/USB0_DP", "Net-(J1-D+-PadA6)")]:
+        reference_groups[cpu_net].update(reference_groups.pop(connector_net))
+    controls = json.loads((S4 / "controls.json").read_text())["buttons"]
+    required_game_inputs = {"UP", "DOWN", "LEFT", "RIGHT", "A", "B", "START", "SELECT", "L", "R"}
+    assert {button["function"] for button in controls} == required_game_inputs and len(controls) == 10
+    assert {button["cpu_pin"] for button in controls} == {44, 45, 35, 33, 41, 40, 37, 36, 32, 31}
+    for button in controls:
+        reference_groups["+3V3"].add((button["pullup"], "1"))
+        reference_groups["GND"].update([(button["switch"], "1"), (button["filter"], "2")])
+        reference_groups["BUTTON_" + button["function"] + "_N"] = {
+            ("U3", str(button["cpu_pin"])), (button["switch"], "2"),
+            (button["pullup"], "2"), (button["filter"], "1")}
+    expected_partitions = list(map(frozenset, reference_groups.values()))
     assert set(map(frozenset, partitions.values())) == set(expected_partitions), "Missing connection or unexpected net merge"
     for selected in manifest["components"]:
         component = next(entry for entry in components.values() if entry["name"] == selected["reference"])
@@ -50,6 +86,29 @@ def main():
     assert cpu_ports[106]["do_not_connect"] and not cpu_ports[106].get("subcircuit_connectivity_map_key")
     for pin in POWER_INPUTS | {28, 30, 91, 129}:
         assert cpu_ports[pin]["must_be_connected"] and cpu_ports[pin].get("subcircuit_connectivity_map_key")
+    by_ref_pin = {(components[port["source_component_id"]]["name"], port["pin_number"]): port for port in ports}
+    for ref, required_pins in {"U4": range(1, 7), "U5": range(1, 9), "U6": range(1, 6),
+                               "J1": [1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15]}.items():
+        for pin in required_pins:
+            port = by_ref_pin[(ref, pin)]
+            assert port["must_be_connected"] and port.get("subcircuit_connectivity_map_key"), f"Required interface pin missing: {ref}.{pin}"
+    for pin in [10, 16]:
+        port = by_ref_pin[("J1", pin)]
+        assert port["do_not_connect"] and not port.get("subcircuit_connectivity_map_key"), "USB SBU must stay unused in USB2-only port"
+    for pin in [52, 53, 62, 63]:
+        assert not cpu_ports[pin].get("subcircuit_connectivity_map_key"), "Future display pins conflict with straps/debug"
+    allocation = json.loads((S4 / "pin-allocation.json").read_text())["assignments"]
+    assert len({entry["cpu_pin"] for entry in allocation}) == len(allocation), "CPU pin allocated twice"
+    assert len({entry["signal"] for entry in allocation}) == len(allocation), "Signal allocated twice"
+    named_nets = {entry["name"]: entry for entry in circuit if entry["type"] == "source_net"}
+    for assigned in allocation:
+        port = cpu_ports[assigned["cpu_pin"]]
+        assert assigned["gpio"] in port["port_hints"], "Allocation disagrees with physical CPU pin label"
+        if assigned["status"] == "reserved_unwired":
+            assert not port.get("subcircuit_connectivity_map_key"), f"Reserved pin is already occupied: {assigned}"
+        else:
+            assert assigned["status"] == "connected"
+            assert port["subcircuit_connectivity_map_key"] == named_nets[assigned["signal"]]["subcircuit_connectivity_map_key"]
     pcb_components = [entry for entry in circuit if entry["type"] == "pcb_component"]
     assert len(pcb_components) == len(components) and all(not entry.get("do_not_place") for entry in pcb_components)
     courtyards = [entry for entry in circuit if entry["type"] == "pcb_courtyard_outline"]
@@ -66,13 +125,18 @@ def main():
             dy = max(first[2] - second[3], second[2] - first[3])
             assert dx > 0 or dy > 0, "Overlapping imported courtyards"
             clearances.append(math.hypot(max(dx, 0), max(dy, 0)))
+    assert min(clearances) >= 0.1, "Less than 0.1mm spacing between supplier courtyards"
     diagnostics = [entry for entry in circuit if entry["type"].endswith(("_error", "_warning"))]
     assert not any(entry["type"] in ["pcb_trace", "pcb_via"] for entry in circuit), "Routing must remain disabled"
-    assert len([entry for entry in circuit if entry["type"] == "schematic_sheet"]) == 2
-    report = {"scope": "connected_power_cpu_clock_reset_stage_only", "component_count": len(components),
+    assert len([entry for entry in circuit if entry["type"] == "schematic_sheet"]) == 6
+    report = {"scope": "connected_power_cpu_usb_storage_recovery_controls_stage_only", "component_count": len(components),
               "courtyard_count": len(courtyards), "minimum_courtyard_gap_mm": round(min(clearances), 6),
-              "reference_net_partitions_checked": len(expected_partitions),
+              "net_partitions_checked": len(expected_partitions),
+              "reference_net_partitions_checked": len(expected_partitions) - len(controls),
+              "control_net_partitions_checked": len(controls),
               "connected_endpoints_checked": sum(map(len, expected_partitions)),
+              "populated_game_inputs": sorted(required_game_inputs),
+              "allocated_cpu_signal_pins_checked": len(allocation),
               "cpu_supply_inputs_required_and_connected": sorted(POWER_INPUTS),
               "cpu_ldo_outputs_required_and_connected": [28, 30], "cpu_ground_pins_required_and_connected": [91, 129],
               "reference_deviations": manifest["deviations"],

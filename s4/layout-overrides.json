@@ -1,12 +1,201 @@
 {
-  "C10": { "pcbX": -15.5, "reason": "Bulk input capacitor outside the close CPU decoupler row" },
-  "C22": { "pcbY": -15.0, "reason": "Bulk core capacitor outside the close CPU decoupler row" },
-  "C29": { "pcbY": 14.5, "reason": "Bulk analog capacitor outside the close CPU decoupler row" },
-  "C18": { "pcbX": 10.6, "pcbY": 0.0, "reason": "Close 1.8V decoupler clear of the main crystal courtyard" },
-  "Y1": { "pcbX": 14.0, "pcbY": 1.5, "reason": "Keep 24MHz oscillator connections close to CPU pins 22/23" },
-  "Y2": { "pcbX": 14.7, "pcbY": 5.2, "reason": "Keep RTC oscillator connections close to CPU pins 24/25" },
-  "C32": { "pcbX": 13.0, "pcbY": -2.2, "reason": "24MHz load capacitor beside crystal with courtyard clearance" },
-  "C33": { "pcbX": 16.8, "pcbY": 1.5, "reason": "24MHz load capacitor beside crystal with courtyard clearance" },
-  "C36": { "pcbX": 13.6, "pcbY": 7.8, "pcbRotation": 270, "reason": "RTC load capacitor beside crystal, signal land facing CPU" },
-  "C37": { "pcbX": 15.3, "pcbY": 7.8, "pcbRotation": 270, "reason": "RTC load capacitor beside crystal, signal land facing CPU" }
+  "C10": {
+    "pcbX": -15.5,
+    "reason": "Bulk input capacitor outside the close CPU decoupler row"
+  },
+  "C22": {
+    "pcbY": -15.0,
+    "reason": "Bulk core capacitor outside the close CPU decoupler row"
+  },
+  "C29": {
+    "pcbY": 14.5,
+    "reason": "Bulk analog capacitor outside the close CPU decoupler row"
+  },
+  "C18": {
+    "pcbX": 10.6,
+    "pcbY": 0.0,
+    "reason": "Close 1.8V decoupler clear of the main crystal courtyard"
+  },
+  "Y1": {
+    "pcbX": 14.0,
+    "pcbY": 1.5,
+    "reason": "Keep 24MHz oscillator connections close to CPU pins 22/23"
+  },
+  "Y2": {
+    "pcbX": 14.7,
+    "pcbY": 5.2,
+    "reason": "Keep RTC oscillator connections close to CPU pins 24/25"
+  },
+  "C32": {
+    "pcbX": 13.0,
+    "pcbY": -2.2,
+    "reason": "24MHz load capacitor beside crystal with courtyard clearance"
+  },
+  "C33": {
+    "pcbX": 16.8,
+    "pcbY": 1.5,
+    "reason": "24MHz load capacitor beside crystal with courtyard clearance"
+  },
+  "C36": {
+    "pcbX": 13.6,
+    "pcbY": 7.8,
+    "pcbRotation": 270,
+    "reason": "RTC load capacitor beside crystal, signal land facing CPU"
+  },
+  "C37": {
+    "pcbX": 15.3,
+    "pcbY": 7.8,
+    "pcbRotation": 270,
+    "reason": "RTC load capacitor beside crystal, signal land facing CPU"
+  },
+  "J1": {
+    "pcbX": 0,
+    "pcbY": -48,
+    "pcbRotation": 0,
+    "reason": "USB-C edge access and local protection"
+  },
+  "U4": {
+    "pcbX": 0,
+    "pcbY": -41,
+    "pcbRotation": 0,
+    "reason": "USB-C edge access and local protection"
+  },
+  "F1": {
+    "pcbX": -7,
+    "pcbY": -42,
+    "pcbRotation": 90,
+    "reason": "USB-C edge access and local protection"
+  },
+  "R15": {
+    "pcbX": -3.5,
+    "pcbY": -43,
+    "pcbRotation": 90,
+    "reason": "USB-C edge access and local protection"
+  },
+  "R16": {
+    "pcbX": 3.5,
+    "pcbY": -43,
+    "pcbRotation": 90,
+    "reason": "USB-C edge access and local protection"
+  },
+  "U5": {
+    "pcbX": 28,
+    "pcbY": -5,
+    "pcbRotation": 0,
+    "reason": "Keep storage, recovery and straps near their allocated CPU pins with courtyard clearance"
+  },
+  "U6": {
+    "pcbX": 18,
+    "pcbY": -7,
+    "pcbRotation": 180,
+    "reason": "Keep storage, recovery and straps near their allocated CPU pins with courtyard clearance"
+  },
+  "R23": {
+    "pcbX": 21.3,
+    "pcbY": -7.65,
+    "pcbRotation": 0,
+    "reason": "Keep storage, recovery and straps near their allocated CPU pins with courtyard clearance"
+  },
+  "C41": {
+    "pcbX": 34,
+    "pcbY": -4,
+    "pcbRotation": 90,
+    "reason": "Keep storage, recovery and straps near their allocated CPU pins with courtyard clearance"
+  },
+  "C42": {
+    "pcbX": 34,
+    "pcbY": -0.8,
+    "pcbRotation": 90,
+    "reason": "Keep storage, recovery and straps near their allocated CPU pins with courtyard clearance"
+  },
+  "C43": {
+    "pcbX": 18,
+    "pcbY": -4.5,
+    "pcbRotation": 0,
+    "reason": "Keep storage, recovery and straps near their allocated CPU pins with courtyard clearance"
+  },
+  "R17": {
+    "pcbX": 31,
+    "pcbY": 0,
+    "pcbRotation": 90,
+    "reason": "Keep storage, recovery and straps near their allocated CPU pins with courtyard clearance"
+  },
+  "R18": {
+    "pcbX": 29,
+    "pcbY": 0,
+    "pcbRotation": 90,
+    "reason": "Keep storage, recovery and straps near their allocated CPU pins with courtyard clearance"
+  },
+  "R19": {
+    "pcbX": 27,
+    "pcbY": 0,
+    "pcbRotation": 90,
+    "reason": "Keep storage, recovery and straps near their allocated CPU pins with courtyard clearance"
+  },
+  "R20": {
+    "pcbX": 25,
+    "pcbY": 0,
+    "pcbRotation": 90,
+    "reason": "Keep storage, recovery and straps near their allocated CPU pins with courtyard clearance"
+  },
+  "R21": {
+    "pcbX": 23,
+    "pcbY": 0,
+    "pcbRotation": 90,
+    "reason": "Keep storage, recovery and straps near their allocated CPU pins with courtyard clearance"
+  },
+  "R22": {
+    "pcbX": 17,
+    "pcbY": -11,
+    "pcbRotation": 90,
+    "reason": "Keep storage, recovery and straps near their allocated CPU pins with courtyard clearance"
+  },
+  "C44": {
+    "pcbX": 19,
+    "pcbY": -11,
+    "pcbRotation": 90,
+    "reason": "Keep storage, recovery and straps near their allocated CPU pins with courtyard clearance"
+  },
+  "SW2": {
+    "pcbX": 18,
+    "pcbY": -16,
+    "pcbRotation": 0,
+    "reason": "Keep storage, recovery and straps near their allocated CPU pins with courtyard clearance"
+  },
+  "R12": {
+    "pcbX": 17,
+    "pcbY": -2,
+    "pcbRotation": 90,
+    "reason": "Keep storage, recovery and straps near their allocated CPU pins with courtyard clearance"
+  },
+  "R13": {
+    "pcbX": 19,
+    "pcbY": -2,
+    "pcbRotation": 90,
+    "reason": "Keep storage, recovery and straps near their allocated CPU pins with courtyard clearance"
+  },
+  "R14": {
+    "pcbX": 21,
+    "pcbY": -2,
+    "pcbRotation": 90,
+    "reason": "Keep storage, recovery and straps near their allocated CPU pins with courtyard clearance"
+  },
+  "R24": {
+    "pcbX": 0,
+    "pcbY": 17,
+    "pcbRotation": 90,
+    "reason": "Keep storage, recovery and straps near their allocated CPU pins with courtyard clearance"
+  },
+  "R25": {
+    "pcbX": 6,
+    "pcbY": 17,
+    "pcbRotation": 90,
+    "reason": "Keep storage, recovery and straps near their allocated CPU pins with courtyard clearance"
+  },
+  "D1": {
+    "pcbX": -12,
+    "pcbY": -42,
+    "pcbRotation": 90,
+    "reason": "Move status LED clear of new USB protection and CC parts"
+  }
 }

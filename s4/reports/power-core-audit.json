@@ -1,10 +1,25 @@
 {
-  "scope": "connected_power_cpu_clock_reset_stage_only",
-  "component_count": 58,
-  "courtyard_count": 58,
+  "scope": "connected_power_cpu_usb_storage_recovery_controls_stage_only",
+  "component_count": 112,
+  "courtyard_count": 112,
   "minimum_courtyard_gap_mm": 0.1044,
-  "reference_net_partitions_checked": 21,
-  "connected_endpoints_checked": 157,
+  "net_partitions_checked": 50,
+  "reference_net_partitions_checked": 40,
+  "control_net_partitions_checked": 10,
+  "connected_endpoints_checked": 313,
+  "populated_game_inputs": [
+    "A",
+    "B",
+    "DOWN",
+    "L",
+    "LEFT",
+    "R",
+    "RIGHT",
+    "SELECT",
+    "START",
+    "UP"
+  ],
+  "allocated_cpu_signal_pins_checked": 65,
   "cpu_supply_inputs_required_and_connected": [
     20,
     26,
@@ -41,39 +56,43 @@
       "reference_net": "+3V3",
       "implemented_net": "+1V8",
       "reason": "RESET pin 27 belongs to VCC-RTC (1.8V), Allwinner table 4-2"
+    },
+    {
+      "reference_pin": "U3.53",
+      "implemented_pin": "U3.39",
+      "net": "BOARD_ID_2",
+      "reason": "Move PD21 board-ID input to PE8 to free LCD VSYNC"
+    },
+    {
+      "reference_pin": "U3.52",
+      "implemented_pin": "U3.38",
+      "net": "BOARD_ID_3",
+      "reason": "Move PD22 board-ID input to PE9 to reserve audio-capable PD22"
+    },
+    {
+      "component": "U5",
+      "reason": "Resolve incorrect ZDSD08 symbol display to exact 4-Gbit/512-MByte ZDSD04GLGEAG MPN"
+    },
+    {
+      "component": "J1",
+      "reason": "Map alphabetic contacts to genuine supplier solder-tail and shield pad numbers"
+    },
+    {
+      "component": "U4",
+      "reason": "Represent internally connected USBLC6 paths 1-6 and 3-4 as continuous USB nets"
+    },
+    {
+      "section": "controls",
+      "reason": "Add ten active-low GPIO game inputs with genuine JLCPCB switches, 5.1k pull-ups and 100nF filters; firmware debounce required"
     }
   ],
   "remaining_reference_components": [
-    "C41",
-    "C42",
-    "C43",
-    "C44",
-    "F1",
-    "J1",
-    "R12",
-    "R13",
-    "R14",
-    "R15",
-    "R16",
-    "R17",
-    "R18",
-    "R19",
-    "R20",
-    "R21",
-    "R22",
-    "R23",
-    "R24",
-    "R25",
     "R8",
-    "R9",
-    "SW2",
-    "U4",
-    "U5",
-    "U6"
+    "R9"
   ],
   "routing_disabled": true,
   "routed_copper_drc_performed": false,
   "full_console": false,
   "diagnostics": [],
-  "compiled_circuit_sha256": "55761df5db9f9a90fbb6292f36a3f55632628ffef1c717ed5ae431388e495022"
+  "compiled_circuit_sha256": "99713036a25bf6a1108a41e22290bf7e68346b37b81af4d20ea6c0f8a4e986a0"
 }

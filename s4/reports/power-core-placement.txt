@@ -1,11 +1,11 @@
 placement summary: no placement issues
 
 board top-layer utilization:
-- occupied: 5.073% (613.883mm^2 of 12100mm^2)
+- occupied: 9.904% (1198.392mm^2 of 12100mm^2)
 - empty spaces over 5% of board area:
-  - 35.035% (4239.268mm^2); bounds=(minX=-55mm, maxX=-16.461mm, minY=-55mm, maxY=55mm)
-  - 23.477% (2840.772mm^2); bounds=(minX=29.175mm, maxX=55mm, minY=-55mm, maxY=55mm)
-  - 5.85% (707.855mm^2); bounds=(minX=-1.118mm, maxX=17.015mm, minY=-55mm, maxY=-15.961mm)
+  - 21.12% (2555.516mm^2); bounds=(minX=-55mm, maxX=-16.461mm, minY=-55mm, maxY=11.31mm)
+  - 13.466% (1629.359mm^2); bounds=(minX=34.961mm, maxX=55mm, minY=-55mm, maxY=26.31mm)
+  - 7.603% (919.91mm^2); bounds=(minX=-40.88mm, maxX=40.88mm, minY=43.749mm, maxY=55mm)
 
 board-edge status:
 - C1: 19.315mm inside top edge
@@ -27,7 +27,7 @@ board-edge status:
 - U2: 23.445mm inside top edge
 - L1: 23.68mm inside top edge
 - L2: 23.68mm inside top edge
-- D1: 11.93mm inside top edge
+- D1: 11.4mm inside top edge
 - C9: 42.93mm inside right edge
 - C10: 39.05mm inside left edge
 - C11: 42.93mm inside left edge
@@ -66,6 +66,60 @@ board-edge status:
 - SW1: 32.695mm inside bottom edge
 - Y1: 39.7mm inside right edge
 - Y2: 38.55mm inside right edge
+- R12: 37.73mm inside right edge
+- R13: 35.73mm inside right edge
+- R14: 33.73mm inside right edge
+- R24: 37.284mm inside bottom edge
+- R25: 37.284mm inside bottom edge
+- R15: 11.284mm inside top edge
+- R16: 11.284mm inside top edge
+- U4: 12.315mm inside top edge
+- F1: 10.96mm inside top edge
+- J1: 3.21mm inside top edge
+- C41: 20.55mm inside right edge
+- C42: 20.73mm inside right edge
+- C43: 36.33mm inside right edge
+- C44: 35.73mm inside right edge
+- R17: 23.73mm inside right edge
+- R18: 25.73mm inside right edge
+- R19: 27.73mm inside right edge
+- R20: 29.73mm inside right edge
+- R21: 31.73mm inside right edge
+- R22: 37.73mm inside right edge
+- R23: 32.984mm inside right edge
+- U5: 22.45mm inside right edge
+- U6: 35.45mm inside right edge
+- SW2: 34.125mm inside right edge
+- SW3: 16.125mm inside left edge
+- R26: 17.73mm inside left edge
+- C45: 19.73mm inside left edge
+- SW4: 16.125mm inside left edge
+- R27: 17.73mm inside left edge
+- C46: 19.73mm inside left edge
+- SW5: 7.125mm inside left edge
+- R28: 8.73mm inside left edge
+- C47: 10.73mm inside left edge
+- SW6: 25.125mm inside left edge
+- R29: 26.73mm inside left edge
+- C48: 28.73mm inside left edge
+- SW7: 14.125mm inside right edge
+- R30: 17.73mm inside right edge
+- C49: 15.73mm inside right edge
+- SW8: 25.125mm inside right edge
+- R31: 28.73mm inside right edge
+- C50: 26.73mm inside right edge
+- SW9: 12mm inside bottom edge
+- R32: 15.784mm inside bottom edge
+- C51: 15.83mm inside bottom edge
+- SW10: 12mm inside bottom edge
+- R33: 15.784mm inside bottom edge
+- C52: 15.83mm inside bottom edge
+- SW11: 8mm inside bottom edge
+- R34: 9.73mm inside left edge
+- C53: 11.73mm inside left edge
+- SW12: 8mm inside bottom edge
+- R35: 11.73mm inside right edge
+- C54: 9.73mm inside right edge
 
 placement drc:
 Errors: 0

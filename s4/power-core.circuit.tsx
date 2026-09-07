@@ -3,10 +3,11 @@ import { PowerCoreComponents, PowerCoreNets } from "./generated/power-core"
 export default function S4PowerCoreStage() {
   return (
     <board
-      title="S4 power / clock / reset stage — incomplete console"
+      title="S4 power / USB / storage / controls — incomplete console"
       width={110}
       height={110}
       layers={4}
+      schLayout={{ layoutMode: "relative" }}
       routingDisabled
       minViaPadDiameter={0.45}
       minViaHoleDiameter={0.3}

@@ -1,0 +1,461 @@
+{
+  "source": "https://dl.linux-sunxi.org/T113-S3/T113-S3_Datasheet_v1.6_20220303.pdf",
+  "qualification": "Family pin-multiplex planning only; exact S4 documentation and firmware validation pending",
+  "assignments": [
+    {
+      "gpio": "PF0",
+      "cpu_pin": 7,
+      "signal": "SDC0_D1",
+      "mux_function": 2,
+      "status": "connected"
+    },
+    {
+      "gpio": "PF1",
+      "cpu_pin": 8,
+      "signal": "SDC0_D0",
+      "mux_function": 2,
+      "status": "connected"
+    },
+    {
+      "gpio": "PF2",
+      "cpu_pin": 9,
+      "signal": "SDC0_CLK",
+      "mux_function": 2,
+      "status": "connected"
+    },
+    {
+      "gpio": "PF3",
+      "cpu_pin": 10,
+      "signal": "SDC0_CMD",
+      "mux_function": 2,
+      "status": "connected"
+    },
+    {
+      "gpio": "PF4",
+      "cpu_pin": 11,
+      "signal": "SDC0_D3",
+      "mux_function": 2,
+      "status": "connected"
+    },
+    {
+      "gpio": "PF5",
+      "cpu_pin": 12,
+      "signal": "SDC0_D2",
+      "mux_function": 2,
+      "status": "connected"
+    },
+    {
+      "gpio": "PC4",
+      "cpu_pin": 17,
+      "signal": "BOOT_SEL0",
+      "mux_function": 4,
+      "status": "connected"
+    },
+    {
+      "gpio": "PC5",
+      "cpu_pin": 16,
+      "signal": "BOOT_SEL1",
+      "mux_function": 4,
+      "status": "connected"
+    },
+    {
+      "gpio": "PF6",
+      "cpu_pin": 13,
+      "signal": "BOARD_ID_1",
+      "mux_function": 0,
+      "status": "connected"
+    },
+    {
+      "gpio": "PE8",
+      "cpu_pin": 39,
+      "signal": "BOARD_ID_2",
+      "mux_function": 0,
+      "status": "connected"
+    },
+    {
+      "gpio": "PE9",
+      "cpu_pin": 38,
+      "signal": "BOARD_ID_3",
+      "mux_function": 0,
+      "status": "connected"
+    },
+    {
+      "gpio": "PE0",
+      "cpu_pin": 44,
+      "signal": "BUTTON_UP_N",
+      "mux_function": 0,
+      "status": "connected"
+    },
+    {
+      "gpio": "PE1",
+      "cpu_pin": 45,
+      "signal": "BUTTON_DOWN_N",
+      "mux_function": 0,
+      "status": "connected"
+    },
+    {
+      "gpio": "PE2",
+      "cpu_pin": 35,
+      "signal": "BUTTON_LEFT_N",
+      "mux_function": 0,
+      "status": "connected"
+    },
+    {
+      "gpio": "PE3",
+      "cpu_pin": 33,
+      "signal": "BUTTON_RIGHT_N",
+      "mux_function": 0,
+      "status": "connected"
+    },
+    {
+      "gpio": "PE6",
+      "cpu_pin": 41,
+      "signal": "BUTTON_A_N",
+      "mux_function": 0,
+      "status": "connected"
+    },
+    {
+      "gpio": "PE7",
+      "cpu_pin": 40,
+      "signal": "BUTTON_B_N",
+      "mux_function": 0,
+      "status": "connected"
+    },
+    {
+      "gpio": "PE10",
+      "cpu_pin": 37,
+      "signal": "BUTTON_START_N",
+      "mux_function": 0,
+      "status": "connected"
+    },
+    {
+      "gpio": "PE11",
+      "cpu_pin": 36,
+      "signal": "BUTTON_SELECT_N",
+      "mux_function": 0,
+      "status": "connected"
+    },
+    {
+      "gpio": "PE12",
+      "cpu_pin": 32,
+      "signal": "BUTTON_L_N",
+      "mux_function": 0,
+      "status": "connected"
+    },
+    {
+      "gpio": "PE13",
+      "cpu_pin": 31,
+      "signal": "BUTTON_R_N",
+      "mux_function": 0,
+      "status": "connected"
+    },
+    {
+      "gpio": "USB0_DM",
+      "cpu_pin": 114,
+      "signal": "USB0_DM",
+      "mux_function": null,
+      "status": "connected"
+    },
+    {
+      "gpio": "USB0_DP",
+      "cpu_pin": 115,
+      "signal": "USB0_DP",
+      "mux_function": null,
+      "status": "connected"
+    },
+    {
+      "gpio": "USB1_DM",
+      "cpu_pin": 113,
+      "signal": "USB1_DM",
+      "mux_function": null,
+      "status": "reserved_unwired"
+    },
+    {
+      "gpio": "USB1_DP",
+      "cpu_pin": 112,
+      "signal": "USB1_DP",
+      "mux_function": null,
+      "status": "reserved_unwired"
+    },
+    {
+      "gpio": "PB2",
+      "cpu_pin": 86,
+      "signal": "LCD_D0",
+      "mux_function": 2,
+      "status": "reserved_unwired"
+    },
+    {
+      "gpio": "PB3",
+      "cpu_pin": 85,
+      "signal": "LCD_D1",
+      "mux_function": 2,
+      "status": "reserved_unwired"
+    },
+    {
+      "gpio": "PD0",
+      "cpu_pin": 55,
+      "signal": "LCD_D2",
+      "mux_function": 2,
+      "status": "reserved_unwired"
+    },
+    {
+      "gpio": "PD1",
+      "cpu_pin": 56,
+      "signal": "LCD_D3",
+      "mux_function": 2,
+      "status": "reserved_unwired"
+    },
+    {
+      "gpio": "PD2",
+      "cpu_pin": 57,
+      "signal": "LCD_D4",
+      "mux_function": 2,
+      "status": "reserved_unwired"
+    },
+    {
+      "gpio": "PD3",
+      "cpu_pin": 58,
+      "signal": "LCD_D5",
+      "mux_function": 2,
+      "status": "reserved_unwired"
+    },
+    {
+      "gpio": "PD4",
+      "cpu_pin": 59,
+      "signal": "LCD_D6",
+      "mux_function": 2,
+      "status": "reserved_unwired"
+    },
+    {
+      "gpio": "PD5",
+      "cpu_pin": 60,
+      "signal": "LCD_D7",
+      "mux_function": 2,
+      "status": "reserved_unwired"
+    },
+    {
+      "gpio": "PB4",
+      "cpu_pin": 84,
+      "signal": "LCD_D8",
+      "mux_function": 2,
+      "status": "reserved_unwired"
+    },
+    {
+      "gpio": "PB5",
+      "cpu_pin": 82,
+      "signal": "LCD_D9",
+      "mux_function": 2,
+      "status": "reserved_unwired"
+    },
+    {
+      "gpio": "PD6",
+      "cpu_pin": 61,
+      "signal": "LCD_D10",
+      "mux_function": 2,
+      "status": "reserved_unwired"
+    },
+    {
+      "gpio": "PD7",
+      "cpu_pin": 62,
+      "signal": "LCD_D11",
+      "mux_function": 2,
+      "status": "reserved_unwired"
+    },
+    {
+      "gpio": "PD8",
+      "cpu_pin": 63,
+      "signal": "LCD_D12",
+      "mux_function": 2,
+      "status": "reserved_unwired"
+    },
+    {
+      "gpio": "PD9",
+      "cpu_pin": 64,
+      "signal": "LCD_D13",
+      "mux_function": 2,
+      "status": "reserved_unwired"
+    },
+    {
+      "gpio": "PD10",
+      "cpu_pin": 67,
+      "signal": "LCD_D14",
+      "mux_function": 2,
+      "status": "reserved_unwired"
+    },
+    {
+      "gpio": "PD11",
+      "cpu_pin": 68,
+      "signal": "LCD_D15",
+      "mux_function": 2,
+      "status": "reserved_unwired"
+    },
+    {
+      "gpio": "PB6",
+      "cpu_pin": 80,
+      "signal": "LCD_D16",
+      "mux_function": 2,
+      "status": "reserved_unwired"
+    },
+    {
+      "gpio": "PB7",
+      "cpu_pin": 79,
+      "signal": "LCD_D17",
+      "mux_function": 2,
+      "status": "reserved_unwired"
+    },
+    {
+      "gpio": "PD12",
+      "cpu_pin": 70,
+      "signal": "LCD_D18",
+      "mux_function": 2,
+      "status": "reserved_unwired"
+    },
+    {
+      "gpio": "PD13",
+      "cpu_pin": 69,
+      "signal": "LCD_D19",
+      "mux_function": 2,
+      "status": "reserved_unwired"
+    },
+    {
+      "gpio": "PD14",
+      "cpu_pin": 71,
+      "signal": "LCD_D20",
+      "mux_function": 2,
+      "status": "reserved_unwired"
+    },
+    {
+      "gpio": "PD15",
+      "cpu_pin": 72,
+      "signal": "LCD_D21",
+      "mux_function": 2,
+      "status": "reserved_unwired"
+    },
+    {
+      "gpio": "PD16",
+      "cpu_pin": 73,
+      "signal": "LCD_D22",
+      "mux_function": 2,
+      "status": "reserved_unwired"
+    },
+    {
+      "gpio": "PD17",
+      "cpu_pin": 74,
+      "signal": "LCD_D23",
+      "mux_function": 2,
+      "status": "reserved_unwired"
+    },
+    {
+      "gpio": "PD18",
+      "cpu_pin": 75,
+      "signal": "LCD_CLK",
+      "mux_function": 2,
+      "status": "reserved_unwired"
+    },
+    {
+      "gpio": "PD19",
+      "cpu_pin": 76,
+      "signal": "LCD_DE",
+      "mux_function": 2,
+      "status": "reserved_unwired"
+    },
+    {
+      "gpio": "PD20",
+      "cpu_pin": 54,
+      "signal": "LCD_HSYNC",
+      "mux_function": 2,
+      "status": "reserved_unwired"
+    },
+    {
+      "gpio": "PD21",
+      "cpu_pin": 53,
+      "signal": "LCD_VSYNC",
+      "mux_function": 2,
+      "status": "reserved_unwired"
+    },
+    {
+      "gpio": "PG11",
+      "cpu_pin": 6,
+      "signal": "I2S1_MCLK",
+      "mux_function": 2,
+      "status": "reserved_unwired"
+    },
+    {
+      "gpio": "PG12",
+      "cpu_pin": 124,
+      "signal": "I2S1_LRCK",
+      "mux_function": 2,
+      "status": "reserved_unwired"
+    },
+    {
+      "gpio": "PG13",
+      "cpu_pin": 125,
+      "signal": "I2S1_BCLK",
+      "mux_function": 2,
+      "status": "reserved_unwired"
+    },
+    {
+      "gpio": "PG15",
+      "cpu_pin": 127,
+      "signal": "I2S1_DOUT0",
+      "mux_function": 2,
+      "status": "reserved_unwired"
+    },
+    {
+      "gpio": "PG6",
+      "cpu_pin": 1,
+      "signal": "HDMI_I2C_SCL",
+      "mux_function": 3,
+      "status": "reserved_unwired"
+    },
+    {
+      "gpio": "PG7",
+      "cpu_pin": 2,
+      "signal": "HDMI_I2C_SDA",
+      "mux_function": 3,
+      "status": "reserved_unwired"
+    },
+    {
+      "gpio": "PE4",
+      "cpu_pin": 43,
+      "signal": "DEBUG_UART4_TX",
+      "mux_function": 3,
+      "status": "reserved_unwired"
+    },
+    {
+      "gpio": "PE5",
+      "cpu_pin": 42,
+      "signal": "DEBUG_UART4_RX",
+      "mux_function": 3,
+      "status": "reserved_unwired"
+    },
+    {
+      "gpio": "PG14",
+      "cpu_pin": 126,
+      "signal": "HDMI_INT_N",
+      "mux_function": 0,
+      "status": "reserved_unwired"
+    },
+    {
+      "gpio": "PG10",
+      "cpu_pin": 5,
+      "signal": "USB_HOST_ENABLE",
+      "mux_function": 1,
+      "status": "reserved_unwired"
+    },
+    {
+      "gpio": "PG9",
+      "cpu_pin": 4,
+      "signal": "USB_HOST_FAULT_N",
+      "mux_function": 0,
+      "status": "reserved_unwired"
+    },
+    {
+      "gpio": "PG8",
+      "cpu_pin": 3,
+      "signal": "USB_POWER_STATUS",
+      "mux_function": 0,
+      "status": "reserved_unwired"
+    }
+  ]
+}

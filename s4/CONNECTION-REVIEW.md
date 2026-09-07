@@ -1,6 +1,6 @@
 # S4 connection review
 
-A 58-component power/core stage is implemented; this remains a qualification review, not sign-off for every console connection. All physical pin numbers below come from the pinned Trellis schematic and the linked S3 family documentation. S4-specific electrical confirmation remains required. `reports/reference-cpu-pins.csv` lists all 129 reference CPU pins without marking them datasheet-qualified.
+A 112-component power and interface stage is implemented; this remains a qualification review, not sign-off for every console connection. All physical pin numbers below come from the pinned Trellis schematic and the linked S3 family documentation. S4-specific electrical confirmation remains required. `reports/reference-cpu-pins.csv` lists all 129 reference CPU pins without marking them datasheet-qualified.
 
 ## Power and startup
 
@@ -20,9 +20,9 @@ The HDMI transmitter must not be attached to the CPU's internal 1.8 V output wit
 
 ## Interface allocation
 
-The [family pinmux table](https://dl.linux-sunxi.org/T113-S3/T113-S3_Datasheet_v1.6_20220303.pdf) shows PD7/PD8 (physical 62/63) serving UART4 and display functions. Reusing the reference UART connections would conflict with RGB or four-lane DSI. PE4/PE5 offer another UART4 mapping in that document, but S4 confirmation and bootloader changes are needed before selection. The reference's PD21 board-ID pull-down also requires review if LCD VSYNC is assigned there.
+The [family pinmux table](https://dl.linux-sunxi.org/T113-S3/T113-S3_Datasheet_v1.6_20220303.pdf) shows PD7/PD8 (physical 62/63) serving UART4 and display functions. The new [pin allocation](pin-allocation.json) reserves PE4/PE5 for UART4 instead. Board IDs move from PD21/PD22 to PE8/PE9. The audit checks 65 unique signal allocations against physical CPU labels and verifies reserved pins remain unwired. Ten game inputs use PE GPIOs; LCD RGB24/sync, I²S1, HDMI control and USB1 remain reserved for unfinished circuitry. S4 firmware/pinmux confirmation remains required. In particular, I²S1 DOUT0 uses **PG15**, not PG14 in the family function-2 mapping.
 
-The reference storage occupies SDC0 on PF0–PF5. It cannot simply be paralleled with another microSD device. A second storage device needs a separate supported bus, or the storage architecture must be deliberately changed. The reference uses 51 kΩ pulls, a clock gate for recovery, and a 22 Ω series clock resistor; these must be checked against the selected storage device and actual boot firmware.
+The reference storage occupies SDC0 on PF0–PF5. It cannot simply be paralleled with another microSD device. A second storage device needs a separate supported bus, or the storage architecture must be deliberately changed. The reference uses 51 kΩ pulls, a clock gate for recovery, and a 22 Ω series clock resistor; the implemented Zetta 512 MB device pin map and pull range have been checked against its manufacturer document; clock timing and actual boot firmware remain unqualified. See [interface review](INTERFACE-REVIEW.md).
 
 USB0 pins 114/115 are DM/DP; USB1 pins 113/112 are DM/DP in the reference. A console needs a powered host port for a controller plus a deliberate power/recovery connection, with correct VBUS direction, current limiting and protection. Do not connect 5 V VBUS to a 3.3 V GPIO. The reference USB-C Rd resistors alone do not authorize an arbitrary high-current load.
 

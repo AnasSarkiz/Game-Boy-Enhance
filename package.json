@@ -28,7 +28,8 @@
     "build:s4:core": "tsci build s4/power-core.circuit.tsx --routing-disabled --disable-parts-engine --pcb-png --pcb-svgs --schematic-svgs --show-courtyards",
     "audit:s4:core": "python3 scripts/audit-s4-core.py",
     "check:s4:netlist": "tsci check netlist s4/power-core.circuit.tsx",
-    "check:s4:placement": "tsci check placement s4/power-core.circuit.tsx"
+    "check:s4:placement": "tsci check placement s4/power-core.circuit.tsx",
+    "preview:s4:sheets": "bun scripts/render-s4-sheets.mjs"
   },
   "devDependencies": {
     "tscircuit": "0.0.2463",
