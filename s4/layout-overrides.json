@@ -193,9 +193,15 @@
     "reason": "Keep storage, recovery and straps near their allocated CPU pins with courtyard clearance"
   },
   "D1": {
-    "pcbX": -12,
-    "pcbY": -42,
+    "pcbX": -24,
+    "pcbY": 46,
+    "pcbRotation": 0,
+    "reason": "Front panel power indicator"
+  },
+  "R4": {
+    "pcbX": -24,
+    "pcbY": 42,
     "pcbRotation": 90,
-    "reason": "Move status LED clear of new USB protection and CC parts"
+    "reason": "Power LED current limit close to front indicator"
   }
 }

@@ -1,7 +1,7 @@
 {
   "name": "@tsci/AnasSarkiz.Game-Boy-Enhance",
   "version": "1.0.3",
-  "description": "AGBM-02 architecture adaptation; routing-disabled placement work in progress",
+  "description": "T113-S4 tabletop HDMI console core with status indicators and protected USB host; routing disabled",
   "main": "index.circuit.tsx",
   "keywords": [
     "tscircuit",
@@ -11,7 +11,7 @@
   ],
   "scripts": {
     "dev": "tsci dev",
-    "build": "tsci build index.circuit.tsx --routing-disabled --disable-parts-engine --pcb-png --pcb-svgs --schematic-svgs",
+    "build": "bun run build:s4:core",
     "check:netlist": "tsci check netlist index.circuit.tsx",
     "check:placement": "tsci check placement index.circuit.tsx",
     "snapshot": "tsci snapshot",
@@ -30,9 +30,9 @@
     "check:s4:netlist": "tsci check netlist s4/power-core.circuit.tsx",
     "check:s4:placement": "tsci check placement s4/power-core.circuit.tsx",
     "preview:s4:sheets": "bun scripts/render-s4-sheets.mjs",
-    "prepare:s4:audio": "python3 scripts/prepare-s4-audio.py",
-    "audit:s4:audio": "python3 scripts/audit-s4-audio.py",
-    "audit:s4:retention": "python3 scripts/audit-s4-retention.py"
+    "audit:s4:retention": "python3 scripts/audit-s4-retention.py",
+    "prepare:s4:console": "python3 scripts/prepare-s4-console.py",
+    "audit:s4:console": "python3 scripts/audit-s4-console.py"
   },
   "devDependencies": {
     "tscircuit": "0.0.2463",

@@ -80,76 +80,6 @@
       "status": "connected"
     },
     {
-      "gpio": "PE0",
-      "cpu_pin": 44,
-      "signal": "BUTTON_UP_N",
-      "mux_function": 0,
-      "status": "connected"
-    },
-    {
-      "gpio": "PE1",
-      "cpu_pin": 45,
-      "signal": "BUTTON_DOWN_N",
-      "mux_function": 0,
-      "status": "connected"
-    },
-    {
-      "gpio": "PE2",
-      "cpu_pin": 35,
-      "signal": "BUTTON_LEFT_N",
-      "mux_function": 0,
-      "status": "connected"
-    },
-    {
-      "gpio": "PE3",
-      "cpu_pin": 33,
-      "signal": "BUTTON_RIGHT_N",
-      "mux_function": 0,
-      "status": "connected"
-    },
-    {
-      "gpio": "PE6",
-      "cpu_pin": 41,
-      "signal": "BUTTON_A_N",
-      "mux_function": 0,
-      "status": "connected"
-    },
-    {
-      "gpio": "PE7",
-      "cpu_pin": 40,
-      "signal": "BUTTON_B_N",
-      "mux_function": 0,
-      "status": "connected"
-    },
-    {
-      "gpio": "PE10",
-      "cpu_pin": 37,
-      "signal": "BUTTON_START_N",
-      "mux_function": 0,
-      "status": "connected"
-    },
-    {
-      "gpio": "PE11",
-      "cpu_pin": 36,
-      "signal": "BUTTON_SELECT_N",
-      "mux_function": 0,
-      "status": "connected"
-    },
-    {
-      "gpio": "PE12",
-      "cpu_pin": 32,
-      "signal": "BUTTON_L_N",
-      "mux_function": 0,
-      "status": "connected"
-    },
-    {
-      "gpio": "PE13",
-      "cpu_pin": 31,
-      "signal": "BUTTON_R_N",
-      "mux_function": 0,
-      "status": "connected"
-    },
-    {
       "gpio": "USB0_DM",
       "cpu_pin": 114,
       "signal": "USB0_DM",
@@ -168,14 +98,14 @@
       "cpu_pin": 113,
       "signal": "USB1_DM",
       "mux_function": null,
-      "status": "reserved_unwired"
+      "status": "connected"
     },
     {
       "gpio": "USB1_DP",
       "cpu_pin": 112,
       "signal": "USB1_DP",
       "mux_function": null,
-      "status": "reserved_unwired"
+      "status": "connected"
     },
     {
       "gpio": "PB2",
@@ -441,14 +371,14 @@
       "cpu_pin": 5,
       "signal": "USB_HOST_ENABLE",
       "mux_function": 1,
-      "status": "reserved_unwired"
+      "status": "connected"
     },
     {
       "gpio": "PG9",
       "cpu_pin": 4,
       "signal": "USB_HOST_FAULT_N",
       "mux_function": 0,
-      "status": "reserved_unwired"
+      "status": "connected"
     },
     {
       "gpio": "PG8",
@@ -458,31 +388,17 @@
       "status": "reserved_unwired"
     },
     {
-      "gpio": "PG0",
-      "cpu_pin": 120,
-      "signal": "AUDIO_ENABLE",
+      "gpio": "PE0",
+      "cpu_pin": 44,
+      "signal": "LED_RUN",
       "mux_function": 1,
       "status": "connected"
     },
     {
-      "gpio": "HPOUTL",
-      "cpu_pin": 99,
-      "signal": "CODEC_HP_LEFT",
-      "mux_function": null,
-      "status": "connected"
-    },
-    {
-      "gpio": "HPOUTR",
-      "cpu_pin": 98,
-      "signal": "CODEC_HP_RIGHT",
-      "mux_function": null,
-      "status": "connected"
-    },
-    {
-      "gpio": "HPOUTFB",
-      "cpu_pin": 100,
-      "signal": "CODEC_HP_FEEDBACK",
-      "mux_function": null,
+      "gpio": "PE1",
+      "cpu_pin": 45,
+      "signal": "LED_ERROR",
+      "mux_function": 1,
       "status": "connected"
     }
   ]

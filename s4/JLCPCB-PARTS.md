@@ -1,5 +1,21 @@
 # S4 sourcing and import results
 
+## Current tabletop additions
+
+The active BOM contains 103 parts. All six additions below imported successfully with unchanged supplier geometry/courtyards. No purchase or current assembly-stock guarantee is implied.
+
+| Function | MPN / JLCPCB | Review result |
+|---|---|---|
+| POWER/RUN | Everlight 19-21SYGC/S530-E2/4T / C2986011 | Electrical symbol polarity corrected against manufacturer drawing; raw footprint unchanged |
+| ERROR/USB FAULT | Everlight 19-217/R6C-AL1M2VY/6T / C2986060 | Polarity checked against manufacturer drawing |
+| USB power | TI TPS2051BDBVR / C24593 | Pinout reviewed; represented as an electrical chip rather than a mechanical switch |
+| Controller connector | 902-131A1011D10100 / C2345 | Standard USB pinout; manufacturer's detailed drawing retrieval blocked |
+| Host reservoir | Panasonic EEEFT1A221AP / C401764 | 220 µF/10 V polarized; supplier land-size qualification pending |
+| Bias/fault pulls | Yageo RC0603FR-0710KL / C98220 | Existing genuine import reused unchanged; 10 kΩ |
+
+See [console review](CONSOLE-REVIEW.md). The earlier audio-specific notes below are historical; that circuitry is removed from the tabletop scope. The selected S4 still lacks a direct exact import; the authorized S3 geometry remains the explicit sourcing exception. HDMI/ADC selection issues below remain open.
+
+
 Updated 2026-09-07; earlier catalog stock observations below remain dated 2026-09-06. A catalog listing, successful import and assembly stock are separate checks. Prices/stock can change. Nothing has been ordered. The full, unqualified **reference** BOM is in `reports/reference-bom.csv`; this is not a completed console BOM.
 
 | Function | Exact part / JLCPCB | Found in catalog? | Import / courtyard | Status |
@@ -19,7 +35,7 @@ The unchanged S3 import is retained as the geometry source. A typed S4 wrapper o
 
 ## Power/core import update
 
-All 16 additional reference power, decoupling, reset and clock part numbers imported successfully. `reports/power-core-imports.json` records each exact command result. All 35 available candidate packages have courtyards and pass geometry checks. The connected stage BOM is `reports/power-core-bom.csv`; it identifies assembly parts without claiming complete electrical qualification. R8/R9 still lack selected values/MPNs. USB-C/storage/game inputs are now connected; Analog audio has been added with unresolved volume-control tool diagnostics; HDMI video/audio, powered USB1 and debug circuitry remain unfinished.
+All 16 additional reference power, decoupling, reset and clock part numbers imported successfully. `reports/power-core-imports.json` records each exact command result. All 41 available candidate packages have courtyards and pass geometry checks. The connected stage BOM is `reports/power-core-bom.csv`; it identifies assembly parts without claiming complete electrical qualification. R8/R9 still lack selected values/MPNs. USB-C, storage, the powered USB1 controller port and indicators are now connected. Onboard game inputs and analog audio belong to the historical handheld revision. HDMI video/audio and debug circuitry remain unfinished.
 
 ## Interface imports added
 

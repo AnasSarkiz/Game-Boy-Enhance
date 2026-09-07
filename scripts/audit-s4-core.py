@@ -28,6 +28,8 @@ def reference_endpoints(net, expected_refs):
                 pin = "39"  # BOARD_ID_2: PD21 -> PE8, preserve LCD VSYNC.
             elif ref == "U3" and pin == "52":
                 pin = "38"  # BOARD_ID_3: PD22 -> PE9.
+            elif ref == "D1":
+                pin = {"1": "2", "2": "1"}[pin]  # Everlight 1=anode, 2=cathode.
             endpoints.add((ref, pin))
     return endpoints
 
@@ -61,19 +63,12 @@ def main():
     for cpu_net, connector_net in [("/Architecture/USB/USB0_DN", "Net-(J1-D--PadA7)"),
                                    ("/Architecture/USB/USB0_DP", "Net-(J1-D+-PadA6)")]:
         reference_groups[cpu_net].update(reference_groups.pop(connector_net))
-    controls = json.loads((S4 / "controls.json").read_text())["buttons"]
-    required_game_inputs = {"UP", "DOWN", "LEFT", "RIGHT", "A", "B", "START", "SELECT", "L", "R"}
-    assert {button["function"] for button in controls} == required_game_inputs and len(controls) == 10
-    assert {button["cpu_pin"] for button in controls} == {44, 45, 35, 33, 41, 40, 37, 36, 32, 31}
-    for button in controls:
-        reference_groups["+3V3"].add((button["pullup"], "1"))
-        reference_groups["GND"].update([(button["switch"], "1"), (button["filter"], "2")])
-        reference_groups["BUTTON_" + button["function"] + "_N"] = {
-            ("U3", str(button["cpu_pin"])), (button["switch"], "2"),
-            (button["pullup"], "2"), (button["filter"], "1")}
-    audio = json.loads((S4 / "audio.json").read_text())
-    for net_name, endpoints in audio["connections"].items():
-        reference_name = "+3V3" if net_name == "SYS_3V3" else net_name
+    console = json.loads((S4 / "console.json").read_text())
+    assert console["form_factor"] == "tabletop_hdmi_console"
+    assert not any(entry["name"].startswith("SW") and entry["name"] not in ["SW1", "SW2"] for entry in components.values())
+    assert not any(entry["name"] in ["VR1", "U7", "U8", "J2", "J3"] for entry in components.values()), "Handheld audio remains active"
+    for net_name, endpoints in console["connections"].items():
+        reference_name = {"SYS_3V3": "+3V3", "INPUT_5V": "VBUS"}.get(net_name, net_name)
         reference_groups.setdefault(reference_name, set()).update(tuple(endpoint.split(".")) for endpoint in endpoints)
     expected_partitions = list(map(frozenset, reference_groups.values()))
     assert set(map(frozenset, partitions.values())) == set(expected_partitions), "Missing connection or unexpected net merge"
@@ -133,14 +128,13 @@ def main():
     diagnostics = [entry for entry in circuit if entry["type"].endswith(("_error", "_warning")) or "error_type" in entry]
     assert not any(entry["type"] in ["pcb_trace", "pcb_via"] for entry in circuit), "Routing must remain disabled"
     assert len([entry for entry in circuit if entry["type"] == "schematic_sheet"]) == 7
-    report = {"scope": "connected_power_cpu_usb_storage_recovery_controls_audio_stage_only", "component_count": len(components),
+    report = {"scope": "tabletop_console_core_indicators_usb_host_stage_only", "component_count": len(components),
               "courtyard_count": len(courtyards), "minimum_courtyard_gap_mm": round(min(clearances), 6),
               "net_partitions_checked": len(expected_partitions),
-              "reference_net_partitions_checked": len(expected_partitions) - len(controls) - len(audio["connections"]) + 2,
-              "control_net_partitions_checked": len(controls),
-              "audio_net_partitions_checked": len(audio["connections"]),
+              "reference_net_partitions_checked": len(expected_partitions) - len(console["connections"]) + 3,
+              "console_net_partitions_checked": len(console["connections"]),
               "connected_endpoints_checked": sum(map(len, expected_partitions)),
-              "populated_game_inputs": sorted(required_game_inputs),
+              "game_input_interface": "USB1 host; enumeration and firmware untested",
               "allocated_cpu_signal_pins_checked": len(allocation),
               "cpu_supply_inputs_required_and_connected": sorted(POWER_INPUTS),
               "cpu_ldo_outputs_required_and_connected": [28, 30], "cpu_ground_pins_required_and_connected": [91, 129],

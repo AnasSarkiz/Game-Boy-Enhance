@@ -1,0 +1,23 @@
+// Integrate into the actual S4 board DTS. This is not a standalone bootable device tree.
+// Requires its real Allwinner pio controller and the Linux gpio-leds driver.
+#include <dt-bindings/gpio/gpio.h>
+
+/ {
+    leds {
+        compatible = "gpio-leds";
+
+        led-0 {
+            label = "s4:green:run";
+            gpios = <&pio 4 0 GPIO_ACTIVE_HIGH>; // PE0, package pin 44
+            default-state = "off";
+            linux,default-trigger = "heartbeat";
+        };
+
+        led-1 {
+            label = "s4:red:error";
+            gpios = <&pio 4 1 GPIO_ACTIVE_HIGH>; // PE1, package pin 45
+            default-state = "off";
+            panic-indicator;
+        };
+    };
+};

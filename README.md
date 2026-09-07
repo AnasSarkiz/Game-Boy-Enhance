@@ -1,52 +1,13 @@
-# Game Boy Enhance AGBM-02 in tscircuit
+# S4 retro game console in tscircuit
 
-**2026-09-07: the active development target is the [T113-S4 console redesign](s4/README.md).** Its reference, sourcing results and connection audit are in `s4/`. The CPU now reuses an unchanged JLCPCB S3 import with S4 MPN/ordering metadata, as authorized. The working 145-component power/CPU/USB/storage/controls/audio stage has routing disabled. Its volume-wheel import emits three unresolved diagnostics; see [audio review](s4/AUDIO-RETENTION-REVIEW.md). Package qualification and the remaining console circuitry are incomplete. The root circuit retains the earlier AGBM-02 adaptation described below. The tscircuit registry remains at v1.0.3, the earlier 112-component S4 placement stage; the blocked audio revision is not published.
+The active project is now a **tabletop HDMI console with USB controllers**, using **T113-S4 / T113M4020DC0**. The default `index.circuit.tsx` opens the S4 design.
 
-**Work in progress. Routing is disabled. This is not a complete or fabrication-ready board.**
+The connected draft has **103 components**, a **130 × 110 mm four-layer board**, and seven schematic sheets. It includes power, CPU/clocks/reset, storage/recovery, one protected USB controller port and four labelled indicators: **POWER, RUN, ERROR, USB FAULT**. All supplier footprints and courtyards remain unchanged. The green LED's reversed imported symbol labels are corrected against its manufacturer drawing.
 
-Adaptation of [MouseBiteLabs/Game-Boy-Enhance](https://github.com/MouseBiteLabs/Game-Boy-Enhance), AGBM-02 AA-battery revision 1.1, pinned to commit `1c4d928bbfe7ed568c83c68ddea11a5f65f4e830`. Original design and this derivative are licensed under [CC BY-SA 4.0](LICENSE.md).
+**Routing is disabled. HDMI circuitry, power qualification and a tested firmware image remain incomplete. Do not fabricate.** Placement and connection audits pass; no copper-short DRC or hardware validation has been performed. Registry v1.0.3 remains the earlier draft; GitHub contains the newer console conversion.
 
-The KiCad schematic is the connectivity reference; the PCB supplies relative placement, the outline, and cutouts. The extraction retains 240 schematic components. Five schematic sheets cover power, processor/memory/cartridge, controls/link/clock, display, and audio, with labeled functional sections and nets. The four-layer, 1.2 mm board is enlarged by 1.8 around its center to provide placement and routing space. Component packages keep their real dimensions. This enlarged layout does not fit the original shell.
+See [console design and LED behaviour](s4/CONSOLE-REVIEW.md), [blockers](s4/BLOCKERS.md), [sourcing](s4/JLCPCB-PARTS.md), [current BOM](s4/reports/power-core-bom.csv), and [reproduction commands](s4/README.md).
 
-## Current stage
+The user-authorized console change replaces onboard game buttons with USB controllers and speaker/headphone/volume circuitry with TV audio. These are documented scope changes, not DNP workarounds. The previous [Nintendo adaptation](README-AGBM-02.md) and [analog audio review](s4/AUDIO-RETENTION-REVIEW.md) remain historical references.
 
-Genuine JLCPCB imports are in `imports/`, created by `tsci import --jlcpcb --use-exact-footprint`. Their footprints and courtyards are retained. Handwritten/custom component footprints are not used. Components without verified catalog replacements remain explicitly unresolved in the schematic; missing PCB geometry is a release blocker, not an approved omission. TI parts are preferred for active circuitry. See the [JLCPCB blocker table](JLCPCB-BLOCKERS.md) and [BLOCKERS.md](BLOCKERS.md).
-
-The reference includes cartridge and link ports, SRAM, LCD FFC, clock, buttons/hotkey logic, battery protection, converters, sequencing, reset, stereo filtering, headphone/speaker amplifier, volume control, and test points. Their connectivity is being audited against manufacturer documentation. A passing netlist comparison alone does not establish electrical correctness.
-
-Required functions must be populated and operational; DNP is not a workaround for an unavailable or unqualified part. The [assembly requirements](docs/ASSEMBLY-REQUIREMENTS.md) record the current controls/display selections, CPU decision and outstanding functional gaps.
-
-The current compiled circuit has 245 physical component records (the three composite button symbols become eight switches), 242 imported courtyards, and three unresolved footprints: U1, P1 and P4. The reference audit checks 830 mapped pin-to-net endpoints across 217 connected nets. These counts do not imply datasheet qualification or completed routing. See `reports/current-status.json`.
-
-## Develop
-
-```sh
-bun install
-bun run typecheck
-bun run check:netlist
-bun run check:placement
-bun run build
-bun run audit:reference
-bun run check:release # Expected to fail until the release blockers are resolved
-tsci dev index.circuit.tsx
-```
-
-`index.circuit.tsx` explicitly sets `routingDisabled`; placement must be checked before routing is enabled. Fanout phases for the dense interfaces are defined in `lib/routing.tsx` for later evaluation. Minimum routing vias are configured as 0.45 mm copper diameter / 0.30 mm hole. Do not interpret an exit code of zero from the CLI as a clean DRC: inspect the emitted errors and unresolved component list.
-
-## Reference and audit trail
-
-- `reference/kicad/`: original upstream design files.
-- `reference/netlist.xml`: KiCad schematic export.
-- `scripts/extract-reference.py`: extraction using KiCad's geometry API.
-- `lib/generated/reference.json`: extracted geometry, component pins, and nets.
-- `reference/UPSTREAM-AGBM-02.md`: upstream BOM and assembly notes.
-- `reports/`: investigation and check results; dated stage reports distinguish current from superseded checks.
-
-No fabrication outputs are released while sourcing, placement, connection verification, and routing remain incomplete.
-
-## Published projects
-
-- [GitHub source and complete KiCad reference](https://github.com/AnasSarkiz/Game-Boy-Enhance)
-- [tscircuit project](https://tscircuit.com/AnasSarkiz/Game-Boy-Enhance)
-
-`python3 scripts/publish-registry.py` stages the active `s4/` tree, its reference/license material and audit scripts. Its registry entrypoint exports `s4/power-core.circuit.tsx`. It validates the packaged netlist, placement and build before calling `tsci push`. Historical AGBM-02 files remain on GitHub; all S4 circuit sources and imported parts are included. This publishes a work-in-progress design, not manufacturing approval.
+The original [MouseBiteLabs Enhance](https://github.com/MouseBiteLabs/Game-Boy-Enhance) and pinned Trellis Core references retain their license/attribution notices. See [LICENSE.md](LICENSE.md).

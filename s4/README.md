@@ -1,53 +1,43 @@
-# S4 Game Boy console redesign
+# T113-S4 tabletop HDMI console
 
-The selected processor is **Allwinner T113-S4 / T113M4020DC0, C41411351**. This supersedes the earlier Nintendo CPU design as the development target. Status: **145-component power/CPU/USB/storage/controls/audio draft; volume-control tool diagnostics block acceptance**. The connected placement board is incomplete and has no validated firmware yet. The repository's root `index.circuit.tsx` still contains the older AGBM-02 work and must not be mistaken for this redesign.
+The user approved a tabletop console instead of a handheld. The active processor remains **T113M4020DC0 / C41411351**, using the authorized unchanged S3 supplier geometry. Exact S4 electrical/package qualification remains open.
 
-## Required result
+The connected core has **103 components, 54 nets and seven schematic sheets** on a **130 × 110 mm four-layer board**. Power, CPU/clocks/reset, SD boot storage, USB-C power/recovery, one protected USB-A controller port and four status LEDs are present. HDMI video/audio, source-current management, debug access and a tested Linux/emulator image remain required. Routing stays disabled, with minimum vias of 0.45/0.30 mm.
 
-- Linux GB/GBC/GBA emulation, tested on the actual S4; compatibility and frame rate must be measured.
-- HDMI monitor connection including audio, USB controller support, game/save storage, reset/recovery/debug, and properly sequenced power.
-- Preserve the intended controls and audio functions. The old Nintendo display, SRAM, cartridge and link circuitry cannot be transferred electrically; any compatibility loss must remain explicit. No component may be marked DNP to hide a missing function.
-- TI preferred for suitable supporting ICs. Only genuine JLCPCB component imports with courtyards; no handwritten footprints. On 2026-09-06 the user authorized reusing the S3 supplier package with S4 procurement identity; the source import remains unchanged and separately identifiable.
-- A larger console PCB is allowed. Start with a four-layer plan, but verify the stackup, current paths, USB/HDMI impedances and signal timing before selecting final dimensions. Minimum via copper diameter 0.45 mm and hole 0.30 mm.
-- Keep routing disabled until all components have real footprints and placement passes. Use schematic sheets and sections for power, processor/clock/reset, storage, HDMI/audio, and controls/USB/debug. Then evaluate fanout, route, and run copper DRC.
+| Indicator | Meaning |
+|---|---|
+| POWER, green | 3.3 V rail present |
+| RUN, green | Firmware-driven Linux heartbeat |
+| ERROR, red | Firmware-reported fault/panic when integrated |
+| USB FAULT, red | Hardware USB power-switch fault |
 
-## Work completed
+See [connection details and sources](CONSOLE-REVIEW.md), [blockers](BLOCKERS.md), [supplier table](JLCPCB-PARTS.md) and [firmware integration fragment](firmware/console-leds.dtsi). None of the LEDs proves full-board health. The firmware fragment is not a bootable or tested image.
 
-The [Trellis Core reference](https://github.com/protolux-electronics/trellis_core/tree/db4fe71623c14bcea47d7457d0db4c99d3899124) is pinned and retained under `reference/trellis_core/` for its circuit information. Its original license and notices are included. Local custom KiCad footprint libraries have **not** been imported into the tscircuit design.
+## Active checks
 
-KiCad exported 84 reference components and 129 processor pins including the exposed ground pad. Reproducible reports include the complete reference BOM, CPU pin/net table, supply-net checks and ERC diagnostics. These describe the reference, not a newly connected console.
-
-The exact TI TLV62569PDDCR regulator and Analog Devices ADV7513BSWZ HDMI transmitter were imported from JLCPCB. Their supplier geometry is unchanged. Each has a closed courtyard enclosing all pads, with no overlapping pad bounding boxes. Both TI regulator stages are now connected in the power/core stage; the HDMI transmitter remains an unwired candidate.
-
-The CPU wrapper in `components/T113M4020DC0.tsx` uses the unchanged `imports/T113_S3.tsx` geometry and pin map. Its MPN is `T113M4020DC0` and its JLCPCB ordering number is `C41411351`. All 129 labels match the pinned reference by physical pin number. See [CPU package qualification](CPU-PACKAGE-REVIEW.md) for the exposed-pad and electrical limitations.
-
-See [BLOCKERS.md](BLOCKERS.md), [connection review](CONNECTION-REVIEW.md) and [sourcing table](JLCPCB-PARTS.md). The connected stage is `power-core.circuit.tsx`, with seven schematic sheets and functional sections. USB-C power/recovery, SD boot storage, recovery clock gating, boot/ID pulls and ten GPIO game inputs are connected. Analog audio now retains the Enhance amplifier, volume wheel, headphone jack and speaker interface; see [audio review](AUDIO-RETENTION-REVIEW.md). HDMI video/audio, a powered USB host port, debug access, power qualification and firmware are still required. See [interface review](INTERFACE-REVIEW.md) for the pin checks and remaining limitations. The isolated `previews/cpu-package.circuit.tsx` is now also a negative connection test: the stricter CPU definition must report its 22 intentionally unwired required pins. Manufacturing outputs remain blocked. Registry v1.0.3 exposes the earlier 112-component placement stage. The current 145-component draft is not published because its unchanged volume import emits three diagnostics. [Every original component is accounted for](reports/enhance-retention.csv); pending entries are required work, not DNP.
-
-## Reproduce the audits
-
-From the repository root:
+From the repository root, using the installed Bun/tsci toolchain:
 
 ```sh
+bun run prepare:s4:console
+bun run generate:s4:core
 bun run typecheck
 bun run audit:s4:imports
-bun run audit:s4:reference
-bun run build:s4:cpu-preview
-bun run audit:s4:cpu
-bun run prepare:s4:audio
-bun run generate:s4:core
 bun run check:s4:netlist
 bun run check:s4:placement
 bun run build:s4:core
 bun run audit:s4:core
-bun run audit:s4:audio
+bun run audit:s4:console
 bun run audit:s4:retention
 bun run preview:s4:sheets
+bun run check:release
 ```
 
-The core/audio acceptance audits currently exit nonzero for two repeated mechanical-terminal errors and one passive-volume-control warning. These are not suppressed. The reference audit currently exits with status 1 because the upstream reference contains unresolved values and ERC errors. These are not suppressed. `reports/reference-erc.json` records the separate KiCad ERC run, including ignored checks and unavailable-library warnings. A clean result requires more than completing an export.
+The active stage checks pass with zero emitted diagnostics and a minimum courtyard gap of 0.1044 mm. `check:release` intentionally fails because required console circuitry and routed copper are absent. The separate upstream reference audit still reports unresolved source ERC findings; a successful export never means the reference was electrically qualified.
 
-## Acceptance before manufacturing
+## Reference and history
 
-Require a qualified BOM and manufacturer pin map, power/current/sequencing budgets, a schematic-to-compiled-net comparison, zero actionable placement/copper DRC errors, complete required connections and ground returns, and fabrication review. Prototype testing must demonstrate power-up/brownout/recovery, 256 MB RAM operation, game/save storage, controllers/buttons, HDMI video and audio, and representative games. Software checks cannot prove that a physical board has no assembly shorts or that every game works.
+The [Trellis Core reference](https://github.com/protolux-electronics/trellis_core/tree/db4fe71623c14bcea47d7457d0db4c99d3899124) supplies selected connections and parts; its custom KiCad footprints are not copied. Manufacturer documentation is reviewed separately. Local imports are genuine `tsci import --jlcpcb --use-exact-footprint` outputs, not handwritten footprints or a fabricated package.
 
-See [power/core stage review](POWER-CORE-REVIEW.md) for implemented connections, changes from the reference and remaining qualification.
+The original AGB CPU/SRAM, LCD, cartridge/link interfaces, battery operation and handheld controls/audio are outside the new tabletop product scope. The [240-row historical disposition table](reports/enhance-retention.csv) records this change without DNP entries. `audio.json`, `controls.json`, audio-only scripts and their reports describe the previous handheld adaptation; they are not inputs to the active console generator or current acceptance checks.
+
+Registry v1.0.3 remains the earlier 112-component stage. The current console entrypoint is available on GitHub; a future registry update must revise its explicit package boundary and release gate, then validate the packaged entrypoint.

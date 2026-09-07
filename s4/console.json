@@ -1,0 +1,362 @@
+{
+  "form_factor": "tabletop_hdmi_console",
+  "components": [
+    {
+      "reference": "LED2",
+      "component": "GreenIndicator",
+      "import": "A_19_21SYGC_S530_E2_4T",
+      "section": "indicators",
+      "manufacturer_part_number": "19-21SYGC/S530-E2/4T",
+      "jlcpcb_part_number": "C2986011",
+      "pcbX": -12,
+      "pcbY": 46,
+      "pcbRotation": 0
+    },
+    {
+      "reference": "LED3",
+      "component": "RedIndicator",
+      "import": "A_19_217_R6C_AL1M2VY_6T",
+      "section": "indicators",
+      "manufacturer_part_number": "19-217/R6C-AL1M2VY/6T",
+      "jlcpcb_part_number": "C2986060",
+      "pcbX": 0,
+      "pcbY": 46,
+      "pcbRotation": 0
+    },
+    {
+      "reference": "LED4",
+      "component": "RedIndicator",
+      "import": "A_19_217_R6C_AL1M2VY_6T",
+      "section": "indicators",
+      "manufacturer_part_number": "19-217/R6C-AL1M2VY/6T",
+      "jlcpcb_part_number": "C2986060",
+      "pcbX": 12,
+      "pcbY": 46,
+      "pcbRotation": 0
+    },
+    {
+      "reference": "Q2",
+      "component": "IndicatorDriver",
+      "import": "MMBT3904LT1G",
+      "section": "indicators",
+      "manufacturer_part_number": "MMBT3904LT1G",
+      "jlcpcb_part_number": "C81464",
+      "pcbX": -12,
+      "pcbY": 37,
+      "pcbRotation": 0
+    },
+    {
+      "reference": "Q3",
+      "component": "IndicatorDriver",
+      "import": "MMBT3904LT1G",
+      "section": "indicators",
+      "manufacturer_part_number": "MMBT3904LT1G",
+      "jlcpcb_part_number": "C81464",
+      "pcbX": 0,
+      "pcbY": 37,
+      "pcbRotation": 0
+    },
+    {
+      "reference": "R48",
+      "component": "A_0603WAF1001T5E",
+      "import": "A_0603WAF1001T5E",
+      "section": "indicators",
+      "manufacturer_part_number": "0603WAF1001T5E",
+      "jlcpcb_part_number": "C21190",
+      "pcbX": -12,
+      "pcbY": 42,
+      "pcbRotation": 90
+    },
+    {
+      "reference": "R49",
+      "component": "A_0603WAF1001T5E",
+      "import": "A_0603WAF1001T5E",
+      "section": "indicators",
+      "manufacturer_part_number": "0603WAF1001T5E",
+      "jlcpcb_part_number": "C21190",
+      "pcbX": 0,
+      "pcbY": 42,
+      "pcbRotation": 90
+    },
+    {
+      "reference": "R50",
+      "component": "A_0603WAF1001T5E",
+      "import": "A_0603WAF1001T5E",
+      "section": "indicators",
+      "manufacturer_part_number": "0603WAF1001T5E",
+      "jlcpcb_part_number": "C21190",
+      "pcbX": 12,
+      "pcbY": 42,
+      "pcbRotation": 90
+    },
+    {
+      "reference": "R51",
+      "component": "RC0603FR_0710KL",
+      "import": "RC0603FR_0710KL",
+      "section": "indicators",
+      "manufacturer_part_number": "RC0603FR-0710KL",
+      "jlcpcb_part_number": "C98220",
+      "pcbX": -16,
+      "pcbY": 37,
+      "pcbRotation": 90
+    },
+    {
+      "reference": "R52",
+      "component": "A_0402WGF1003TCE",
+      "import": "A_0402WGF1003TCE",
+      "section": "indicators",
+      "manufacturer_part_number": "0402WGF1003TCE",
+      "jlcpcb_part_number": "C25741",
+      "pcbX": -12,
+      "pcbY": 33,
+      "pcbRotation": 90
+    },
+    {
+      "reference": "R53",
+      "component": "RC0603FR_0710KL",
+      "import": "RC0603FR_0710KL",
+      "section": "indicators",
+      "manufacturer_part_number": "RC0603FR-0710KL",
+      "jlcpcb_part_number": "C98220",
+      "pcbX": -4,
+      "pcbY": 37,
+      "pcbRotation": 90
+    },
+    {
+      "reference": "R54",
+      "component": "A_0402WGF1003TCE",
+      "import": "A_0402WGF1003TCE",
+      "section": "indicators",
+      "manufacturer_part_number": "0402WGF1003TCE",
+      "jlcpcb_part_number": "C25741",
+      "pcbX": 0,
+      "pcbY": 33,
+      "pcbRotation": 90
+    },
+    {
+      "reference": "U9",
+      "component": "UsbHostPower",
+      "import": "TPS2051BDBVR",
+      "section": "usb_host",
+      "manufacturer_part_number": "TPS2051BDBVR",
+      "jlcpcb_part_number": "C24593",
+      "pcbX": -32,
+      "pcbY": 19,
+      "pcbRotation": 0
+    },
+    {
+      "reference": "U10",
+      "component": "UsbRecoveryProtection",
+      "import": "USBLC6_2SC6",
+      "section": "usb_host",
+      "manufacturer_part_number": "USBLC6-2SC6",
+      "jlcpcb_part_number": "C2827654",
+      "pcbX": -38,
+      "pcbY": 9,
+      "pcbRotation": 0
+    },
+    {
+      "reference": "J4",
+      "component": "UsbHostConnector",
+      "import": "A_902_131A1011D10100",
+      "section": "usb_host",
+      "manufacturer_part_number": "902-131A1011D10100",
+      "jlcpcb_part_number": "C2345",
+      "pcbX": -53,
+      "pcbY": 10,
+      "pcbRotation": 270
+    },
+    {
+      "reference": "R55",
+      "component": "A_0402WGF1003TCE",
+      "import": "A_0402WGF1003TCE",
+      "section": "usb_host",
+      "manufacturer_part_number": "0402WGF1003TCE",
+      "jlcpcb_part_number": "C25741",
+      "pcbX": -28,
+      "pcbY": 20,
+      "pcbRotation": 90
+    },
+    {
+      "reference": "R56",
+      "component": "RC0603FR_0710KL",
+      "import": "RC0603FR_0710KL",
+      "section": "usb_host",
+      "manufacturer_part_number": "RC0603FR-0710KL",
+      "jlcpcb_part_number": "C98220",
+      "pcbX": -28,
+      "pcbY": 17,
+      "pcbRotation": 90
+    },
+    {
+      "reference": "C70",
+      "component": "CL05B104KB54PNC",
+      "import": "CL05B104KB54PNC",
+      "section": "usb_host",
+      "manufacturer_part_number": "CL05B104KB54PNC",
+      "jlcpcb_part_number": "C307331",
+      "pcbX": -35,
+      "pcbY": 19,
+      "pcbRotation": 90
+    },
+    {
+      "reference": "C71",
+      "component": "CL10A106MA8NRNC",
+      "import": "CL10A106MA8NRNC",
+      "section": "usb_host",
+      "manufacturer_part_number": "CL10A106MA8NRNC",
+      "jlcpcb_part_number": "C96446",
+      "pcbX": -35,
+      "pcbY": 23,
+      "pcbRotation": 90
+    },
+    {
+      "reference": "C72",
+      "component": "UsbHostReservoir",
+      "import": "EEEFT1A221AP",
+      "section": "usb_host",
+      "manufacturer_part_number": "EEEFT1A221AP",
+      "jlcpcb_part_number": "C401764",
+      "pcbX": -37,
+      "pcbY": 29,
+      "pcbRotation": 0
+    },
+    {
+      "reference": "C73",
+      "component": "CL05B104KB54PNC",
+      "import": "CL05B104KB54PNC",
+      "section": "usb_host",
+      "manufacturer_part_number": "CL05B104KB54PNC",
+      "jlcpcb_part_number": "C307331",
+      "pcbX": -38,
+      "pcbY": 13,
+      "pcbRotation": 90
+    }
+  ],
+  "connections": {
+    "SYS_3V3": [
+      "LED2.1",
+      "LED3.1",
+      "LED4.1",
+      "R56.1"
+    ],
+    "GND": [
+      "Q2.2",
+      "Q3.2",
+      "R52.2",
+      "R54.2",
+      "U9.2",
+      "U10.2",
+      "J4.4",
+      "J4.5",
+      "J4.6",
+      "R55.2",
+      "C70.2",
+      "C71.2",
+      "C72.2",
+      "C73.2"
+    ],
+    "INPUT_5V": [
+      "U9.5",
+      "C70.1",
+      "C71.1"
+    ],
+    "LED_RUN": [
+      "U3.44",
+      "R51.1"
+    ],
+    "LED_RUN_BASE": [
+      "R51.2",
+      "Q2.1",
+      "R52.1"
+    ],
+    "LED_RUN_CATHODE": [
+      "LED2.2",
+      "R48.1"
+    ],
+    "LED_RUN_SINK": [
+      "R48.2",
+      "Q2.3"
+    ],
+    "LED_ERROR": [
+      "U3.45",
+      "R53.1"
+    ],
+    "LED_ERROR_BASE": [
+      "R53.2",
+      "Q3.1",
+      "R54.1"
+    ],
+    "LED_ERROR_CATHODE": [
+      "LED3.2",
+      "R49.1"
+    ],
+    "LED_ERROR_SINK": [
+      "R49.2",
+      "Q3.3"
+    ],
+    "LED_USB_FAULT_CATHODE": [
+      "LED4.2",
+      "R50.1"
+    ],
+    "USB_HOST_FAULT_N": [
+      "U9.3",
+      "U3.4",
+      "R56.2",
+      "R50.2"
+    ],
+    "USB_HOST_ENABLE": [
+      "U9.4",
+      "U3.5",
+      "R55.1"
+    ],
+    "USB_HOST_5V": [
+      "U9.1",
+      "J4.1",
+      "U10.5",
+      "C72.1",
+      "C73.1"
+    ],
+    "USB1_DM": [
+      "U3.113",
+      "U10.1",
+      "U10.6",
+      "J4.2"
+    ],
+    "USB1_DP": [
+      "U3.112",
+      "U10.3",
+      "U10.4",
+      "J4.3"
+    ]
+  },
+  "labels": {
+    "D1": "POWER",
+    "LED2": "RUN",
+    "LED3": "ERROR",
+    "LED4": "USB FAULT",
+    "J4": "CONTROLLER",
+    "SW1": "RESET",
+    "SW2": "RECOVERY"
+  },
+  "label_positions": {
+    "J4": {
+      "pcbX": -52,
+      "pcbY": -3
+    },
+    "SW2": {
+      "pcbX": 18,
+      "pcbY": -21
+    }
+  },
+  "removed_handheld_functions": [
+    "onboard_game_buttons",
+    "analog_headphone_and_speaker_audio",
+    "volume_wheel"
+  ],
+  "replacement_functions": {
+    "controls": "USB HID controllers",
+    "display_and_audio": "HDMI; interface remains required"
+  },
+  "full_console": false
+}

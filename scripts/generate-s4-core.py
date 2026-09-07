@@ -17,8 +17,8 @@ STAGE_REFS = ([f"C{n}" for n in range(1, 45)] + [f"R{n}" for n in range(1, 26) i
               + ["U1", "U2", "U3", "U4", "U5", "U6", "L1", "L2", "D1", "SW1", "SW2", "Y1", "Y2", "F1", "J1"])
 SECTIONS = {"power": "TI REGULATORS / SEQUENCING", "cpu_core": "S4 SUPPLIES / CLOCKS / RESET",
             "cpu_io": "BOOT STRAPS / BOARD IDENTIFICATION", "usb": "USB-C POWER / RECOVERY",
-            "storage": "512 MB SD STORAGE / FEL RECOVERY", "controls": "GAME INPUTS / GPIO FILTERS",
-            "audio": "ENHANCE SPEAKER / HEADPHONES / VOLUME"}
+            "storage": "512 MB SD STORAGE / FEL RECOVERY", "indicators": "POWER / RUN / ERROR / USB FAULT",
+            "usb_host": "USB CONTROLLER / PROTECTED HOST POWER"}
 INTERFACE_COMPONENTS = {"F1": "UsbInputFuse", "J1": "UsbRecoveryConnector", "U4": "UsbRecoveryProtection",
                         "U5": "BootStorage", "U6": "RecoveryClockGate"}
 # Hanxia drawing: joined GND/VBUS contacts share solder tails; four shell stakes.
@@ -72,36 +72,12 @@ def placement(component, imported_source):
     return {"pcbX": round(dx, 4), "pcbY": round(dy, 4), "pcbRotation": rotation}
 
 
-def add_controls(components, net_groups):
-    buttons = json.loads((S4 / "controls.json").read_text())["buttons"]
-    parts = [("switch", "TSA010A2026B", "TSA010A2026B", "C2888420", 0, 0),
-             ("pullup", "A_0402WGF5101TCE", "0402WGF5101TCE", "C25905", -1, -3.5),
-             ("filter", "CL05B104KB54PNC", "CL05B104KB54PNC", "C307331", 1, -3.5)]
-    for button in buttons:
-        for role, component, mpn, supplier, dx, dy in parts:
-            components.append({"reference": button[role], "component": component, "section": "controls",
-                               "manufacturer_part_number": mpn, "jlcpcb_part_number": supplier,
-                               "pcbX": button["pcbX"] + dx, "pcbY": button["pcbY"] + dy,
-                               "pcbRotation": 0 if role == "switch" else 90})
-        net_groups["SYS_3V3"]["nodes"].append({"reference": button["pullup"], "pin": "1"})
-        net_groups["GND"]["nodes"] += [{"reference": button["switch"], "pin": "1"},
-                                      {"reference": button["filter"], "pin": "2"}]
-        net_name = "BUTTON_" + button["function"] + "_N"
-        assert net_name not in net_groups
-        net_groups[net_name] = {"reference_net": None, "reference_nets": [], "name": net_name,
-                               "nodes": [{"reference": "U3", "pin": str(button["cpu_pin"])},
-                                         {"reference": button["switch"], "pin": "2"},
-                                         {"reference": button["pullup"], "pin": "2"},
-                                         {"reference": button["filter"], "pin": "1"}]}
-
-
 def main():
     with (S4 / "reports/reference-bom.csv").open() as handle:
         bom = {row["reference"]: row for row in csv.DictReader(handle)}
     positions = {row["reference"]: row for row in json.loads((S4 / "reference/placement.json").read_text())}
     layout_overrides = json.loads((S4 / "layout-overrides.json").read_text())
-    buttons = json.loads((S4 / "controls.json").read_text())["buttons"]
-    button_labels = {button["switch"]: button["function"] for button in buttons}
+    console = json.loads((S4 / "console.json").read_text())
     schematic = ET.parse(S4 / "reference/netlist.xml").getroot()
     net_groups = {}
     for net in schematic.findall("./nets/net"):
@@ -112,7 +88,7 @@ def main():
             ref, pin = node.attrib["ref"], node.attrib["pin"]
             if ref not in STAGE_REFS:
                 continue
-            pins = USB_CONTACTS[pin] if ref == "J1" else [{"53": "39", "52": "38"}.get(pin, pin) if ref == "U3" else pin]
+            pins = USB_CONTACTS[pin] if ref == "J1" else [{"53": "39", "52": "38"}.get(pin, pin) if ref == "U3" else {"1": "2", "2": "1"}[pin] if ref == "D1" else pin]
             endpoints.update((ref, mapped_pin) for mapped_pin in pins)
         nodes = [{"reference": ref, "pin": pin} for ref, pin in sorted(endpoints)]
         # RESET is supplied by VCC-RTC per Allwinner table 4-2; avoid 3.3V pull-up.
@@ -130,14 +106,21 @@ def main():
                 net_groups[net_name] = {"reference_net": net.attrib["name"], "reference_nets": [net.attrib["name"]], "name": net_name, "nodes": nodes}
     imports = {'import { T113M4020DC0 } from "../components/T113M4020DC0"',
                'import { MainClock, RtcClock } from "../components/clocks"',
-               'import { BootStorage, RecoveryClockGate, UsbInputFuse, UsbRecoveryConnector, UsbRecoveryProtection } from "../components/interfaces"'}
+               'import { BootStorage, RecoveryClockGate, UsbInputFuse, UsbRecoveryConnector, UsbRecoveryProtection } from "../components/interfaces"',
+               'import { GreenIndicator, RedIndicator, IndicatorDriver, UsbHostPower, UsbHostConnector, UsbHostReservoir } from "../components/console"'}
     components = []
     for ref in STAGE_REFS:
-        part = bom[ref]
+        part = dict(bom[ref])
+        if ref == "D1":
+            part.update(manufacturer_part_number="19-21SYGC/S530-E2/4T", jlcpcb_part_number="C2986011")
+        elif ref == "R4":
+            part.update(manufacturer_part_number="0603WAF1001T5E", jlcpcb_part_number="C21190")
         path = imported_part("C5197687" if ref == "U3" else part["jlcpcb_part_number"])
         function_name = re.search(r"export const (\w+)", path.read_text()).group(1)
         if ref == "U3":
             function_name = "T113M4020DC0"
+        elif ref == "D1":
+            function_name = "GreenIndicator"
         elif ref in ["Y1", "Y2"]:
             function_name = "MainClock" if ref == "Y1" else "RtcClock"
         elif ref in INTERFACE_COMPONENTS:
@@ -145,6 +128,8 @@ def main():
         else:
             imports.add(f'import {{ {function_name} }} from "../imports/{path.stem}"')
         section = part["reference_sheet"].strip("/").split("/")[-1].lower().replace(" ", "_")
+        if ref in ["D1", "R4"]:
+            section = "indicators"
         assert section in SECTIONS
         # J1 has alphabetic reference contacts and numbered imported solder tails.
         # Use its fully specified, reviewed edge placement rather than pad-1 inference.
@@ -158,15 +143,12 @@ def main():
             if key != "reason":
                 assert key in ["pcbX", "pcbY", "pcbRotation"], f"Unknown layout override: {key}"
                 components[-1][key] = setting
-    add_controls(components, net_groups)
-    audio = json.loads((S4 / "audio.json").read_text())
-    imports.add('import { AudioAmplifier, AudioSupply, AudioVolume, HeadphoneJack, SpeakerConnector, AudioEnableTransistor } from "../components/audio"')
-    for component in audio["components"]:
+    for component in console["components"]:
         assert component["reference"] not in {entry["reference"] for entry in components}
         components.append(component)
         if component["component"] == component["import"]:
             imports.add(f'import {{ {component["component"]} }} from "../imports/{component["import"]}"')
-    for net_name, endpoints in audio["connections"].items():
+    for net_name, endpoints in console["connections"].items():
         if net_name not in net_groups:
             net_groups[net_name] = {"reference_net": None, "reference_nets": [], "name": net_name, "nodes": []}
         net_groups[net_name]["nodes"] += [{"reference": endpoint.split(".")[0], "pin": endpoint.split(".")[1]} for endpoint in endpoints]
@@ -190,12 +172,10 @@ def main():
             elif section == "storage":
                 x, y = {"U5": (12, -3), "U6": (-8, -3), "SW2": (-8, -10),
                         "R23": (2, -3), "R22": (-16, -3)}.get(ref, (x, y))
-            elif section == "controls":
-                button_index, role_index = divmod(index, 3)
-                x = (button_index % 2) * 24 - 18 + role_index * 5
-                y = 14 - (button_index // 2) * 6
-            elif section == "audio":
-                x, y = (index % 6) * 8 - 20, 15 - (index // 6) * 5
+            elif section == "indicators":
+                x, y = (index % 4) * 12 - 18, 15 - (index // 4) * 8
+            elif section == "usb_host":
+                x, y = (index % 3) * 16 - 16, 12 - (index // 3) * 10
             if ref == "U3":
                 x, y = -24, 3
             props = [f'name="{ref}"', f'schX={{{x}}}', f'schY={{{y}}}', f'schSectionName="{section}"']
@@ -203,19 +183,20 @@ def main():
             if ref == "U3":
                 props += ['schWidth={8}', 'schHeight={17}']
             out.append(f'      <{component["component"]} ' + " ".join(props) + " />")
-            if ref in button_labels:
-                out.append(f'      <silkscreentext text="{button_labels[ref]}" pcbX={{{component["pcbX"]}}} pcbY={{{component["pcbY"] + 4}}} fontSize="1.2mm" />')
+            if ref in console["labels"]:
+                label_position = console["label_positions"].get(ref, {"pcbX": component["pcbX"], "pcbY": component["pcbY"] + 4})
+                out.append(f'      <silkscreentext text="{console["labels"][ref]}" pcbX={{{label_position["pcbX"]}}} pcbY={{{label_position["pcbY"]}}} fontSize="1.2mm" />')
         out.append("    </schematicsheet>")
     out += ["  </>", "}", "", "export function PowerCoreNets() {", "  return <>"]
     for net in nets:
-        flags = " isGroundNet" if net["name"] == "GND" else " isPowerNet" if net["name"] == "AUDIO_2V5" or net["reference_net"] in ["+0V9", "+1V5", "+1V8", "+3V3", "VBUS", "Net-(U4-VBUS)"] else ""
+        flags = " isGroundNet" if net["name"] == "GND" else " isPowerNet" if net["name"] == "USB_HOST_5V" or net["reference_net"] in ["+0V9", "+1V5", "+1V8", "+3V3", "VBUS", "Net-(U4-VBUS)"] else ""
         out.append(f'    <net name="{net["name"]}"{flags} />')
         for node in net["nodes"]:
             out.append(f'    <trace from=".{node["reference"]} > .pin{node["pin"]}" to="net.{net["name"]}" schDisplayLabel="{net["name"]}" />')
     out += ["  </>", "}", ""]
     (S4 / "generated").mkdir(exist_ok=True)
     (S4 / "generated/power-core.tsx").write_text("\n".join(out))
-    manifest = {"scope": "power_cpu_usb_storage_recovery_controls_audio_stage", "components": components, "nets": nets,
+    manifest = {"scope": "tabletop_console_core_indicators_usb_host_stage", "components": components, "nets": nets,
                 "unimplemented_reference_components": sorted(set(bom) - set(STAGE_REFS)),
                 "deviations": [{"pin": "R11.1", "reference_net": "+3V3", "implemented_net": "+1V8",
                                 "reason": "RESET pin 27 belongs to VCC-RTC (1.8V), Allwinner table 4-2"},
@@ -226,8 +207,10 @@ def main():
                                {"component": "U5", "reason": "Resolve incorrect ZDSD08 symbol display to exact 4-Gbit/512-MByte ZDSD04GLGEAG MPN"},
                                {"component": "J1", "reason": "Map alphabetic contacts to genuine supplier solder-tail and shield pad numbers"},
                                {"component": "U4", "reason": "Represent internally connected USBLC6 paths 1-6 and 3-4 as continuous USB nets"},
-                               {"section": "controls", "reason": "Add ten active-low GPIO game inputs with genuine JLCPCB switches, 5.1k pull-ups and 100nF filters; firmware debounce required"},
-                               {"section": "audio", "reason": "Retain 20 Enhance audio designators with S4 analog coupling, corrected volume endpoint/wiper mapping, ROUT-based jack detection, codec feedback/shunts and GPIO-controlled shutdown; see AUDIO-RETENTION-REVIEW.md for every change and unresolved qualification"}],
+                               {"section": "console", "reason": "User-authorized tabletop conversion removes onboard game buttons and analog audio; USB controllers and HDMI take over their functions. HDMI remains required, not marked DNP."},
+                               {"component": "D1/R4", "reason": "Replace old red power LED with green Everlight (1=anode, 2=cathode) and 1k current limit; remap original D1 terminals accordingly."},
+                               {"section": "indicators", "reason": "Add transistor-driven active-high RUN/ERROR indicators on PE0/PE1 and hardware active-low USB fault indicator."},
+                               {"section": "usb_host", "reason": "Add USB1 Type-A connector, ST ESD array and TI TPS2051B 500mA power switch with default-off enable and hardware fault indication; source-current qualification remains required."}],
                 "schematic_sections": SECTIONS,
                 "full_console": False, "routing_disabled": True}
     (S4 / "generated/power-core.json").write_text(json.dumps(manifest, indent=2) + "\n")

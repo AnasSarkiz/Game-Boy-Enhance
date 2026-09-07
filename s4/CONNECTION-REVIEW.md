@@ -1,6 +1,9 @@
 # S4 connection review
 
-A 145-component power, interface and audio draft is implemented; [the audio review](AUDIO-RETENTION-REVIEW.md) records its three unresolved tool diagnostics; this remains a qualification review, not sign-off for every console connection. All physical pin numbers below come from the pinned Trellis schematic and the linked S3 family documentation. S4-specific electrical confirmation remains required. `reports/reference-cpu-pins.csv` lists all 129 reference CPU pins without marking them datasheet-qualified.
+**Current scope:** the active 103-component tabletop core is reviewed in [CONSOLE-REVIEW.md](CONSOLE-REVIEW.md). The earlier handheld audio and ten GPIO controls described in the historical reviews are no longer active.
+
+
+A 103-component console core is implemented; this remains a qualification review, not sign-off for every console connection. All physical pin numbers below come from the pinned Trellis schematic and the linked S3 family documentation. S4-specific electrical confirmation remains required. `reports/reference-cpu-pins.csv` lists all 129 reference CPU pins without marking them datasheet-qualified.
 
 ## Power and startup
 
@@ -20,7 +23,7 @@ The HDMI transmitter must not be attached to the CPU's internal 1.8 V output wit
 
 ## Interface allocation
 
-The [family pinmux table](https://dl.linux-sunxi.org/T113-S3/T113-S3_Datasheet_v1.6_20220303.pdf) shows PD7/PD8 (physical 62/63) serving UART4 and display functions. The new [pin allocation](pin-allocation.json) reserves PE4/PE5 for UART4 instead. Board IDs move from PD21/PD22 to PE8/PE9. The audit checks 69 unique signal allocations against physical CPU labels and verifies reserved pins remain unwired. Ten game inputs use PE GPIOs; LCD RGB24/sync, I²S1, HDMI control and USB1 remain reserved for unfinished circuitry. S4 firmware/pinmux confirmation remains required. In particular, I²S1 DOUT0 uses **PG15**, not PG14 in the family function-2 mapping.
+The [family pinmux table](https://dl.linux-sunxi.org/T113-S3/T113-S3_Datasheet_v1.6_20220303.pdf) shows PD7/PD8 (physical 62/63) serving UART4 and display functions. The new [pin allocation](pin-allocation.json) reserves PE4/PE5 for UART4 instead. Board IDs move from PD21/PD22 to PE8/PE9. The audit checks 57 unique signal allocations against physical CPU labels and verifies reserved pins remain unwired. RUN/ERROR indicators use PE0/PE1; LCD RGB24/sync, I²S1, HDMI control and USB1 remain reserved for unfinished circuitry. S4 firmware/pinmux confirmation remains required. In particular, I²S1 DOUT0 uses **PG15**, not PG14 in the family function-2 mapping.
 
 The reference storage occupies SDC0 on PF0–PF5. It cannot simply be paralleled with another microSD device. A second storage device needs a separate supported bus, or the storage architecture must be deliberately changed. The reference uses 51 kΩ pulls, a clock gate for recovery, and a 22 Ω series clock resistor; the implemented Zetta 512 MB device pin map and pull range have been checked against its manufacturer document; clock timing and actual boot firmware remain unqualified. See [interface review](INTERFACE-REVIEW.md).
 

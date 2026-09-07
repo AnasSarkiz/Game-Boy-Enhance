@@ -1,241 +1,241 @@
 original_reference,original_value,original_sheet,status,s4_reference,reason
-BT1,Battery,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-C1,22u,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-C2,10u,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-C10,0.1u,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-C12,10u,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-C21,22u,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-C22,1u,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-C23,10u,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-C37,10u,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-C42,22u,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-C44,1u,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-C57,10u,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-C58,22u,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-C59,10u,/,adapted_audio,C64,Retained in the audio adaptation with explicit pin/value/procurement changes in AUDIO-RETENTION-REVIEW.md; tool acceptance remains blocked.
-C60,10u,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-C61,3300p,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-C68,10u,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-C72,0.1u,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-C80,3300p,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-D1,1SS355VMTE-17,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-D2,1SS355VMTE-17,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-DL1,150060VS75000,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-DL2,150060RS75000,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-F1,F0805B2R00FSTR,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-L1,0.47uH,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-L2,0.47uH,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-NT1,NetTie_2,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-PTC1,0805L075SLYR,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-Q1,2N3904,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-Q3,2N3906,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-Q5,NDC7002N,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-Q9,NDC7002N,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-Q10,NDC7002N,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-R3,5.1k,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-R4,33k,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-R8,100k,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-R9,100k,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-R10,20k,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-R11,1k,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-R12,100k,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-R13,100k,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-R15,10k,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-R16,10k,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-R17,100k,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-R18,10k,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-R24,100k,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-R25,3.3k,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-R58,5.1k,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-R59,820k,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-R60,91k,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-R63,100k,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-R64,200k,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-R65,100k,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-R66,100k,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-R72,510k,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-R73,91k,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-SW1,CSS-1310B,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-TP13,VOUT5,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-TP14,VDD5,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-TP15,~{RESET},/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-TP16,VOUT3,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-TP17,~{MR},/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-TP18,VDD2,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-TP19,VBATT,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-TP20,SW,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-TP21,VDD3,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-TP22,VAUD,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-TP23,PG3,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-TP24,EN,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-TP26,VFILT,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-TP30,PG2V5,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-TP32,VCC,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-U3,TPS3840DL20,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-U4,NCV8164ASN250T1G,/,adapted_audio,U8,Retained in the audio adaptation with explicit pin/value/procurement changes in AUDIO-RETENTION-REVIEW.md; tool acceptance remains blocked.
-U5,TPS63802,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-U8,NCV8164ASN250T1G,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-U10,TPS3840DL20,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-U11,TPS22917DBV,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-U13,TPS63802,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-U14,MIC1553,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-U17,TPS3840DL20,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-U18,TPS22917DBV,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-C3,27p,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-C4,33p,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-C5,0.1u,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-C6,0.1u,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-C7,0.1u,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-C8,0.1u,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-C15,0.1u,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-C16,0.1u,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-C17,0.1u,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-C18,100p,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-C19,100p,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-C20,100p,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-C30,1u,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-C34,0.1u,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-C39,0.1u,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-C43,0.1u,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-C45,1u,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-C46,1u,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-C47,1u,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-C48,1u,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-C49,1u,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-C50,1u,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-C51,1u,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-C52,0.1u,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-C53,0.1u,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-C62,0.01u,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-C63,0.01u,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-C64,0.01u,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-C69,1u,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-C73,0.01u,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-C74,0.01u,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-C75,0.01u,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-C76,0.01u,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-C77,0.01u,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-C78,0.01u,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-C79,0.01u,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-EM1,ACM2520-801-3P-T002,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-EM2,ACM2520-801-3P-T002,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-EM3,MH1608-601Y,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-EM7,MH1608-601Y,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-JP1,Jumper_2_Open,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+BT1,Battery,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+C1,22u,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+C2,10u,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+C10,0.1u,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+C12,10u,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+C21,22u,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+C22,1u,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+C23,10u,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+C37,10u,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+C42,22u,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+C44,1u,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+C57,10u,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+C58,22u,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+C59,10u,/,moved_to_hdmi,,User-authorized console scope moves sound and volume to the TV; analog handheld audio is removed. Required HDMI audio remains unfinished.
+C60,10u,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+C61,3300p,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+C68,10u,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+C72,0.1u,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+C80,3300p,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+D1,1SS355VMTE-17,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+D2,1SS355VMTE-17,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+DL1,150060VS75000,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+DL2,150060RS75000,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+F1,F0805B2R00FSTR,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+L1,0.47uH,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+L2,0.47uH,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+NT1,NetTie_2,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+PTC1,0805L075SLYR,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+Q1,2N3904,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+Q3,2N3906,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+Q5,NDC7002N,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+Q9,NDC7002N,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+Q10,NDC7002N,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+R3,5.1k,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+R4,33k,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+R8,100k,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+R9,100k,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+R10,20k,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+R11,1k,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+R12,100k,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+R13,100k,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+R15,10k,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+R16,10k,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+R17,100k,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+R18,10k,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+R24,100k,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+R25,3.3k,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+R58,5.1k,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+R59,820k,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+R60,91k,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+R63,100k,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+R64,200k,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+R65,100k,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+R66,100k,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+R72,510k,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+R73,91k,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+SW1,CSS-1310B,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+TP13,VOUT5,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+TP14,VDD5,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+TP15,~{RESET},/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+TP16,VOUT3,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+TP17,~{MR},/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+TP18,VDD2,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+TP19,VBATT,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+TP20,SW,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+TP21,VDD3,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+TP22,VAUD,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+TP23,PG3,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+TP24,EN,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+TP26,VFILT,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+TP30,PG2V5,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+TP32,VCC,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+U3,TPS3840DL20,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+U4,NCV8164ASN250T1G,/,moved_to_hdmi,,User-authorized console scope moves sound and volume to the TV; analog handheld audio is removed. Required HDMI audio remains unfinished.
+U5,TPS63802,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+U8,NCV8164ASN250T1G,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+U10,TPS3840DL20,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+U11,TPS22917DBV,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+U13,TPS63802,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+U14,MIC1553,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+U17,TPS3840DL20,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+U18,TPS22917DBV,/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+C3,27p,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+C4,33p,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+C5,0.1u,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+C6,0.1u,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+C7,0.1u,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+C8,0.1u,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+C15,0.1u,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+C16,0.1u,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+C17,0.1u,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+C18,100p,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+C19,100p,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+C20,100p,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+C30,1u,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+C34,0.1u,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+C39,0.1u,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+C43,0.1u,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+C45,1u,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+C46,1u,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+C47,1u,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+C48,1u,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+C49,1u,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+C50,1u,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+C51,1u,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+C52,0.1u,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+C53,0.1u,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+C62,0.01u,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+C63,0.01u,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+C64,0.01u,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+C69,1u,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+C73,0.01u,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+C74,0.01u,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+C75,0.01u,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+C76,0.01u,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+C77,0.01u,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+C78,0.01u,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+C79,0.01u,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+EM1,ACM2520-801-3P-T002,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+EM2,ACM2520-801-3P-T002,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+EM3,MH1608-601Y,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+EM7,MH1608-601Y,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+JP1,Jumper_2_Open,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
 JP2,Jumper_2_Open,/CPU/,replaced,,Original SRAM and its configuration are replaced by S4 in-package RAM; no external SRAM is required for this design.
 JP3,Jumper_2_Open,/CPU/,replaced,,Original SRAM and its configuration are replaced by S4 in-package RAM; no external SRAM is required for this design.
-P1,CART SLOT,/CPU/,pending_compatibility,,Original cartridge/link hardware protocols and compatible JLCPCB connectors remain unresolved. Do not connect directly to S4.
-P4,AGB-LINK,/CPU/,pending_compatibility,,Original cartridge/link hardware protocols and compatible JLCPCB connectors remain unresolved. Do not connect directly to S4.
-Q2,NDC7002N,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-Q7,NDC7002N,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-Q8,2N7002,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-R1,1.5M,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-R2,10k,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-R5,100k,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-R6,100k,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-R7,100k,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-R29,18k,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-R35,100k,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-R38,47,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-R39,47,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-R40,15,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-R41,2.2k,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-R43,15,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-R44,15,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-R68,100k,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-RA1,330,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-SW2,1825027-5,/CPU/,function_present_parts_review,SW3–SW12,All ten game inputs exist; current small switches differ from original shoulder/tactile parts. Returning to the original imported switch choices remains to be reviewed.
-SW3,1825027-5,/CPU/,function_present_parts_review,SW3–SW12,All ten game inputs exist; current small switches differ from original shoulder/tactile parts. Returning to the original imported switch choices remains to be reviewed.
-SW4,SKRRABE010,/CPU/,function_present_parts_review,SW3–SW12,All ten game inputs exist; current small switches differ from original shoulder/tactile parts. Returning to the original imported switch choices remains to be reviewed.
-SW5,SKRRABE010,/CPU/,function_present_parts_review,SW3–SW12,All ten game inputs exist; current small switches differ from original shoulder/tactile parts. Returning to the original imported switch choices remains to be reviewed.
-SW6,SKRRABE010,/CPU/,function_present_parts_review,SW3–SW12,All ten game inputs exist; current small switches differ from original shoulder/tactile parts. Returning to the original imported switch choices remains to be reviewed.
-TP0,TP0,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-TP1,TP1,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-TP2,TP2,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-TP3,TP3,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-TP4,TP4,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-TP5,TP5,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-TP6,TP6,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-TP7,TP7,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-TP8,TP8,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-TP9,TP9,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-TP12,TestPoint,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-TP25,SCK,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-TP27,R,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-TP28,L,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-TP29,SEL,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-TP80,CK1,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-TP81,CK2,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+P1,CART SLOT,/CPU/,outside_console_scope,,User-authorized console uses emulators and USB controllers; original cartridge/link interfaces are outside this scope.
+P4,AGB-LINK,/CPU/,outside_console_scope,,User-authorized console uses emulators and USB controllers; original cartridge/link interfaces are outside this scope.
+Q2,NDC7002N,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+Q7,NDC7002N,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+Q8,2N7002,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+R1,1.5M,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+R2,10k,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+R5,100k,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+R6,100k,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+R7,100k,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+R29,18k,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+R35,100k,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+R38,47,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+R39,47,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+R40,15,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+R41,2.2k,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+R43,15,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+R44,15,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+R68,100k,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+RA1,330,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+SW2,1825027-5,/CPU/,moved_to_usb_controllers,J4/U9/U10,"User-authorized console replaces onboard game buttons with USB controllers; host wiring exists, firmware and hardware qualification remain open."
+SW3,1825027-5,/CPU/,moved_to_usb_controllers,J4/U9/U10,"User-authorized console replaces onboard game buttons with USB controllers; host wiring exists, firmware and hardware qualification remain open."
+SW4,SKRRABE010,/CPU/,moved_to_usb_controllers,J4/U9/U10,"User-authorized console replaces onboard game buttons with USB controllers; host wiring exists, firmware and hardware qualification remain open."
+SW5,SKRRABE010,/CPU/,moved_to_usb_controllers,J4/U9/U10,"User-authorized console replaces onboard game buttons with USB controllers; host wiring exists, firmware and hardware qualification remain open."
+SW6,SKRRABE010,/CPU/,moved_to_usb_controllers,J4/U9/U10,"User-authorized console replaces onboard game buttons with USB controllers; host wiring exists, firmware and hardware qualification remain open."
+TP0,TP0,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+TP1,TP1,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+TP2,TP2,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+TP3,TP3,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+TP4,TP4,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+TP5,TP5,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+TP6,TP6,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+TP7,TP7,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+TP8,TP8,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+TP9,TP9,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+TP12,TestPoint,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+TP25,SCK,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+TP27,R,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+TP28,L,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+TP29,SEL,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+TP80,CK1,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+TP81,CK2,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
 U1,AGB-CPU,/CPU/,replaced,U3,Nintendo CPU replaced by T113M4020DC0; emulator software is required.
 U2,AGB-SRAM,/CPU/,replaced,,Original SRAM and its configuration are replaced by S4 in-package RAM; no external SRAM is required for this design.
-U12,TPS22917DBV,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-U15,SN74LVC1G332,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
-U16,SN74HC02PWR,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+U12,TPS22917DBV,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+U15,SN74LVC1G332,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
+U16,SN74HC02PWR,/CPU/,reference_only_pending_review,,Historical handheld component; individual disposition is not yet reviewed. This is not an active console BOM entry or a DNP designation.
 X1,4.194304MHz,/CPU/,replaced,Y1/Y2,S4 requires its own 24 MHz and RTC clocks; original 4.194304 MHz clock cannot be retained.
-C11,1u,/CPU/Display/,pending_display,,Original display compatibility needs an identified panel/adapter and verified signaling; HDMI is a separate unfinished interface.
-C13,0.1u,/CPU/Display/,pending_display,,Original display compatibility needs an identified panel/adapter and verified signaling; HDMI is a separate unfinished interface.
-C14,0.1u,/CPU/Display/,pending_display,,Original display compatibility needs an identified panel/adapter and verified signaling; HDMI is a separate unfinished interface.
-C70,47p,/CPU/Display/,pending_display,,Original display compatibility needs an identified panel/adapter and verified signaling; HDMI is a separate unfinished interface.
-C71,47p,/CPU/Display/,pending_display,,Original display compatibility needs an identified panel/adapter and verified signaling; HDMI is a separate unfinished interface.
-P2,FFC CONNECTOR,/CPU/Display/,pending_display,,Original display compatibility needs an identified panel/adapter and verified signaling; HDMI is a separate unfinished interface.
-R26,33k,/CPU/Display/,pending_display,,Original display compatibility needs an identified panel/adapter and verified signaling; HDMI is a separate unfinished interface.
-R36,270,/CPU/Display/,pending_display,,Original display compatibility needs an identified panel/adapter and verified signaling; HDMI is a separate unfinished interface.
-R67,100k,/CPU/Display/,pending_display,,Original display compatibility needs an identified panel/adapter and verified signaling; HDMI is a separate unfinished interface.
-R70,100k,/CPU/Display/,pending_display,,Original display compatibility needs an identified panel/adapter and verified signaling; HDMI is a separate unfinished interface.
-R71,100k,/CPU/Display/,pending_display,,Original display compatibility needs an identified panel/adapter and verified signaling; HDMI is a separate unfinished interface.
-TP10,TOUCH1,/CPU/Display/,pending_display,,Original display compatibility needs an identified panel/adapter and verified signaling; HDMI is a separate unfinished interface.
-TP11,TOUCH2,/CPU/Display/,pending_display,,Original display compatibility needs an identified panel/adapter and verified signaling; HDMI is a separate unfinished interface.
-TP31,TOUCH2B,/CPU/Display/,pending_display,,Original display compatibility needs an identified panel/adapter and verified signaling; HDMI is a separate unfinished interface.
-VR1,50k,/CPU/Display/,pending_display,,Original display compatibility needs an identified panel/adapter and verified signaling; HDMI is a separate unfinished interface.
-Z57,100p or 0 ohm,/CPU/Display/,pending_display,,Original display compatibility needs an identified panel/adapter and verified signaling; HDMI is a separate unfinished interface.
-Z58,100p or 0 ohm,/CPU/Display/,pending_display,,Original display compatibility needs an identified panel/adapter and verified signaling; HDMI is a separate unfinished interface.
-C9,1u,/CPU/Audio/,replaced_by_codec,,Nintendo PWM reconstruction/filter/bias support replaced by S4 analog DAC output and its coupling/stability network.
-C24,1000p,/CPU/Audio/,replaced_by_codec,,Nintendo PWM reconstruction/filter/bias support replaced by S4 analog DAC output and its coupling/stability network.
-C25,1u,/CPU/Audio/,replaced_by_codec,,Nintendo PWM reconstruction/filter/bias support replaced by S4 analog DAC output and its coupling/stability network.
-C26,680p,/CPU/Audio/,replaced_by_codec,,Nintendo PWM reconstruction/filter/bias support replaced by S4 analog DAC output and its coupling/stability network.
-C27,330p,/CPU/Audio/,replaced_by_codec,,Nintendo PWM reconstruction/filter/bias support replaced by S4 analog DAC output and its coupling/stability network.
-C28,3300p,/CPU/Audio/,replaced_by_codec,,Nintendo PWM reconstruction/filter/bias support replaced by S4 analog DAC output and its coupling/stability network.
-C29,1u,/CPU/Audio/,replaced_by_codec,,Nintendo PWM reconstruction/filter/bias support replaced by S4 analog DAC output and its coupling/stability network.
-C31,680p,/CPU/Audio/,replaced_by_codec,,Nintendo PWM reconstruction/filter/bias support replaced by S4 analog DAC output and its coupling/stability network.
-C32,1000p,/CPU/Audio/,replaced_by_codec,,Nintendo PWM reconstruction/filter/bias support replaced by S4 analog DAC output and its coupling/stability network.
-C33,330p,/CPU/Audio/,replaced_by_codec,,Nintendo PWM reconstruction/filter/bias support replaced by S4 analog DAC output and its coupling/stability network.
-C35,3300p,/CPU/Audio/,replaced_by_codec,,Nintendo PWM reconstruction/filter/bias support replaced by S4 analog DAC output and its coupling/stability network.
-C36,1u,/CPU/Audio/,replaced_by_codec,,Nintendo PWM reconstruction/filter/bias support replaced by S4 analog DAC output and its coupling/stability network.
-C38,1u,/CPU/Audio/,adapted_audio,C59,Retained in the audio adaptation with explicit pin/value/procurement changes in AUDIO-RETENTION-REVIEW.md; tool acceptance remains blocked.
-C54,1u,/CPU/Audio/,replaced_by_codec,,Nintendo PWM reconstruction/filter/bias support replaced by S4 analog DAC output and its coupling/stability network.
-C55,1u,/CPU/Audio/,adapted_audio,C58,Retained in the audio adaptation with explicit pin/value/procurement changes in AUDIO-RETENTION-REVIEW.md; tool acceptance remains blocked.
-C56,1u,/CPU/Audio/,adapted_audio,C57,Retained in the audio adaptation with explicit pin/value/procurement changes in AUDIO-RETENTION-REVIEW.md; tool acceptance remains blocked.
-CP1,100u,/CPU/Audio/,adapted_audio,C62,Retained in the audio adaptation with explicit pin/value/procurement changes in AUDIO-RETENTION-REVIEW.md; tool acceptance remains blocked.
-CP2,100u,/CPU/Audio/,adapted_audio,C61,Retained in the audio adaptation with explicit pin/value/procurement changes in AUDIO-RETENTION-REVIEW.md; tool acceptance remains blocked.
-CP3,100u,/CPU/Audio/,adapted_audio,C60,Retained in the audio adaptation with explicit pin/value/procurement changes in AUDIO-RETENTION-REVIEW.md; tool acceptance remains blocked.
-P3,SJ-3524-SMT,/CPU/Audio/,adapted_audio,J2,Retained in the audio adaptation with explicit pin/value/procurement changes in AUDIO-RETENTION-REVIEW.md; tool acceptance remains blocked.
-Q6,2N7002,/CPU/Audio/,replaced,Q1/R44/R45,GPIO-controlled NPN shutdown replaces the VDD5-driven MOSFET; amplifier defaults disabled.
-R14,100k,/CPU/Audio/,adapted_audio,R40,Retained in the audio adaptation with explicit pin/value/procurement changes in AUDIO-RETENTION-REVIEW.md; tool acceptance remains blocked.
-R19,1k,/CPU/Audio/,adapted_audio,R41,Retained in the audio adaptation with explicit pin/value/procurement changes in AUDIO-RETENTION-REVIEW.md; tool acceptance remains blocked.
-R20,1k,/CPU/Audio/,adapted_audio,R42,Retained in the audio adaptation with explicit pin/value/procurement changes in AUDIO-RETENTION-REVIEW.md; tool acceptance remains blocked.
-R30,100k,/CPU/Audio/,adapted_audio,R37,Retained in the audio adaptation with explicit pin/value/procurement changes in AUDIO-RETENTION-REVIEW.md; tool acceptance remains blocked.
-R31,100k,/CPU/Audio/,adapted_audio,R36,Retained in the audio adaptation with explicit pin/value/procurement changes in AUDIO-RETENTION-REVIEW.md; tool acceptance remains blocked.
-R34,5.1k,/CPU/Audio/,replaced_by_codec,,Nintendo PWM reconstruction/filter/bias support replaced by S4 analog DAC output and its coupling/stability network.
-R37,100k,/CPU/Audio/,adapted_audio,R43,Retained in the audio adaptation with explicit pin/value/procurement changes in AUDIO-RETENTION-REVIEW.md; tool acceptance remains blocked.
-R42,7.5k,/CPU/Audio/,replaced_by_codec,,Nintendo PWM reconstruction/filter/bias support replaced by S4 analog DAC output and its coupling/stability network.
-R45,100k,/CPU/Audio/,replaced_by_codec,,Nintendo PWM reconstruction/filter/bias support replaced by S4 analog DAC output and its coupling/stability network.
-R46,100k,/CPU/Audio/,replaced_by_codec,,Nintendo PWM reconstruction/filter/bias support replaced by S4 analog DAC output and its coupling/stability network.
-R47,20k,/CPU/Audio/,replaced_by_codec,,Nintendo PWM reconstruction/filter/bias support replaced by S4 analog DAC output and its coupling/stability network.
-R48,18k,/CPU/Audio/,replaced_by_codec,,Nintendo PWM reconstruction/filter/bias support replaced by S4 analog DAC output and its coupling/stability network.
-R49,100k,/CPU/Audio/,replaced_by_codec,,Nintendo PWM reconstruction/filter/bias support replaced by S4 analog DAC output and its coupling/stability network.
-R50,100k,/CPU/Audio/,replaced_by_codec,,Nintendo PWM reconstruction/filter/bias support replaced by S4 analog DAC output and its coupling/stability network.
-R51,7.5k,/CPU/Audio/,replaced_by_codec,,Nintendo PWM reconstruction/filter/bias support replaced by S4 analog DAC output and its coupling/stability network.
-R52,20k,/CPU/Audio/,replaced_by_codec,,Nintendo PWM reconstruction/filter/bias support replaced by S4 analog DAC output and its coupling/stability network.
-R53,5.1k,/CPU/Audio/,replaced_by_codec,,Nintendo PWM reconstruction/filter/bias support replaced by S4 analog DAC output and its coupling/stability network.
-R54,18k,/CPU/Audio/,replaced_by_codec,,Nintendo PWM reconstruction/filter/bias support replaced by S4 analog DAC output and its coupling/stability network.
-R56,20k,/CPU/Audio/,adapted_audio,R38,Retained in the audio adaptation with explicit pin/value/procurement changes in AUDIO-RETENTION-REVIEW.md; tool acceptance remains blocked.
-R57,20k,/CPU/Audio/,adapted_audio,R39,Retained in the audio adaptation with explicit pin/value/procurement changes in AUDIO-RETENTION-REVIEW.md; tool acceptance remains blocked.
-SP1,Speaker,/CPU/Audio/,adapted_audio,J3,Retained in the audio adaptation with explicit pin/value/procurement changes in AUDIO-RETENTION-REVIEW.md; tool acceptance remains blocked.
-TP33,LIN,/CPU/Audio/,pending_test_access,,Retain audio measurement access; testpoint parts and placement are still to be added.
-TP34,RIN,/CPU/Audio/,pending_test_access,,Retain audio measurement access; testpoint parts and placement are still to be added.
-TP114,R-OUT,/CPU/Audio/,pending_test_access,,Retain audio measurement access; testpoint parts and placement are still to be added.
-TP115,L-OUT,/CPU/Audio/,pending_test_access,,Retain audio measurement access; testpoint parts and placement are still to be added.
-U6,LM4853,/CPU/Audio/,adapted_audio,U7,Retained in the audio adaptation with explicit pin/value/procurement changes in AUDIO-RETENTION-REVIEW.md; tool acceptance remains blocked.
-U7,TLV9364,/CPU/Audio/,replaced_by_codec,,Nintendo PWM reconstruction/filter/bias support replaced by S4 analog DAC output and its coupling/stability network.
-U9,SN74LVC2G34DBVR,/CPU/Audio/,replaced_by_codec,,Nintendo PWM reconstruction/filter/bias support replaced by S4 analog DAC output and its coupling/stability network.
-VR2,RK10J12R0A0B,/CPU/Audio/,adapted_audio,VR1,Retained in the audio adaptation with explicit pin/value/procurement changes in AUDIO-RETENTION-REVIEW.md; tool acceptance remains blocked.
+C11,1u,/CPU/Display/,moved_to_hdmi,,User-authorized console replaces handheld LCD with monitor output; required HDMI implementation remains unfinished.
+C13,0.1u,/CPU/Display/,moved_to_hdmi,,User-authorized console replaces handheld LCD with monitor output; required HDMI implementation remains unfinished.
+C14,0.1u,/CPU/Display/,moved_to_hdmi,,User-authorized console replaces handheld LCD with monitor output; required HDMI implementation remains unfinished.
+C70,47p,/CPU/Display/,moved_to_hdmi,,User-authorized console replaces handheld LCD with monitor output; required HDMI implementation remains unfinished.
+C71,47p,/CPU/Display/,moved_to_hdmi,,User-authorized console replaces handheld LCD with monitor output; required HDMI implementation remains unfinished.
+P2,FFC CONNECTOR,/CPU/Display/,moved_to_hdmi,,User-authorized console replaces handheld LCD with monitor output; required HDMI implementation remains unfinished.
+R26,33k,/CPU/Display/,moved_to_hdmi,,User-authorized console replaces handheld LCD with monitor output; required HDMI implementation remains unfinished.
+R36,270,/CPU/Display/,moved_to_hdmi,,User-authorized console replaces handheld LCD with monitor output; required HDMI implementation remains unfinished.
+R67,100k,/CPU/Display/,moved_to_hdmi,,User-authorized console replaces handheld LCD with monitor output; required HDMI implementation remains unfinished.
+R70,100k,/CPU/Display/,moved_to_hdmi,,User-authorized console replaces handheld LCD with monitor output; required HDMI implementation remains unfinished.
+R71,100k,/CPU/Display/,moved_to_hdmi,,User-authorized console replaces handheld LCD with monitor output; required HDMI implementation remains unfinished.
+TP10,TOUCH1,/CPU/Display/,moved_to_hdmi,,User-authorized console replaces handheld LCD with monitor output; required HDMI implementation remains unfinished.
+TP11,TOUCH2,/CPU/Display/,moved_to_hdmi,,User-authorized console replaces handheld LCD with monitor output; required HDMI implementation remains unfinished.
+TP31,TOUCH2B,/CPU/Display/,moved_to_hdmi,,User-authorized console replaces handheld LCD with monitor output; required HDMI implementation remains unfinished.
+VR1,50k,/CPU/Display/,moved_to_hdmi,,User-authorized console replaces handheld LCD with monitor output; required HDMI implementation remains unfinished.
+Z57,100p or 0 ohm,/CPU/Display/,moved_to_hdmi,,User-authorized console replaces handheld LCD with monitor output; required HDMI implementation remains unfinished.
+Z58,100p or 0 ohm,/CPU/Display/,moved_to_hdmi,,User-authorized console replaces handheld LCD with monitor output; required HDMI implementation remains unfinished.
+C9,1u,/CPU/Audio/,moved_to_hdmi,,User-authorized console scope moves sound and volume to the TV; analog handheld audio is removed. Required HDMI audio remains unfinished.
+C24,1000p,/CPU/Audio/,moved_to_hdmi,,User-authorized console scope moves sound and volume to the TV; analog handheld audio is removed. Required HDMI audio remains unfinished.
+C25,1u,/CPU/Audio/,moved_to_hdmi,,User-authorized console scope moves sound and volume to the TV; analog handheld audio is removed. Required HDMI audio remains unfinished.
+C26,680p,/CPU/Audio/,moved_to_hdmi,,User-authorized console scope moves sound and volume to the TV; analog handheld audio is removed. Required HDMI audio remains unfinished.
+C27,330p,/CPU/Audio/,moved_to_hdmi,,User-authorized console scope moves sound and volume to the TV; analog handheld audio is removed. Required HDMI audio remains unfinished.
+C28,3300p,/CPU/Audio/,moved_to_hdmi,,User-authorized console scope moves sound and volume to the TV; analog handheld audio is removed. Required HDMI audio remains unfinished.
+C29,1u,/CPU/Audio/,moved_to_hdmi,,User-authorized console scope moves sound and volume to the TV; analog handheld audio is removed. Required HDMI audio remains unfinished.
+C31,680p,/CPU/Audio/,moved_to_hdmi,,User-authorized console scope moves sound and volume to the TV; analog handheld audio is removed. Required HDMI audio remains unfinished.
+C32,1000p,/CPU/Audio/,moved_to_hdmi,,User-authorized console scope moves sound and volume to the TV; analog handheld audio is removed. Required HDMI audio remains unfinished.
+C33,330p,/CPU/Audio/,moved_to_hdmi,,User-authorized console scope moves sound and volume to the TV; analog handheld audio is removed. Required HDMI audio remains unfinished.
+C35,3300p,/CPU/Audio/,moved_to_hdmi,,User-authorized console scope moves sound and volume to the TV; analog handheld audio is removed. Required HDMI audio remains unfinished.
+C36,1u,/CPU/Audio/,moved_to_hdmi,,User-authorized console scope moves sound and volume to the TV; analog handheld audio is removed. Required HDMI audio remains unfinished.
+C38,1u,/CPU/Audio/,moved_to_hdmi,,User-authorized console scope moves sound and volume to the TV; analog handheld audio is removed. Required HDMI audio remains unfinished.
+C54,1u,/CPU/Audio/,moved_to_hdmi,,User-authorized console scope moves sound and volume to the TV; analog handheld audio is removed. Required HDMI audio remains unfinished.
+C55,1u,/CPU/Audio/,moved_to_hdmi,,User-authorized console scope moves sound and volume to the TV; analog handheld audio is removed. Required HDMI audio remains unfinished.
+C56,1u,/CPU/Audio/,moved_to_hdmi,,User-authorized console scope moves sound and volume to the TV; analog handheld audio is removed. Required HDMI audio remains unfinished.
+CP1,100u,/CPU/Audio/,moved_to_hdmi,,User-authorized console scope moves sound and volume to the TV; analog handheld audio is removed. Required HDMI audio remains unfinished.
+CP2,100u,/CPU/Audio/,moved_to_hdmi,,User-authorized console scope moves sound and volume to the TV; analog handheld audio is removed. Required HDMI audio remains unfinished.
+CP3,100u,/CPU/Audio/,moved_to_hdmi,,User-authorized console scope moves sound and volume to the TV; analog handheld audio is removed. Required HDMI audio remains unfinished.
+P3,SJ-3524-SMT,/CPU/Audio/,moved_to_hdmi,,User-authorized console scope moves sound and volume to the TV; analog handheld audio is removed. Required HDMI audio remains unfinished.
+Q6,2N7002,/CPU/Audio/,moved_to_hdmi,,User-authorized console scope moves sound and volume to the TV; analog handheld audio is removed. Required HDMI audio remains unfinished.
+R14,100k,/CPU/Audio/,moved_to_hdmi,,User-authorized console scope moves sound and volume to the TV; analog handheld audio is removed. Required HDMI audio remains unfinished.
+R19,1k,/CPU/Audio/,moved_to_hdmi,,User-authorized console scope moves sound and volume to the TV; analog handheld audio is removed. Required HDMI audio remains unfinished.
+R20,1k,/CPU/Audio/,moved_to_hdmi,,User-authorized console scope moves sound and volume to the TV; analog handheld audio is removed. Required HDMI audio remains unfinished.
+R30,100k,/CPU/Audio/,moved_to_hdmi,,User-authorized console scope moves sound and volume to the TV; analog handheld audio is removed. Required HDMI audio remains unfinished.
+R31,100k,/CPU/Audio/,moved_to_hdmi,,User-authorized console scope moves sound and volume to the TV; analog handheld audio is removed. Required HDMI audio remains unfinished.
+R34,5.1k,/CPU/Audio/,moved_to_hdmi,,User-authorized console scope moves sound and volume to the TV; analog handheld audio is removed. Required HDMI audio remains unfinished.
+R37,100k,/CPU/Audio/,moved_to_hdmi,,User-authorized console scope moves sound and volume to the TV; analog handheld audio is removed. Required HDMI audio remains unfinished.
+R42,7.5k,/CPU/Audio/,moved_to_hdmi,,User-authorized console scope moves sound and volume to the TV; analog handheld audio is removed. Required HDMI audio remains unfinished.
+R45,100k,/CPU/Audio/,moved_to_hdmi,,User-authorized console scope moves sound and volume to the TV; analog handheld audio is removed. Required HDMI audio remains unfinished.
+R46,100k,/CPU/Audio/,moved_to_hdmi,,User-authorized console scope moves sound and volume to the TV; analog handheld audio is removed. Required HDMI audio remains unfinished.
+R47,20k,/CPU/Audio/,moved_to_hdmi,,User-authorized console scope moves sound and volume to the TV; analog handheld audio is removed. Required HDMI audio remains unfinished.
+R48,18k,/CPU/Audio/,moved_to_hdmi,,User-authorized console scope moves sound and volume to the TV; analog handheld audio is removed. Required HDMI audio remains unfinished.
+R49,100k,/CPU/Audio/,moved_to_hdmi,,User-authorized console scope moves sound and volume to the TV; analog handheld audio is removed. Required HDMI audio remains unfinished.
+R50,100k,/CPU/Audio/,moved_to_hdmi,,User-authorized console scope moves sound and volume to the TV; analog handheld audio is removed. Required HDMI audio remains unfinished.
+R51,7.5k,/CPU/Audio/,moved_to_hdmi,,User-authorized console scope moves sound and volume to the TV; analog handheld audio is removed. Required HDMI audio remains unfinished.
+R52,20k,/CPU/Audio/,moved_to_hdmi,,User-authorized console scope moves sound and volume to the TV; analog handheld audio is removed. Required HDMI audio remains unfinished.
+R53,5.1k,/CPU/Audio/,moved_to_hdmi,,User-authorized console scope moves sound and volume to the TV; analog handheld audio is removed. Required HDMI audio remains unfinished.
+R54,18k,/CPU/Audio/,moved_to_hdmi,,User-authorized console scope moves sound and volume to the TV; analog handheld audio is removed. Required HDMI audio remains unfinished.
+R56,20k,/CPU/Audio/,moved_to_hdmi,,User-authorized console scope moves sound and volume to the TV; analog handheld audio is removed. Required HDMI audio remains unfinished.
+R57,20k,/CPU/Audio/,moved_to_hdmi,,User-authorized console scope moves sound and volume to the TV; analog handheld audio is removed. Required HDMI audio remains unfinished.
+SP1,Speaker,/CPU/Audio/,moved_to_hdmi,,User-authorized console scope moves sound and volume to the TV; analog handheld audio is removed. Required HDMI audio remains unfinished.
+TP33,LIN,/CPU/Audio/,moved_to_hdmi,,User-authorized console scope moves sound and volume to the TV; analog handheld audio is removed. Required HDMI audio remains unfinished.
+TP34,RIN,/CPU/Audio/,moved_to_hdmi,,User-authorized console scope moves sound and volume to the TV; analog handheld audio is removed. Required HDMI audio remains unfinished.
+TP114,R-OUT,/CPU/Audio/,moved_to_hdmi,,User-authorized console scope moves sound and volume to the TV; analog handheld audio is removed. Required HDMI audio remains unfinished.
+TP115,L-OUT,/CPU/Audio/,moved_to_hdmi,,User-authorized console scope moves sound and volume to the TV; analog handheld audio is removed. Required HDMI audio remains unfinished.
+U6,LM4853,/CPU/Audio/,moved_to_hdmi,,User-authorized console scope moves sound and volume to the TV; analog handheld audio is removed. Required HDMI audio remains unfinished.
+U7,TLV9364,/CPU/Audio/,moved_to_hdmi,,User-authorized console scope moves sound and volume to the TV; analog handheld audio is removed. Required HDMI audio remains unfinished.
+U9,SN74LVC2G34DBVR,/CPU/Audio/,moved_to_hdmi,,User-authorized console scope moves sound and volume to the TV; analog handheld audio is removed. Required HDMI audio remains unfinished.
+VR2,RK10J12R0A0B,/CPU/Audio/,moved_to_hdmi,,User-authorized console scope moves sound and volume to the TV; analog handheld audio is removed. Required HDMI audio remains unfinished.

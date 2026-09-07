@@ -1,6 +1,6 @@
 # USB, storage, recovery and game-input review — 2026-09-07
 
-**Historical v1.0.3 baseline:** the counts and measurements below describe the published 112-component stage. The current 145-component draft adds analog audio and has unresolved tool diagnostics; see [audio review](AUDIO-RETENTION-REVIEW.md) and the current machine-readable audit.
+**Historical v1.0.3 baseline:** the counts and measurements below describe the published 112-component stage. The current 103-component tabletop draft replaces onboard controls and analog audio with USB controllers and planned HDMI sound; see [console review](CONSOLE-REVIEW.md). The historical figures below are not current acceptance results.
 
 The connected stage contains **112 components, 50 nets and 313 connected endpoints**. The library contains 25 genuine supplier imports, including the currently unwired HDMI candidate. No imported footprint was redrawn. There are six schematic sheets/sections and ten populated game switches. This review checks selected connections; it does not establish a working console or authorize fabrication.
 

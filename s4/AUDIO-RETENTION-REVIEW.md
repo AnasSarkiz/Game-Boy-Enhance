@@ -1,5 +1,7 @@
 # Retaining Enhance audio around the S4
 
+**Historical handheld revision (`ad6b230`):** superseded by the user-authorized tabletop console. The 33-part analog audio section is no longer active. See [current console review](CONSOLE-REVIEW.md). All counts and checks below describe that historical revision.
+
 The current working design has **145 components**. It adds 33 audio components to the previously published 112-component S4 stage. Twenty original Enhance designators have explicit counterparts. **This working revision has unresolved tool diagnostics and is not published or ready to route.** Registry v1.0.3 remains the earlier stage.
 
 ## What is retained

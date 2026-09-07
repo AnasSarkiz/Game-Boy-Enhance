@@ -1,5 +1,5 @@
 {
-  "scope": "power_cpu_usb_storage_recovery_controls_audio_stage",
+  "scope": "tabletop_console_core_indicators_usb_host_stage",
   "components": [
     {
       "reference": "C1",
@@ -473,13 +473,13 @@
     },
     {
       "reference": "R4",
-      "component": "A_0402WGF5101TCE",
-      "section": "power",
-      "manufacturer_part_number": "0402WGF5101TCE",
-      "jlcpcb_part_number": "C25905",
-      "pcbX": -2.32,
-      "pcbY": -37.99,
-      "pcbRotation": 0
+      "component": "A_0603WAF1001T5E",
+      "section": "indicators",
+      "manufacturer_part_number": "0603WAF1001T5E",
+      "jlcpcb_part_number": "C21190",
+      "pcbX": -24,
+      "pcbY": 42,
+      "pcbRotation": 90
     },
     {
       "reference": "R5",
@@ -753,13 +753,13 @@
     },
     {
       "reference": "D1",
-      "component": "NCD0805R1",
-      "section": "power",
-      "manufacturer_part_number": "NCD0805R1",
-      "jlcpcb_part_number": "C84256",
-      "pcbX": -12,
-      "pcbY": -42,
-      "pcbRotation": 90
+      "component": "GreenIndicator",
+      "section": "indicators",
+      "manufacturer_part_number": "19-21SYGC/S530-E2/4T",
+      "jlcpcb_part_number": "C2986011",
+      "pcbX": -24,
+      "pcbY": 46,
+      "pcbRotation": 0
     },
     {
       "reference": "SW1",
@@ -822,699 +822,234 @@
       "pcbRotation": 0
     },
     {
-      "reference": "SW3",
-      "component": "TSA010A2026B",
-      "section": "controls",
-      "manufacturer_part_number": "TSA010A2026B",
-      "jlcpcb_part_number": "C2888420",
-      "pcbX": -36,
-      "pcbY": 34,
-      "pcbRotation": 0
-    },
-    {
-      "reference": "R26",
-      "component": "A_0402WGF5101TCE",
-      "section": "controls",
-      "manufacturer_part_number": "0402WGF5101TCE",
-      "jlcpcb_part_number": "C25905",
-      "pcbX": -37,
-      "pcbY": 30.5,
-      "pcbRotation": 90
-    },
-    {
-      "reference": "C45",
-      "component": "CL05B104KB54PNC",
-      "section": "controls",
-      "manufacturer_part_number": "CL05B104KB54PNC",
-      "jlcpcb_part_number": "C307331",
-      "pcbX": -35,
-      "pcbY": 30.5,
-      "pcbRotation": 90
-    },
-    {
-      "reference": "SW4",
-      "component": "TSA010A2026B",
-      "section": "controls",
-      "manufacturer_part_number": "TSA010A2026B",
-      "jlcpcb_part_number": "C2888420",
-      "pcbX": -36,
-      "pcbY": 16,
-      "pcbRotation": 0
-    },
-    {
-      "reference": "R27",
-      "component": "A_0402WGF5101TCE",
-      "section": "controls",
-      "manufacturer_part_number": "0402WGF5101TCE",
-      "jlcpcb_part_number": "C25905",
-      "pcbX": -37,
-      "pcbY": 12.5,
-      "pcbRotation": 90
-    },
-    {
-      "reference": "C46",
-      "component": "CL05B104KB54PNC",
-      "section": "controls",
-      "manufacturer_part_number": "CL05B104KB54PNC",
-      "jlcpcb_part_number": "C307331",
-      "pcbX": -35,
-      "pcbY": 12.5,
-      "pcbRotation": 90
-    },
-    {
-      "reference": "SW5",
-      "component": "TSA010A2026B",
-      "section": "controls",
-      "manufacturer_part_number": "TSA010A2026B",
-      "jlcpcb_part_number": "C2888420",
-      "pcbX": -45,
-      "pcbY": 25,
-      "pcbRotation": 0
-    },
-    {
-      "reference": "R28",
-      "component": "A_0402WGF5101TCE",
-      "section": "controls",
-      "manufacturer_part_number": "0402WGF5101TCE",
-      "jlcpcb_part_number": "C25905",
-      "pcbX": -46,
-      "pcbY": 21.5,
-      "pcbRotation": 90
-    },
-    {
-      "reference": "C47",
-      "component": "CL05B104KB54PNC",
-      "section": "controls",
-      "manufacturer_part_number": "CL05B104KB54PNC",
-      "jlcpcb_part_number": "C307331",
-      "pcbX": -44,
-      "pcbY": 21.5,
-      "pcbRotation": 90
-    },
-    {
-      "reference": "SW6",
-      "component": "TSA010A2026B",
-      "section": "controls",
-      "manufacturer_part_number": "TSA010A2026B",
-      "jlcpcb_part_number": "C2888420",
-      "pcbX": -27,
-      "pcbY": 25,
-      "pcbRotation": 0
-    },
-    {
-      "reference": "R29",
-      "component": "A_0402WGF5101TCE",
-      "section": "controls",
-      "manufacturer_part_number": "0402WGF5101TCE",
-      "jlcpcb_part_number": "C25905",
-      "pcbX": -28,
-      "pcbY": 21.5,
-      "pcbRotation": 90
-    },
-    {
-      "reference": "C48",
-      "component": "CL05B104KB54PNC",
-      "section": "controls",
-      "manufacturer_part_number": "CL05B104KB54PNC",
-      "jlcpcb_part_number": "C307331",
-      "pcbX": -26,
-      "pcbY": 21.5,
-      "pcbRotation": 90
-    },
-    {
-      "reference": "SW7",
-      "component": "TSA010A2026B",
-      "section": "controls",
-      "manufacturer_part_number": "TSA010A2026B",
-      "jlcpcb_part_number": "C2888420",
-      "pcbX": 38,
-      "pcbY": 31,
-      "pcbRotation": 0
-    },
-    {
-      "reference": "R30",
-      "component": "A_0402WGF5101TCE",
-      "section": "controls",
-      "manufacturer_part_number": "0402WGF5101TCE",
-      "jlcpcb_part_number": "C25905",
-      "pcbX": 37,
-      "pcbY": 27.5,
-      "pcbRotation": 90
-    },
-    {
-      "reference": "C49",
-      "component": "CL05B104KB54PNC",
-      "section": "controls",
-      "manufacturer_part_number": "CL05B104KB54PNC",
-      "jlcpcb_part_number": "C307331",
-      "pcbX": 39,
-      "pcbY": 27.5,
-      "pcbRotation": 90
-    },
-    {
-      "reference": "SW8",
-      "component": "TSA010A2026B",
-      "section": "controls",
-      "manufacturer_part_number": "TSA010A2026B",
-      "jlcpcb_part_number": "C2888420",
-      "pcbX": 27,
-      "pcbY": 23,
-      "pcbRotation": 0
-    },
-    {
-      "reference": "R31",
-      "component": "A_0402WGF5101TCE",
-      "section": "controls",
-      "manufacturer_part_number": "0402WGF5101TCE",
-      "jlcpcb_part_number": "C25905",
-      "pcbX": 26,
-      "pcbY": 19.5,
-      "pcbRotation": 90
-    },
-    {
-      "reference": "C50",
-      "component": "CL05B104KB54PNC",
-      "section": "controls",
-      "manufacturer_part_number": "CL05B104KB54PNC",
-      "jlcpcb_part_number": "C307331",
-      "pcbX": 28,
-      "pcbY": 19.5,
-      "pcbRotation": 90
-    },
-    {
-      "reference": "SW9",
-      "component": "TSA010A2026B",
-      "section": "controls",
-      "manufacturer_part_number": "TSA010A2026B",
-      "jlcpcb_part_number": "C2888420",
-      "pcbX": 7,
-      "pcbY": 42,
-      "pcbRotation": 0
-    },
-    {
-      "reference": "R32",
-      "component": "A_0402WGF5101TCE",
-      "section": "controls",
-      "manufacturer_part_number": "0402WGF5101TCE",
-      "jlcpcb_part_number": "C25905",
-      "pcbX": 6,
-      "pcbY": 38.5,
-      "pcbRotation": 90
-    },
-    {
-      "reference": "C51",
-      "component": "CL05B104KB54PNC",
-      "section": "controls",
-      "manufacturer_part_number": "CL05B104KB54PNC",
-      "jlcpcb_part_number": "C307331",
-      "pcbX": 8,
-      "pcbY": 38.5,
-      "pcbRotation": 90
-    },
-    {
-      "reference": "SW10",
-      "component": "TSA010A2026B",
-      "section": "controls",
-      "manufacturer_part_number": "TSA010A2026B",
-      "jlcpcb_part_number": "C2888420",
-      "pcbX": -7,
-      "pcbY": 42,
-      "pcbRotation": 0
-    },
-    {
-      "reference": "R33",
-      "component": "A_0402WGF5101TCE",
-      "section": "controls",
-      "manufacturer_part_number": "0402WGF5101TCE",
-      "jlcpcb_part_number": "C25905",
-      "pcbX": -8,
-      "pcbY": 38.5,
-      "pcbRotation": 90
-    },
-    {
-      "reference": "C52",
-      "component": "CL05B104KB54PNC",
-      "section": "controls",
-      "manufacturer_part_number": "CL05B104KB54PNC",
-      "jlcpcb_part_number": "C307331",
-      "pcbX": -6,
-      "pcbY": 38.5,
-      "pcbRotation": 90
-    },
-    {
-      "reference": "SW11",
-      "component": "TSA010A2026B",
-      "section": "controls",
-      "manufacturer_part_number": "TSA010A2026B",
-      "jlcpcb_part_number": "C2888420",
-      "pcbX": -44,
+      "reference": "LED2",
+      "component": "GreenIndicator",
+      "import": "A_19_21SYGC_S530_E2_4T",
+      "section": "indicators",
+      "manufacturer_part_number": "19-21SYGC/S530-E2/4T",
+      "jlcpcb_part_number": "C2986011",
+      "pcbX": -12,
       "pcbY": 46,
       "pcbRotation": 0
     },
     {
-      "reference": "R34",
-      "component": "A_0402WGF5101TCE",
-      "section": "controls",
-      "manufacturer_part_number": "0402WGF5101TCE",
-      "jlcpcb_part_number": "C25905",
-      "pcbX": -45,
-      "pcbY": 42.5,
-      "pcbRotation": 90
-    },
-    {
-      "reference": "C53",
-      "component": "CL05B104KB54PNC",
-      "section": "controls",
-      "manufacturer_part_number": "CL05B104KB54PNC",
-      "jlcpcb_part_number": "C307331",
-      "pcbX": -43,
-      "pcbY": 42.5,
-      "pcbRotation": 90
-    },
-    {
-      "reference": "SW12",
-      "component": "TSA010A2026B",
-      "section": "controls",
-      "manufacturer_part_number": "TSA010A2026B",
-      "jlcpcb_part_number": "C2888420",
-      "pcbX": 44,
+      "reference": "LED3",
+      "component": "RedIndicator",
+      "import": "A_19_217_R6C_AL1M2VY_6T",
+      "section": "indicators",
+      "manufacturer_part_number": "19-217/R6C-AL1M2VY/6T",
+      "jlcpcb_part_number": "C2986060",
+      "pcbX": 0,
       "pcbY": 46,
       "pcbRotation": 0
     },
     {
-      "reference": "R35",
-      "component": "A_0402WGF5101TCE",
-      "section": "controls",
-      "manufacturer_part_number": "0402WGF5101TCE",
-      "jlcpcb_part_number": "C25905",
-      "pcbX": 43,
-      "pcbY": 42.5,
-      "pcbRotation": 90
-    },
-    {
-      "reference": "C54",
-      "component": "CL05B104KB54PNC",
-      "section": "controls",
-      "manufacturer_part_number": "CL05B104KB54PNC",
-      "jlcpcb_part_number": "C307331",
-      "pcbX": 45,
-      "pcbY": 42.5,
-      "pcbRotation": 90
-    },
-    {
-      "reference": "U7",
-      "component": "AudioAmplifier",
-      "import": "LM4853MM_NOPB",
-      "original_enhance_reference": "U6",
-      "section": "audio",
-      "manufacturer_part_number": "LM4853MM/NOPB",
-      "jlcpcb_part_number": "C2872995",
-      "pcbX": -32,
-      "pcbY": -13,
+      "reference": "LED4",
+      "component": "RedIndicator",
+      "import": "A_19_217_R6C_AL1M2VY_6T",
+      "section": "indicators",
+      "manufacturer_part_number": "19-217/R6C-AL1M2VY/6T",
+      "jlcpcb_part_number": "C2986060",
+      "pcbX": 12,
+      "pcbY": 46,
       "pcbRotation": 0
     },
     {
-      "reference": "U8",
-      "component": "AudioSupply",
-      "import": "TPS74525PQWDRVRQ1",
-      "original_enhance_reference": "U4",
-      "section": "audio",
-      "manufacturer_part_number": "TPS74525PQWDRVRQ1",
-      "jlcpcb_part_number": "C2865628",
-      "pcbX": -23,
-      "pcbY": -26,
-      "pcbRotation": 0
-    },
-    {
-      "reference": "VR1",
-      "component": "AudioVolume",
-      "import": "RK10J12R0A0B",
-      "original_enhance_reference": "VR2",
-      "section": "audio",
-      "manufacturer_part_number": "RK10J12R0A0B",
-      "jlcpcb_part_number": "C351175",
-      "pcbX": -43,
-      "pcbY": 0,
-      "pcbRotation": 90
-    },
-    {
-      "reference": "J2",
-      "component": "HeadphoneJack",
-      "import": "SJ_3524_SMT_TR",
-      "original_enhance_reference": "P3",
-      "section": "audio",
-      "manufacturer_part_number": "SJ-3524-SMT-TR",
-      "jlcpcb_part_number": "C20182907",
-      "pcbX": -43,
-      "pcbY": -37,
-      "pcbRotation": 0
-    },
-    {
-      "reference": "J3",
-      "component": "SpeakerConnector",
-      "import": "B2B_PH_K_S_LF__SN_",
-      "original_enhance_reference": "SP1",
-      "section": "audio",
-      "manufacturer_part_number": "B2B-PH-K-S(LF)(SN)",
-      "jlcpcb_part_number": "C131337",
-      "pcbX": -32,
-      "pcbY": -48,
-      "pcbRotation": 180
-    },
-    {
-      "reference": "Q1",
-      "component": "AudioEnableTransistor",
+      "reference": "Q2",
+      "component": "IndicatorDriver",
       "import": "MMBT3904LT1G",
-      "original_enhance_reference": null,
-      "section": "audio",
+      "section": "indicators",
       "manufacturer_part_number": "MMBT3904LT1G",
       "jlcpcb_part_number": "C81464",
-      "pcbX": -22,
-      "pcbY": -14,
+      "pcbX": -12,
+      "pcbY": 37,
       "pcbRotation": 0
     },
     {
-      "reference": "C55",
-      "component": "CL10B105KA8NNNC",
-      "import": "CL10B105KA8NNNC",
-      "original_enhance_reference": null,
-      "section": "audio",
-      "manufacturer_part_number": "CL10B105KA8NNNC",
-      "jlcpcb_part_number": "C29936",
-      "pcbX": -21,
-      "pcbY": 3,
+      "reference": "Q3",
+      "component": "IndicatorDriver",
+      "import": "MMBT3904LT1G",
+      "section": "indicators",
+      "manufacturer_part_number": "MMBT3904LT1G",
+      "jlcpcb_part_number": "C81464",
+      "pcbX": 0,
+      "pcbY": 37,
+      "pcbRotation": 0
+    },
+    {
+      "reference": "R48",
+      "component": "A_0603WAF1001T5E",
+      "import": "A_0603WAF1001T5E",
+      "section": "indicators",
+      "manufacturer_part_number": "0603WAF1001T5E",
+      "jlcpcb_part_number": "C21190",
+      "pcbX": -12,
+      "pcbY": 42,
       "pcbRotation": 90
     },
     {
-      "reference": "C56",
-      "component": "CL10B105KA8NNNC",
-      "import": "CL10B105KA8NNNC",
-      "original_enhance_reference": null,
-      "section": "audio",
-      "manufacturer_part_number": "CL10B105KA8NNNC",
-      "jlcpcb_part_number": "C29936",
-      "pcbX": -21,
-      "pcbY": -0.5,
+      "reference": "R49",
+      "component": "A_0603WAF1001T5E",
+      "import": "A_0603WAF1001T5E",
+      "section": "indicators",
+      "manufacturer_part_number": "0603WAF1001T5E",
+      "jlcpcb_part_number": "C21190",
+      "pcbX": 0,
+      "pcbY": 42,
       "pcbRotation": 90
     },
     {
-      "reference": "C57",
-      "component": "CL10B105KA8NNNC",
-      "import": "CL10B105KA8NNNC",
-      "original_enhance_reference": "C56",
-      "section": "audio",
-      "manufacturer_part_number": "CL10B105KA8NNNC",
-      "jlcpcb_part_number": "C29936",
-      "pcbX": -33,
-      "pcbY": -5.4,
+      "reference": "R50",
+      "component": "A_0603WAF1001T5E",
+      "import": "A_0603WAF1001T5E",
+      "section": "indicators",
+      "manufacturer_part_number": "0603WAF1001T5E",
+      "jlcpcb_part_number": "C21190",
+      "pcbX": 12,
+      "pcbY": 42,
       "pcbRotation": 90
     },
     {
-      "reference": "C58",
-      "component": "CL10B105KA8NNNC",
-      "import": "CL10B105KA8NNNC",
-      "original_enhance_reference": "C55",
-      "section": "audio",
-      "manufacturer_part_number": "CL10B105KA8NNNC",
-      "jlcpcb_part_number": "C29936",
-      "pcbX": -30,
-      "pcbY": -5.4,
+      "reference": "R51",
+      "component": "RC0603FR_0710KL",
+      "import": "RC0603FR_0710KL",
+      "section": "indicators",
+      "manufacturer_part_number": "RC0603FR-0710KL",
+      "jlcpcb_part_number": "C98220",
+      "pcbX": -16,
+      "pcbY": 37,
       "pcbRotation": 90
     },
     {
-      "reference": "C59",
-      "component": "CL10B105KA8NNNC",
-      "import": "CL10B105KA8NNNC",
-      "original_enhance_reference": "C38",
-      "section": "audio",
-      "manufacturer_part_number": "CL10B105KA8NNNC",
-      "jlcpcb_part_number": "C29936",
-      "pcbX": -37,
-      "pcbY": -13,
+      "reference": "R52",
+      "component": "A_0402WGF1003TCE",
+      "import": "A_0402WGF1003TCE",
+      "section": "indicators",
+      "manufacturer_part_number": "0402WGF1003TCE",
+      "jlcpcb_part_number": "C25741",
+      "pcbX": -12,
+      "pcbY": 33,
       "pcbRotation": 90
     },
     {
-      "reference": "C60",
-      "component": "CL32A107MQVNNNE",
-      "import": "CL32A107MQVNNNE",
-      "original_enhance_reference": "CP3",
-      "section": "audio",
-      "manufacturer_part_number": "CL32A107MQVNNNE",
-      "jlcpcb_part_number": "C49066",
-      "pcbX": -38,
-      "pcbY": -23,
+      "reference": "R53",
+      "component": "RC0603FR_0710KL",
+      "import": "RC0603FR_0710KL",
+      "section": "indicators",
+      "manufacturer_part_number": "RC0603FR-0710KL",
+      "jlcpcb_part_number": "C98220",
+      "pcbX": -4,
+      "pcbY": 37,
       "pcbRotation": 90
     },
     {
-      "reference": "C61",
-      "component": "CL32A107MQVNNNE",
-      "import": "CL32A107MQVNNNE",
-      "original_enhance_reference": "CP2",
-      "section": "audio",
-      "manufacturer_part_number": "CL32A107MQVNNNE",
-      "jlcpcb_part_number": "C49066",
+      "reference": "R54",
+      "component": "A_0402WGF1003TCE",
+      "import": "A_0402WGF1003TCE",
+      "section": "indicators",
+      "manufacturer_part_number": "0402WGF1003TCE",
+      "jlcpcb_part_number": "C25741",
+      "pcbX": 0,
+      "pcbY": 33,
+      "pcbRotation": 90
+    },
+    {
+      "reference": "U9",
+      "component": "UsbHostPower",
+      "import": "TPS2051BDBVR",
+      "section": "usb_host",
+      "manufacturer_part_number": "TPS2051BDBVR",
+      "jlcpcb_part_number": "C24593",
       "pcbX": -32,
-      "pcbY": -23,
-      "pcbRotation": 90
+      "pcbY": 19,
+      "pcbRotation": 0
     },
     {
-      "reference": "C62",
-      "component": "CL32A107MQVNNNE",
-      "import": "CL32A107MQVNNNE",
-      "original_enhance_reference": "CP1",
-      "section": "audio",
-      "manufacturer_part_number": "CL32A107MQVNNNE",
-      "jlcpcb_part_number": "C49066",
-      "pcbX": -29,
-      "pcbY": -40,
-      "pcbRotation": 90
-    },
-    {
-      "reference": "C63",
-      "component": "CL10B105KA8NNNC",
-      "import": "CL10B105KA8NNNC",
-      "original_enhance_reference": null,
-      "section": "audio",
-      "manufacturer_part_number": "CL10B105KA8NNNC",
-      "jlcpcb_part_number": "C29936",
-      "pcbX": -20,
-      "pcbY": -25,
-      "pcbRotation": 90
-    },
-    {
-      "reference": "C64",
-      "component": "CL10A106MA8NRNC",
-      "import": "CL10A106MA8NRNC",
-      "original_enhance_reference": "C59",
-      "section": "audio",
-      "manufacturer_part_number": "CL10A106MA8NRNC",
-      "jlcpcb_part_number": "C96446",
-      "pcbX": -27,
-      "pcbY": -26,
-      "pcbRotation": 90
-    },
-    {
-      "reference": "C65",
-      "component": "CL05B104KB54PNC",
-      "import": "CL05B104KB54PNC",
-      "original_enhance_reference": null,
-      "section": "audio",
-      "manufacturer_part_number": "CL05B104KB54PNC",
-      "jlcpcb_part_number": "C307331",
-      "pcbX": -29,
-      "pcbY": -18,
-      "pcbRotation": 90
-    },
-    {
-      "reference": "C66",
-      "component": "CL05B104KB54PNC",
-      "import": "CL05B104KB54PNC",
-      "original_enhance_reference": null,
-      "section": "audio",
-      "manufacturer_part_number": "CL05B104KB54PNC",
-      "jlcpcb_part_number": "C307331",
-      "pcbX": -17,
-      "pcbY": -7,
-      "pcbRotation": 90
-    },
-    {
-      "reference": "C67",
-      "component": "CL05B104KB54PNC",
-      "import": "CL05B104KB54PNC",
-      "original_enhance_reference": null,
-      "section": "audio",
-      "manufacturer_part_number": "CL05B104KB54PNC",
-      "jlcpcb_part_number": "C307331",
-      "pcbX": -20,
-      "pcbY": 6,
-      "pcbRotation": 90
-    },
-    {
-      "reference": "C68",
-      "component": "CL05B104KB54PNC",
-      "import": "CL05B104KB54PNC",
-      "original_enhance_reference": null,
-      "section": "audio",
-      "manufacturer_part_number": "CL05B104KB54PNC",
-      "jlcpcb_part_number": "C307331",
-      "pcbX": -20,
+      "reference": "U10",
+      "component": "UsbRecoveryProtection",
+      "import": "USBLC6_2SC6",
+      "section": "usb_host",
+      "manufacturer_part_number": "USBLC6-2SC6",
+      "jlcpcb_part_number": "C2827654",
+      "pcbX": -38,
       "pcbY": 9,
-      "pcbRotation": 90
+      "pcbRotation": 0
     },
     {
-      "reference": "C69",
-      "component": "CL10A106MA8NRNC",
-      "import": "CL10A106MA8NRNC",
-      "original_enhance_reference": null,
-      "section": "audio",
-      "manufacturer_part_number": "CL10A106MA8NRNC",
-      "jlcpcb_part_number": "C96446",
-      "pcbX": -36,
-      "pcbY": -17,
-      "pcbRotation": 90
+      "reference": "J4",
+      "component": "UsbHostConnector",
+      "import": "A_902_131A1011D10100",
+      "section": "usb_host",
+      "manufacturer_part_number": "902-131A1011D10100",
+      "jlcpcb_part_number": "C2345",
+      "pcbX": -53,
+      "pcbY": 10,
+      "pcbRotation": 270
     },
     {
-      "reference": "R36",
+      "reference": "R55",
       "component": "A_0402WGF1003TCE",
       "import": "A_0402WGF1003TCE",
-      "original_enhance_reference": "R31",
-      "section": "audio",
+      "section": "usb_host",
       "manufacturer_part_number": "0402WGF1003TCE",
       "jlcpcb_part_number": "C25741",
-      "pcbX": -30,
-      "pcbY": -8.5,
-      "pcbRotation": 90
-    },
-    {
-      "reference": "R37",
-      "component": "A_0402WGF1003TCE",
-      "import": "A_0402WGF1003TCE",
-      "original_enhance_reference": "R30",
-      "section": "audio",
-      "manufacturer_part_number": "0402WGF1003TCE",
-      "jlcpcb_part_number": "C25741",
-      "pcbX": -33,
-      "pcbY": -8.5,
-      "pcbRotation": 90
-    },
-    {
-      "reference": "R38",
-      "component": "A_0603WAF2002T5E",
-      "import": "A_0603WAF2002T5E",
-      "original_enhance_reference": "R56",
-      "section": "audio",
-      "manufacturer_part_number": "0603WAF2002T5E",
-      "jlcpcb_part_number": "C4184",
       "pcbX": -28,
-      "pcbY": -13,
+      "pcbY": 20,
       "pcbRotation": 90
     },
     {
-      "reference": "R39",
-      "component": "A_0603WAF2002T5E",
-      "import": "A_0603WAF2002T5E",
-      "original_enhance_reference": "R57",
-      "section": "audio",
-      "manufacturer_part_number": "0603WAF2002T5E",
-      "jlcpcb_part_number": "C4184",
-      "pcbX": -27,
-      "pcbY": -9,
+      "reference": "R56",
+      "component": "RC0603FR_0710KL",
+      "import": "RC0603FR_0710KL",
+      "section": "usb_host",
+      "manufacturer_part_number": "RC0603FR-0710KL",
+      "jlcpcb_part_number": "C98220",
+      "pcbX": -28,
+      "pcbY": 17,
       "pcbRotation": 90
     },
     {
-      "reference": "R40",
-      "component": "A_0402WGF1003TCE",
-      "import": "A_0402WGF1003TCE",
-      "original_enhance_reference": "R14",
-      "section": "audio",
-      "manufacturer_part_number": "0402WGF1003TCE",
-      "jlcpcb_part_number": "C25741",
-      "pcbX": -26,
-      "pcbY": -33,
+      "reference": "C70",
+      "component": "CL05B104KB54PNC",
+      "import": "CL05B104KB54PNC",
+      "section": "usb_host",
+      "manufacturer_part_number": "CL05B104KB54PNC",
+      "jlcpcb_part_number": "C307331",
+      "pcbX": -35,
+      "pcbY": 19,
       "pcbRotation": 90
     },
     {
-      "reference": "R41",
-      "component": "A_0603WAF1001T5E",
-      "import": "A_0603WAF1001T5E",
-      "original_enhance_reference": "R19",
-      "section": "audio",
-      "manufacturer_part_number": "0603WAF1001T5E",
-      "jlcpcb_part_number": "C21190",
+      "reference": "C71",
+      "component": "CL10A106MA8NRNC",
+      "import": "CL10A106MA8NRNC",
+      "section": "usb_host",
+      "manufacturer_part_number": "CL10A106MA8NRNC",
+      "jlcpcb_part_number": "C96446",
+      "pcbX": -35,
+      "pcbY": 23,
+      "pcbRotation": 90
+    },
+    {
+      "reference": "C72",
+      "component": "UsbHostReservoir",
+      "import": "EEEFT1A221AP",
+      "section": "usb_host",
+      "manufacturer_part_number": "EEEFT1A221AP",
+      "jlcpcb_part_number": "C401764",
+      "pcbX": -37,
+      "pcbY": 29,
+      "pcbRotation": 0
+    },
+    {
+      "reference": "C73",
+      "component": "CL05B104KB54PNC",
+      "import": "CL05B104KB54PNC",
+      "section": "usb_host",
+      "manufacturer_part_number": "CL05B104KB54PNC",
+      "jlcpcb_part_number": "C307331",
       "pcbX": -38,
-      "pcbY": -28,
-      "pcbRotation": 90
-    },
-    {
-      "reference": "R42",
-      "component": "A_0603WAF1001T5E",
-      "import": "A_0603WAF1001T5E",
-      "original_enhance_reference": "R20",
-      "section": "audio",
-      "manufacturer_part_number": "0603WAF1001T5E",
-      "jlcpcb_part_number": "C21190",
-      "pcbX": -32,
-      "pcbY": -28,
-      "pcbRotation": 90
-    },
-    {
-      "reference": "R43",
-      "component": "A_0402WGF1003TCE",
-      "import": "A_0402WGF1003TCE",
-      "original_enhance_reference": "R37",
-      "section": "audio",
-      "manufacturer_part_number": "0402WGF1003TCE",
-      "jlcpcb_part_number": "C25741",
-      "pcbX": -25,
-      "pcbY": -14,
-      "pcbRotation": 90
-    },
-    {
-      "reference": "R44",
-      "component": "A_0603WAF1001T5E",
-      "import": "A_0603WAF1001T5E",
-      "original_enhance_reference": null,
-      "section": "audio",
-      "manufacturer_part_number": "0603WAF1001T5E",
-      "jlcpcb_part_number": "C21190",
-      "pcbX": -18.8,
-      "pcbY": -13,
-      "pcbRotation": 90
-    },
-    {
-      "reference": "R45",
-      "component": "A_0402WGF1003TCE",
-      "import": "A_0402WGF1003TCE",
-      "original_enhance_reference": null,
-      "section": "audio",
-      "manufacturer_part_number": "0402WGF1003TCE",
-      "jlcpcb_part_number": "C25741",
-      "pcbX": -19,
-      "pcbY": -16,
-      "pcbRotation": 90
-    },
-    {
-      "reference": "R46",
-      "component": "A_0402WGF220JTCE",
-      "import": "A_0402WGF220JTCE",
-      "original_enhance_reference": null,
-      "section": "audio",
-      "manufacturer_part_number": "0402WGF220JTCE",
-      "jlcpcb_part_number": "C25092",
-      "pcbX": -17,
-      "pcbY": 6,
-      "pcbRotation": 90
-    },
-    {
-      "reference": "R47",
-      "component": "A_0402WGF220JTCE",
-      "import": "A_0402WGF220JTCE",
-      "original_enhance_reference": null,
-      "section": "audio",
-      "manufacturer_part_number": "0402WGF220JTCE",
-      "jlcpcb_part_number": "C25092",
-      "pcbX": -17,
-      "pcbY": 9,
+      "pcbY": 13,
       "pcbRotation": 90
     }
   ],
@@ -1763,7 +1298,7 @@
         },
         {
           "reference": "D1",
-          "pin": "2"
+          "pin": "1"
         },
         {
           "reference": "L1",
@@ -1838,55 +1373,19 @@
           "pin": "5"
         },
         {
-          "reference": "R26",
+          "reference": "LED2",
           "pin": "1"
         },
         {
-          "reference": "R27",
+          "reference": "LED3",
           "pin": "1"
         },
         {
-          "reference": "R28",
+          "reference": "LED4",
           "pin": "1"
         },
         {
-          "reference": "R29",
-          "pin": "1"
-        },
-        {
-          "reference": "R30",
-          "pin": "1"
-        },
-        {
-          "reference": "R31",
-          "pin": "1"
-        },
-        {
-          "reference": "R32",
-          "pin": "1"
-        },
-        {
-          "reference": "R33",
-          "pin": "1"
-        },
-        {
-          "reference": "R34",
-          "pin": "1"
-        },
-        {
-          "reference": "R35",
-          "pin": "1"
-        },
-        {
-          "reference": "U8",
-          "pin": "6"
-        },
-        {
-          "reference": "U8",
-          "pin": "4"
-        },
-        {
-          "reference": "C63",
+          "reference": "R56",
           "pin": "1"
         }
       ]
@@ -2614,155 +2113,59 @@
           "pin": "4"
         },
         {
-          "reference": "SW3",
-          "pin": "1"
-        },
-        {
-          "reference": "C45",
+          "reference": "Q2",
           "pin": "2"
         },
         {
-          "reference": "SW4",
-          "pin": "1"
-        },
-        {
-          "reference": "C46",
+          "reference": "Q3",
           "pin": "2"
         },
         {
-          "reference": "SW5",
-          "pin": "1"
-        },
-        {
-          "reference": "C47",
+          "reference": "R52",
           "pin": "2"
         },
         {
-          "reference": "SW6",
-          "pin": "1"
-        },
-        {
-          "reference": "C48",
+          "reference": "R54",
           "pin": "2"
         },
         {
-          "reference": "SW7",
-          "pin": "1"
-        },
-        {
-          "reference": "C49",
+          "reference": "U9",
           "pin": "2"
         },
         {
-          "reference": "SW8",
-          "pin": "1"
-        },
-        {
-          "reference": "C50",
+          "reference": "U10",
           "pin": "2"
         },
         {
-          "reference": "SW9",
-          "pin": "1"
-        },
-        {
-          "reference": "C51",
-          "pin": "2"
-        },
-        {
-          "reference": "SW10",
-          "pin": "1"
-        },
-        {
-          "reference": "C52",
-          "pin": "2"
-        },
-        {
-          "reference": "SW11",
-          "pin": "1"
-        },
-        {
-          "reference": "C53",
-          "pin": "2"
-        },
-        {
-          "reference": "SW12",
-          "pin": "1"
-        },
-        {
-          "reference": "C54",
-          "pin": "2"
-        },
-        {
-          "reference": "U7",
+          "reference": "J4",
           "pin": "4"
         },
         {
-          "reference": "U8",
+          "reference": "J4",
+          "pin": "5"
+        },
+        {
+          "reference": "J4",
+          "pin": "6"
+        },
+        {
+          "reference": "R55",
           "pin": "2"
         },
         {
-          "reference": "U8",
-          "pin": "3"
-        },
-        {
-          "reference": "U8",
-          "pin": "7"
-        },
-        {
-          "reference": "VR1",
-          "pin": "1"
-        },
-        {
-          "reference": "J2",
-          "pin": "1"
-        },
-        {
-          "reference": "Q1",
+          "reference": "C70",
           "pin": "2"
         },
         {
-          "reference": "C59",
+          "reference": "C71",
           "pin": "2"
         },
         {
-          "reference": "C63",
+          "reference": "C72",
           "pin": "2"
         },
         {
-          "reference": "C64",
-          "pin": "2"
-        },
-        {
-          "reference": "C65",
-          "pin": "2"
-        },
-        {
-          "reference": "C66",
-          "pin": "2"
-        },
-        {
-          "reference": "C69",
-          "pin": "2"
-        },
-        {
-          "reference": "R41",
-          "pin": "2"
-        },
-        {
-          "reference": "R42",
-          "pin": "2"
-        },
-        {
-          "reference": "R45",
-          "pin": "2"
-        },
-        {
-          "reference": "R46",
-          "pin": "2"
-        },
-        {
-          "reference": "R47",
+          "reference": "C73",
           "pin": "2"
         }
       ]
@@ -2801,7 +2204,7 @@
       "nodes": [
         {
           "reference": "D1",
-          "pin": "1"
+          "pin": "2"
         },
         {
           "reference": "R4",
@@ -3054,28 +2457,32 @@
         {
           "reference": "U2",
           "pin": "4"
+        },
+        {
+          "reference": "U9",
+          "pin": "5"
+        },
+        {
+          "reference": "C70",
+          "pin": "1"
+        },
+        {
+          "reference": "C71",
+          "pin": "1"
         }
       ]
     },
     {
       "reference_net": null,
       "reference_nets": [],
-      "name": "BUTTON_UP_N",
+      "name": "LED_RUN",
       "nodes": [
         {
           "reference": "U3",
           "pin": "44"
         },
         {
-          "reference": "SW3",
-          "pin": "2"
-        },
-        {
-          "reference": "R26",
-          "pin": "2"
-        },
-        {
-          "reference": "C45",
+          "reference": "R51",
           "pin": "1"
         }
       ]
@@ -3083,22 +2490,63 @@
     {
       "reference_net": null,
       "reference_nets": [],
-      "name": "BUTTON_DOWN_N",
+      "name": "LED_RUN_BASE",
+      "nodes": [
+        {
+          "reference": "R51",
+          "pin": "2"
+        },
+        {
+          "reference": "Q2",
+          "pin": "1"
+        },
+        {
+          "reference": "R52",
+          "pin": "1"
+        }
+      ]
+    },
+    {
+      "reference_net": null,
+      "reference_nets": [],
+      "name": "LED_RUN_CATHODE",
+      "nodes": [
+        {
+          "reference": "LED2",
+          "pin": "2"
+        },
+        {
+          "reference": "R48",
+          "pin": "1"
+        }
+      ]
+    },
+    {
+      "reference_net": null,
+      "reference_nets": [],
+      "name": "LED_RUN_SINK",
+      "nodes": [
+        {
+          "reference": "R48",
+          "pin": "2"
+        },
+        {
+          "reference": "Q2",
+          "pin": "3"
+        }
+      ]
+    },
+    {
+      "reference_net": null,
+      "reference_nets": [],
+      "name": "LED_ERROR",
       "nodes": [
         {
           "reference": "U3",
           "pin": "45"
         },
         {
-          "reference": "SW4",
-          "pin": "2"
-        },
-        {
-          "reference": "R27",
-          "pin": "2"
-        },
-        {
-          "reference": "C46",
+          "reference": "R53",
           "pin": "1"
         }
       ]
@@ -3106,22 +2554,18 @@
     {
       "reference_net": null,
       "reference_nets": [],
-      "name": "BUTTON_LEFT_N",
+      "name": "LED_ERROR_BASE",
       "nodes": [
         {
-          "reference": "U3",
-          "pin": "35"
-        },
-        {
-          "reference": "SW5",
+          "reference": "R53",
           "pin": "2"
         },
         {
-          "reference": "R28",
-          "pin": "2"
+          "reference": "Q3",
+          "pin": "1"
         },
         {
-          "reference": "C47",
+          "reference": "R54",
           "pin": "1"
         }
       ]
@@ -3129,22 +2573,14 @@
     {
       "reference_net": null,
       "reference_nets": [],
-      "name": "BUTTON_RIGHT_N",
+      "name": "LED_ERROR_CATHODE",
       "nodes": [
         {
-          "reference": "U3",
-          "pin": "33"
-        },
-        {
-          "reference": "SW6",
+          "reference": "LED3",
           "pin": "2"
         },
         {
-          "reference": "R29",
-          "pin": "2"
-        },
-        {
-          "reference": "C48",
+          "reference": "R49",
           "pin": "1"
         }
       ]
@@ -3152,270 +2588,14 @@
     {
       "reference_net": null,
       "reference_nets": [],
-      "name": "BUTTON_A_N",
+      "name": "LED_ERROR_SINK",
       "nodes": [
         {
-          "reference": "U3",
-          "pin": "41"
-        },
-        {
-          "reference": "SW7",
+          "reference": "R49",
           "pin": "2"
         },
         {
-          "reference": "R30",
-          "pin": "2"
-        },
-        {
-          "reference": "C49",
-          "pin": "1"
-        }
-      ]
-    },
-    {
-      "reference_net": null,
-      "reference_nets": [],
-      "name": "BUTTON_B_N",
-      "nodes": [
-        {
-          "reference": "U3",
-          "pin": "40"
-        },
-        {
-          "reference": "SW8",
-          "pin": "2"
-        },
-        {
-          "reference": "R31",
-          "pin": "2"
-        },
-        {
-          "reference": "C50",
-          "pin": "1"
-        }
-      ]
-    },
-    {
-      "reference_net": null,
-      "reference_nets": [],
-      "name": "BUTTON_START_N",
-      "nodes": [
-        {
-          "reference": "U3",
-          "pin": "37"
-        },
-        {
-          "reference": "SW9",
-          "pin": "2"
-        },
-        {
-          "reference": "R32",
-          "pin": "2"
-        },
-        {
-          "reference": "C51",
-          "pin": "1"
-        }
-      ]
-    },
-    {
-      "reference_net": null,
-      "reference_nets": [],
-      "name": "BUTTON_SELECT_N",
-      "nodes": [
-        {
-          "reference": "U3",
-          "pin": "36"
-        },
-        {
-          "reference": "SW10",
-          "pin": "2"
-        },
-        {
-          "reference": "R33",
-          "pin": "2"
-        },
-        {
-          "reference": "C52",
-          "pin": "1"
-        }
-      ]
-    },
-    {
-      "reference_net": null,
-      "reference_nets": [],
-      "name": "BUTTON_L_N",
-      "nodes": [
-        {
-          "reference": "U3",
-          "pin": "32"
-        },
-        {
-          "reference": "SW11",
-          "pin": "2"
-        },
-        {
-          "reference": "R34",
-          "pin": "2"
-        },
-        {
-          "reference": "C53",
-          "pin": "1"
-        }
-      ]
-    },
-    {
-      "reference_net": null,
-      "reference_nets": [],
-      "name": "BUTTON_R_N",
-      "nodes": [
-        {
-          "reference": "U3",
-          "pin": "31"
-        },
-        {
-          "reference": "SW12",
-          "pin": "2"
-        },
-        {
-          "reference": "R35",
-          "pin": "2"
-        },
-        {
-          "reference": "C54",
-          "pin": "1"
-        }
-      ]
-    },
-    {
-      "reference_net": null,
-      "reference_nets": [],
-      "name": "AUDIO_2V5",
-      "nodes": [
-        {
-          "reference": "U8",
-          "pin": "1"
-        },
-        {
-          "reference": "U7",
-          "pin": "9"
-        },
-        {
-          "reference": "C64",
-          "pin": "1"
-        },
-        {
-          "reference": "C65",
-          "pin": "1"
-        },
-        {
-          "reference": "C69",
-          "pin": "1"
-        },
-        {
-          "reference": "R40",
-          "pin": "1"
-        },
-        {
-          "reference": "R43",
-          "pin": "1"
-        }
-      ]
-    },
-    {
-      "reference_net": null,
-      "reference_nets": [],
-      "name": "CODEC_HP_LEFT",
-      "nodes": [
-        {
-          "reference": "U3",
-          "pin": "99"
-        },
-        {
-          "reference": "C55",
-          "pin": "1"
-        },
-        {
-          "reference": "C67",
-          "pin": "1"
-        }
-      ]
-    },
-    {
-      "reference_net": null,
-      "reference_nets": [],
-      "name": "CODEC_HP_RIGHT",
-      "nodes": [
-        {
-          "reference": "U3",
-          "pin": "98"
-        },
-        {
-          "reference": "C56",
-          "pin": "1"
-        },
-        {
-          "reference": "C68",
-          "pin": "1"
-        }
-      ]
-    },
-    {
-      "reference_net": null,
-      "reference_nets": [],
-      "name": "CODEC_HP_FEEDBACK",
-      "nodes": [
-        {
-          "reference": "U3",
-          "pin": "100"
-        },
-        {
-          "reference": "C66",
-          "pin": "1"
-        }
-      ]
-    },
-    {
-      "reference_net": null,
-      "reference_nets": [],
-      "name": "CODEC_LEFT_ZOBEL",
-      "nodes": [
-        {
-          "reference": "C67",
-          "pin": "2"
-        },
-        {
-          "reference": "R46",
-          "pin": "1"
-        }
-      ]
-    },
-    {
-      "reference_net": null,
-      "reference_nets": [],
-      "name": "CODEC_RIGHT_ZOBEL",
-      "nodes": [
-        {
-          "reference": "C68",
-          "pin": "2"
-        },
-        {
-          "reference": "R47",
-          "pin": "1"
-        }
-      ]
-    },
-    {
-      "reference_net": null,
-      "reference_nets": [],
-      "name": "AUDIO_VOLUME_LEFT_IN",
-      "nodes": [
-        {
-          "reference": "C55",
-          "pin": "2"
-        },
-        {
-          "reference": "VR1",
+          "reference": "Q3",
           "pin": "3"
         }
       ]
@@ -3423,29 +2603,14 @@
     {
       "reference_net": null,
       "reference_nets": [],
-      "name": "AUDIO_VOLUME_RIGHT_IN",
+      "name": "LED_USB_FAULT_CATHODE",
       "nodes": [
         {
-          "reference": "C56",
+          "reference": "LED4",
           "pin": "2"
         },
         {
-          "reference": "VR1",
-          "pin": "5"
-        }
-      ]
-    },
-    {
-      "reference_net": null,
-      "reference_nets": [],
-      "name": "AUDIO_VOLUME_LEFT_OUT",
-      "nodes": [
-        {
-          "reference": "VR1",
-          "pin": "2"
-        },
-        {
-          "reference": "C57",
+          "reference": "R50",
           "pin": "1"
         }
       ]
@@ -3453,63 +2618,41 @@
     {
       "reference_net": null,
       "reference_nets": [],
-      "name": "AUDIO_VOLUME_RIGHT_OUT",
+      "name": "USB_HOST_FAULT_N",
       "nodes": [
         {
-          "reference": "VR1",
+          "reference": "U9",
+          "pin": "3"
+        },
+        {
+          "reference": "U3",
           "pin": "4"
         },
         {
-          "reference": "C58",
-          "pin": "1"
+          "reference": "R56",
+          "pin": "2"
+        },
+        {
+          "reference": "R50",
+          "pin": "2"
         }
       ]
     },
     {
       "reference_net": null,
       "reference_nets": [],
-      "name": "AUDIO_LEFT_COUPLED",
+      "name": "USB_HOST_ENABLE",
       "nodes": [
         {
-          "reference": "C57",
-          "pin": "2"
+          "reference": "U9",
+          "pin": "4"
         },
         {
-          "reference": "R36",
-          "pin": "1"
-        }
-      ]
-    },
-    {
-      "reference_net": null,
-      "reference_nets": [],
-      "name": "AUDIO_RIGHT_COUPLED",
-      "nodes": [
-        {
-          "reference": "C58",
-          "pin": "2"
-        },
-        {
-          "reference": "R37",
-          "pin": "1"
-        }
-      ]
-    },
-    {
-      "reference_net": null,
-      "reference_nets": [],
-      "name": "AMP_RIGHT_INPUT",
-      "nodes": [
-        {
-          "reference": "R36",
-          "pin": "2"
-        },
-        {
-          "reference": "U7",
+          "reference": "U3",
           "pin": "5"
         },
         {
-          "reference": "R38",
+          "reference": "R55",
           "pin": "1"
         }
       ]
@@ -3517,18 +2660,26 @@
     {
       "reference_net": null,
       "reference_nets": [],
-      "name": "AMP_LEFT_INPUT",
+      "name": "USB_HOST_5V",
       "nodes": [
         {
-          "reference": "R37",
-          "pin": "2"
-        },
-        {
-          "reference": "U7",
+          "reference": "U9",
           "pin": "1"
         },
         {
-          "reference": "R39",
+          "reference": "J4",
+          "pin": "1"
+        },
+        {
+          "reference": "U10",
+          "pin": "5"
+        },
+        {
+          "reference": "C72",
+          "pin": "1"
+        },
+        {
+          "reference": "C73",
           "pin": "1"
         }
       ]
@@ -3536,71 +2687,22 @@
     {
       "reference_net": null,
       "reference_nets": [],
-      "name": "AMP_RIGHT_OUTPUT",
+      "name": "USB1_DM",
       "nodes": [
         {
-          "reference": "U7",
+          "reference": "U3",
+          "pin": "113"
+        },
+        {
+          "reference": "U10",
+          "pin": "1"
+        },
+        {
+          "reference": "U10",
           "pin": "6"
         },
         {
-          "reference": "R38",
-          "pin": "2"
-        },
-        {
-          "reference": "C60",
-          "pin": "1"
-        }
-      ]
-    },
-    {
-      "reference_net": null,
-      "reference_nets": [],
-      "name": "AMP_LEFT_OUTPUT",
-      "nodes": [
-        {
-          "reference": "U7",
-          "pin": "10"
-        },
-        {
-          "reference": "R39",
-          "pin": "2"
-        },
-        {
-          "reference": "C61",
-          "pin": "1"
-        },
-        {
-          "reference": "J3",
-          "pin": "1"
-        }
-      ]
-    },
-    {
-      "reference_net": null,
-      "reference_nets": [],
-      "name": "AMP_BRIDGE_OUTPUT",
-      "nodes": [
-        {
-          "reference": "U7",
-          "pin": "8"
-        },
-        {
-          "reference": "C62",
-          "pin": "1"
-        }
-      ]
-    },
-    {
-      "reference_net": null,
-      "reference_nets": [],
-      "name": "SPEAKER_COUPLED",
-      "nodes": [
-        {
-          "reference": "C62",
-          "pin": "2"
-        },
-        {
-          "reference": "J3",
+          "reference": "J4",
           "pin": "2"
         }
       ]
@@ -3608,125 +2710,23 @@
     {
       "reference_net": null,
       "reference_nets": [],
-      "name": "HEADPHONE_TIP_LEFT",
-      "nodes": [
-        {
-          "reference": "C60",
-          "pin": "2"
-        },
-        {
-          "reference": "J2",
-          "pin": "2"
-        },
-        {
-          "reference": "R41",
-          "pin": "1"
-        }
-      ]
-    },
-    {
-      "reference_net": null,
-      "reference_nets": [],
-      "name": "HEADPHONE_RING_RIGHT",
-      "nodes": [
-        {
-          "reference": "C61",
-          "pin": "2"
-        },
-        {
-          "reference": "J2",
-          "pin": "3"
-        },
-        {
-          "reference": "R42",
-          "pin": "1"
-        }
-      ]
-    },
-    {
-      "reference_net": null,
-      "reference_nets": [],
-      "name": "HEADPHONE_DETECT",
-      "nodes": [
-        {
-          "reference": "J2",
-          "pin": "4"
-        },
-        {
-          "reference": "R40",
-          "pin": "2"
-        },
-        {
-          "reference": "U7",
-          "pin": "3"
-        }
-      ]
-    },
-    {
-      "reference_net": null,
-      "reference_nets": [],
-      "name": "AMP_BYPASS",
-      "nodes": [
-        {
-          "reference": "U7",
-          "pin": "7"
-        },
-        {
-          "reference": "C59",
-          "pin": "1"
-        }
-      ]
-    },
-    {
-      "reference_net": null,
-      "reference_nets": [],
-      "name": "AMP_SHUTDOWN",
-      "nodes": [
-        {
-          "reference": "U7",
-          "pin": "2"
-        },
-        {
-          "reference": "Q1",
-          "pin": "3"
-        },
-        {
-          "reference": "R43",
-          "pin": "2"
-        }
-      ]
-    },
-    {
-      "reference_net": null,
-      "reference_nets": [],
-      "name": "AUDIO_ENABLE",
+      "name": "USB1_DP",
       "nodes": [
         {
           "reference": "U3",
-          "pin": "120"
+          "pin": "112"
         },
         {
-          "reference": "R44",
-          "pin": "1"
-        }
-      ]
-    },
-    {
-      "reference_net": null,
-      "reference_nets": [],
-      "name": "AUDIO_ENABLE_BASE",
-      "nodes": [
-        {
-          "reference": "R44",
-          "pin": "2"
+          "reference": "U10",
+          "pin": "3"
         },
         {
-          "reference": "Q1",
-          "pin": "1"
+          "reference": "U10",
+          "pin": "4"
         },
         {
-          "reference": "R45",
-          "pin": "1"
+          "reference": "J4",
+          "pin": "3"
         }
       ]
     }
@@ -3767,12 +2767,20 @@
       "reason": "Represent internally connected USBLC6 paths 1-6 and 3-4 as continuous USB nets"
     },
     {
-      "section": "controls",
-      "reason": "Add ten active-low GPIO game inputs with genuine JLCPCB switches, 5.1k pull-ups and 100nF filters; firmware debounce required"
+      "section": "console",
+      "reason": "User-authorized tabletop conversion removes onboard game buttons and analog audio; USB controllers and HDMI take over their functions. HDMI remains required, not marked DNP."
     },
     {
-      "section": "audio",
-      "reason": "Retain 20 Enhance audio designators with S4 analog coupling, corrected volume endpoint/wiper mapping, ROUT-based jack detection, codec feedback/shunts and GPIO-controlled shutdown; see AUDIO-RETENTION-REVIEW.md for every change and unresolved qualification"
+      "component": "D1/R4",
+      "reason": "Replace old red power LED with green Everlight (1=anode, 2=cathode) and 1k current limit; remap original D1 terminals accordingly."
+    },
+    {
+      "section": "indicators",
+      "reason": "Add transistor-driven active-high RUN/ERROR indicators on PE0/PE1 and hardware active-low USB fault indicator."
+    },
+    {
+      "section": "usb_host",
+      "reason": "Add USB1 Type-A connector, ST ESD array and TI TPS2051B 500mA power switch with default-off enable and hardware fault indication; source-current qualification remains required."
     }
   ],
   "schematic_sections": {
@@ -3781,8 +2789,8 @@
     "cpu_io": "BOOT STRAPS / BOARD IDENTIFICATION",
     "usb": "USB-C POWER / RECOVERY",
     "storage": "512 MB SD STORAGE / FEL RECOVERY",
-    "controls": "GAME INPUTS / GPIO FILTERS",
-    "audio": "ENHANCE SPEAKER / HEADPHONES / VOLUME"
+    "indicators": "POWER / RUN / ERROR / USB FAULT",
+    "usb_host": "USB CONTROLLER / PROTECTED HOST POWER"
   },
   "full_console": false,
   "routing_disabled": true

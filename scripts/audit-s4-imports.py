@@ -86,6 +86,7 @@ def check_package(filename, expected_pins):
 
 def main():
     expected_pins = {"TLV62569PDDCR.tsx": 6, "ADV7513BSWZ.tsx": 65, "T113_S3.tsx": 129,
+                     "TPS2051BDBVR.tsx": 5, "A_902_131A1011D10100.tsx": 6,
                      "LM4853MM_NOPB.tsx": 10, "TPS74525PQWDRVRQ1.tsx": 7,
                      "RK10J12R0A0B.tsx": [1, 2, 3, 4, 5, 6, 6, 7, 7],
                      "SJ_3524_SMT_TR.tsx": 4, "B2B_PH_K_S_LF__SN_.tsx": 2, "MMBT3904LT1G.tsx": 3,
@@ -99,6 +100,7 @@ def main():
                          "A_0603WAF2400T5E", "TSA010A2026B", "Q13FC13500004",
                          "JK_nSMD100_16", "A_0402WGF220JTCE",
                          "CL10B105KA8NNNC", "CL32A107MQVNNNE", "A_0603WAF2002T5E", "A_0603WAF1001T5E",
+                         "A_19_21SYGC_S530_E2_4T", "A_19_217_R6C_AL1M2VY_6T", "RC0603FR_0710KL", "EEEFT1A221AP",
                      ]}}
     report = {
         "scope": "candidate_import_geometry_only",

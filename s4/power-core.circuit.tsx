@@ -3,8 +3,8 @@ import { PowerCoreComponents, PowerCoreNets } from "./generated/power-core"
 export default function S4PowerCoreStage() {
   return (
     <board
-      title="S4 power / USB / storage / controls / audio — incomplete console"
-      width={110}
+      title="S4 HDMI console / indicators / USB host — placement draft"
+      width={130}
       height={110}
       layers={4}
       schLayout={{ layoutMode: "relative" }}

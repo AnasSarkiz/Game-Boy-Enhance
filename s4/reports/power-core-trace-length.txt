@@ -1,5 +1,5 @@
 <TraceLengthAnalysis requestedTarget="net.DXIN" resolvedTarget="net.DXIN" targetKind="net" traceCount="3" totalLengthMm="10.46" totalStraightLineDistanceMm="10.46">
-  <Trace id="source_trace_84:source_port_94" label="C32.pin1 -&gt; net.DXIN" connectionType="via net" lengthMm="3.83" straightLineDistanceMm="3.83">
+  <Trace id="source_trace_75:source_port_90" label="C32.pin1 -&gt; net.DXIN" connectionType="via net" lengthMm="3.83" straightLineDistanceMm="3.83">
     <ConnectedPins>
       <Pin ref="C32.pin1" />
       <Pin ref="U3.DXIN" />
@@ -15,7 +15,7 @@
       <MaxLengthMm>10.00</MaxLengthMm>
     </TraceRequirements>
   </Trace>
-  <Trace id="source_trace_85:source_port_138" label="U3.DXIN -&gt; net.DXIN" connectionType="via net" lengthMm="4.08" straightLineDistanceMm="4.08">
+  <Trace id="source_trace_76:source_port_134" label="U3.DXIN -&gt; net.DXIN" connectionType="via net" lengthMm="4.08" straightLineDistanceMm="4.08">
     <ConnectedPins>
       <Pin ref="U3.DXIN" />
       <Pin ref="C32.pin1" />
@@ -31,7 +31,7 @@
       <MaxLengthMm>10.00</MaxLengthMm>
     </TraceRequirements>
   </Trace>
-  <Trace id="source_trace_86:source_port_249" label="Y1.pin1 -&gt; net.DXIN" connectionType="via net" lengthMm="2.55" straightLineDistanceMm="2.55">
+  <Trace id="source_trace_77:source_port_245" label="Y1.pin1 -&gt; net.DXIN" connectionType="via net" lengthMm="2.55" straightLineDistanceMm="2.55">
     <ConnectedPins>
       <Pin ref="Y1.pin1" />
       <Pin ref="C32.pin1" />

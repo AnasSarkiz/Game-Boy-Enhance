@@ -1,10 +1,10 @@
 # Blockers and deviations
 
-## Active S4 redesign — 2026-09-07
+## Active tabletop console
 
-The user selected T113-S4. The new [S4 blockers](s4/BLOCKERS.md), [JLCPCB table](s4/JLCPCB-PARTS.md), and [connection review](s4/CONNECTION-REVIEW.md) supersede the old Nintendo CPU procurement decision. **C41411351 exists in the catalog, but its exact JLCPCB import fails with `Component not found`.** The user has now authorized reuse of the unchanged S3 supplier package through an S4 wrapper; both MPN and JLCPCB ordering identity target S4. Exact package qualification remains open. Candidate TI power and ADI HDMI packages imported successfully; their courtyards and pad separation were checked independently.
+The user approved an HDMI console with USB controllers. The active 103-component core adds POWER/RUN/ERROR/USB FAULT indicators and a protected host port; its placement/connection checks pass. HDMI, input-power qualification, S4 documentation, firmware, routing and prototype validation remain unfinished. See [current blockers](s4/BLOCKERS.md), [console review](s4/CONSOLE-REVIEW.md), and [parts table](s4/JLCPCB-PARTS.md).
 
-The pinned Trellis reference has three ERC errors and unresolved component/identity conflicts. It is not being copied as a verified circuit. The working 145-component power, interface and audio stage is in `s4/power-core.circuit.tsx`; its checks and unresolved items are described in `s4/POWER-CORE-REVIEW.md`. The current volume control emits two ambiguous mounting-terminal errors and one passive-component power warning. See [audio tool blockers](s4/AUDIO-RETENTION-REVIEW.md) and the [240-component retention table](s4/reports/enhance-retention.csv). There is no full-console routing or copper DRC result. The existing root circuit remains historical AGBM-02 work, not an S4 implementation. The following older findings are preserved for that circuit.
+The following notes describe the historical `agbm-02.circuit.tsx` design.
 
 **Placement-stage work in progress, 2026-09-05. Routing is disabled. Do not fabricate this revision.**
 

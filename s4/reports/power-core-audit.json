@@ -1,26 +1,14 @@
 {
-  "scope": "connected_power_cpu_usb_storage_recovery_controls_audio_stage_only",
-  "component_count": 145,
-  "courtyard_count": 145,
+  "scope": "tabletop_console_core_indicators_usb_host_stage_only",
+  "component_count": 103,
+  "courtyard_count": 103,
   "minimum_courtyard_gap_mm": 0.1044,
-  "net_partitions_checked": 75,
+  "net_partitions_checked": 54,
   "reference_net_partitions_checked": 40,
-  "control_net_partitions_checked": 10,
-  "audio_net_partitions_checked": 27,
-  "connected_endpoints_checked": 401,
-  "populated_game_inputs": [
-    "A",
-    "B",
-    "DOWN",
-    "L",
-    "LEFT",
-    "R",
-    "RIGHT",
-    "SELECT",
-    "START",
-    "UP"
-  ],
-  "allocated_cpu_signal_pins_checked": 69,
+  "console_net_partitions_checked": 17,
+  "connected_endpoints_checked": 304,
+  "game_input_interface": "USB1 host; enumeration and firmware untested",
+  "allocated_cpu_signal_pins_checked": 57,
   "cpu_supply_inputs_required_and_connected": [
     20,
     26,
@@ -83,12 +71,20 @@
       "reason": "Represent internally connected USBLC6 paths 1-6 and 3-4 as continuous USB nets"
     },
     {
-      "section": "controls",
-      "reason": "Add ten active-low GPIO game inputs with genuine JLCPCB switches, 5.1k pull-ups and 100nF filters; firmware debounce required"
+      "section": "console",
+      "reason": "User-authorized tabletop conversion removes onboard game buttons and analog audio; USB controllers and HDMI take over their functions. HDMI remains required, not marked DNP."
     },
     {
-      "section": "audio",
-      "reason": "Retain 20 Enhance audio designators with S4 analog coupling, corrected volume endpoint/wiper mapping, ROUT-based jack detection, codec feedback/shunts and GPIO-controlled shutdown; see AUDIO-RETENTION-REVIEW.md for every change and unresolved qualification"
+      "component": "D1/R4",
+      "reason": "Replace old red power LED with green Everlight (1=anode, 2=cathode) and 1k current limit; remap original D1 terminals accordingly."
+    },
+    {
+      "section": "indicators",
+      "reason": "Add transistor-driven active-high RUN/ERROR indicators on PE0/PE1 and hardware active-low USB fault indicator."
+    },
+    {
+      "section": "usb_host",
+      "reason": "Add USB1 Type-A connector, ST ESD array and TI TPS2051B 500mA power switch with default-off enable and hardware fault indication; source-current qualification remains required."
     }
   ],
   "remaining_reference_components": [
@@ -98,19 +94,6 @@
   "routing_disabled": true,
   "routed_copper_drc_performed": false,
   "full_console": false,
-  "diagnostics": [
-    {
-      "type": "source_ambiguous_port_reference",
-      "message": "VR1.pin6 is ambiguous: VR1.pin6 references multiple non-overlapping pads: <smtpad#2598(.pin6) />, <smtpad#2599(.pin6) /> (consider using alternate aliases: EH1, EH, 6)"
-    },
-    {
-      "type": "source_ambiguous_port_reference",
-      "message": "VR1.pin7 is ambiguous: VR1.pin7 references multiple non-overlapping pads: <platedhole#2591(.pin7) />, <platedhole#2592(.pin7) /> (consider using alternate aliases: EH2, EH, 7)"
-    },
-    {
-      "type": "source_no_power_pin_defined_warning",
-      "message": "VR1 has no pin with requires_power=true"
-    }
-  ],
-  "compiled_circuit_sha256": "ca0236117f43a731ce6c066267bbea4fb30c9f6ecae93beab01a484b645d5559"
+  "diagnostics": [],
+  "compiled_circuit_sha256": "38f13eac178f4b0260a82398b40cf2ca123ef17148dc31129bbdf7e73d716940"
 }
