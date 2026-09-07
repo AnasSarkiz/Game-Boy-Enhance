@@ -5,13 +5,18 @@ import { A_0402WGF220JTCE } from "../imports/A_0402WGF220JTCE"
 import { A_0402WGF4533TCE } from "../imports/A_0402WGF4533TCE"
 import { A_0402WGF5101TCE } from "../imports/A_0402WGF5101TCE"
 import { A_0402WGF5102TCE } from "../imports/A_0402WGF5102TCE"
+import { A_0603WAF1001T5E } from "../imports/A_0603WAF1001T5E"
+import { A_0603WAF2002T5E } from "../imports/A_0603WAF2002T5E"
 import { A_0603WAF2400T5E } from "../imports/A_0603WAF2400T5E"
+import { AudioAmplifier, AudioSupply, AudioVolume, HeadphoneJack, SpeakerConnector, AudioEnableTransistor } from "../components/audio"
 import { BootStorage, RecoveryClockGate, UsbInputFuse, UsbRecoveryConnector, UsbRecoveryProtection } from "../components/interfaces"
 import { CL05A225MQ5NSNC } from "../imports/CL05A225MQ5NSNC"
 import { CL05B104KB54PNC } from "../imports/CL05B104KB54PNC"
 import { CL05C100JB5NNNC } from "../imports/CL05C100JB5NNNC"
 import { CL10A106MA8NRNC } from "../imports/CL10A106MA8NRNC"
+import { CL10B105KA8NNNC } from "../imports/CL10B105KA8NNNC"
 import { CL21A226MAQNNNE } from "../imports/CL21A226MAQNNNE"
+import { CL32A107MQVNNNE } from "../imports/CL32A107MQVNNNE"
 import { MainClock, RtcClock } from "../components/clocks"
 import { NCD0805R1 } from "../imports/NCD0805R1"
 import { T113M4020DC0 } from "../components/T113M4020DC0"
@@ -161,6 +166,42 @@ export function PowerCoreComponents() {
       <A_0402WGF5101TCE name="R35" schX={11} schY={-10} schSectionName="controls" pcbX={43} pcbY={42.5} pcbRotation={90} />
       <CL05B104KB54PNC name="C54" schX={16} schY={-10} schSectionName="controls" pcbX={45} pcbY={42.5} pcbRotation={90} />
     </schematicsheet>
+    <schematicsheet name="audio" displayName="ENHANCE SPEAKER / HEADPHONES / VOLUME" sheetWidth={600} sheetHeight={500}>
+      <schematicsection name="audio" displayName="ENHANCE SPEAKER / HEADPHONES / VOLUME" />
+      <AudioAmplifier name="U7" schX={-20} schY={15} schSectionName="audio" pcbX={-32} pcbY={-13} pcbRotation={0} />
+      <AudioSupply name="U8" schX={-12} schY={15} schSectionName="audio" pcbX={-23} pcbY={-26} pcbRotation={0} />
+      <AudioVolume name="VR1" schX={-4} schY={15} schSectionName="audio" pcbX={-43} pcbY={0} pcbRotation={90} />
+      <HeadphoneJack name="J2" schX={4} schY={15} schSectionName="audio" pcbX={-43} pcbY={-37} pcbRotation={0} />
+      <SpeakerConnector name="J3" schX={12} schY={15} schSectionName="audio" pcbX={-32} pcbY={-48} pcbRotation={180} />
+      <AudioEnableTransistor name="Q1" schX={20} schY={15} schSectionName="audio" pcbX={-22} pcbY={-14} pcbRotation={0} />
+      <CL10B105KA8NNNC name="C55" schX={-20} schY={10} schSectionName="audio" pcbX={-21} pcbY={3} pcbRotation={90} />
+      <CL10B105KA8NNNC name="C56" schX={-12} schY={10} schSectionName="audio" pcbX={-21} pcbY={-0.5} pcbRotation={90} />
+      <CL10B105KA8NNNC name="C57" schX={-4} schY={10} schSectionName="audio" pcbX={-33} pcbY={-5.4} pcbRotation={90} />
+      <CL10B105KA8NNNC name="C58" schX={4} schY={10} schSectionName="audio" pcbX={-30} pcbY={-5.4} pcbRotation={90} />
+      <CL10B105KA8NNNC name="C59" schX={12} schY={10} schSectionName="audio" pcbX={-37} pcbY={-13} pcbRotation={90} />
+      <CL32A107MQVNNNE name="C60" schX={20} schY={10} schSectionName="audio" pcbX={-38} pcbY={-23} pcbRotation={90} />
+      <CL32A107MQVNNNE name="C61" schX={-20} schY={5} schSectionName="audio" pcbX={-32} pcbY={-23} pcbRotation={90} />
+      <CL32A107MQVNNNE name="C62" schX={-12} schY={5} schSectionName="audio" pcbX={-29} pcbY={-40} pcbRotation={90} />
+      <CL10B105KA8NNNC name="C63" schX={-4} schY={5} schSectionName="audio" pcbX={-20} pcbY={-25} pcbRotation={90} />
+      <CL10A106MA8NRNC name="C64" schX={4} schY={5} schSectionName="audio" pcbX={-27} pcbY={-26} pcbRotation={90} />
+      <CL05B104KB54PNC name="C65" schX={12} schY={5} schSectionName="audio" pcbX={-29} pcbY={-18} pcbRotation={90} />
+      <CL05B104KB54PNC name="C66" schX={20} schY={5} schSectionName="audio" pcbX={-17} pcbY={-7} pcbRotation={90} />
+      <CL05B104KB54PNC name="C67" schX={-20} schY={0} schSectionName="audio" pcbX={-20} pcbY={6} pcbRotation={90} />
+      <CL05B104KB54PNC name="C68" schX={-12} schY={0} schSectionName="audio" pcbX={-20} pcbY={9} pcbRotation={90} />
+      <CL10A106MA8NRNC name="C69" schX={-4} schY={0} schSectionName="audio" pcbX={-36} pcbY={-17} pcbRotation={90} />
+      <A_0402WGF1003TCE name="R36" schX={4} schY={0} schSectionName="audio" pcbX={-30} pcbY={-8.5} pcbRotation={90} />
+      <A_0402WGF1003TCE name="R37" schX={12} schY={0} schSectionName="audio" pcbX={-33} pcbY={-8.5} pcbRotation={90} />
+      <A_0603WAF2002T5E name="R38" schX={20} schY={0} schSectionName="audio" pcbX={-28} pcbY={-13} pcbRotation={90} />
+      <A_0603WAF2002T5E name="R39" schX={-20} schY={-5} schSectionName="audio" pcbX={-27} pcbY={-9} pcbRotation={90} />
+      <A_0402WGF1003TCE name="R40" schX={-12} schY={-5} schSectionName="audio" pcbX={-26} pcbY={-33} pcbRotation={90} />
+      <A_0603WAF1001T5E name="R41" schX={-4} schY={-5} schSectionName="audio" pcbX={-38} pcbY={-28} pcbRotation={90} />
+      <A_0603WAF1001T5E name="R42" schX={4} schY={-5} schSectionName="audio" pcbX={-32} pcbY={-28} pcbRotation={90} />
+      <A_0402WGF1003TCE name="R43" schX={12} schY={-5} schSectionName="audio" pcbX={-25} pcbY={-14} pcbRotation={90} />
+      <A_0603WAF1001T5E name="R44" schX={20} schY={-5} schSectionName="audio" pcbX={-18.8} pcbY={-13} pcbRotation={90} />
+      <A_0402WGF1003TCE name="R45" schX={-20} schY={-10} schSectionName="audio" pcbX={-19} pcbY={-16} pcbRotation={90} />
+      <A_0402WGF220JTCE name="R46" schX={-12} schY={-10} schSectionName="audio" pcbX={-17} pcbY={6} pcbRotation={90} />
+      <A_0402WGF220JTCE name="R47" schX={-4} schY={-10} schSectionName="audio" pcbX={-17} pcbY={9} pcbRotation={90} />
+    </schematicsheet>
   </>
 }
 
@@ -251,6 +292,9 @@ export function PowerCoreNets() {
     <trace from=".R33 > .pin1" to="net.SYS_3V3" schDisplayLabel="SYS_3V3" />
     <trace from=".R34 > .pin1" to="net.SYS_3V3" schDisplayLabel="SYS_3V3" />
     <trace from=".R35 > .pin1" to="net.SYS_3V3" schDisplayLabel="SYS_3V3" />
+    <trace from=".U8 > .pin6" to="net.SYS_3V3" schDisplayLabel="SYS_3V3" />
+    <trace from=".U8 > .pin4" to="net.SYS_3V3" schDisplayLabel="SYS_3V3" />
+    <trace from=".C63 > .pin1" to="net.SYS_3V3" schDisplayLabel="SYS_3V3" />
     <net name="DXIN" />
     <trace from=".C32 > .pin1" to="net.DXIN" schDisplayLabel="DXIN" />
     <trace from=".U3 > .pin23" to="net.DXIN" schDisplayLabel="DXIN" />
@@ -424,6 +468,24 @@ export function PowerCoreNets() {
     <trace from=".C53 > .pin2" to="net.GND" schDisplayLabel="GND" />
     <trace from=".SW12 > .pin1" to="net.GND" schDisplayLabel="GND" />
     <trace from=".C54 > .pin2" to="net.GND" schDisplayLabel="GND" />
+    <trace from=".U7 > .pin4" to="net.GND" schDisplayLabel="GND" />
+    <trace from=".U8 > .pin2" to="net.GND" schDisplayLabel="GND" />
+    <trace from=".U8 > .pin3" to="net.GND" schDisplayLabel="GND" />
+    <trace from=".U8 > .pin7" to="net.GND" schDisplayLabel="GND" />
+    <trace from=".VR1 > .pin1" to="net.GND" schDisplayLabel="GND" />
+    <trace from=".J2 > .pin1" to="net.GND" schDisplayLabel="GND" />
+    <trace from=".Q1 > .pin2" to="net.GND" schDisplayLabel="GND" />
+    <trace from=".C59 > .pin2" to="net.GND" schDisplayLabel="GND" />
+    <trace from=".C63 > .pin2" to="net.GND" schDisplayLabel="GND" />
+    <trace from=".C64 > .pin2" to="net.GND" schDisplayLabel="GND" />
+    <trace from=".C65 > .pin2" to="net.GND" schDisplayLabel="GND" />
+    <trace from=".C66 > .pin2" to="net.GND" schDisplayLabel="GND" />
+    <trace from=".C69 > .pin2" to="net.GND" schDisplayLabel="GND" />
+    <trace from=".R41 > .pin2" to="net.GND" schDisplayLabel="GND" />
+    <trace from=".R42 > .pin2" to="net.GND" schDisplayLabel="GND" />
+    <trace from=".R45 > .pin2" to="net.GND" schDisplayLabel="GND" />
+    <trace from=".R46 > .pin2" to="net.GND" schDisplayLabel="GND" />
+    <trace from=".R47 > .pin2" to="net.GND" schDisplayLabel="GND" />
     <net name="FEL_CLOCK_ENABLE" />
     <trace from=".C44 > .pin1" to="net.FEL_CLOCK_ENABLE" schDisplayLabel="FEL_CLOCK_ENABLE" />
     <trace from=".R22 > .pin1" to="net.FEL_CLOCK_ENABLE" schDisplayLabel="FEL_CLOCK_ENABLE" />
@@ -529,5 +591,97 @@ export function PowerCoreNets() {
     <trace from=".SW12 > .pin2" to="net.BUTTON_R_N" schDisplayLabel="BUTTON_R_N" />
     <trace from=".R35 > .pin2" to="net.BUTTON_R_N" schDisplayLabel="BUTTON_R_N" />
     <trace from=".C54 > .pin1" to="net.BUTTON_R_N" schDisplayLabel="BUTTON_R_N" />
+    <net name="AUDIO_2V5" isPowerNet />
+    <trace from=".U8 > .pin1" to="net.AUDIO_2V5" schDisplayLabel="AUDIO_2V5" />
+    <trace from=".U7 > .pin9" to="net.AUDIO_2V5" schDisplayLabel="AUDIO_2V5" />
+    <trace from=".C64 > .pin1" to="net.AUDIO_2V5" schDisplayLabel="AUDIO_2V5" />
+    <trace from=".C65 > .pin1" to="net.AUDIO_2V5" schDisplayLabel="AUDIO_2V5" />
+    <trace from=".C69 > .pin1" to="net.AUDIO_2V5" schDisplayLabel="AUDIO_2V5" />
+    <trace from=".R40 > .pin1" to="net.AUDIO_2V5" schDisplayLabel="AUDIO_2V5" />
+    <trace from=".R43 > .pin1" to="net.AUDIO_2V5" schDisplayLabel="AUDIO_2V5" />
+    <net name="CODEC_HP_LEFT" />
+    <trace from=".U3 > .pin99" to="net.CODEC_HP_LEFT" schDisplayLabel="CODEC_HP_LEFT" />
+    <trace from=".C55 > .pin1" to="net.CODEC_HP_LEFT" schDisplayLabel="CODEC_HP_LEFT" />
+    <trace from=".C67 > .pin1" to="net.CODEC_HP_LEFT" schDisplayLabel="CODEC_HP_LEFT" />
+    <net name="CODEC_HP_RIGHT" />
+    <trace from=".U3 > .pin98" to="net.CODEC_HP_RIGHT" schDisplayLabel="CODEC_HP_RIGHT" />
+    <trace from=".C56 > .pin1" to="net.CODEC_HP_RIGHT" schDisplayLabel="CODEC_HP_RIGHT" />
+    <trace from=".C68 > .pin1" to="net.CODEC_HP_RIGHT" schDisplayLabel="CODEC_HP_RIGHT" />
+    <net name="CODEC_HP_FEEDBACK" />
+    <trace from=".U3 > .pin100" to="net.CODEC_HP_FEEDBACK" schDisplayLabel="CODEC_HP_FEEDBACK" />
+    <trace from=".C66 > .pin1" to="net.CODEC_HP_FEEDBACK" schDisplayLabel="CODEC_HP_FEEDBACK" />
+    <net name="CODEC_LEFT_ZOBEL" />
+    <trace from=".C67 > .pin2" to="net.CODEC_LEFT_ZOBEL" schDisplayLabel="CODEC_LEFT_ZOBEL" />
+    <trace from=".R46 > .pin1" to="net.CODEC_LEFT_ZOBEL" schDisplayLabel="CODEC_LEFT_ZOBEL" />
+    <net name="CODEC_RIGHT_ZOBEL" />
+    <trace from=".C68 > .pin2" to="net.CODEC_RIGHT_ZOBEL" schDisplayLabel="CODEC_RIGHT_ZOBEL" />
+    <trace from=".R47 > .pin1" to="net.CODEC_RIGHT_ZOBEL" schDisplayLabel="CODEC_RIGHT_ZOBEL" />
+    <net name="AUDIO_VOLUME_LEFT_IN" />
+    <trace from=".C55 > .pin2" to="net.AUDIO_VOLUME_LEFT_IN" schDisplayLabel="AUDIO_VOLUME_LEFT_IN" />
+    <trace from=".VR1 > .pin3" to="net.AUDIO_VOLUME_LEFT_IN" schDisplayLabel="AUDIO_VOLUME_LEFT_IN" />
+    <net name="AUDIO_VOLUME_RIGHT_IN" />
+    <trace from=".C56 > .pin2" to="net.AUDIO_VOLUME_RIGHT_IN" schDisplayLabel="AUDIO_VOLUME_RIGHT_IN" />
+    <trace from=".VR1 > .pin5" to="net.AUDIO_VOLUME_RIGHT_IN" schDisplayLabel="AUDIO_VOLUME_RIGHT_IN" />
+    <net name="AUDIO_VOLUME_LEFT_OUT" />
+    <trace from=".VR1 > .pin2" to="net.AUDIO_VOLUME_LEFT_OUT" schDisplayLabel="AUDIO_VOLUME_LEFT_OUT" />
+    <trace from=".C57 > .pin1" to="net.AUDIO_VOLUME_LEFT_OUT" schDisplayLabel="AUDIO_VOLUME_LEFT_OUT" />
+    <net name="AUDIO_VOLUME_RIGHT_OUT" />
+    <trace from=".VR1 > .pin4" to="net.AUDIO_VOLUME_RIGHT_OUT" schDisplayLabel="AUDIO_VOLUME_RIGHT_OUT" />
+    <trace from=".C58 > .pin1" to="net.AUDIO_VOLUME_RIGHT_OUT" schDisplayLabel="AUDIO_VOLUME_RIGHT_OUT" />
+    <net name="AUDIO_LEFT_COUPLED" />
+    <trace from=".C57 > .pin2" to="net.AUDIO_LEFT_COUPLED" schDisplayLabel="AUDIO_LEFT_COUPLED" />
+    <trace from=".R36 > .pin1" to="net.AUDIO_LEFT_COUPLED" schDisplayLabel="AUDIO_LEFT_COUPLED" />
+    <net name="AUDIO_RIGHT_COUPLED" />
+    <trace from=".C58 > .pin2" to="net.AUDIO_RIGHT_COUPLED" schDisplayLabel="AUDIO_RIGHT_COUPLED" />
+    <trace from=".R37 > .pin1" to="net.AUDIO_RIGHT_COUPLED" schDisplayLabel="AUDIO_RIGHT_COUPLED" />
+    <net name="AMP_RIGHT_INPUT" />
+    <trace from=".R36 > .pin2" to="net.AMP_RIGHT_INPUT" schDisplayLabel="AMP_RIGHT_INPUT" />
+    <trace from=".U7 > .pin5" to="net.AMP_RIGHT_INPUT" schDisplayLabel="AMP_RIGHT_INPUT" />
+    <trace from=".R38 > .pin1" to="net.AMP_RIGHT_INPUT" schDisplayLabel="AMP_RIGHT_INPUT" />
+    <net name="AMP_LEFT_INPUT" />
+    <trace from=".R37 > .pin2" to="net.AMP_LEFT_INPUT" schDisplayLabel="AMP_LEFT_INPUT" />
+    <trace from=".U7 > .pin1" to="net.AMP_LEFT_INPUT" schDisplayLabel="AMP_LEFT_INPUT" />
+    <trace from=".R39 > .pin1" to="net.AMP_LEFT_INPUT" schDisplayLabel="AMP_LEFT_INPUT" />
+    <net name="AMP_RIGHT_OUTPUT" />
+    <trace from=".U7 > .pin6" to="net.AMP_RIGHT_OUTPUT" schDisplayLabel="AMP_RIGHT_OUTPUT" />
+    <trace from=".R38 > .pin2" to="net.AMP_RIGHT_OUTPUT" schDisplayLabel="AMP_RIGHT_OUTPUT" />
+    <trace from=".C60 > .pin1" to="net.AMP_RIGHT_OUTPUT" schDisplayLabel="AMP_RIGHT_OUTPUT" />
+    <net name="AMP_LEFT_OUTPUT" />
+    <trace from=".U7 > .pin10" to="net.AMP_LEFT_OUTPUT" schDisplayLabel="AMP_LEFT_OUTPUT" />
+    <trace from=".R39 > .pin2" to="net.AMP_LEFT_OUTPUT" schDisplayLabel="AMP_LEFT_OUTPUT" />
+    <trace from=".C61 > .pin1" to="net.AMP_LEFT_OUTPUT" schDisplayLabel="AMP_LEFT_OUTPUT" />
+    <trace from=".J3 > .pin1" to="net.AMP_LEFT_OUTPUT" schDisplayLabel="AMP_LEFT_OUTPUT" />
+    <net name="AMP_BRIDGE_OUTPUT" />
+    <trace from=".U7 > .pin8" to="net.AMP_BRIDGE_OUTPUT" schDisplayLabel="AMP_BRIDGE_OUTPUT" />
+    <trace from=".C62 > .pin1" to="net.AMP_BRIDGE_OUTPUT" schDisplayLabel="AMP_BRIDGE_OUTPUT" />
+    <net name="SPEAKER_COUPLED" />
+    <trace from=".C62 > .pin2" to="net.SPEAKER_COUPLED" schDisplayLabel="SPEAKER_COUPLED" />
+    <trace from=".J3 > .pin2" to="net.SPEAKER_COUPLED" schDisplayLabel="SPEAKER_COUPLED" />
+    <net name="HEADPHONE_TIP_LEFT" />
+    <trace from=".C60 > .pin2" to="net.HEADPHONE_TIP_LEFT" schDisplayLabel="HEADPHONE_TIP_LEFT" />
+    <trace from=".J2 > .pin2" to="net.HEADPHONE_TIP_LEFT" schDisplayLabel="HEADPHONE_TIP_LEFT" />
+    <trace from=".R41 > .pin1" to="net.HEADPHONE_TIP_LEFT" schDisplayLabel="HEADPHONE_TIP_LEFT" />
+    <net name="HEADPHONE_RING_RIGHT" />
+    <trace from=".C61 > .pin2" to="net.HEADPHONE_RING_RIGHT" schDisplayLabel="HEADPHONE_RING_RIGHT" />
+    <trace from=".J2 > .pin3" to="net.HEADPHONE_RING_RIGHT" schDisplayLabel="HEADPHONE_RING_RIGHT" />
+    <trace from=".R42 > .pin1" to="net.HEADPHONE_RING_RIGHT" schDisplayLabel="HEADPHONE_RING_RIGHT" />
+    <net name="HEADPHONE_DETECT" />
+    <trace from=".J2 > .pin4" to="net.HEADPHONE_DETECT" schDisplayLabel="HEADPHONE_DETECT" />
+    <trace from=".R40 > .pin2" to="net.HEADPHONE_DETECT" schDisplayLabel="HEADPHONE_DETECT" />
+    <trace from=".U7 > .pin3" to="net.HEADPHONE_DETECT" schDisplayLabel="HEADPHONE_DETECT" />
+    <net name="AMP_BYPASS" />
+    <trace from=".U7 > .pin7" to="net.AMP_BYPASS" schDisplayLabel="AMP_BYPASS" />
+    <trace from=".C59 > .pin1" to="net.AMP_BYPASS" schDisplayLabel="AMP_BYPASS" />
+    <net name="AMP_SHUTDOWN" />
+    <trace from=".U7 > .pin2" to="net.AMP_SHUTDOWN" schDisplayLabel="AMP_SHUTDOWN" />
+    <trace from=".Q1 > .pin3" to="net.AMP_SHUTDOWN" schDisplayLabel="AMP_SHUTDOWN" />
+    <trace from=".R43 > .pin2" to="net.AMP_SHUTDOWN" schDisplayLabel="AMP_SHUTDOWN" />
+    <net name="AUDIO_ENABLE" />
+    <trace from=".U3 > .pin120" to="net.AUDIO_ENABLE" schDisplayLabel="AUDIO_ENABLE" />
+    <trace from=".R44 > .pin1" to="net.AUDIO_ENABLE" schDisplayLabel="AUDIO_ENABLE" />
+    <net name="AUDIO_ENABLE_BASE" />
+    <trace from=".R44 > .pin2" to="net.AUDIO_ENABLE_BASE" schDisplayLabel="AUDIO_ENABLE_BASE" />
+    <trace from=".Q1 > .pin1" to="net.AUDIO_ENABLE_BASE" schDisplayLabel="AUDIO_ENABLE_BASE" />
+    <trace from=".R45 > .pin1" to="net.AUDIO_ENABLE_BASE" schDisplayLabel="AUDIO_ENABLE_BASE" />
   </>
 }

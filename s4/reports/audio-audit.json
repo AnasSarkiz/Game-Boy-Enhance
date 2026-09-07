@@ -1,0 +1,62 @@
+{
+  "scope": "audio_wiring_and_supplier_reuse_only",
+  "audio_components": 33,
+  "retained_reference_designators": [
+    "C38",
+    "C55",
+    "C56",
+    "C59",
+    "CP1",
+    "CP2",
+    "CP3",
+    "P3",
+    "R14",
+    "R19",
+    "R20",
+    "R30",
+    "R31",
+    "R37",
+    "R56",
+    "R57",
+    "SP1",
+    "U4",
+    "U6",
+    "VR2"
+  ],
+  "unchanged_supplier_imports": [
+    "A_0603WAF1001T5E.tsx",
+    "A_0603WAF2002T5E.tsx",
+    "B2B_PH_K_S_LF__SN_.tsx",
+    "CL10B105KA8NNNC.tsx",
+    "CL32A107MQVNNNE.tsx",
+    "LM4853MM_NOPB.tsx",
+    "MMBT3904LT1G.tsx",
+    "RK10J12R0A0B.tsx",
+    "SJ_3524_SMT_TR.tsx",
+    "TPS74525PQWDRVRQ1.tsx"
+  ],
+  "stereo_mapping_checked": true,
+  "headphone_detect_uses_amplifier_rout": true,
+  "speaker_is_floating": true,
+  "coupling_capacitors_not_shorted": true,
+  "nominal_headphone_gain": 0.2,
+  "nominal_headphone_highpass_hz_at_32_ohms": 51.33,
+  "nominal_speaker_highpass_hz_at_8_ohms": 198.94,
+  "nominal_headphone_detect_low_v": 0.0248,
+  "hardware_qualified": false,
+  "diagnostics": [
+    {
+      "type": "source_ambiguous_port_reference",
+      "message": "VR1.pin6 is ambiguous: VR1.pin6 references multiple non-overlapping pads: <smtpad#2598(.pin6) />, <smtpad#2599(.pin6) /> (consider using alternate aliases: EH1, EH, 6)"
+    },
+    {
+      "type": "source_ambiguous_port_reference",
+      "message": "VR1.pin7 is ambiguous: VR1.pin7 references multiple non-overlapping pads: <platedhole#2591(.pin7) />, <platedhole#2592(.pin7) /> (consider using alternate aliases: EH2, EH, 7)"
+    },
+    {
+      "type": "source_no_power_pin_defined_warning",
+      "message": "VR1 has no pin with requires_power=true"
+    }
+  ],
+  "compiled_sha256": "ca0236117f43a731ce6c066267bbea4fb30c9f6ecae93beab01a484b645d5559"
+}

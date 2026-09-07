@@ -1,6 +1,6 @@
 # Game Boy Enhance AGBM-02 in tscircuit
 
-**2026-09-07: the active development target is the [T113-S4 console redesign](s4/README.md).** Its reference, sourcing results and connection audit are in `s4/`. The CPU now reuses an unchanged JLCPCB S3 import with S4 MPN/ordering metadata, as authorized. The connected 112-component power/CPU/USB/storage/controls stage is now implemented, with routing disabled. Package qualification and the remaining console circuitry are incomplete. The root circuit retains the earlier AGBM-02 adaptation described below. The tscircuit registry now targets the active S4 placement stage.
+**2026-09-07: the active development target is the [T113-S4 console redesign](s4/README.md).** Its reference, sourcing results and connection audit are in `s4/`. The CPU now reuses an unchanged JLCPCB S3 import with S4 MPN/ordering metadata, as authorized. The working 145-component power/CPU/USB/storage/controls/audio stage has routing disabled. Its volume-wheel import emits three unresolved diagnostics; see [audio review](s4/AUDIO-RETENTION-REVIEW.md). Package qualification and the remaining console circuitry are incomplete. The root circuit retains the earlier AGBM-02 adaptation described below. The tscircuit registry remains at v1.0.3, the earlier 112-component S4 placement stage; the blocked audio revision is not published.
 
 **Work in progress. Routing is disabled. This is not a complete or fabrication-ready board.**
 

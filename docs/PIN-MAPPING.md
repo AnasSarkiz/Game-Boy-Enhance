@@ -1,5 +1,7 @@
 # Physical pin mapping
 
+**Historical circuit finding, 2026-09-07:** the earlier volume-wheel mapping feeds the wipers. The active S4 audio adaptation corrects this to common pin1, input endpoints pin3/pin5 and output wipers pin2/pin4, with ROUT-based headphone detection. See [the reviewed mapping and sources](../s4/AUDIO-RETENTION-REVIEW.md). The historical root circuit has not been corrected or qualified by this S4 change.
+
 This file describes electrical adaptations, not replacement footprints. All rendered component geometry comes unchanged from `tsci import --jlcpcb --use-exact-footprint`. The machine-readable map is `lib/pin-mapping.ts`; `reports/reference-connectivity.csv` enumerates every mapped reference connection. It is a connectivity record, not proof of complete electrical qualification.
 
 ## TI 2.5 V regulators U4 and U8

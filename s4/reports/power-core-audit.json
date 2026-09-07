@@ -1,12 +1,13 @@
 {
-  "scope": "connected_power_cpu_usb_storage_recovery_controls_stage_only",
-  "component_count": 112,
-  "courtyard_count": 112,
+  "scope": "connected_power_cpu_usb_storage_recovery_controls_audio_stage_only",
+  "component_count": 145,
+  "courtyard_count": 145,
   "minimum_courtyard_gap_mm": 0.1044,
-  "net_partitions_checked": 50,
+  "net_partitions_checked": 75,
   "reference_net_partitions_checked": 40,
   "control_net_partitions_checked": 10,
-  "connected_endpoints_checked": 313,
+  "audio_net_partitions_checked": 27,
+  "connected_endpoints_checked": 401,
   "populated_game_inputs": [
     "A",
     "B",
@@ -19,7 +20,7 @@
     "START",
     "UP"
   ],
-  "allocated_cpu_signal_pins_checked": 65,
+  "allocated_cpu_signal_pins_checked": 69,
   "cpu_supply_inputs_required_and_connected": [
     20,
     26,
@@ -84,6 +85,10 @@
     {
       "section": "controls",
       "reason": "Add ten active-low GPIO game inputs with genuine JLCPCB switches, 5.1k pull-ups and 100nF filters; firmware debounce required"
+    },
+    {
+      "section": "audio",
+      "reason": "Retain 20 Enhance audio designators with S4 analog coupling, corrected volume endpoint/wiper mapping, ROUT-based jack detection, codec feedback/shunts and GPIO-controlled shutdown; see AUDIO-RETENTION-REVIEW.md for every change and unresolved qualification"
     }
   ],
   "remaining_reference_components": [
@@ -93,6 +98,19 @@
   "routing_disabled": true,
   "routed_copper_drc_performed": false,
   "full_console": false,
-  "diagnostics": [],
-  "compiled_circuit_sha256": "99713036a25bf6a1108a41e22290bf7e68346b37b81af4d20ea6c0f8a4e986a0"
+  "diagnostics": [
+    {
+      "type": "source_ambiguous_port_reference",
+      "message": "VR1.pin6 is ambiguous: VR1.pin6 references multiple non-overlapping pads: <smtpad#2598(.pin6) />, <smtpad#2599(.pin6) /> (consider using alternate aliases: EH1, EH, 6)"
+    },
+    {
+      "type": "source_ambiguous_port_reference",
+      "message": "VR1.pin7 is ambiguous: VR1.pin7 references multiple non-overlapping pads: <platedhole#2591(.pin7) />, <platedhole#2592(.pin7) /> (consider using alternate aliases: EH2, EH, 7)"
+    },
+    {
+      "type": "source_no_power_pin_defined_warning",
+      "message": "VR1 has no pin with requires_power=true"
+    }
+  ],
+  "compiled_circuit_sha256": "ca0236117f43a731ce6c066267bbea4fb30c9f6ecae93beab01a484b645d5559"
 }

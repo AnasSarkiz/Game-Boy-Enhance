@@ -71,6 +71,10 @@ def main():
         reference_groups["BUTTON_" + button["function"] + "_N"] = {
             ("U3", str(button["cpu_pin"])), (button["switch"], "2"),
             (button["pullup"], "2"), (button["filter"], "1")}
+    audio = json.loads((S4 / "audio.json").read_text())
+    for net_name, endpoints in audio["connections"].items():
+        reference_name = "+3V3" if net_name == "SYS_3V3" else net_name
+        reference_groups.setdefault(reference_name, set()).update(tuple(endpoint.split(".")) for endpoint in endpoints)
     expected_partitions = list(map(frozenset, reference_groups.values()))
     assert set(map(frozenset, partitions.values())) == set(expected_partitions), "Missing connection or unexpected net merge"
     for selected in manifest["components"]:
@@ -126,14 +130,15 @@ def main():
             assert dx > 0 or dy > 0, "Overlapping imported courtyards"
             clearances.append(math.hypot(max(dx, 0), max(dy, 0)))
     assert min(clearances) >= 0.1, "Less than 0.1mm spacing between supplier courtyards"
-    diagnostics = [entry for entry in circuit if entry["type"].endswith(("_error", "_warning"))]
+    diagnostics = [entry for entry in circuit if entry["type"].endswith(("_error", "_warning")) or "error_type" in entry]
     assert not any(entry["type"] in ["pcb_trace", "pcb_via"] for entry in circuit), "Routing must remain disabled"
-    assert len([entry for entry in circuit if entry["type"] == "schematic_sheet"]) == 6
-    report = {"scope": "connected_power_cpu_usb_storage_recovery_controls_stage_only", "component_count": len(components),
+    assert len([entry for entry in circuit if entry["type"] == "schematic_sheet"]) == 7
+    report = {"scope": "connected_power_cpu_usb_storage_recovery_controls_audio_stage_only", "component_count": len(components),
               "courtyard_count": len(courtyards), "minimum_courtyard_gap_mm": round(min(clearances), 6),
               "net_partitions_checked": len(expected_partitions),
-              "reference_net_partitions_checked": len(expected_partitions) - len(controls),
+              "reference_net_partitions_checked": len(expected_partitions) - len(controls) - len(audio["connections"]) + 2,
               "control_net_partitions_checked": len(controls),
+              "audio_net_partitions_checked": len(audio["connections"]),
               "connected_endpoints_checked": sum(map(len, expected_partitions)),
               "populated_game_inputs": sorted(required_game_inputs),
               "allocated_cpu_signal_pins_checked": len(allocation),

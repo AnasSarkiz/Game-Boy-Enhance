@@ -29,7 +29,10 @@
     "audit:s4:core": "python3 scripts/audit-s4-core.py",
     "check:s4:netlist": "tsci check netlist s4/power-core.circuit.tsx",
     "check:s4:placement": "tsci check placement s4/power-core.circuit.tsx",
-    "preview:s4:sheets": "bun scripts/render-s4-sheets.mjs"
+    "preview:s4:sheets": "bun scripts/render-s4-sheets.mjs",
+    "prepare:s4:audio": "python3 scripts/prepare-s4-audio.py",
+    "audit:s4:audio": "python3 scripts/audit-s4-audio.py",
+    "audit:s4:retention": "python3 scripts/audit-s4-retention.py"
   },
   "devDependencies": {
     "tscircuit": "0.0.2463",

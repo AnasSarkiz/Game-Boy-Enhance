@@ -1,0 +1,241 @@
+original_reference,original_value,original_sheet,status,s4_reference,reason
+BT1,Battery,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+C1,22u,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+C2,10u,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+C10,0.1u,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+C12,10u,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+C21,22u,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+C22,1u,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+C23,10u,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+C37,10u,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+C42,22u,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+C44,1u,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+C57,10u,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+C58,22u,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+C59,10u,/,adapted_audio,C64,Retained in the audio adaptation with explicit pin/value/procurement changes in AUDIO-RETENTION-REVIEW.md; tool acceptance remains blocked.
+C60,10u,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+C61,3300p,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+C68,10u,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+C72,0.1u,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+C80,3300p,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+D1,1SS355VMTE-17,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+D2,1SS355VMTE-17,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+DL1,150060VS75000,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+DL2,150060RS75000,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+F1,F0805B2R00FSTR,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+L1,0.47uH,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+L2,0.47uH,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+NT1,NetTie_2,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+PTC1,0805L075SLYR,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+Q1,2N3904,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+Q3,2N3906,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+Q5,NDC7002N,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+Q9,NDC7002N,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+Q10,NDC7002N,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+R3,5.1k,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+R4,33k,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+R8,100k,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+R9,100k,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+R10,20k,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+R11,1k,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+R12,100k,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+R13,100k,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+R15,10k,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+R16,10k,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+R17,100k,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+R18,10k,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+R24,100k,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+R25,3.3k,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+R58,5.1k,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+R59,820k,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+R60,91k,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+R63,100k,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+R64,200k,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+R65,100k,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+R66,100k,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+R72,510k,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+R73,91k,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+SW1,CSS-1310B,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+TP13,VOUT5,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+TP14,VDD5,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+TP15,~{RESET},/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+TP16,VOUT3,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+TP17,~{MR},/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+TP18,VDD2,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+TP19,VBATT,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+TP20,SW,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+TP21,VDD3,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+TP22,VAUD,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+TP23,PG3,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+TP24,EN,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+TP26,VFILT,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+TP30,PG2V5,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+TP32,VCC,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+U3,TPS3840DL20,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+U4,NCV8164ASN250T1G,/,adapted_audio,U8,Retained in the audio adaptation with explicit pin/value/procurement changes in AUDIO-RETENTION-REVIEW.md; tool acceptance remains blocked.
+U5,TPS63802,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+U8,NCV8164ASN250T1G,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+U10,TPS3840DL20,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+U11,TPS22917DBV,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+U13,TPS63802,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+U14,MIC1553,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+U17,TPS3840DL20,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+U18,TPS22917DBV,/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+C3,27p,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+C4,33p,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+C5,0.1u,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+C6,0.1u,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+C7,0.1u,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+C8,0.1u,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+C15,0.1u,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+C16,0.1u,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+C17,0.1u,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+C18,100p,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+C19,100p,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+C20,100p,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+C30,1u,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+C34,0.1u,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+C39,0.1u,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+C43,0.1u,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+C45,1u,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+C46,1u,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+C47,1u,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+C48,1u,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+C49,1u,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+C50,1u,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+C51,1u,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+C52,0.1u,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+C53,0.1u,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+C62,0.01u,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+C63,0.01u,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+C64,0.01u,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+C69,1u,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+C73,0.01u,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+C74,0.01u,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+C75,0.01u,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+C76,0.01u,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+C77,0.01u,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+C78,0.01u,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+C79,0.01u,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+EM1,ACM2520-801-3P-T002,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+EM2,ACM2520-801-3P-T002,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+EM3,MH1608-601Y,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+EM7,MH1608-601Y,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+JP1,Jumper_2_Open,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+JP2,Jumper_2_Open,/CPU/,replaced,,Original SRAM and its configuration are replaced by S4 in-package RAM; no external SRAM is required for this design.
+JP3,Jumper_2_Open,/CPU/,replaced,,Original SRAM and its configuration are replaced by S4 in-package RAM; no external SRAM is required for this design.
+P1,CART SLOT,/CPU/,pending_compatibility,,Original cartridge/link hardware protocols and compatible JLCPCB connectors remain unresolved. Do not connect directly to S4.
+P4,AGB-LINK,/CPU/,pending_compatibility,,Original cartridge/link hardware protocols and compatible JLCPCB connectors remain unresolved. Do not connect directly to S4.
+Q2,NDC7002N,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+Q7,NDC7002N,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+Q8,2N7002,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+R1,1.5M,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+R2,10k,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+R5,100k,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+R6,100k,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+R7,100k,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+R29,18k,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+R35,100k,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+R38,47,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+R39,47,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+R40,15,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+R41,2.2k,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+R43,15,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+R44,15,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+R68,100k,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+RA1,330,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+SW2,1825027-5,/CPU/,function_present_parts_review,SW3–SW12,All ten game inputs exist; current small switches differ from original shoulder/tactile parts. Returning to the original imported switch choices remains to be reviewed.
+SW3,1825027-5,/CPU/,function_present_parts_review,SW3–SW12,All ten game inputs exist; current small switches differ from original shoulder/tactile parts. Returning to the original imported switch choices remains to be reviewed.
+SW4,SKRRABE010,/CPU/,function_present_parts_review,SW3–SW12,All ten game inputs exist; current small switches differ from original shoulder/tactile parts. Returning to the original imported switch choices remains to be reviewed.
+SW5,SKRRABE010,/CPU/,function_present_parts_review,SW3–SW12,All ten game inputs exist; current small switches differ from original shoulder/tactile parts. Returning to the original imported switch choices remains to be reviewed.
+SW6,SKRRABE010,/CPU/,function_present_parts_review,SW3–SW12,All ten game inputs exist; current small switches differ from original shoulder/tactile parts. Returning to the original imported switch choices remains to be reviewed.
+TP0,TP0,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+TP1,TP1,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+TP2,TP2,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+TP3,TP3,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+TP4,TP4,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+TP5,TP5,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+TP6,TP6,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+TP7,TP7,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+TP8,TP8,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+TP9,TP9,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+TP12,TestPoint,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+TP25,SCK,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+TP27,R,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+TP28,L,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+TP29,SEL,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+TP80,CK1,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+TP81,CK2,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+U1,AGB-CPU,/CPU/,replaced,U3,Nintendo CPU replaced by T113M4020DC0; emulator software is required.
+U2,AGB-SRAM,/CPU/,replaced,,Original SRAM and its configuration are replaced by S4 in-package RAM; no external SRAM is required for this design.
+U12,TPS22917DBV,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+U15,SN74LVC1G332,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+U16,SN74HC02PWR,/CPU/,pending_review,,Retain the function; component and S4-domain connections still require individual qualification.
+X1,4.194304MHz,/CPU/,replaced,Y1/Y2,S4 requires its own 24 MHz and RTC clocks; original 4.194304 MHz clock cannot be retained.
+C11,1u,/CPU/Display/,pending_display,,Original display compatibility needs an identified panel/adapter and verified signaling; HDMI is a separate unfinished interface.
+C13,0.1u,/CPU/Display/,pending_display,,Original display compatibility needs an identified panel/adapter and verified signaling; HDMI is a separate unfinished interface.
+C14,0.1u,/CPU/Display/,pending_display,,Original display compatibility needs an identified panel/adapter and verified signaling; HDMI is a separate unfinished interface.
+C70,47p,/CPU/Display/,pending_display,,Original display compatibility needs an identified panel/adapter and verified signaling; HDMI is a separate unfinished interface.
+C71,47p,/CPU/Display/,pending_display,,Original display compatibility needs an identified panel/adapter and verified signaling; HDMI is a separate unfinished interface.
+P2,FFC CONNECTOR,/CPU/Display/,pending_display,,Original display compatibility needs an identified panel/adapter and verified signaling; HDMI is a separate unfinished interface.
+R26,33k,/CPU/Display/,pending_display,,Original display compatibility needs an identified panel/adapter and verified signaling; HDMI is a separate unfinished interface.
+R36,270,/CPU/Display/,pending_display,,Original display compatibility needs an identified panel/adapter and verified signaling; HDMI is a separate unfinished interface.
+R67,100k,/CPU/Display/,pending_display,,Original display compatibility needs an identified panel/adapter and verified signaling; HDMI is a separate unfinished interface.
+R70,100k,/CPU/Display/,pending_display,,Original display compatibility needs an identified panel/adapter and verified signaling; HDMI is a separate unfinished interface.
+R71,100k,/CPU/Display/,pending_display,,Original display compatibility needs an identified panel/adapter and verified signaling; HDMI is a separate unfinished interface.
+TP10,TOUCH1,/CPU/Display/,pending_display,,Original display compatibility needs an identified panel/adapter and verified signaling; HDMI is a separate unfinished interface.
+TP11,TOUCH2,/CPU/Display/,pending_display,,Original display compatibility needs an identified panel/adapter and verified signaling; HDMI is a separate unfinished interface.
+TP31,TOUCH2B,/CPU/Display/,pending_display,,Original display compatibility needs an identified panel/adapter and verified signaling; HDMI is a separate unfinished interface.
+VR1,50k,/CPU/Display/,pending_display,,Original display compatibility needs an identified panel/adapter and verified signaling; HDMI is a separate unfinished interface.
+Z57,100p or 0 ohm,/CPU/Display/,pending_display,,Original display compatibility needs an identified panel/adapter and verified signaling; HDMI is a separate unfinished interface.
+Z58,100p or 0 ohm,/CPU/Display/,pending_display,,Original display compatibility needs an identified panel/adapter and verified signaling; HDMI is a separate unfinished interface.
+C9,1u,/CPU/Audio/,replaced_by_codec,,Nintendo PWM reconstruction/filter/bias support replaced by S4 analog DAC output and its coupling/stability network.
+C24,1000p,/CPU/Audio/,replaced_by_codec,,Nintendo PWM reconstruction/filter/bias support replaced by S4 analog DAC output and its coupling/stability network.
+C25,1u,/CPU/Audio/,replaced_by_codec,,Nintendo PWM reconstruction/filter/bias support replaced by S4 analog DAC output and its coupling/stability network.
+C26,680p,/CPU/Audio/,replaced_by_codec,,Nintendo PWM reconstruction/filter/bias support replaced by S4 analog DAC output and its coupling/stability network.
+C27,330p,/CPU/Audio/,replaced_by_codec,,Nintendo PWM reconstruction/filter/bias support replaced by S4 analog DAC output and its coupling/stability network.
+C28,3300p,/CPU/Audio/,replaced_by_codec,,Nintendo PWM reconstruction/filter/bias support replaced by S4 analog DAC output and its coupling/stability network.
+C29,1u,/CPU/Audio/,replaced_by_codec,,Nintendo PWM reconstruction/filter/bias support replaced by S4 analog DAC output and its coupling/stability network.
+C31,680p,/CPU/Audio/,replaced_by_codec,,Nintendo PWM reconstruction/filter/bias support replaced by S4 analog DAC output and its coupling/stability network.
+C32,1000p,/CPU/Audio/,replaced_by_codec,,Nintendo PWM reconstruction/filter/bias support replaced by S4 analog DAC output and its coupling/stability network.
+C33,330p,/CPU/Audio/,replaced_by_codec,,Nintendo PWM reconstruction/filter/bias support replaced by S4 analog DAC output and its coupling/stability network.
+C35,3300p,/CPU/Audio/,replaced_by_codec,,Nintendo PWM reconstruction/filter/bias support replaced by S4 analog DAC output and its coupling/stability network.
+C36,1u,/CPU/Audio/,replaced_by_codec,,Nintendo PWM reconstruction/filter/bias support replaced by S4 analog DAC output and its coupling/stability network.
+C38,1u,/CPU/Audio/,adapted_audio,C59,Retained in the audio adaptation with explicit pin/value/procurement changes in AUDIO-RETENTION-REVIEW.md; tool acceptance remains blocked.
+C54,1u,/CPU/Audio/,replaced_by_codec,,Nintendo PWM reconstruction/filter/bias support replaced by S4 analog DAC output and its coupling/stability network.
+C55,1u,/CPU/Audio/,adapted_audio,C58,Retained in the audio adaptation with explicit pin/value/procurement changes in AUDIO-RETENTION-REVIEW.md; tool acceptance remains blocked.
+C56,1u,/CPU/Audio/,adapted_audio,C57,Retained in the audio adaptation with explicit pin/value/procurement changes in AUDIO-RETENTION-REVIEW.md; tool acceptance remains blocked.
+CP1,100u,/CPU/Audio/,adapted_audio,C62,Retained in the audio adaptation with explicit pin/value/procurement changes in AUDIO-RETENTION-REVIEW.md; tool acceptance remains blocked.
+CP2,100u,/CPU/Audio/,adapted_audio,C61,Retained in the audio adaptation with explicit pin/value/procurement changes in AUDIO-RETENTION-REVIEW.md; tool acceptance remains blocked.
+CP3,100u,/CPU/Audio/,adapted_audio,C60,Retained in the audio adaptation with explicit pin/value/procurement changes in AUDIO-RETENTION-REVIEW.md; tool acceptance remains blocked.
+P3,SJ-3524-SMT,/CPU/Audio/,adapted_audio,J2,Retained in the audio adaptation with explicit pin/value/procurement changes in AUDIO-RETENTION-REVIEW.md; tool acceptance remains blocked.
+Q6,2N7002,/CPU/Audio/,replaced,Q1/R44/R45,GPIO-controlled NPN shutdown replaces the VDD5-driven MOSFET; amplifier defaults disabled.
+R14,100k,/CPU/Audio/,adapted_audio,R40,Retained in the audio adaptation with explicit pin/value/procurement changes in AUDIO-RETENTION-REVIEW.md; tool acceptance remains blocked.
+R19,1k,/CPU/Audio/,adapted_audio,R41,Retained in the audio adaptation with explicit pin/value/procurement changes in AUDIO-RETENTION-REVIEW.md; tool acceptance remains blocked.
+R20,1k,/CPU/Audio/,adapted_audio,R42,Retained in the audio adaptation with explicit pin/value/procurement changes in AUDIO-RETENTION-REVIEW.md; tool acceptance remains blocked.
+R30,100k,/CPU/Audio/,adapted_audio,R37,Retained in the audio adaptation with explicit pin/value/procurement changes in AUDIO-RETENTION-REVIEW.md; tool acceptance remains blocked.
+R31,100k,/CPU/Audio/,adapted_audio,R36,Retained in the audio adaptation with explicit pin/value/procurement changes in AUDIO-RETENTION-REVIEW.md; tool acceptance remains blocked.
+R34,5.1k,/CPU/Audio/,replaced_by_codec,,Nintendo PWM reconstruction/filter/bias support replaced by S4 analog DAC output and its coupling/stability network.
+R37,100k,/CPU/Audio/,adapted_audio,R43,Retained in the audio adaptation with explicit pin/value/procurement changes in AUDIO-RETENTION-REVIEW.md; tool acceptance remains blocked.
+R42,7.5k,/CPU/Audio/,replaced_by_codec,,Nintendo PWM reconstruction/filter/bias support replaced by S4 analog DAC output and its coupling/stability network.
+R45,100k,/CPU/Audio/,replaced_by_codec,,Nintendo PWM reconstruction/filter/bias support replaced by S4 analog DAC output and its coupling/stability network.
+R46,100k,/CPU/Audio/,replaced_by_codec,,Nintendo PWM reconstruction/filter/bias support replaced by S4 analog DAC output and its coupling/stability network.
+R47,20k,/CPU/Audio/,replaced_by_codec,,Nintendo PWM reconstruction/filter/bias support replaced by S4 analog DAC output and its coupling/stability network.
+R48,18k,/CPU/Audio/,replaced_by_codec,,Nintendo PWM reconstruction/filter/bias support replaced by S4 analog DAC output and its coupling/stability network.
+R49,100k,/CPU/Audio/,replaced_by_codec,,Nintendo PWM reconstruction/filter/bias support replaced by S4 analog DAC output and its coupling/stability network.
+R50,100k,/CPU/Audio/,replaced_by_codec,,Nintendo PWM reconstruction/filter/bias support replaced by S4 analog DAC output and its coupling/stability network.
+R51,7.5k,/CPU/Audio/,replaced_by_codec,,Nintendo PWM reconstruction/filter/bias support replaced by S4 analog DAC output and its coupling/stability network.
+R52,20k,/CPU/Audio/,replaced_by_codec,,Nintendo PWM reconstruction/filter/bias support replaced by S4 analog DAC output and its coupling/stability network.
+R53,5.1k,/CPU/Audio/,replaced_by_codec,,Nintendo PWM reconstruction/filter/bias support replaced by S4 analog DAC output and its coupling/stability network.
+R54,18k,/CPU/Audio/,replaced_by_codec,,Nintendo PWM reconstruction/filter/bias support replaced by S4 analog DAC output and its coupling/stability network.
+R56,20k,/CPU/Audio/,adapted_audio,R38,Retained in the audio adaptation with explicit pin/value/procurement changes in AUDIO-RETENTION-REVIEW.md; tool acceptance remains blocked.
+R57,20k,/CPU/Audio/,adapted_audio,R39,Retained in the audio adaptation with explicit pin/value/procurement changes in AUDIO-RETENTION-REVIEW.md; tool acceptance remains blocked.
+SP1,Speaker,/CPU/Audio/,adapted_audio,J3,Retained in the audio adaptation with explicit pin/value/procurement changes in AUDIO-RETENTION-REVIEW.md; tool acceptance remains blocked.
+TP33,LIN,/CPU/Audio/,pending_test_access,,Retain audio measurement access; testpoint parts and placement are still to be added.
+TP34,RIN,/CPU/Audio/,pending_test_access,,Retain audio measurement access; testpoint parts and placement are still to be added.
+TP114,R-OUT,/CPU/Audio/,pending_test_access,,Retain audio measurement access; testpoint parts and placement are still to be added.
+TP115,L-OUT,/CPU/Audio/,pending_test_access,,Retain audio measurement access; testpoint parts and placement are still to be added.
+U6,LM4853,/CPU/Audio/,adapted_audio,U7,Retained in the audio adaptation with explicit pin/value/procurement changes in AUDIO-RETENTION-REVIEW.md; tool acceptance remains blocked.
+U7,TLV9364,/CPU/Audio/,replaced_by_codec,,Nintendo PWM reconstruction/filter/bias support replaced by S4 analog DAC output and its coupling/stability network.
+U9,SN74LVC2G34DBVR,/CPU/Audio/,replaced_by_codec,,Nintendo PWM reconstruction/filter/bias support replaced by S4 analog DAC output and its coupling/stability network.
+VR2,RK10J12R0A0B,/CPU/Audio/,adapted_audio,VR1,Retained in the audio adaptation with explicit pin/value/procurement changes in AUDIO-RETENTION-REVIEW.md; tool acceptance remains blocked.

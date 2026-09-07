@@ -456,6 +456,34 @@
       "signal": "USB_POWER_STATUS",
       "mux_function": 0,
       "status": "reserved_unwired"
+    },
+    {
+      "gpio": "PG0",
+      "cpu_pin": 120,
+      "signal": "AUDIO_ENABLE",
+      "mux_function": 1,
+      "status": "connected"
+    },
+    {
+      "gpio": "HPOUTL",
+      "cpu_pin": 99,
+      "signal": "CODEC_HP_LEFT",
+      "mux_function": null,
+      "status": "connected"
+    },
+    {
+      "gpio": "HPOUTR",
+      "cpu_pin": 98,
+      "signal": "CODEC_HP_RIGHT",
+      "mux_function": null,
+      "status": "connected"
+    },
+    {
+      "gpio": "HPOUTFB",
+      "cpu_pin": 100,
+      "signal": "CODEC_HP_FEEDBACK",
+      "mux_function": null,
+      "status": "connected"
     }
   ]
 }

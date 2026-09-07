@@ -1,5 +1,7 @@
 # Connected power, CPU and interface stage
 
+**Historical v1.0.3 baseline:** the counts and measurements below describe the published 112-component stage. The current 145-component draft adds analog audio and has unresolved tool diagnostics; see [audio review](AUDIO-RETENTION-REVIEW.md) and the current machine-readable audit.
+
 Entry: `power-core.circuit.tsx`. This is an **incomplete console**, with 112 populated components, six schematic sheets/sections and routing disabled on a 110 × 110 mm, four-layer placement board. Minimum via settings remain 0.45/0.30 mm. No manufacturing outputs are released.
 
 ## Implemented and checked

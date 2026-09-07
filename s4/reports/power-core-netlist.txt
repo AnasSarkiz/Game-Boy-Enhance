@@ -1,3 +1,4 @@
+$ tsci check netlist s4/power-core.circuit.tsx
 Errors: 0
 Warnings: 0
 
@@ -115,6 +116,43 @@ COMPONENTS:
  - SW12: SW12, source_component
  - R35: 5.1kΩ resistor
  - C54: 100nF capacitor
+ - U7: LM4853MM/NOPB
+ - U8: TPS74525PQWDRVRQ1
+ - VR1: RK10J12R0A0B
+ - J2: J2, source_component
+ - J3: J3, source_component
+ - Q1: Q1, source_component
+ - C55: 1uF capacitor
+ - C56: 1uF capacitor
+ - C57: 1uF capacitor
+ - C58: 1uF capacitor
+ - C59: 1uF capacitor
+ - C60: 100uF capacitor
+ - C61: 100uF capacitor
+ - C62: 100uF capacitor
+ - C63: 1uF capacitor
+ - C64: 10uF capacitor
+ - C65: 100nF capacitor
+ - C66: 100nF capacitor
+ - C67: 100nF capacitor
+ - C68: 100nF capacitor
+ - C69: 10uF capacitor
+ - R36: 100kΩ resistor
+ - R37: 100kΩ resistor
+ - R38: 20kΩ resistor
+ - R39: 20kΩ resistor
+ - R40: 100kΩ resistor
+ - R41: 1kΩ resistor
+ - R42: 1kΩ resistor
+ - R43: 100kΩ resistor
+ - R44: 1kΩ resistor
+ - R45: 100kΩ resistor
+ - R46: 22Ω resistor
+ - R47: 22Ω resistor
+
+NET: VR1_EH
+  - VR1 pin6
+  - VR1 pin7
 
 NET: VDD_CORE_0V9
   - U3 VDD_SYS2
@@ -163,6 +201,9 @@ NET: LDOA_1V8
   - C16 pin1 (+)
 
 NET: SYS_3V3
+  - C63 pin1 (+)
+  - U8 EN
+  - U8 IN
   - R35 pin1
   - R34 pin1
   - R33 pin1
@@ -309,6 +350,24 @@ NET: USB0_DP
   - U3 USB0_DP
 
 NET: GND
+  - R47 pin2
+  - R46 pin2
+  - R45 pin2
+  - R42 pin2
+  - R41 pin2
+  - C69 pin2 (-)
+  - C66 pin2 (-)
+  - C65 pin2 (-)
+  - C64 pin2 (-)
+  - C63 pin2 (-)
+  - C59 pin2 (-)
+  - Q1 pin2
+  - J2 pin1
+  - VR1 pin1
+  - U8 EP
+  - U8 GND
+  - U8 pin2
+  - U7 GND
   - C54 pin2 (-)
   - SW12 pin1
   - C53 pin2 (-)
@@ -528,6 +587,123 @@ NET: BUTTON_R_N
   - R35 pin2
   - SW12 pin2
   - U3 PE13
+
+NET: AUDIO_2V5
+  - R43 pin1
+  - R40 pin1
+  - C69 pin1 (+)
+  - C65 pin1 (+)
+  - C64 pin1 (+)
+  - U7 VDD
+  - U8 OUT
+
+NET: CODEC_HP_LEFT
+  - C67 pin1 (+)
+  - C55 pin1 (+)
+  - U3 HPOUTL
+
+NET: CODEC_HP_RIGHT
+  - C68 pin1 (+)
+  - C56 pin1 (+)
+  - U3 HPOUTR
+
+NET: CODEC_HP_FEEDBACK
+  - C66 pin1 (+)
+  - U3 HPOUTFB
+
+NET: CODEC_LEFT_ZOBEL
+  - R46 pin1
+  - C67 pin2 (-)
+
+NET: CODEC_RIGHT_ZOBEL
+  - R47 pin1
+  - C68 pin2 (-)
+
+NET: AUDIO_VOLUME_LEFT_IN
+  - VR1 pin3
+  - C55 pin2 (-)
+
+NET: AUDIO_VOLUME_RIGHT_IN
+  - VR1 pin5
+  - C56 pin2 (-)
+
+NET: AUDIO_VOLUME_LEFT_OUT
+  - C57 pin1 (+)
+  - VR1 pin2
+
+NET: AUDIO_VOLUME_RIGHT_OUT
+  - C58 pin1 (+)
+  - VR1 pin4
+
+NET: AUDIO_LEFT_COUPLED
+  - R36 pin1
+  - C57 pin2 (-)
+
+NET: AUDIO_RIGHT_COUPLED
+  - R37 pin1
+  - C58 pin2 (-)
+
+NET: AMP_RIGHT_INPUT
+  - R38 pin1
+  - U7 pin5
+  - R36 pin2
+
+NET: AMP_LEFT_INPUT
+  - R39 pin1
+  - U7 pin1
+  - R37 pin2
+
+NET: AMP_RIGHT_OUTPUT
+  - C60 pin1 (+)
+  - R38 pin2
+  - U7 pin6
+
+NET: AMP_LEFT_OUTPUT
+  - J3 pin1
+  - C61 pin1 (+)
+  - R39 pin2
+  - U7 pin10
+
+NET: AMP_BRIDGE_OUTPUT
+  - C62 pin1 (+)
+  - U7 pin8
+
+NET: SPEAKER_COUPLED
+  - J3 pin2
+  - C62 pin2 (-)
+
+NET: HEADPHONE_TIP_LEFT
+  - R41 pin1
+  - J2 pin2
+  - C60 pin2 (-)
+
+NET: HEADPHONE_RING_RIGHT
+  - R42 pin1
+  - J2 pin3
+  - C61 pin2 (-)
+
+NET: HEADPHONE_DETECT
+  - U7 HP_IN
+  - R40 pin2
+  - J2 pin4
+
+NET: AMP_BYPASS
+  - C59 pin1 (+)
+  - U7 BYPASS
+
+NET: AMP_SHUTDOWN
+  - R43 pin2
+  - Q1 pin3
+  - U7 SHUTDOWN
+
+NET: AUDIO_ENABLE
+  - R44 pin1
+  - U3 PG0
+
+NET: AUDIO_ENABLE_BASE
+  - R45 pin1
+  - Q1 pin1
+  - R44 pin2
 
 
 COMPONENT_PINS:
@@ -853,9 +1029,9 @@ U3 (T113M4020DC0)
 - pin95(LINEINR): NOT_CONNECTED
 - pin96(LINEINL): NOT_CONNECTED
 - pin97(HPVCC): NETS(LDOA_1V8)
-- pin98(HPOUTR): NOT_CONNECTED
-- pin99(HPOUTL): NOT_CONNECTED
-- pin100(HPOUTFB): NOT_CONNECTED
+- pin98(HPOUTR): NETS(CODEC_HP_RIGHT)
+- pin99(HPOUTL): NETS(CODEC_HP_LEFT)
+- pin100(HPOUTFB): NETS(CODEC_HP_FEEDBACK)
 - pin101(GPADC0): NOT_CONNECTED
 - pin102(TP_X1): NOT_CONNECTED
 - pin103(TP_X2): NOT_CONNECTED
@@ -875,7 +1051,7 @@ U3 (T113M4020DC0)
 - pin117(VDD_CORE1): NETS(VDD_CORE_0V9)
 - pin118(PG1): NOT_CONNECTED
 - pin119(PG2): NOT_CONNECTED
-- pin120(PG0): NOT_CONNECTED
+- pin120(PG0): NETS(AUDIO_ENABLE)
 - pin121(PG3): NOT_CONNECTED
 - pin122(PG5): NOT_CONNECTED
 - pin123(PG4): NOT_CONNECTED
@@ -1142,3 +1318,156 @@ R35 (5.1kΩ undefined)
 C54 (100nF undefined)
 - pin1(pos): NETS(BUTTON_R_N)
 - pin2(neg): NETS(GND)
+
+U7 (LM4853MM/NOPB)
+- pin1: NETS(AMP_LEFT_INPUT)
+- pin2(SHUTDOWN): NETS(AMP_SHUTDOWN)
+- pin3(HP_IN): NETS(HEADPHONE_DETECT)
+- pin4(GND): NETS(GND)
+- pin5: NETS(AMP_RIGHT_INPUT)
+- pin6: NETS(AMP_RIGHT_OUTPUT)
+- pin7(BYPASS): NETS(AMP_BYPASS)
+- pin8: NETS(AMP_BRIDGE_OUTPUT)
+- pin9(VDD): NETS(AUDIO_2V5)
+- pin10: NETS(AMP_LEFT_OUTPUT)
+
+U8 (TPS74525PQWDRVRQ1)
+- pin1(OUT): NETS(AUDIO_2V5)
+- pin2: NETS(GND)
+- pin3(GND): NETS(GND)
+- pin4(EN): NETS(SYS_3V3)
+- pin5(PG): NOT_CONNECTED
+- pin6(IN): NETS(SYS_3V3)
+- pin7(EP): NETS(GND)
+
+VR1 (RK10J12R0A0B)
+- pin1: NETS(GND)
+- pin2: NETS(AUDIO_VOLUME_LEFT_OUT)
+- pin3: NETS(AUDIO_VOLUME_LEFT_IN)
+- pin4: NETS(AUDIO_VOLUME_RIGHT_OUT)
+- pin5: NETS(AUDIO_VOLUME_RIGHT_IN)
+- pin6(EH1, EH): NETS(VR1_EH)
+- pin7(EH2, EH): NETS(VR1_EH)
+
+J2 (SJ-3524-SMT-TR)
+- pin1: NETS(GND)
+- pin2: NETS(HEADPHONE_TIP_LEFT)
+- pin3: NETS(HEADPHONE_RING_RIGHT)
+- pin4: NETS(HEADPHONE_DETECT)
+
+J3 (B2B-PH-K-S(LF)(SN))
+- pin1: NETS(AMP_LEFT_OUTPUT)
+- pin2: NETS(SPEAKER_COUPLED)
+
+Q1 (MMBT3904LT1G)
+- pin1: NETS(AUDIO_ENABLE_BASE)
+- pin2: NETS(GND)
+- pin3: NETS(AMP_SHUTDOWN)
+
+C55 (1uF undefined)
+- pin1(pos): NETS(CODEC_HP_LEFT)
+- pin2(neg): NETS(AUDIO_VOLUME_LEFT_IN)
+
+C56 (1uF undefined)
+- pin1(pos): NETS(CODEC_HP_RIGHT)
+- pin2(neg): NETS(AUDIO_VOLUME_RIGHT_IN)
+
+C57 (1uF undefined)
+- pin1(pos): NETS(AUDIO_VOLUME_LEFT_OUT)
+- pin2(neg): NETS(AUDIO_LEFT_COUPLED)
+
+C58 (1uF undefined)
+- pin1(pos): NETS(AUDIO_VOLUME_RIGHT_OUT)
+- pin2(neg): NETS(AUDIO_RIGHT_COUPLED)
+
+C59 (1uF undefined)
+- pin1(pos): NETS(AMP_BYPASS)
+- pin2(neg): NETS(GND)
+
+C60 (100uF undefined)
+- pin1(pos): NETS(AMP_RIGHT_OUTPUT)
+- pin2(neg): NETS(HEADPHONE_TIP_LEFT)
+
+C61 (100uF undefined)
+- pin1(pos): NETS(AMP_LEFT_OUTPUT)
+- pin2(neg): NETS(HEADPHONE_RING_RIGHT)
+
+C62 (100uF undefined)
+- pin1(pos): NETS(AMP_BRIDGE_OUTPUT)
+- pin2(neg): NETS(SPEAKER_COUPLED)
+
+C63 (1uF undefined)
+- pin1(pos): NETS(SYS_3V3)
+- pin2(neg): NETS(GND)
+
+C64 (10uF undefined)
+- pin1(pos): NETS(AUDIO_2V5)
+- pin2(neg): NETS(GND)
+
+C65 (100nF undefined)
+- pin1(pos): NETS(AUDIO_2V5)
+- pin2(neg): NETS(GND)
+
+C66 (100nF undefined)
+- pin1(pos): NETS(CODEC_HP_FEEDBACK)
+- pin2(neg): NETS(GND)
+
+C67 (100nF undefined)
+- pin1(pos): NETS(CODEC_HP_LEFT)
+- pin2(neg): NETS(CODEC_LEFT_ZOBEL)
+
+C68 (100nF undefined)
+- pin1(pos): NETS(CODEC_HP_RIGHT)
+- pin2(neg): NETS(CODEC_RIGHT_ZOBEL)
+
+C69 (10uF undefined)
+- pin1(pos): NETS(AUDIO_2V5)
+- pin2(neg): NETS(GND)
+
+R36 (100kΩ undefined)
+- pin1(anode, pos, left): NETS(AUDIO_LEFT_COUPLED)
+- pin2(cathode, neg, right): NETS(AMP_RIGHT_INPUT)
+
+R37 (100kΩ undefined)
+- pin1(anode, pos, left): NETS(AUDIO_RIGHT_COUPLED)
+- pin2(cathode, neg, right): NETS(AMP_LEFT_INPUT)
+
+R38 (20kΩ undefined)
+- pin1(anode, pos, left): NETS(AMP_RIGHT_INPUT)
+- pin2(cathode, neg, right): NETS(AMP_RIGHT_OUTPUT)
+
+R39 (20kΩ undefined)
+- pin1(anode, pos, left): NETS(AMP_LEFT_INPUT)
+- pin2(cathode, neg, right): NETS(AMP_LEFT_OUTPUT)
+
+R40 (100kΩ undefined)
+- pin1(anode, pos, left): NETS(AUDIO_2V5)
+- pin2(cathode, neg, right): NETS(HEADPHONE_DETECT)
+
+R41 (1kΩ undefined)
+- pin1(anode, pos, left): NETS(HEADPHONE_TIP_LEFT)
+- pin2(cathode, neg, right): NETS(GND)
+
+R42 (1kΩ undefined)
+- pin1(anode, pos, left): NETS(HEADPHONE_RING_RIGHT)
+- pin2(cathode, neg, right): NETS(GND)
+
+R43 (100kΩ undefined)
+- pin1(anode, pos, left): NETS(AUDIO_2V5)
+- pin2(cathode, neg, right): NETS(AMP_SHUTDOWN)
+
+R44 (1kΩ undefined)
+- pin1(anode, pos, left): NETS(AUDIO_ENABLE)
+- pin2(cathode, neg, right): NETS(AUDIO_ENABLE_BASE)
+
+R45 (100kΩ undefined)
+- pin1(anode, pos, left): NETS(AUDIO_ENABLE_BASE)
+- pin2(cathode, neg, right): NETS(GND)
+
+R46 (22Ω undefined)
+- pin1(anode, pos, left): NETS(CODEC_LEFT_ZOBEL)
+- pin2(cathode, neg, right): NETS(GND)
+
+R47 (22Ω undefined)
+- pin1(anode, pos, left): NETS(CODEC_RIGHT_ZOBEL)
+- pin2(cathode, neg, right): NETS(GND)

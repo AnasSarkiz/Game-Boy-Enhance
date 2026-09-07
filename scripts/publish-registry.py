@@ -48,7 +48,7 @@ with tempfile.TemporaryDirectory(prefix="s4-tsci-package-") as package_directory
                       ["build", "index.circuit.tsx", "--routing-disabled", "--disable-parts-engine"]]:
         subprocess.run(["tsci", *arguments], cwd=package_dir, check=True, stdout=subprocess.DEVNULL)
     compiled = json.loads((package_dir / "dist/index/circuit.json").read_text())
-    diagnostics = [entry for entry in compiled if entry["type"].endswith(("_error", "_warning"))]
+    diagnostics = [entry for entry in compiled if entry["type"].endswith(("_error", "_warning")) or "error_type" in entry]
     if diagnostics:
         raise ValueError(f"Packaged entrypoint has unresolved diagnostics: {diagnostics}")
     assert len([entry for entry in compiled if entry["type"] == "pcb_component"]) == 112

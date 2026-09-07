@@ -1,0 +1,16 @@
+{
+  "upstream_commit": "1c4d928bbfe7ed568c83c68ddea11a5f65f4e830",
+  "original_components_accounted_for": 240,
+  "status_counts": {
+    "pending_review": 159,
+    "adapted_audio": 20,
+    "replaced": 6,
+    "pending_compatibility": 2,
+    "function_present_parts_review": 5,
+    "pending_display": 17,
+    "replaced_by_codec": 27,
+    "pending_test_access": 4
+  },
+  "complete_adaptation": false,
+  "meaning": "Pending components retain a requirement; this ledger does not authorize dropping them or marking them DNP."
+}

@@ -1,9 +1,9 @@
+$ tsci check placement s4/power-core.circuit.tsx
 placement summary: no placement issues
 
 board top-layer utilization:
-- occupied: 9.904% (1198.392mm^2 of 12100mm^2)
+- occupied: 15.941% (1928.885mm^2 of 12100mm^2)
 - empty spaces over 5% of board area:
-  - 21.12% (2555.516mm^2); bounds=(minX=-55mm, maxX=-16.461mm, minY=-55mm, maxY=11.31mm)
   - 13.466% (1629.359mm^2); bounds=(minX=34.961mm, maxX=55mm, minY=-55mm, maxY=26.31mm)
   - 7.603% (919.91mm^2); bounds=(minX=-40.88mm, maxX=40.88mm, minY=43.749mm, maxY=55mm)
 
@@ -120,6 +120,39 @@ board-edge status:
 - SW12: 8mm inside bottom edge
 - R35: 11.73mm inside right edge
 - C54: 9.73mm inside right edge
+- U7: 21.85mm inside left edge
+- U8: 28.168mm inside top edge
+- VR1: 4.275mm inside left edge
+- J2: 4.1mm inside left edge
+- J3: 6.75mm inside top edge
+- Q1: 31.23mm inside left edge
+- C55: 33.55mm inside left edge
+- C56: 33.55mm inside left edge
+- C57: 21.55mm inside left edge
+- C58: 24.55mm inside left edge
+- C59: 17.55mm inside left edge
+- C60: 15.65mm inside left edge
+- C61: 21.65mm inside left edge
+- C62: 12.665mm inside top edge
+- C63: 28.9mm inside top edge
+- C64: 27.55mm inside left edge
+- C65: 25.73mm inside left edge
+- C66: 37.73mm inside left edge
+- C67: 34.73mm inside left edge
+- C68: 34.73mm inside left edge
+- C69: 18.55mm inside left edge
+- R36: 24.73mm inside left edge
+- R37: 21.73mm inside left edge
+- R38: 26.568mm inside left edge
+- R39: 27.568mm inside left edge
+- R40: 21.284mm inside top edge
+- R41: 16.568mm inside left edge
+- R42: 22.568mm inside left edge
+- R43: 29.73mm inside left edge
+- R44: 35.768mm inside left edge
+- R45: 35.73mm inside left edge
+- R46: 37.73mm inside left edge
+- R47: 37.73mm inside left edge
 
 placement drc:
 Errors: 0

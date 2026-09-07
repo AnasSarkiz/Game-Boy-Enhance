@@ -21,21 +21,28 @@ def check_package(filename, expected_pins):
     source = (IMPORTS / filename).read_text()
     pads = []
     for pad in re.findall(r"<(?:smtpad|platedhole)\b.*?/>", source, re.DOTALL):
-        if attribute(pad, "shape") not in ["rect", "pill"] or "pcbRotation" in pad:
-            raise ValueError("Audit requires an axis-aligned rectangular or pill pad")
+        shape = attribute(pad, "shape")
+        if shape not in ["rect", "pill", "circle"]:
+            raise ValueError("Unsupported supplier pad shape")
         pin = re.search(r'portHints=\{\["pin(\d+)"(?:,"[^"]+")*\]\}', pad)
         if pin is None:
             raise ValueError("Imported pad has no unique numbered pin hint")
         is_plated_hole = pad.startswith("<platedhole")
         dimensions = {field: float(attribute(pad, field).removesuffix("mm")) for field in ["pcbX", "pcbY"]}
-        dimensions.update({field: float(attribute(pad, f"outer{field.title()}" if is_plated_hole else field).removesuffix("mm"))
+        dimensions.update({field: float(attribute(pad, "outerDiameter" if shape == "circle" and is_plated_hole else "diameter" if shape == "circle" else f"outer{field.title()}" if is_plated_hole else field).removesuffix("mm"))
                            for field in ["width", "height"]})
         if is_plated_hole:
             for field in ["width", "height"]:
-                drill = float(attribute(pad, f"hole{field.title()}").removesuffix("mm"))
+                drill = float(attribute(pad, "holeDiameter" if shape == "circle" else f"hole{field.title()}").removesuffix("mm"))
                 assert 0 < drill < dimensions[field], "Invalid plated slot or missing copper annulus"
+        if "pcbRotation" in pad:
+            rotation = float(attribute(pad, "pcbRotation").removesuffix("deg")) % 360
+            assert rotation in [0, 90, 180, 270], "Non-cardinal pad rotation requires polygon audit"
+            if rotation in [90, 270]:
+                dimensions["width"], dimensions["height"] = dimensions["height"], dimensions["width"]
         pads.append({"pin": int(pin.group(1)), **dimensions})
-    if sorted(pad["pin"] for pad in pads) != list(range(1, expected_pins + 1)):
+    expected_pin_numbers = expected_pins if isinstance(expected_pins, list) else list(range(1, expected_pins + 1))
+    if sorted(pad["pin"] for pad in pads) != expected_pin_numbers:
         raise ValueError(f"Missing or duplicated copper pad in {filename}")
     outline_match = re.search(r"<courtyardoutline outline=\{(\[.*?\])\}", source)
     if outline_match is None:
@@ -79,6 +86,9 @@ def check_package(filename, expected_pins):
 
 def main():
     expected_pins = {"TLV62569PDDCR.tsx": 6, "ADV7513BSWZ.tsx": 65, "T113_S3.tsx": 129,
+                     "LM4853MM_NOPB.tsx": 10, "TPS74525PQWDRVRQ1.tsx": 7,
+                     "RK10J12R0A0B.tsx": [1, 2, 3, 4, 5, 6, 6, 7, 7],
+                     "SJ_3524_SMT_TR.tsx": 4, "B2B_PH_K_S_LF__SN_.tsx": 2, "MMBT3904LT1G.tsx": 3,
                      "CM4024M00008001.tsx": 4,
                      "HX_TYPE_C_16P_L8_35.tsx": 16, "USBLC6_2SC6.tsx": 6,
                      "ZDSD04GLGEAG.tsx": 8, "SN74AHC1G08DCKR.tsx": 5,
@@ -88,6 +98,7 @@ def main():
                          "A_0402WGF5101TCE", "A_0402WGF5102TCE", "CL05A225MQ5NSNC", "A_0402CG180J500NT",
                          "A_0603WAF2400T5E", "TSA010A2026B", "Q13FC13500004",
                          "JK_nSMD100_16", "A_0402WGF220JTCE",
+                         "CL10B105KA8NNNC", "CL32A107MQVNNNE", "A_0603WAF2002T5E", "A_0603WAF1001T5E",
                      ]}}
     report = {
         "scope": "candidate_import_geometry_only",
