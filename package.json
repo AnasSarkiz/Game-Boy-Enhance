@@ -1,6 +1,6 @@
 {
   "name": "@tsci/AnasSarkiz.Game-Boy-Enhance",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "AGBM-02 architecture adaptation; routing-disabled placement work in progress",
   "main": "index.circuit.tsx",
   "keywords": [

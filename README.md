@@ -1,6 +1,6 @@
 # Game Boy Enhance AGBM-02 in tscircuit
 
-**2026-09-07: the active development target is the [T113-S4 console redesign](s4/README.md).** Its reference, sourcing results and connection audit are in `s4/`. The CPU now reuses an unchanged JLCPCB S3 import with S4 MPN/ordering metadata, as authorized. The connected 112-component power/CPU/USB/storage/controls stage is now implemented, with routing disabled. Package qualification and the remaining console circuitry are incomplete. The root circuit and the published registry package still contain the earlier AGBM-02 adaptation described below.
+**2026-09-07: the active development target is the [T113-S4 console redesign](s4/README.md).** Its reference, sourcing results and connection audit are in `s4/`. The CPU now reuses an unchanged JLCPCB S3 import with S4 MPN/ordering metadata, as authorized. The connected 112-component power/CPU/USB/storage/controls stage is now implemented, with routing disabled. Package qualification and the remaining console circuitry are incomplete. The root circuit retains the earlier AGBM-02 adaptation described below. The tscircuit registry now targets the active S4 placement stage.
 
 **Work in progress. Routing is disabled. This is not a complete or fabrication-ready board.**
 
@@ -49,4 +49,4 @@ No fabrication outputs are released while sourcing, placement, connection verifi
 - [GitHub source and complete KiCad reference](https://github.com/AnasSarkiz/Game-Boy-Enhance)
 - [tscircuit project](https://tscircuit.com/AnasSarkiz/Game-Boy-Enhance)
 
-`python3 scripts/publish-registry.py` stages the runnable circuit source and calls `tsci push`. The registry rejects the original 16 MB KiCad PCB with HTTP 413, so the original design and investigation reports remain in GitHub. No circuit source, imported part, or extracted net is excluded from the runnable package.
+`python3 scripts/publish-registry.py` stages the active `s4/` tree, its reference/license material and audit scripts. Its registry entrypoint exports `s4/power-core.circuit.tsx`. It validates the packaged netlist, placement and build before calling `tsci push`. Historical AGBM-02 files remain on GitHub; all S4 circuit sources and imported parts are included. This publishes a work-in-progress design, not manufacturing approval.
